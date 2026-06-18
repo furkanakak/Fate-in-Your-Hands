@@ -9,7 +9,9 @@ cards:
     bodyText: "Şifahane, sarayın gösterişli salonlarından daha sessiz ama daha doğru bir arşivdir. Şifahane Yolu: İlk Eşik anında Hekim Bera, senden yarayı değil, yaranın neden saklandığını görmeni ister. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, şifacı güveninin ve zehir bilgisinin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_sifahane_avlusu"
     focusImageId: "focus_smm_126_healer_path"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Şifahane Yolu: İlk Eşik scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Hekim Bera, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron steps over a chipped plate threshold with a clear active pose, oversized hands, and a simple expressive face. Bera, a tired healer with herb bundles and rolled bandages watches close by with one simple reaction gesture. herb bundles and rolled bandages identify the infirmary. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "bera_hekim"
@@ -21,8 +23,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_126_a"
+        choiceImageId: "choice_smm_card_126_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron marks a rolled bandage and herb bundle with big non-letter tally blocks while biting the lip in concentration. Bera, a tired healer with herb bundles and rolled bandages reacts nearby with one simple readable gesture. herb bundles and rolled bandages identify the infirmary. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Yaralıyı kayda geçirerek tedavi et"
-        resultText: "Şifahane Yolu: İlk Eşik kararında hesabı açık tutarsın. Hekim Bera bunu fark eder ve şifacı güveninin ve zehir bilgisinin dengesi senin lehine bir çizik alır."
+        resultText: "Şifahane Yolu: İlk Eşik sırasında \"Yaralıyı kayda geçirerek tedavi et\" yolunu seçersin. Bu hamle saray kuşkusunu yatıştırır, zehir bilgisini derinleştirir ve şifacı güvenini güçlendirir."
         healthDelta: 0
         setFlags:
           - "flag_antidote_shared"
@@ -48,8 +55,13 @@ cards:
         nextCardId: "smm_card_127"
       -
         choiceId: "smm_card_126_b"
+        choiceImageId: "choice_smm_card_126_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a rolled bandage and herb bundle forward with a decisive hand gesture and a clear expressive face. Bera, a tired healer with herb bundles and rolled bandages reacts nearby with one simple readable gesture. herb bundles and rolled bandages identify the infirmary. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Yarayı siyasi sır yap"
-        resultText: "Şifahane Yolu: İlk Eşik kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde şifacı güveninin ve zehir bilgisinin için daha keskin bir kayıt açılır."
+        resultText: "Şifahane Yolu: İlk Eşik sırasında \"Yarayı siyasi sır yap\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve zehir bilgisini belirgin biçimde derinleştirir. Canın 1 azalır."
         healthDelta: -1
         setFlags:
           - "flag_secret_kept"
@@ -83,7 +95,9 @@ cards:
     bodyText: "Şifahane, sarayın gösterişli salonlarından daha sessiz ama daha doğru bir arşivdir. Şifahane Yolu: Sıcak Bakır anında Simin, her panzehirin bir siyasi bedeli olduğunu hatırlatır. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, şifacı güveninin ve zehir bilgisinin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_sifahane_ic_odasi"
     focusImageId: "focus_smm_127_healer_path"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Şifahane Yolu: Sıcak Bakır scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Simin, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron lifts a hot copper basin with a clear active pose, oversized hands, and a simple expressive face. Simin, a calm poison taster with a tiny silver spoon watches close by with one simple reaction gesture. herb bundles and rolled bandages identify the infirmary. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "simin_tadimci"
@@ -95,8 +109,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_127_a"
+        choiceImageId: "choice_smm_card_127_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron opens a tiny vial and silver tasting spoon with a decisive pull and bright alert eyes. Simin, a calm poison taster with a tiny silver spoon reacts nearby with one simple readable gesture. herb bundles and rolled bandages identify the infirmary. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Panzehiri halka açık hazırla"
-        resultText: "Şifahane Yolu: Sıcak Bakır kararında hesabı açık tutarsın. Simin bunu fark eder ve şifacı güveninin ve zehir bilgisinin dengesi senin lehine bir çizik alır."
+        resultText: "Şifahane Yolu: Sıcak Bakır sırasında \"Panzehiri halka açık hazırla\" yolunu seçersin. Bu hamle zehir bilgisini derinleştirir ve şifacı güvenini güçlendirir."
         healthDelta: 0
         setFlags:
           - "flag_antidote_shared"
@@ -122,8 +141,13 @@ cards:
         nextCardId: "smm_card_128"
       -
         choiceId: "smm_card_127_b"
+        choiceImageId: "choice_smm_card_127_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron places a tiny vial and silver tasting spoon quietly at the scene edge with a soft worried smile. Simin, a calm poison taster with a tiny silver spoon reacts nearby with one simple readable gesture. herb bundles and rolled bandages identify the infirmary. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Panzehiri yalnız varise ayır"
-        resultText: "Şifahane Yolu: Sıcak Bakır kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde şifacı güveninin ve zehir bilgisinin için daha keskin bir kayıt açılır."
+        resultText: "Şifahane Yolu: Sıcak Bakır sırasında \"Panzehiri yalnız varise ayır\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve zehir bilgisini belirgin biçimde derinleştirir."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"
@@ -157,7 +181,9 @@ cards:
     bodyText: "Şifahane, sarayın gösterişli salonlarından daha sessiz ama daha doğru bir arşivdir. Şifahane Yolu: Sessiz Bakış anında Meryem, halkın hastalığının yalnız ateşten değil açlıktan geldiğini gösterir. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, şifacı güveninin ve zehir bilgisinin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_yarali_asker_cadiri"
     focusImageId: "focus_smm_128_healer_path"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Şifahane Yolu: Sessiz Bakış scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Meryem, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron points at a suspicious small clue with a clear active pose, oversized hands, and a simple expressive face. Meryem, a sharp-eyed rebel contact with a bread basket and worn shawl watches close by with one simple reaction gesture. a cot and rolled bandage identify the wounded soldier tent. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "meryem_isyanci"
@@ -169,8 +195,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_128_a"
+        choiceImageId: "choice_smm_card_128_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron guards a rolled bandage and herb bundle behind the apron with narrowed eyes and one protective hand. Bera, a tired healer with herb bundles and rolled bandages reacts nearby with one simple readable gesture. a cot and rolled bandage identify the wounded soldier tent. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Bera'nın yeminini koru"
-        resultText: "Şifahane Yolu: Sessiz Bakış kararında hesabı açık tutarsın. Meryem bunu fark eder ve şifacı güveninin ve zehir bilgisinin dengesi senin lehine bir çizik alır."
+        resultText: "Şifahane Yolu: Sessiz Bakış sırasında \"Bera'nın yeminini koru\" yolunu seçersin. Bu hamle zehir bilgisini derinleştirir ve şifacı güvenini güçlendirir."
         healthDelta: 0
         setFlags:
           - "flag_antidote_shared"
@@ -197,8 +228,13 @@ cards:
         nextCardId: "smm_card_129"
       -
         choiceId: "smm_card_128_b"
+        choiceImageId: "choice_smm_card_128_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron slips a rolled bandage and herb bundle into the apron pocket with wide nervous eyes and curled fingers. Bera, a tired healer with herb bundles and rolled bandages reacts nearby with one simple readable gesture. a cot and rolled bandage identify the wounded soldier tent. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Bera'nın defterini kopyala"
-        resultText: "Şifahane Yolu: Sessiz Bakış kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde şifacı güveninin ve zehir bilgisinin için daha keskin bir kayıt açılır."
+        resultText: "Şifahane Yolu: Sessiz Bakış sırasında \"Bera'nın defterini kopyala\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve zehir bilgisini belirgin biçimde derinleştirir."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"
@@ -233,7 +269,9 @@ cards:
     bodyText: "Şifahane, sarayın gösterişli salonlarından daha sessiz ama daha doğru bir arşivdir. Şifahane Yolu: İnce Hesap anında Hükümdar Azem, Simin'in bilgisiyle Bera'nın yemini arasında köprü kurmanı bekler. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, şifacı güveninin ve zehir bilgisinin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_yeralti_sarnici"
     focusImageId: "focus_smm_129_healer_path"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Şifahane Yolu: İnce Hesap scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Hükümdar Azem, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron counts three chunky tally stones with a clear active pose, oversized hands, and a simple expressive face. Azem, an aging ruler with a tired crown and heavy robe watches close by with one simple reaction gesture. a cistern arch and still water identify the underground cistern. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "hukumdar_azem"
@@ -245,8 +283,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_129_a"
+        choiceImageId: "choice_smm_card_129_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron measures a big wooden measuring spoon carefully over a bowl with pursed lips and one steady raised hand. Azem, an aging ruler with a tired crown and heavy robe reacts nearby with one simple readable gesture. a cistern arch and still water identify the underground cistern. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Otları doğru dozda karıştır"
-        resultText: "Şifahane Yolu: İnce Hesap kararında hesabı açık tutarsın. Hükümdar Azem bunu fark eder ve şifacı güveninin ve zehir bilgisinin dengesi senin lehine bir çizik alır."
+        resultText: "Şifahane Yolu: İnce Hesap sırasında \"Otları doğru dozda karıştır\" yolunu seçersin. Bu hamle zehir bilgisini derinleştirir ve şifacı güvenini güçlendirir."
         healthDelta: 0
         setFlags:
           - "flag_antidote_shared"
@@ -272,8 +315,13 @@ cards:
         nextCardId: "smm_card_130"
       -
         choiceId: "smm_card_129_b"
+        choiceImageId: "choice_smm_card_129_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron measures a big wooden measuring spoon carefully over a bowl with pursed lips and one steady raised hand. Azem, an aging ruler with a tired crown and heavy robe reacts nearby with one simple readable gesture. a cistern arch and still water identify the underground cistern. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Dozu cesurca artır"
-        resultText: "Şifahane Yolu: İnce Hesap kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde şifacı güveninin ve zehir bilgisinin için daha keskin bir kayıt açılır."
+        resultText: "Şifahane Yolu: İnce Hesap sırasında \"Dozu cesurca artır\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve zehir bilgisini belirgin biçimde derinleştirir."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"
@@ -307,7 +355,9 @@ cards:
     bodyText: "Şifahane, sarayın gösterişli salonlarından daha sessiz ama daha doğru bir arşivdir. Şifahane Yolu: Gizli Lekeler anında Hekim Bera, iyileştirilen kişinin ileride kimi koruyacağını hesaplatır. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, şifacı güveninin ve zehir bilgisinin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_halk_ekmek_kuyrugu"
     focusImageId: "focus_smm_130_healer_path"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Şifahane Yolu: Gizli Lekeler scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Hekim Bera, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron scrubs a dark stain on a plate with a clear active pose, oversized hands, and a simple expressive face. Bera, a tired healer with herb bundles and rolled bandages watches close by with one simple reaction gesture. a bread basket and palace wall identify the public bread line. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "bera_hekim"
@@ -319,8 +369,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_130_a"
+        choiceImageId: "choice_smm_card_130_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron carries a rolled bandage and herb bundle toward an exit with hunched shoulders and fast stepping feet. Bera, a tired healer with herb bundles and rolled bandages reacts nearby with one simple readable gesture. a bread basket and palace wall identify the public bread line. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Hastayı saraydan sakince çıkar"
-        resultText: "Şifahane Yolu: Gizli Lekeler kararında hesabı açık tutarsın. Hekim Bera bunu fark eder ve şifacı güveninin ve zehir bilgisinin dengesi senin lehine bir çizik alır."
+        resultText: "Şifahane Yolu: Gizli Lekeler sırasında \"Hastayı saraydan sakince çıkar\" yolunu seçersin. Bu hamle zehir bilgisini derinleştirir ve şifacı güvenini güçlendirir."
         healthDelta: 0
         setFlags:
           - "flag_antidote_shared"
@@ -346,8 +401,13 @@ cards:
         nextCardId: "smm_card_131"
       -
         choiceId: "smm_card_130_b"
+        choiceImageId: "choice_smm_card_130_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a rolled bandage and herb bundle forward with a decisive hand gesture and a clear expressive face. Bera, a tired healer with herb bundles and rolled bandages reacts nearby with one simple readable gesture. a bread basket and palace wall identify the public bread line. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Hastayı isyancılara yönlendir"
-        resultText: "Şifahane Yolu: Gizli Lekeler kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde şifacı güveninin ve zehir bilgisinin için daha keskin bir kayıt açılır."
+        resultText: "Şifahane Yolu: Gizli Lekeler sırasında \"Hastayı isyancılara yönlendir\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve zehir bilgisini belirgin biçimde derinleştirir."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"
@@ -381,7 +441,9 @@ cards:
     bodyText: "Hekim Bera, iyileştirmenin kime hizmet ettiğini sormadan ilaç vermenin masum olmadığını bilir. Şifahane Yolu: Kör Alev anında Simin, senden yarayı değil, yaranın neden saklandığını görmeni ister. Ak Gaga'nın davranışı divanda bir devlet işareti gibi yorumlanır ve oyuncunun önceki yem tercihleri hatırlanır. Seçeceğin yol, şifacı güveninin ve zehir bilgisinin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_sifahane_avlusu"
     focusImageId: "focus_smm_131_healer_path"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Şifahane Yolu: Kör Alev scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Simin, Durna, the dignified palace goose Ak Gaga nearby, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron shields a weak kitchen flame with a clear active pose, oversized hands, and a simple expressive face. Simin, a calm poison taster with a tiny silver spoon watches close by with one simple reaction gesture. herb bundles and rolled bandages identify the infirmary. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "simin_tadimci"
@@ -398,8 +460,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_131_a"
+        choiceImageId: "choice_smm_card_131_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron marks a rolled bandage and herb bundle with big non-letter tally blocks while biting the lip in concentration. Simin, a calm poison taster with a tiny silver spoon reacts nearby with one simple readable gesture. herb bundles and rolled bandages identify the infirmary. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Yaralıyı kayda geçirerek tedavi et"
-        resultText: "Şifahane Yolu: Kör Alev kararında hesabı açık tutarsın. Simin bunu fark eder ve şifacı güveninin ve zehir bilgisinin dengesi senin lehine bir çizik alır."
+        resultText: "Şifahane Yolu: Kör Alev sırasında \"Yaralıyı kayda geçirerek tedavi et\" yolunu seçersin. Bu hamle zehir bilgisini derinleştirir, şifacı güvenini güçlendirir ve Ak Gaga söylencesini güçlendirir."
         healthDelta: 0
         setFlags:
           - "flag_antidote_shared"
@@ -428,8 +495,13 @@ cards:
         nextCardId: "smm_card_132"
       -
         choiceId: "smm_card_131_b"
+        choiceImageId: "choice_smm_card_131_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a rolled bandage and herb bundle forward with a decisive hand gesture and a clear expressive face. Simin, a calm poison taster with a tiny silver spoon reacts nearby with one simple readable gesture. herb bundles and rolled bandages identify the infirmary. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Yarayı siyasi sır yap"
-        resultText: "Şifahane Yolu: Kör Alev kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde şifacı güveninin ve zehir bilgisinin için daha keskin bir kayıt açılır."
+        resultText: "Şifahane Yolu: Kör Alev sırasında \"Yarayı siyasi sır yap\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir, zehir bilgisini belirgin biçimde derinleştirir ve Ak Gaga söylencesini belirgin biçimde güçlendirir."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"
@@ -464,7 +536,9 @@ cards:
     bodyText: "Hekim Bera, iyileştirmenin kime hizmet ettiğini sormadan ilaç vermenin masum olmadığını bilir. Şifahane Yolu: Üç Nohut anında Meryem, her panzehirin bir siyasi bedeli olduğunu hatırlatır. Kehanet çorbası artık sarayda küçük bir şaka değil, varislerin kendi lehine çevirmek istediği ciddi bir alamettir. Seçeceğin yol, şifacı güveninin ve zehir bilgisinin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_sifahane_ic_odasi"
     focusImageId: "focus_smm_132_healer_path"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Şifahane Yolu: Üç Nohut scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Meryem, Müneccim Zerya, a bowl of omen soup with oil rings and three chickpeas, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron arranges three oversized chickpeas with a clear active pose, oversized hands, and a simple expressive face. Meryem, a sharp-eyed rebel contact with a bread basket and worn shawl watches close by with one simple reaction gesture. herb bundles and rolled bandages identify the infirmary. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "meryem_isyanci"
@@ -481,8 +555,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_132_a"
+        choiceImageId: "choice_smm_card_132_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron opens a tiny vial and silver tasting spoon with a decisive pull and bright alert eyes. Meryem, a sharp-eyed rebel contact with a bread basket and worn shawl reacts nearby with one simple readable gesture. herb bundles and rolled bandages identify the infirmary. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Panzehiri halka açık hazırla"
-        resultText: "Şifahane Yolu: Üç Nohut kararında hesabı açık tutarsın. Meryem bunu fark eder ve şifacı güveninin ve zehir bilgisinin dengesi senin lehine bir çizik alır."
+        resultText: "Şifahane Yolu: Üç Nohut sırasında \"Panzehiri halka açık hazırla\" yolunu seçersin. Bu hamle zehir bilgisini derinleştirir, şifacı güvenini güçlendirir ve çorba alametini büyütür. Canın 1 artar."
         healthDelta: 1
         setFlags:
           - "flag_antidote_shared"
@@ -509,8 +588,13 @@ cards:
         nextCardId: "smm_card_133"
       -
         choiceId: "smm_card_132_b"
+        choiceImageId: "choice_smm_card_132_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron places a tiny vial and silver tasting spoon quietly at the scene edge with a soft worried smile. Meryem, a sharp-eyed rebel contact with a bread basket and worn shawl reacts nearby with one simple readable gesture. herb bundles and rolled bandages identify the infirmary. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Panzehiri yalnız varise ayır"
-        resultText: "Şifahane Yolu: Üç Nohut kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde şifacı güveninin ve zehir bilgisinin için daha keskin bir kayıt açılır."
+        resultText: "Şifahane Yolu: Üç Nohut sırasında \"Panzehiri yalnız varise ayır\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir, zehir bilgisini belirgin biçimde derinleştirir ve çorba alametini belirgin biçimde büyütür."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"
@@ -545,7 +629,9 @@ cards:
     bodyText: "Hekim Bera, iyileştirmenin kime hizmet ettiğini sormadan ilaç vermenin masum olmadığını bilir. Şifahane Yolu: Kapıdaki Fısıltı anında Hükümdar Azem, halkın hastalığının yalnız ateşten değil açlıktan geldiğini gösterir. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, şifacı güveninin ve zehir bilgisinin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_yarali_asker_cadiri"
     focusImageId: "focus_smm_133_healer_path"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Şifahane Yolu: Kapıdaki Fısıltı scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Hükümdar Azem, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron hides a folded blank note with a clear active pose, oversized hands, and a simple expressive face. Azem, an aging ruler with a tired crown and heavy robe watches close by with one simple reaction gesture. a cot and rolled bandage identify the wounded soldier tent. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "hukumdar_azem"
@@ -557,8 +643,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_133_a"
+        choiceImageId: "choice_smm_card_133_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron guards a rolled bandage and herb bundle behind the apron with narrowed eyes and one protective hand. Bera, a tired healer with herb bundles and rolled bandages reacts nearby with one simple readable gesture. a cot and rolled bandage identify the wounded soldier tent. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Bera'nın yeminini koru"
-        resultText: "Şifahane Yolu: Kapıdaki Fısıltı kararında hesabı açık tutarsın. Hükümdar Azem bunu fark eder ve şifacı güveninin ve zehir bilgisinin dengesi senin lehine bir çizik alır."
+        resultText: "Şifahane Yolu: Kapıdaki Fısıltı sırasında \"Bera'nın yeminini koru\" yolunu seçersin. Bu hamle saray kuşkusunu yatıştırır, zehir bilgisini derinleştirir ve şifacı güvenini güçlendirir."
         healthDelta: 0
         setFlags:
           - "flag_antidote_shared"
@@ -584,8 +675,13 @@ cards:
         nextCardId: "smm_card_134"
       -
         choiceId: "smm_card_133_b"
+        choiceImageId: "choice_smm_card_133_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron slips a rolled bandage and herb bundle into the apron pocket with wide nervous eyes and curled fingers. Bera, a tired healer with herb bundles and rolled bandages reacts nearby with one simple readable gesture. a cot and rolled bandage identify the wounded soldier tent. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Bera'nın defterini kopyala"
-        resultText: "Şifahane Yolu: Kapıdaki Fısıltı kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde şifacı güveninin ve zehir bilgisinin için daha keskin bir kayıt açılır."
+        resultText: "Şifahane Yolu: Kapıdaki Fısıltı sırasında \"Bera'nın defterini kopyala\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve zehir bilgisini belirgin biçimde derinleştirir."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"
@@ -619,7 +715,9 @@ cards:
     bodyText: "Hekim Bera, iyileştirmenin kime hizmet ettiğini sormadan ilaç vermenin masum olmadığını bilir. Şifahane Yolu: Aç Karnın Sözü anında Hekim Bera, Simin'in bilgisiyle Bera'nın yemini arasında köprü kurmanı bekler. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, şifacı güveninin ve zehir bilgisinin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_yeralti_sarnici"
     focusImageId: "focus_smm_134_healer_path"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Şifahane Yolu: Aç Karnın Sözü scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Hekim Bera, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron offers a small bread piece with a clear active pose, oversized hands, and a simple expressive face. Bera, a tired healer with herb bundles and rolled bandages watches close by with one simple reaction gesture. a cistern arch and still water identify the underground cistern. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "bera_hekim"
@@ -631,8 +729,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_134_a"
+        choiceImageId: "choice_smm_card_134_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron measures a big wooden measuring spoon carefully over a bowl with pursed lips and one steady raised hand. Bera, a tired healer with herb bundles and rolled bandages reacts nearby with one simple readable gesture. a cistern arch and still water identify the underground cistern. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Otları doğru dozda karıştır"
-        resultText: "Şifahane Yolu: Aç Karnın Sözü kararında hesabı açık tutarsın. Hekim Bera bunu fark eder ve şifacı güveninin ve zehir bilgisinin dengesi senin lehine bir çizik alır."
+        resultText: "Şifahane Yolu: Aç Karnın Sözü sırasında \"Otları doğru dozda karıştır\" yolunu seçersin. Bu hamle zehir bilgisini derinleştirir ve şifacı güvenini güçlendirir."
         healthDelta: 0
         setFlags:
           - "flag_antidote_shared"
@@ -658,8 +761,13 @@ cards:
         nextCardId: "smm_card_135"
       -
         choiceId: "smm_card_134_b"
+        choiceImageId: "choice_smm_card_134_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron measures a big wooden measuring spoon carefully over a bowl with pursed lips and one steady raised hand. Bera, a tired healer with herb bundles and rolled bandages reacts nearby with one simple readable gesture. a cistern arch and still water identify the underground cistern. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Dozu cesurca artır"
-        resultText: "Şifahane Yolu: Aç Karnın Sözü kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde şifacı güveninin ve zehir bilgisinin için daha keskin bir kayıt açılır."
+        resultText: "Şifahane Yolu: Aç Karnın Sözü sırasında \"Dozu cesurca artır\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve zehir bilgisini belirgin biçimde derinleştirir."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"
@@ -693,7 +801,9 @@ cards:
     bodyText: "Hekim Bera, iyileştirmenin kime hizmet ettiğini sormadan ilaç vermenin masum olmadığını bilir. Şifahane Yolu: Ustanın Sınavı anında Simin, iyileştirilen kişinin ileride kimi koruyacağını hesaplatır. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, şifacı güveninin ve zehir bilgisinin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_halk_ekmek_kuyrugu"
     focusImageId: "focus_smm_135_healer_path"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Şifahane Yolu: Ustanın Sınavı scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Simin, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron measures a spoonful of spice with a clear active pose, oversized hands, and a simple expressive face. Simin, a calm poison taster with a tiny silver spoon watches close by with one simple reaction gesture. a bread basket and palace wall identify the public bread line. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "simin_tadimci"
@@ -705,8 +815,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_135_a"
+        choiceImageId: "choice_smm_card_135_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron carries a rolled bandage and herb bundle toward an exit with hunched shoulders and fast stepping feet. Simin, a calm poison taster with a tiny silver spoon reacts nearby with one simple readable gesture. a bread basket and palace wall identify the public bread line. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Hastayı saraydan sakince çıkar"
-        resultText: "Şifahane Yolu: Ustanın Sınavı kararında hesabı açık tutarsın. Simin bunu fark eder ve şifacı güveninin ve zehir bilgisinin dengesi senin lehine bir çizik alır."
+        resultText: "Şifahane Yolu: Ustanın Sınavı sırasında \"Hastayı saraydan sakince çıkar\" yolunu seçersin. Bu hamle zehir bilgisini derinleştirir ve şifacı güvenini güçlendirir."
         healthDelta: 0
         setFlags:
           - "flag_antidote_shared"
@@ -732,8 +847,13 @@ cards:
         nextCardId: "smm_card_136"
       -
         choiceId: "smm_card_135_b"
+        choiceImageId: "choice_smm_card_135_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a rolled bandage and herb bundle forward with a decisive hand gesture and a clear expressive face. Simin, a calm poison taster with a tiny silver spoon reacts nearby with one simple readable gesture. a bread basket and palace wall identify the public bread line. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Hastayı isyancılara yönlendir"
-        resultText: "Şifahane Yolu: Ustanın Sınavı kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde şifacı güveninin ve zehir bilgisinin için daha keskin bir kayıt açılır."
+        resultText: "Şifahane Yolu: Ustanın Sınavı sırasında \"Hastayı isyancılara yönlendir\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve zehir bilgisini belirgin biçimde derinleştirir. Canın 1 azalır."
         healthDelta: -1
         setFlags:
           - "flag_secret_kept"
@@ -767,7 +887,9 @@ cards:
     bodyText: "Yaralı askerler ve aç çocuklar aynı sedirde beklerken imparatorluğun çatlağı görünür. Şifahane Yolu: Kazanın Gölgesi anında Meryem, senden yarayı değil, yaranın neden saklandığını görmeni ister. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, şifacı güveninin ve zehir bilgisinin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_sifahane_avlusu"
     focusImageId: "focus_smm_136_healer_path"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Şifahane Yolu: Kazanın Gölgesi scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Meryem, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron stirs a round copper cauldron with a clear active pose, oversized hands, and a simple expressive face. Meryem, a sharp-eyed rebel contact with a bread basket and worn shawl watches close by with one simple reaction gesture. herb bundles and rolled bandages identify the infirmary. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "meryem_isyanci"
@@ -779,8 +901,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_136_a"
+        choiceImageId: "choice_smm_card_136_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron marks a rolled bandage and herb bundle with big non-letter tally blocks while biting the lip in concentration. Meryem, a sharp-eyed rebel contact with a bread basket and worn shawl reacts nearby with one simple readable gesture. herb bundles and rolled bandages identify the infirmary. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Yaralıyı kayda geçirerek tedavi et"
-        resultText: "Şifahane Yolu: Kazanın Gölgesi kararında hesabı açık tutarsın. Meryem bunu fark eder ve şifacı güveninin ve zehir bilgisinin dengesi senin lehine bir çizik alır."
+        resultText: "Şifahane Yolu: Kazanın Gölgesi sırasında \"Yaralıyı kayda geçirerek tedavi et\" yolunu seçersin. Bu hamle zehir bilgisini derinleştirir ve şifacı güvenini güçlendirir."
         healthDelta: 0
         setFlags:
           - "flag_antidote_shared"
@@ -807,8 +934,13 @@ cards:
         nextCardId: "smm_card_137"
       -
         choiceId: "smm_card_136_b"
+        choiceImageId: "choice_smm_card_136_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a rolled bandage and herb bundle forward with a decisive hand gesture and a clear expressive face. Meryem, a sharp-eyed rebel contact with a bread basket and worn shawl reacts nearby with one simple readable gesture. herb bundles and rolled bandages identify the infirmary. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Yarayı siyasi sır yap"
-        resultText: "Şifahane Yolu: Kazanın Gölgesi kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde şifacı güveninin ve zehir bilgisinin için daha keskin bir kayıt açılır."
+        resultText: "Şifahane Yolu: Kazanın Gölgesi sırasında \"Yarayı siyasi sır yap\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve zehir bilgisini belirgin biçimde derinleştirir."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"
@@ -843,7 +975,9 @@ cards:
     bodyText: "Yaralı askerler ve aç çocuklar aynı sedirde beklerken imparatorluğun çatlağı görünür. Şifahane Yolu: Tuz ve Yemin anında Hükümdar Azem, her panzehirin bir siyasi bedeli olduğunu hatırlatır. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, şifacı güveninin ve zehir bilgisinin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_sifahane_ic_odasi"
     focusImageId: "focus_smm_137_healer_path"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Şifahane Yolu: Tuz ve Yemin scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Hükümdar Azem, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron sprinkles a pinch of salt with a clear active pose, oversized hands, and a simple expressive face. Azem, an aging ruler with a tired crown and heavy robe watches close by with one simple reaction gesture. herb bundles and rolled bandages identify the infirmary. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "hukumdar_azem"
@@ -855,8 +989,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_137_a"
+        choiceImageId: "choice_smm_card_137_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron opens a tiny vial and silver tasting spoon with a decisive pull and bright alert eyes. Azem, an aging ruler with a tired crown and heavy robe reacts nearby with one simple readable gesture. herb bundles and rolled bandages identify the infirmary. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Panzehiri halka açık hazırla"
-        resultText: "Şifahane Yolu: Tuz ve Yemin kararında hesabı açık tutarsın. Hükümdar Azem bunu fark eder ve şifacı güveninin ve zehir bilgisinin dengesi senin lehine bir çizik alır."
+        resultText: "Şifahane Yolu: Tuz ve Yemin sırasında \"Panzehiri halka açık hazırla\" yolunu seçersin. Bu hamle zehir bilgisini derinleştirir ve şifacı güvenini güçlendirir."
         healthDelta: 0
         setFlags:
           - "flag_antidote_shared"
@@ -882,8 +1021,13 @@ cards:
         nextCardId: "smm_card_138"
       -
         choiceId: "smm_card_137_b"
+        choiceImageId: "choice_smm_card_137_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron places a tiny vial and silver tasting spoon quietly at the scene edge with a soft worried smile. Azem, an aging ruler with a tired crown and heavy robe reacts nearby with one simple readable gesture. herb bundles and rolled bandages identify the infirmary. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Panzehiri yalnız varise ayır"
-        resultText: "Şifahane Yolu: Tuz ve Yemin kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde şifacı güveninin ve zehir bilgisinin için daha keskin bir kayıt açılır."
+        resultText: "Şifahane Yolu: Tuz ve Yemin sırasında \"Panzehiri yalnız varise ayır\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve zehir bilgisini belirgin biçimde derinleştirir."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"
@@ -917,7 +1061,9 @@ cards:
     bodyText: "Yaralı askerler ve aç çocuklar aynı sedirde beklerken imparatorluğun çatlağı görünür. Şifahane Yolu: Kırık Tabak anında Hekim Bera, halkın hastalığının yalnız ateşten değil açlıktan geldiğini gösterir. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, şifacı güveninin ve zehir bilgisinin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_yarali_asker_cadiri"
     focusImageId: "focus_smm_138_healer_path"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Şifahane Yolu: Kırık Tabak scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Hekim Bera, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron raises a cracked plate with a clear active pose, oversized hands, and a simple expressive face. Bera, a tired healer with herb bundles and rolled bandages watches close by with one simple reaction gesture. a cot and rolled bandage identify the wounded soldier tent. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "bera_hekim"
@@ -929,8 +1075,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_138_a"
+        choiceImageId: "choice_smm_card_138_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron guards a rolled bandage and herb bundle behind the apron with narrowed eyes and one protective hand. Bera, a tired healer with herb bundles and rolled bandages reacts nearby with one simple readable gesture. a cot and rolled bandage identify the wounded soldier tent. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Bera'nın yeminini koru"
-        resultText: "Şifahane Yolu: Kırık Tabak kararında hesabı açık tutarsın. Hekim Bera bunu fark eder ve şifacı güveninin ve zehir bilgisinin dengesi senin lehine bir çizik alır."
+        resultText: "Şifahane Yolu: Kırık Tabak sırasında \"Bera'nın yeminini koru\" yolunu seçersin. Bu hamle zehir bilgisini derinleştirir ve şifacı güvenini güçlendirir."
         healthDelta: 0
         setFlags:
           - "flag_antidote_shared"
@@ -956,8 +1107,13 @@ cards:
         nextCardId: "smm_card_139"
       -
         choiceId: "smm_card_138_b"
+        choiceImageId: "choice_smm_card_138_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron slips a rolled bandage and herb bundle into the apron pocket with wide nervous eyes and curled fingers. Bera, a tired healer with herb bundles and rolled bandages reacts nearby with one simple readable gesture. a cot and rolled bandage identify the wounded soldier tent. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Bera'nın defterini kopyala"
-        resultText: "Şifahane Yolu: Kırık Tabak kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde şifacı güveninin ve zehir bilgisinin için daha keskin bir kayıt açılır."
+        resultText: "Şifahane Yolu: Kırık Tabak sırasında \"Bera'nın defterini kopyala\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve zehir bilgisini belirgin biçimde derinleştirir."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"
@@ -991,7 +1147,9 @@ cards:
     bodyText: "Yaralı askerler ve aç çocuklar aynı sedirde beklerken imparatorluğun çatlağı görünür. Şifahane Yolu: Mum Işığı anında Simin, Simin'in bilgisiyle Bera'nın yemini arasında köprü kurmanı bekler. Yanlış tatlı krizi, Safira'nın dış destek arayışında ya fırsat ya da utanç olarak yeniden açılır. Seçeceğin yol, şifacı güveninin ve zehir bilgisinin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_yeralti_sarnici"
     focusImageId: "focus_smm_139_healer_path"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Şifahane Yolu: Mum Işığı scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Simin, Lale Kalfa, a mistaken ornate dessert tray with diplomatic tension, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron holds a stubby candle with a clear active pose, oversized hands, and a simple expressive face. Simin, a calm poison taster with a tiny silver spoon watches close by with one simple reaction gesture. a cistern arch and still water identify the underground cistern. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "simin_tadimci"
@@ -1009,8 +1167,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_139_a"
+        choiceImageId: "choice_smm_card_139_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron measures a big wooden measuring spoon carefully over a bowl with pursed lips and one steady raised hand. Simin, a calm poison taster with a tiny silver spoon reacts nearby with one simple readable gesture. a cistern arch and still water identify the underground cistern. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Otları doğru dozda karıştır"
-        resultText: "Şifahane Yolu: Mum Işığı kararında hesabı açık tutarsın. Simin bunu fark eder ve şifacı güveninin ve zehir bilgisinin dengesi senin lehine bir çizik alır."
+        resultText: "Şifahane Yolu: Mum Işığı sırasında \"Otları doğru dozda karıştır\" yolunu seçersin. Bu hamle zehir bilgisini derinleştirir, şifacı güvenini güçlendirir ve tatlı diplomasisini canlandırır."
         healthDelta: 0
         setFlags:
           - "flag_antidote_shared"
@@ -1037,8 +1200,13 @@ cards:
         nextCardId: "smm_card_140"
       -
         choiceId: "smm_card_139_b"
+        choiceImageId: "choice_smm_card_139_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron measures a big wooden measuring spoon carefully over a bowl with pursed lips and one steady raised hand. Simin, a calm poison taster with a tiny silver spoon reacts nearby with one simple readable gesture. a cistern arch and still water identify the underground cistern. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Dozu cesurca artır"
-        resultText: "Şifahane Yolu: Mum Işığı kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde şifacı güveninin ve zehir bilgisinin için daha keskin bir kayıt açılır."
+        resultText: "Şifahane Yolu: Mum Işığı sırasında \"Dozu cesurca artır\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir, zehir bilgisini belirgin biçimde derinleştirir ve tatlı diplomasisini belirgin biçimde canlandırır."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"
@@ -1074,7 +1242,9 @@ cards:
     bodyText: "Yaralı askerler ve aç çocuklar aynı sedirde beklerken imparatorluğun çatlağı görünür. Şifahane Yolu: Gece Nöbeti anında Meryem, iyileştirilen kişinin ileride kimi koruyacağını hesaplatır. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, şifacı güveninin ve zehir bilgisinin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_halk_ekmek_kuyrugu"
     focusImageId: "focus_smm_140_healer_path"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Şifahane Yolu: Gece Nöbeti scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Meryem, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron guards a small tray with a clear active pose, oversized hands, and a simple expressive face. Meryem, a sharp-eyed rebel contact with a bread basket and worn shawl watches close by with one simple reaction gesture. a bread basket and palace wall identify the public bread line. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "meryem_isyanci"
@@ -1086,8 +1256,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_140_a"
+        choiceImageId: "choice_smm_card_140_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron carries a rolled bandage and herb bundle toward an exit with hunched shoulders and fast stepping feet. Meryem, a sharp-eyed rebel contact with a bread basket and worn shawl reacts nearby with one simple readable gesture. a bread basket and palace wall identify the public bread line. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Hastayı saraydan sakince çıkar"
-        resultText: "Şifahane Yolu: Gece Nöbeti kararında hesabı açık tutarsın. Meryem bunu fark eder ve şifacı güveninin ve zehir bilgisinin dengesi senin lehine bir çizik alır."
+        resultText: "Şifahane Yolu: Gece Nöbeti sırasında \"Hastayı saraydan sakince çıkar\" yolunu seçersin. Bu hamle saray kuşkusunu yatıştırır, zehir bilgisini derinleştirir ve şifacı güvenini güçlendirir."
         healthDelta: 0
         setFlags:
           - "flag_antidote_shared"
@@ -1113,8 +1288,13 @@ cards:
         nextCardId: "smm_card_141"
       -
         choiceId: "smm_card_140_b"
+        choiceImageId: "choice_smm_card_140_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a rolled bandage and herb bundle forward with a decisive hand gesture and a clear expressive face. Meryem, a sharp-eyed rebel contact with a bread basket and worn shawl reacts nearby with one simple readable gesture. a bread basket and palace wall identify the public bread line. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Hastayı isyancılara yönlendir"
-        resultText: "Şifahane Yolu: Gece Nöbeti kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde şifacı güveninin ve zehir bilgisinin için daha keskin bir kayıt açılır."
+        resultText: "Şifahane Yolu: Gece Nöbeti sırasında \"Hastayı isyancılara yönlendir\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve zehir bilgisini belirgin biçimde derinleştirir."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"
@@ -1148,7 +1328,9 @@ cards:
     bodyText: "Otların kokusu, zehir odasındaki korkuyu dengeleyen tek şey olur. Şifahane Yolu: Kilitli Raf anında Hükümdar Azem, senden yarayı değil, yaranın neden saklandığını görmeni ister. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, şifacı güveninin ve zehir bilgisinin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_sifahane_avlusu"
     focusImageId: "focus_smm_141_healer_path"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Şifahane Yolu: Kilitli Raf scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Hükümdar Azem, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron reaches toward a locked shelf key with a clear active pose, oversized hands, and a simple expressive face. Azem, an aging ruler with a tired crown and heavy robe watches close by with one simple reaction gesture. herb bundles and rolled bandages identify the infirmary. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "hukumdar_azem"
@@ -1160,8 +1342,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_141_a"
+        choiceImageId: "choice_smm_card_141_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron marks a rolled bandage and herb bundle with big non-letter tally blocks while biting the lip in concentration. Azem, an aging ruler with a tired crown and heavy robe reacts nearby with one simple readable gesture. herb bundles and rolled bandages identify the infirmary. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Yaralıyı kayda geçirerek tedavi et"
-        resultText: "Şifahane Yolu: Kilitli Raf kararında hesabı açık tutarsın. Hükümdar Azem bunu fark eder ve şifacı güveninin ve zehir bilgisinin dengesi senin lehine bir çizik alır."
+        resultText: "Şifahane Yolu: Kilitli Raf sırasında \"Yaralıyı kayda geçirerek tedavi et\" yolunu seçersin. Bu hamle zehir bilgisini derinleştirir ve şifacı güvenini güçlendirir."
         healthDelta: 0
         setFlags:
           - "flag_antidote_shared"
@@ -1187,8 +1374,13 @@ cards:
         nextCardId: "smm_card_142"
       -
         choiceId: "smm_card_141_b"
+        choiceImageId: "choice_smm_card_141_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a rolled bandage and herb bundle forward with a decisive hand gesture and a clear expressive face. Azem, an aging ruler with a tired crown and heavy robe reacts nearby with one simple readable gesture. herb bundles and rolled bandages identify the infirmary. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Yarayı siyasi sır yap"
-        resultText: "Şifahane Yolu: Kilitli Raf kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde şifacı güveninin ve zehir bilgisinin için daha keskin bir kayıt açılır."
+        resultText: "Şifahane Yolu: Kilitli Raf sırasında \"Yarayı siyasi sır yap\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve zehir bilgisini belirgin biçimde derinleştirir."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"
@@ -1222,7 +1414,9 @@ cards:
     bodyText: "Otların kokusu, zehir odasındaki korkuyu dengeleyen tek şey olur. Şifahane Yolu: Sarayın Kulağı anında Hekim Bera, her panzehirin bir siyasi bedeli olduğunu hatırlatır. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, şifacı güveninin ve zehir bilgisinin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_sifahane_ic_odasi"
     focusImageId: "focus_smm_142_healer_path"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Şifahane Yolu: Sarayın Kulağı scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Hekim Bera, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron listens beside a half-open door with a clear active pose, oversized hands, and a simple expressive face. Bera, a tired healer with herb bundles and rolled bandages watches close by with one simple reaction gesture. herb bundles and rolled bandages identify the infirmary. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "bera_hekim"
@@ -1234,8 +1428,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_142_a"
+        choiceImageId: "choice_smm_card_142_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron opens a tiny vial and silver tasting spoon with a decisive pull and bright alert eyes. Bera, a tired healer with herb bundles and rolled bandages reacts nearby with one simple readable gesture. herb bundles and rolled bandages identify the infirmary. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Panzehiri halka açık hazırla"
-        resultText: "Şifahane Yolu: Sarayın Kulağı kararında hesabı açık tutarsın. Hekim Bera bunu fark eder ve şifacı güveninin ve zehir bilgisinin dengesi senin lehine bir çizik alır."
+        resultText: "Şifahane Yolu: Sarayın Kulağı sırasında \"Panzehiri halka açık hazırla\" yolunu seçersin. Bu hamle zehir bilgisini derinleştirir ve şifacı güvenini güçlendirir."
         healthDelta: 0
         setFlags:
           - "flag_antidote_shared"
@@ -1261,8 +1460,13 @@ cards:
         nextCardId: "smm_card_143"
       -
         choiceId: "smm_card_142_b"
+        choiceImageId: "choice_smm_card_142_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron places a tiny vial and silver tasting spoon quietly at the scene edge with a soft worried smile. Bera, a tired healer with herb bundles and rolled bandages reacts nearby with one simple readable gesture. herb bundles and rolled bandages identify the infirmary. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Panzehiri yalnız varise ayır"
-        resultText: "Şifahane Yolu: Sarayın Kulağı kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde şifacı güveninin ve zehir bilgisinin için daha keskin bir kayıt açılır."
+        resultText: "Şifahane Yolu: Sarayın Kulağı sırasında \"Panzehiri yalnız varise ayır\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve zehir bilgisini belirgin biçimde derinleştirir."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"
@@ -1296,7 +1500,9 @@ cards:
     bodyText: "Otların kokusu, zehir odasındaki korkuyu dengeleyen tek şey olur. Şifahane Yolu: Yağ Halkası anında Simin, halkın hastalığının yalnız ateşten değil açlıktan geldiğini gösterir. Kehanet çorbası artık sarayda küçük bir şaka değil, varislerin kendi lehine çevirmek istediği ciddi bir alamettir. Seçeceğin yol, şifacı güveninin ve zehir bilgisinin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_yarali_asker_cadiri"
     focusImageId: "focus_smm_143_healer_path"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Şifahane Yolu: Yağ Halkası scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Simin, Müneccim Zerya, a bowl of omen soup with oil rings and three chickpeas, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron tilts an omen soup bowl with a clear active pose, oversized hands, and a simple expressive face. Simin, a calm poison taster with a tiny silver spoon watches close by with one simple reaction gesture. a cot and rolled bandage identify the wounded soldier tent. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "simin_tadimci"
@@ -1313,8 +1519,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_143_a"
+        choiceImageId: "choice_smm_card_143_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron guards a rolled bandage and herb bundle behind the apron with narrowed eyes and one protective hand. Bera, a tired healer with herb bundles and rolled bandages reacts nearby with one simple readable gesture. a cot and rolled bandage identify the wounded soldier tent. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Bera'nın yeminini koru"
-        resultText: "Şifahane Yolu: Yağ Halkası kararında hesabı açık tutarsın. Simin bunu fark eder ve şifacı güveninin ve zehir bilgisinin dengesi senin lehine bir çizik alır."
+        resultText: "Şifahane Yolu: Yağ Halkası sırasında \"Bera'nın yeminini koru\" yolunu seçersin. Bu hamle zehir bilgisini derinleştirir, şifacı güvenini güçlendirir ve çorba alametini büyütür. Canın 1 artar."
         healthDelta: 1
         setFlags:
           - "flag_antidote_shared"
@@ -1341,8 +1552,13 @@ cards:
         nextCardId: "smm_card_144"
       -
         choiceId: "smm_card_143_b"
+        choiceImageId: "choice_smm_card_143_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron slips a rolled bandage and herb bundle into the apron pocket with wide nervous eyes and curled fingers. Bera, a tired healer with herb bundles and rolled bandages reacts nearby with one simple readable gesture. a cot and rolled bandage identify the wounded soldier tent. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Bera'nın defterini kopyala"
-        resultText: "Şifahane Yolu: Yağ Halkası kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde şifacı güveninin ve zehir bilgisinin için daha keskin bir kayıt açılır."
+        resultText: "Şifahane Yolu: Yağ Halkası sırasında \"Bera'nın defterini kopyala\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir, zehir bilgisini belirgin biçimde derinleştirir ve çorba alametini belirgin biçimde büyütür."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"
@@ -1377,7 +1593,9 @@ cards:
     bodyText: "Otların kokusu, zehir odasındaki korkuyu dengeleyen tek şey olur. Şifahane Yolu: Ak Gaga'nın Yolu anında Meryem, Simin'in bilgisiyle Bera'nın yemini arasında köprü kurmanı bekler. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, şifacı güveninin ve zehir bilgisinin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_yeralti_sarnici"
     focusImageId: "focus_smm_144_healer_path"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Şifahane Yolu: Ak Gaga'nın Yolu scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Meryem, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron guides a white goose feather marker with a clear active pose, oversized hands, and a simple expressive face. Meryem, a sharp-eyed rebel contact with a bread basket and worn shawl watches close by with one simple reaction gesture. a cistern arch and still water identify the underground cistern. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "meryem_isyanci"
@@ -1389,8 +1607,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_144_a"
+        choiceImageId: "choice_smm_card_144_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron measures a big wooden measuring spoon carefully over a bowl with pursed lips and one steady raised hand. Meryem, a sharp-eyed rebel contact with a bread basket and worn shawl reacts nearby with one simple readable gesture. a cistern arch and still water identify the underground cistern. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Otları doğru dozda karıştır"
-        resultText: "Şifahane Yolu: Ak Gaga'nın Yolu kararında hesabı açık tutarsın. Meryem bunu fark eder ve şifacı güveninin ve zehir bilgisinin dengesi senin lehine bir çizik alır."
+        resultText: "Şifahane Yolu: Ak Gaga'nın Yolu sırasında \"Otları doğru dozda karıştır\" yolunu seçersin. Bu hamle zehir bilgisini derinleştirir ve şifacı güvenini güçlendirir."
         healthDelta: 0
         setFlags:
           - "flag_antidote_shared"
@@ -1417,8 +1640,13 @@ cards:
         nextCardId: "smm_card_145"
       -
         choiceId: "smm_card_144_b"
+        choiceImageId: "choice_smm_card_144_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron measures a big wooden measuring spoon carefully over a bowl with pursed lips and one steady raised hand. Meryem, a sharp-eyed rebel contact with a bread basket and worn shawl reacts nearby with one simple readable gesture. a cistern arch and still water identify the underground cistern. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Dozu cesurca artır"
-        resultText: "Şifahane Yolu: Ak Gaga'nın Yolu kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde şifacı güveninin ve zehir bilgisinin için daha keskin bir kayıt açılır."
+        resultText: "Şifahane Yolu: Ak Gaga'nın Yolu sırasında \"Dozu cesurca artır\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve zehir bilgisini belirgin biçimde derinleştirir. Canın 1 azalır."
         healthDelta: -1
         setFlags:
           - "flag_secret_kept"
@@ -1453,7 +1681,9 @@ cards:
     bodyText: "Otların kokusu, zehir odasındaki korkuyu dengeleyen tek şey olur. Şifahane Yolu: Gümüş Kaşık anında Hükümdar Azem, iyileştirilen kişinin ileride kimi koruyacağını hesaplatır. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, şifacı güveninin ve zehir bilgisinin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_halk_ekmek_kuyrugu"
     focusImageId: "focus_smm_145_healer_path"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Şifahane Yolu: Gümüş Kaşık scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Hükümdar Azem, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron inspects a silver spoon with a clear active pose, oversized hands, and a simple expressive face. Azem, an aging ruler with a tired crown and heavy robe watches close by with one simple reaction gesture. a bread basket and palace wall identify the public bread line. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "hukumdar_azem"
@@ -1465,8 +1695,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_145_a"
+        choiceImageId: "choice_smm_card_145_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron carries a rolled bandage and herb bundle toward an exit with hunched shoulders and fast stepping feet. Azem, an aging ruler with a tired crown and heavy robe reacts nearby with one simple readable gesture. a bread basket and palace wall identify the public bread line. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Hastayı saraydan sakince çıkar"
-        resultText: "Şifahane Yolu: Gümüş Kaşık kararında hesabı açık tutarsın. Hükümdar Azem bunu fark eder ve şifacı güveninin ve zehir bilgisinin dengesi senin lehine bir çizik alır."
+        resultText: "Şifahane Yolu: Gümüş Kaşık sırasında \"Hastayı saraydan sakince çıkar\" yolunu seçersin. Bu hamle zehir bilgisini derinleştirir ve şifacı güvenini güçlendirir."
         healthDelta: 0
         setFlags:
           - "flag_antidote_shared"
@@ -1492,8 +1727,13 @@ cards:
         nextCardId: "smm_card_146"
       -
         choiceId: "smm_card_145_b"
+        choiceImageId: "choice_smm_card_145_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a rolled bandage and herb bundle forward with a decisive hand gesture and a clear expressive face. Azem, an aging ruler with a tired crown and heavy robe reacts nearby with one simple readable gesture. a bread basket and palace wall identify the public bread line. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Hastayı isyancılara yönlendir"
-        resultText: "Şifahane Yolu: Gümüş Kaşık kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde şifacı güveninin ve zehir bilgisinin için daha keskin bir kayıt açılır."
+        resultText: "Şifahane Yolu: Gümüş Kaşık sırasında \"Hastayı isyancılara yönlendir\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve zehir bilgisini belirgin biçimde derinleştirir."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"
@@ -1527,7 +1767,9 @@ cards:
     bodyText: "Şifa yolu seni merhamet ile devlet sırrı arasında bırakır. Şifahane Yolu: Kayıp Ölçü anında Hekim Bera, senden yarayı değil, yaranın neden saklandığını görmeni ister. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, şifacı güveninin ve zehir bilgisinin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_sifahane_avlusu"
     focusImageId: "focus_smm_146_healer_path"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Şifahane Yolu: Kayıp Ölçü scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Hekim Bera, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron searches for a missing measuring cup with a clear active pose, oversized hands, and a simple expressive face. Bera, a tired healer with herb bundles and rolled bandages watches close by with one simple reaction gesture. herb bundles and rolled bandages identify the infirmary. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "bera_hekim"
@@ -1539,8 +1781,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_146_a"
+        choiceImageId: "choice_smm_card_146_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron marks a rolled bandage and herb bundle with big non-letter tally blocks while biting the lip in concentration. Bera, a tired healer with herb bundles and rolled bandages reacts nearby with one simple readable gesture. herb bundles and rolled bandages identify the infirmary. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Yaralıyı kayda geçirerek tedavi et"
-        resultText: "Şifahane Yolu: Kayıp Ölçü kararında hesabı açık tutarsın. Hekim Bera bunu fark eder ve şifacı güveninin ve zehir bilgisinin dengesi senin lehine bir çizik alır."
+        resultText: "Şifahane Yolu: Kayıp Ölçü sırasında \"Yaralıyı kayda geçirerek tedavi et\" yolunu seçersin. Bu hamle zehir bilgisini derinleştirir ve şifacı güvenini güçlendirir."
         healthDelta: 0
         setFlags:
           - "flag_antidote_shared"
@@ -1566,8 +1813,13 @@ cards:
         nextCardId: "smm_card_147"
       -
         choiceId: "smm_card_146_b"
+        choiceImageId: "choice_smm_card_146_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a rolled bandage and herb bundle forward with a decisive hand gesture and a clear expressive face. Bera, a tired healer with herb bundles and rolled bandages reacts nearby with one simple readable gesture. herb bundles and rolled bandages identify the infirmary. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Yarayı siyasi sır yap"
-        resultText: "Şifahane Yolu: Kayıp Ölçü kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde şifacı güveninin ve zehir bilgisinin için daha keskin bir kayıt açılır."
+        resultText: "Şifahane Yolu: Kayıp Ölçü sırasında \"Yarayı siyasi sır yap\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve zehir bilgisini belirgin biçimde derinleştirir."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"
@@ -1601,7 +1853,9 @@ cards:
     bodyText: "Şifa yolu seni merhamet ile devlet sırrı arasında bırakır. Şifahane Yolu: Kuyrukta Ekmek anında Simin, her panzehirin bir siyasi bedeli olduğunu hatırlatır. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, şifacı güveninin ve zehir bilgisinin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_sifahane_ic_odasi"
     focusImageId: "focus_smm_147_healer_path"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Şifahane Yolu: Kuyrukta Ekmek scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Simin, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron carries a bread basket with a clear active pose, oversized hands, and a simple expressive face. Simin, a calm poison taster with a tiny silver spoon watches close by with one simple reaction gesture. herb bundles and rolled bandages identify the infirmary. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "simin_tadimci"
@@ -1613,8 +1867,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_147_a"
+        choiceImageId: "choice_smm_card_147_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron opens a tiny vial and silver tasting spoon with a decisive pull and bright alert eyes. Simin, a calm poison taster with a tiny silver spoon reacts nearby with one simple readable gesture. herb bundles and rolled bandages identify the infirmary. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Panzehiri halka açık hazırla"
-        resultText: "Şifahane Yolu: Kuyrukta Ekmek kararında hesabı açık tutarsın. Simin bunu fark eder ve şifacı güveninin ve zehir bilgisinin dengesi senin lehine bir çizik alır."
+        resultText: "Şifahane Yolu: Kuyrukta Ekmek sırasında \"Panzehiri halka açık hazırla\" yolunu seçersin. Bu hamle saray kuşkusunu yatıştırır, zehir bilgisini derinleştirir ve şifacı güvenini güçlendirir."
         healthDelta: 0
         setFlags:
           - "flag_antidote_shared"
@@ -1640,8 +1899,13 @@ cards:
         nextCardId: "smm_card_148"
       -
         choiceId: "smm_card_147_b"
+        choiceImageId: "choice_smm_card_147_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron places a tiny vial and silver tasting spoon quietly at the scene edge with a soft worried smile. Simin, a calm poison taster with a tiny silver spoon reacts nearby with one simple readable gesture. herb bundles and rolled bandages identify the infirmary. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Panzehiri yalnız varise ayır"
-        resultText: "Şifahane Yolu: Kuyrukta Ekmek kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde şifacı güveninin ve zehir bilgisinin için daha keskin bir kayıt açılır."
+        resultText: "Şifahane Yolu: Kuyrukta Ekmek sırasında \"Panzehiri yalnız varise ayır\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve zehir bilgisini belirgin biçimde derinleştirir."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"
@@ -1675,7 +1939,9 @@ cards:
     bodyText: "Şifa yolu seni merhamet ile devlet sırrı arasında bırakır. Şifahane Yolu: Keskin Koku anında Meryem, halkın hastalığının yalnız ateşten değil açlıktan geldiğini gösterir. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, şifacı güveninin ve zehir bilgisinin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_yarali_asker_cadiri"
     focusImageId: "focus_smm_148_healer_path"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Şifahane Yolu: Keskin Koku scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Meryem, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron sniffs a tiny spice pouch with a clear active pose, oversized hands, and a simple expressive face. Meryem, a sharp-eyed rebel contact with a bread basket and worn shawl watches close by with one simple reaction gesture. a cot and rolled bandage identify the wounded soldier tent. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "meryem_isyanci"
@@ -1687,8 +1953,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_148_a"
+        choiceImageId: "choice_smm_card_148_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron guards a rolled bandage and herb bundle behind the apron with narrowed eyes and one protective hand. Bera, a tired healer with herb bundles and rolled bandages reacts nearby with one simple readable gesture. a cot and rolled bandage identify the wounded soldier tent. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Bera'nın yeminini koru"
-        resultText: "Şifahane Yolu: Keskin Koku kararında hesabı açık tutarsın. Meryem bunu fark eder ve şifacı güveninin ve zehir bilgisinin dengesi senin lehine bir çizik alır."
+        resultText: "Şifahane Yolu: Keskin Koku sırasında \"Bera'nın yeminini koru\" yolunu seçersin. Bu hamle zehir bilgisini derinleştirir ve şifacı güvenini güçlendirir."
         healthDelta: 0
         setFlags:
           - "flag_antidote_shared"
@@ -1714,8 +1985,13 @@ cards:
         nextCardId: "smm_card_149"
       -
         choiceId: "smm_card_148_b"
+        choiceImageId: "choice_smm_card_148_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron slips a rolled bandage and herb bundle into the apron pocket with wide nervous eyes and curled fingers. Bera, a tired healer with herb bundles and rolled bandages reacts nearby with one simple readable gesture. a cot and rolled bandage identify the wounded soldier tent. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Bera'nın defterini kopyala"
-        resultText: "Şifahane Yolu: Keskin Koku kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde şifacı güveninin ve zehir bilgisinin için daha keskin bir kayıt açılır."
+        resultText: "Şifahane Yolu: Keskin Koku sırasında \"Bera'nın defterini kopyala\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve zehir bilgisini belirgin biçimde derinleştirir."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"
@@ -1749,7 +2025,9 @@ cards:
     bodyText: "Şifa yolu seni merhamet ile devlet sırrı arasında bırakır. Şifahane Yolu: Mühre Giden İz anında Hükümdar Azem, Simin'in bilgisiyle Bera'nın yemini arasında köprü kurmanı bekler. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, şifacı güveninin ve zehir bilgisinin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_yeralti_sarnici"
     focusImageId: "focus_smm_149_healer_path"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Şifahane Yolu: Mühre Giden İz scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Hükümdar Azem, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron traces a red wax footprint with a clear active pose, oversized hands, and a simple expressive face. Azem, an aging ruler with a tired crown and heavy robe watches close by with one simple reaction gesture. a cistern arch and still water identify the underground cistern. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "hukumdar_azem"
@@ -1761,8 +2039,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_149_a"
+        choiceImageId: "choice_smm_card_149_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron measures a big wooden measuring spoon carefully over a bowl with pursed lips and one steady raised hand. Azem, an aging ruler with a tired crown and heavy robe reacts nearby with one simple readable gesture. a cistern arch and still water identify the underground cistern. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Otları doğru dozda karıştır"
-        resultText: "Şifahane Yolu: Mühre Giden İz kararında hesabı açık tutarsın. Hükümdar Azem bunu fark eder ve şifacı güveninin ve zehir bilgisinin dengesi senin lehine bir çizik alır."
+        resultText: "Şifahane Yolu: Mühre Giden İz sırasında \"Otları doğru dozda karıştır\" yolunu seçersin. Bu hamle zehir bilgisini derinleştirir ve şifacı güvenini güçlendirir."
         healthDelta: 0
         setFlags:
           - "flag_antidote_shared"
@@ -1788,8 +2071,13 @@ cards:
         nextCardId: "smm_card_150"
       -
         choiceId: "smm_card_149_b"
+        choiceImageId: "choice_smm_card_149_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron measures a big wooden measuring spoon carefully over a bowl with pursed lips and one steady raised hand. Azem, an aging ruler with a tired crown and heavy robe reacts nearby with one simple readable gesture. a cistern arch and still water identify the underground cistern. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Dozu cesurca artır"
-        resultText: "Şifahane Yolu: Mühre Giden İz kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde şifacı güveninin ve zehir bilgisinin için daha keskin bir kayıt açılır."
+        resultText: "Şifahane Yolu: Mühre Giden İz sırasında \"Dozu cesurca artır\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve zehir bilgisini belirgin biçimde derinleştirir."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"
@@ -1823,7 +2111,9 @@ cards:
     bodyText: "Şifa yolu seni merhamet ile devlet sırrı arasında bırakır. Şifahane Yolu: Dar Boğaz anında Hekim Bera, iyileştirilen kişinin ileride kimi koruyacağını hesaplatır. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, şifacı güveninin ve zehir bilgisinin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_halk_ekmek_kuyrugu"
     focusImageId: "focus_smm_150_healer_path"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Şifahane Yolu: Dar Boğaz scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Hekim Bera, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron squeezes through a narrow doorway with a bundle with a clear active pose, oversized hands, and a simple expressive face. Bera, a tired healer with herb bundles and rolled bandages watches close by with one simple reaction gesture. a bread basket and palace wall identify the public bread line. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "bera_hekim"
@@ -1835,8 +2125,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_150_a"
+        choiceImageId: "choice_smm_card_150_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron carries a rolled bandage and herb bundle toward an exit with hunched shoulders and fast stepping feet. Bera, a tired healer with herb bundles and rolled bandages reacts nearby with one simple readable gesture. a bread basket and palace wall identify the public bread line. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Hastayı saraydan sakince çıkar"
-        resultText: "Şifahane Yolu: Dar Boğaz kararında hesabı açık tutarsın. Hekim Bera bunu fark eder ve şifacı güveninin ve zehir bilgisinin dengesi senin lehine bir çizik alır."
+        resultText: "Şifahane Yolu: Dar Boğaz sırasında \"Hastayı saraydan sakince çıkar\" yolunu seçersin. Bu hamle zehir bilgisini derinleştirir ve şifacı güvenini güçlendirir."
         healthDelta: 0
         setFlags:
           - "flag_antidote_shared"
@@ -1862,8 +2157,13 @@ cards:
         nextCardId: "smm_card_151"
       -
         choiceId: "smm_card_150_b"
+        choiceImageId: "choice_smm_card_150_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a rolled bandage and herb bundle forward with a decisive hand gesture and a clear expressive face. Bera, a tired healer with herb bundles and rolled bandages reacts nearby with one simple readable gesture. a bread basket and palace wall identify the public bread line. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Hastayı isyancılara yönlendir"
-        resultText: "Şifahane Yolu: Dar Boğaz kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde şifacı güveninin ve zehir bilgisinin için daha keskin bir kayıt açılır."
+        resultText: "Şifahane Yolu: Dar Boğaz sırasında \"Hastayı isyancılara yönlendir\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve zehir bilgisini belirgin biçimde derinleştirir."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"

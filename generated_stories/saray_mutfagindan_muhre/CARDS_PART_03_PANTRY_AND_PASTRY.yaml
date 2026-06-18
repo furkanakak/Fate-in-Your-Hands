@@ -9,7 +9,9 @@ cards:
     bodyText: "Kiler serinliği, aç başkentin sıcak öfkesini kısa süreliğine unutturur. Kiler ve Helvahane: İlk Eşik anında Lale Kalfa, senden her lokmanın kaynağını hatırlamanı bekler. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, helvahane itibarının ve dış destek ihtimalinin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_kiler_serin_tas"
     focusImageId: "focus_smm_051_pantry_pastry"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Kiler ve Helvahane: İlk Eşik scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Lale Kalfa, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron steps over a chipped plate threshold with a clear active pose, oversized hands, and a simple expressive face. Lale Kalfa, a proud confectioner with a syrup-stained apron watches close by with one simple reaction gesture. grain sacks and a key rack identify the pantry. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "lale_helvaci"
@@ -21,8 +23,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_051_a"
+        choiceImageId: "choice_smm_card_051_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents an oversized serving cup and sweet tray forward with a decisive hand gesture and a clear expressive face. Lale Kalfa, a proud confectioner with a syrup-stained apron reacts nearby with one simple readable gesture. grain sacks and a key rack identify the pantry. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Yanlış tepsiyi hemen geri çağır"
-        resultText: "Kiler ve Helvahane: İlk Eşik kararında hesabı açık tutarsın. Lale Kalfa bunu fark eder ve helvahane itibarının ve dış destek ihtimalinin dengesi senin lehine bir çizik alır."
+        resultText: "Kiler ve Helvahane: İlk Eşik sırasında \"Yanlış tepsiyi hemen geri çağır\" yolunu seçersin. Bu hamle mutfak güvenini artırır."
         healthDelta: 0
         setFlags:
           - "flag_lale_trust"
@@ -48,8 +55,13 @@ cards:
         nextCardId: "smm_card_052"
       -
         choiceId: "smm_card_051_b"
+        choiceImageId: "choice_smm_card_051_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron slides an oversized serving cup and sweet tray across a low table with a sly sideways glance and one hidden hand. Lale Kalfa, a proud confectioner with a syrup-stained apron reacts nearby with one simple readable gesture. grain sacks and a key rack identify the pantry. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Tatlı hatasını fırsata çevir"
-        resultText: "Kiler ve Helvahane: İlk Eşik kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde helvahane itibarının ve dış destek ihtimalinin için daha keskin bir kayıt açılır."
+        resultText: "Kiler ve Helvahane: İlk Eşik sırasında \"Tatlı hatasını fırsata çevir\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve karaborsa borcunu büyütür."
         healthDelta: 0
         setFlags:
           - "flag_dessert_error_hidden"
@@ -83,7 +95,9 @@ cards:
     bodyText: "Kiler serinliği, aç başkentin sıcak öfkesini kısa süreliğine unutturur. Kiler ve Helvahane: Sıcak Bakır anında Nimet Ana, tatlı bir hatanın acı bir evlilik yemini sayılabileceğini anlatır. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, helvahane itibarının ve dış destek ihtimalinin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_kiler_gizli_raflar"
     focusImageId: "focus_smm_052_pantry_pastry"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Kiler ve Helvahane: Sıcak Bakır scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Nimet Ana, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron lifts a hot copper basin with a clear active pose, oversized hands, and a simple expressive face. Nimet Ana, a watchful pantry keeper with a big key ring watches close by with one simple reaction gesture. grain sacks and a key rack identify the pantry. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "nimet_kilerci"
@@ -95,8 +109,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_052_a"
+        choiceImageId: "choice_smm_card_052_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron hands over an oversized iron key with both oversized hands and a tense polite smile. Nimet Ana, a watchful pantry keeper with a big key ring reacts nearby with one simple readable gesture. grain sacks and a key rack identify the pantry. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Kiler anahtarını Nimet'e teslim et"
-        resultText: "Kiler ve Helvahane: Sıcak Bakır kararında hesabı açık tutarsın. Nimet Ana bunu fark eder ve helvahane itibarının ve dış destek ihtimalinin dengesi senin lehine bir çizik alır."
+        resultText: "Kiler ve Helvahane: Sıcak Bakır sırasında \"Kiler anahtarını Nimet'e teslim et\" yolunu seçersin. Bu hamle mutfak güvenini artırır."
         healthDelta: 0
         setFlags:
           - "flag_lale_trust"
@@ -122,8 +141,13 @@ cards:
         nextCardId: "smm_card_053"
       -
         choiceId: "smm_card_052_b"
+        choiceImageId: "choice_smm_card_052_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron slips an oversized iron key into the apron pocket with wide nervous eyes and curled fingers. Nimet Ana, a watchful pantry keeper with a big key ring reacts nearby with one simple readable gesture. grain sacks and a key rack identify the pantry. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Anahtarın kopyasını gizlice al"
-        resultText: "Kiler ve Helvahane: Sıcak Bakır kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde helvahane itibarının ve dış destek ihtimalinin için daha keskin bir kayıt açılır."
+        resultText: "Kiler ve Helvahane: Sıcak Bakır sırasında \"Anahtarın kopyasını gizlice al\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve karaborsa borcunu büyütür."
         healthDelta: 0
         setFlags:
           - "flag_dessert_error_hidden"
@@ -157,7 +181,9 @@ cards:
     bodyText: "Kiler serinliği, aç başkentin sıcak öfkesini kısa süreliğine unutturur. Kiler ve Helvahane: Sessiz Bakış anında Elçi Mirel, şekerin bile devlet sırrı taşıyabileceğini sezdirir. Yanlış tatlı elçilik geleneğinde evlilik ve ittifak işareti sayıldığı için helvahanedeki hata diplomatik bir kapıya dönüşür. Seçeceğin yol, helvahane itibarının ve dış destek ihtimalinin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_helvahane_gul_kokusu"
     focusImageId: "focus_smm_053_pantry_pastry"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Kiler ve Helvahane: Sessiz Bakış scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Elçi Mirel, Lale Kalfa, a mistaken ornate dessert tray with diplomatic tension, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron points at a suspicious small clue with a clear active pose, oversized hands, and a simple expressive face. Mirel, a foreign envoy with a patterned cloak and small ring watches close by with one simple reaction gesture. a sweet tray and rose syrup jar identify the confectionery room. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "elci_mirel"
@@ -174,8 +200,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_053_a"
+        choiceImageId: "choice_smm_card_053_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron hands over an oversized serving cup and sweet tray with both oversized hands and a tense polite smile. Mirel, a foreign envoy with a patterned cloak and small ring reacts nearby with one simple readable gesture. a sweet tray and rose syrup jar identify the confectionery room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Gül şerbetini usulüne göre sun"
-        resultText: "Kiler ve Helvahane: Sessiz Bakış kararında hesabı açık tutarsın. Elçi Mirel bunu fark eder ve helvahane itibarının ve dış destek ihtimalinin dengesi senin lehine bir çizik alır."
+        resultText: "Kiler ve Helvahane: Sessiz Bakış sırasında \"Gül şerbetini usulüne göre sun\" yolunu seçersin. Bu hamle mutfak güvenini artırır ve tatlı diplomasisini canlandırır."
         healthDelta: 0
         setFlags:
           - "flag_lale_trust"
@@ -201,8 +232,13 @@ cards:
         nextCardId: "smm_card_054"
       -
         choiceId: "smm_card_053_b"
+        choiceImageId: "choice_smm_card_053_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron hands over an oversized serving cup and sweet tray with both oversized hands and a tense polite smile. Mirel, a foreign envoy with a patterned cloak and small ring reacts nearby with one simple readable gesture. a sweet tray and rose syrup jar identify the confectionery room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Şerbeti varis adına yolla"
-        resultText: "Kiler ve Helvahane: Sessiz Bakış kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde helvahane itibarının ve dış destek ihtimalinin için daha keskin bir kayıt açılır."
+        resultText: "Kiler ve Helvahane: Sessiz Bakış sırasında \"Şerbeti varis adına yolla\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir, karaborsa borcunu büyütür ve tatlı diplomasisini belirgin biçimde canlandırır."
         healthDelta: 0
         setFlags:
           - "flag_dessert_error_hidden"
@@ -236,7 +272,9 @@ cards:
     bodyText: "Kiler serinliği, aç başkentin sıcak öfkesini kısa süreliğine unutturur. Kiler ve Helvahane: İnce Hesap anında Miskal, kilerdeki eksiklerin aç halktan mı hırsız memurlardan mı geldiğini sorar. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, helvahane itibarının ve dış destek ihtimalinin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_helvahane_gece"
     focusImageId: "focus_smm_054_pantry_pastry"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Kiler ve Helvahane: İnce Hesap scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Miskal, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron counts three chunky tally stones with a clear active pose, oversized hands, and a simple expressive face. Miskal, a narrow-eyed palace jester with a crooked half-smile watches close by with one simple reaction gesture. a sweet tray and rose syrup jar identify the confectionery room. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "miskal_soytari"
@@ -248,8 +286,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_054_a"
+        choiceImageId: "choice_smm_card_054_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron opens a large readable story prop with a decisive pull and bright alert eyes. Lale Kalfa, a proud confectioner with a syrup-stained apron reacts nearby with one simple readable gesture. a sweet tray and rose syrup jar identify the confectionery room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Lale Kalfa'yı açıkça savun"
-        resultText: "Kiler ve Helvahane: İnce Hesap kararında hesabı açık tutarsın. Miskal bunu fark eder ve helvahane itibarının ve dış destek ihtimalinin dengesi senin lehine bir çizik alır."
+        resultText: "Kiler ve Helvahane: İnce Hesap sırasında \"Lale Kalfa'yı açıkça savun\" yolunu seçersin. Bu hamle mutfak güvenini artırır."
         healthDelta: 0
         setFlags:
           - "flag_lale_trust"
@@ -275,8 +318,13 @@ cards:
         nextCardId: "smm_card_055"
       -
         choiceId: "smm_card_054_b"
+        choiceImageId: "choice_smm_card_054_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron points sharply at a stained cracked plate while glancing away with a guilty crooked mouth. Miskal, a narrow-eyed palace jester with a crooked half-smile reacts nearby with one simple readable gesture. a sweet tray and rose syrup jar identify the confectionery room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Suçu suskun çırağa yükle"
-        resultText: "Kiler ve Helvahane: İnce Hesap kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde helvahane itibarının ve dış destek ihtimalinin için daha keskin bir kayıt açılır."
+        resultText: "Kiler ve Helvahane: İnce Hesap sırasında \"Suçu suskun çırağa yükle\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve karaborsa borcunu büyütür. Canın 1 azalır."
         healthDelta: -1
         setFlags:
           - "flag_dessert_error_hidden"
@@ -310,7 +358,9 @@ cards:
     bodyText: "Kiler serinliği, aç başkentin sıcak öfkesini kısa süreliğine unutturur. Kiler ve Helvahane: Gizli Lekeler anında Lale Kalfa, seni elçinin bakışıyla varislerin hesabı arasına sıkıştırır. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, helvahane itibarının ve dış destek ihtimalinin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_elcilik_salonu"
     focusImageId: "focus_smm_055_pantry_pastry"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Kiler ve Helvahane: Gizli Lekeler scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Lale Kalfa, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron scrubs a dark stain on a plate with a clear active pose, oversized hands, and a simple expressive face. Lale Kalfa, a proud confectioner with a syrup-stained apron watches close by with one simple reaction gesture. foreign textiles and a serving tray identify the embassy room. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "lale_helvaci"
@@ -322,8 +372,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_055_a"
+        choiceImageId: "choice_smm_card_055_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron points at a simple alliance token and small ring with a clear explaining gesture and raised eyebrows. Mirel, a foreign envoy with a patterned cloak and small ring reacts nearby with one simple readable gesture. foreign textiles and a serving tray identify the embassy room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Elçiye hatayı incelikle anlat"
-        resultText: "Kiler ve Helvahane: Gizli Lekeler kararında hesabı açık tutarsın. Lale Kalfa bunu fark eder ve helvahane itibarının ve dış destek ihtimalinin dengesi senin lehine bir çizik alır."
+        resultText: "Kiler ve Helvahane: Gizli Lekeler sırasında \"Elçiye hatayı incelikle anlat\" yolunu seçersin. Bu hamle mutfak güvenini artırır."
         healthDelta: 0
         setFlags:
           - "flag_lale_trust"
@@ -349,8 +404,13 @@ cards:
         nextCardId: "smm_card_056"
       -
         choiceId: "smm_card_055_b"
+        choiceImageId: "choice_smm_card_055_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron accepts a simple alliance token and small ring with one hesitant hand and a cautious sideways glance. Mirel, a foreign envoy with a patterned cloak and small ring reacts nearby with one simple readable gesture. foreign textiles and a serving tray identify the embassy room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Elçinin yüzüğünü kabul et"
-        resultText: "Kiler ve Helvahane: Gizli Lekeler kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde helvahane itibarının ve dış destek ihtimalinin için daha keskin bir kayıt açılır."
+        resultText: "Kiler ve Helvahane: Gizli Lekeler sırasında \"Elçinin yüzüğünü kabul et\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve karaborsa borcunu büyütür."
         healthDelta: 0
         setFlags:
           - "flag_dessert_error_hidden"
@@ -384,7 +444,9 @@ cards:
     bodyText: "Helvahanede şekerin kokusu, sarayın en tatlı yalanlarını saklar. Kiler ve Helvahane: Kör Alev anında Nimet Ana, senden her lokmanın kaynağını hatırlamanı bekler. Yanlış tatlı elçilik geleneğinde evlilik ve ittifak işareti sayıldığı için helvahanedeki hata diplomatik bir kapıya dönüşür. Seçeceğin yol, helvahane itibarının ve dış destek ihtimalinin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_buzlu_kiler_odasi"
     focusImageId: "focus_smm_056_pantry_pastry"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Kiler ve Helvahane: Kör Alev scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Nimet Ana, Lale Kalfa, a mistaken ornate dessert tray with diplomatic tension, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron shields a weak kitchen flame with a clear active pose, oversized hands, and a simple expressive face. Nimet Ana, a watchful pantry keeper with a big key ring watches close by with one simple reaction gesture. grain sacks and a key rack identify the pantry. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "nimet_kilerci"
@@ -402,8 +464,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_056_a"
+        choiceImageId: "choice_smm_card_056_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents an oversized serving cup and sweet tray forward with a decisive hand gesture and a clear expressive face. Nimet Ana, a watchful pantry keeper with a big key ring reacts nearby with one simple readable gesture. grain sacks and a key rack identify the pantry. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Yanlış tepsiyi hemen geri çağır"
-        resultText: "Kiler ve Helvahane: Kör Alev kararında hesabı açık tutarsın. Nimet Ana bunu fark eder ve helvahane itibarının ve dış destek ihtimalinin dengesi senin lehine bir çizik alır."
+        resultText: "Kiler ve Helvahane: Kör Alev sırasında \"Yanlış tepsiyi hemen geri çağır\" yolunu seçersin. Bu hamle mutfak güvenini artırır, saray kuşkusunu yatıştırır ve tatlı diplomasisini canlandırır."
         healthDelta: 0
         setFlags:
           - "flag_lale_trust"
@@ -430,8 +497,13 @@ cards:
         nextCardId: "smm_card_057"
       -
         choiceId: "smm_card_056_b"
+        choiceImageId: "choice_smm_card_056_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron slides an oversized serving cup and sweet tray across a low table with a sly sideways glance and one hidden hand. Nimet Ana, a watchful pantry keeper with a big key ring reacts nearby with one simple readable gesture. grain sacks and a key rack identify the pantry. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Tatlı hatasını fırsata çevir"
-        resultText: "Kiler ve Helvahane: Kör Alev kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde helvahane itibarının ve dış destek ihtimalinin için daha keskin bir kayıt açılır."
+        resultText: "Kiler ve Helvahane: Kör Alev sırasında \"Tatlı hatasını fırsata çevir\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir, karaborsa borcunu büyütür ve tatlı diplomasisini belirgin biçimde canlandırır."
         healthDelta: 0
         setFlags:
           - "flag_dessert_error_hidden"
@@ -466,7 +538,9 @@ cards:
     bodyText: "Helvahanede şekerin kokusu, sarayın en tatlı yalanlarını saklar. Kiler ve Helvahane: Üç Nohut anında Elçi Mirel, tatlı bir hatanın acı bir evlilik yemini sayılabileceğini anlatır. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, helvahane itibarının ve dış destek ihtimalinin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_yabanci_elci_cadiri"
     focusImageId: "focus_smm_057_pantry_pastry"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Kiler ve Helvahane: Üç Nohut scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Elçi Mirel, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron arranges three oversized chickpeas with a clear active pose, oversized hands, and a simple expressive face. Mirel, a foreign envoy with a patterned cloak and small ring watches close by with one simple reaction gesture. a tent cloth and low serving tray identify the foreign envoy tent. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "elci_mirel"
@@ -478,8 +552,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_057_a"
+        choiceImageId: "choice_smm_card_057_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron hands over an oversized iron key with both oversized hands and a tense polite smile. Nimet Ana, a watchful pantry keeper with a big key ring reacts nearby with one simple readable gesture. a tent cloth and low serving tray identify the foreign envoy tent. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Kiler anahtarını Nimet'e teslim et"
-        resultText: "Kiler ve Helvahane: Üç Nohut kararında hesabı açık tutarsın. Elçi Mirel bunu fark eder ve helvahane itibarının ve dış destek ihtimalinin dengesi senin lehine bir çizik alır."
+        resultText: "Kiler ve Helvahane: Üç Nohut sırasında \"Kiler anahtarını Nimet'e teslim et\" yolunu seçersin. Bu hamle mutfak güvenini artırır."
         healthDelta: 0
         setFlags:
           - "flag_lale_trust"
@@ -505,8 +584,13 @@ cards:
         nextCardId: "smm_card_058"
       -
         choiceId: "smm_card_057_b"
+        choiceImageId: "choice_smm_card_057_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron slips an oversized iron key into the apron pocket with wide nervous eyes and curled fingers. Mirel, a foreign envoy with a patterned cloak and small ring reacts nearby with one simple readable gesture. a tent cloth and low serving tray identify the foreign envoy tent. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Anahtarın kopyasını gizlice al"
-        resultText: "Kiler ve Helvahane: Üç Nohut kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde helvahane itibarının ve dış destek ihtimalinin için daha keskin bir kayıt açılır."
+        resultText: "Kiler ve Helvahane: Üç Nohut sırasında \"Anahtarın kopyasını gizlice al\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve karaborsa borcunu büyütür."
         healthDelta: 0
         setFlags:
           - "flag_dessert_error_hidden"
@@ -540,7 +624,9 @@ cards:
     bodyText: "Helvahanede şekerin kokusu, sarayın en tatlı yalanlarını saklar. Kiler ve Helvahane: Kapıdaki Fısıltı anında Miskal, şekerin bile devlet sırrı taşıyabileceğini sezdirir. Ak Gaga'nın avluda yürüdüğü yön, önce komik bir ayrıntı sanılır; Durna ise bunun sarayda hafife alınmayacağını bilir. Seçeceğin yol, helvahane itibarının ve dış destek ihtimalinin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_kiler_serin_tas"
     focusImageId: "focus_smm_058_pantry_pastry"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Kiler ve Helvahane: Kapıdaki Fısıltı scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Miskal, Durna, the dignified palace goose Ak Gaga nearby, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron hides a folded blank note with a clear active pose, oversized hands, and a simple expressive face. Miskal, a narrow-eyed palace jester with a crooked half-smile watches close by with one simple reaction gesture. grain sacks and a key rack identify the pantry. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "miskal_soytari"
@@ -557,8 +643,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_058_a"
+        choiceImageId: "choice_smm_card_058_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron hands over an oversized serving cup and sweet tray with both oversized hands and a tense polite smile. Miskal, a narrow-eyed palace jester with a crooked half-smile reacts nearby with one simple readable gesture. grain sacks and a key rack identify the pantry. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Gül şerbetini usulüne göre sun"
-        resultText: "Kiler ve Helvahane: Kapıdaki Fısıltı kararında hesabı açık tutarsın. Miskal bunu fark eder ve helvahane itibarının ve dış destek ihtimalinin dengesi senin lehine bir çizik alır."
+        resultText: "Kiler ve Helvahane: Kapıdaki Fısıltı sırasında \"Gül şerbetini usulüne göre sun\" yolunu seçersin. Bu hamle mutfak güvenini artırır ve Ak Gaga söylencesini güçlendirir."
         healthDelta: 0
         setFlags:
           - "flag_lale_trust"
@@ -587,8 +678,13 @@ cards:
         nextCardId: "smm_card_059"
       -
         choiceId: "smm_card_058_b"
+        choiceImageId: "choice_smm_card_058_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron hands over an oversized serving cup and sweet tray with both oversized hands and a tense polite smile. Miskal, a narrow-eyed palace jester with a crooked half-smile reacts nearby with one simple readable gesture. grain sacks and a key rack identify the pantry. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Şerbeti varis adına yolla"
-        resultText: "Kiler ve Helvahane: Kapıdaki Fısıltı kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde helvahane itibarının ve dış destek ihtimalinin için daha keskin bir kayıt açılır."
+        resultText: "Kiler ve Helvahane: Kapıdaki Fısıltı sırasında \"Şerbeti varis adına yolla\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir, karaborsa borcunu büyütür ve Ak Gaga söylencesini belirgin biçimde güçlendirir."
         healthDelta: 0
         setFlags:
           - "flag_dessert_error_hidden"
@@ -623,7 +719,9 @@ cards:
     bodyText: "Helvahanede şekerin kokusu, sarayın en tatlı yalanlarını saklar. Kiler ve Helvahane: Aç Karnın Sözü anında Lale Kalfa, kilerdeki eksiklerin aç halktan mı hırsız memurlardan mı geldiğini sorar. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, helvahane itibarının ve dış destek ihtimalinin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_kiler_gizli_raflar"
     focusImageId: "focus_smm_059_pantry_pastry"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Kiler ve Helvahane: Aç Karnın Sözü scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Lale Kalfa, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron offers a small bread piece with a clear active pose, oversized hands, and a simple expressive face. Lale Kalfa, a proud confectioner with a syrup-stained apron watches close by with one simple reaction gesture. grain sacks and a key rack identify the pantry. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "lale_helvaci"
@@ -635,8 +733,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_059_a"
+        choiceImageId: "choice_smm_card_059_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron opens a large readable story prop with a decisive pull and bright alert eyes. Lale Kalfa, a proud confectioner with a syrup-stained apron reacts nearby with one simple readable gesture. grain sacks and a key rack identify the pantry. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Lale Kalfa'yı açıkça savun"
-        resultText: "Kiler ve Helvahane: Aç Karnın Sözü kararında hesabı açık tutarsın. Lale Kalfa bunu fark eder ve helvahane itibarının ve dış destek ihtimalinin dengesi senin lehine bir çizik alır."
+        resultText: "Kiler ve Helvahane: Aç Karnın Sözü sırasında \"Lale Kalfa'yı açıkça savun\" yolunu seçersin. Bu hamle mutfak güvenini artırır."
         healthDelta: 0
         setFlags:
           - "flag_lale_trust"
@@ -662,8 +765,13 @@ cards:
         nextCardId: "smm_card_060"
       -
         choiceId: "smm_card_059_b"
+        choiceImageId: "choice_smm_card_059_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron points sharply at a stained cracked plate while glancing away with a guilty crooked mouth. Lale Kalfa, a proud confectioner with a syrup-stained apron reacts nearby with one simple readable gesture. grain sacks and a key rack identify the pantry. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Suçu suskun çırağa yükle"
-        resultText: "Kiler ve Helvahane: Aç Karnın Sözü kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde helvahane itibarının ve dış destek ihtimalinin için daha keskin bir kayıt açılır."
+        resultText: "Kiler ve Helvahane: Aç Karnın Sözü sırasında \"Suçu suskun çırağa yükle\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve karaborsa borcunu büyütür."
         healthDelta: 0
         setFlags:
           - "flag_dessert_error_hidden"
@@ -697,7 +805,9 @@ cards:
     bodyText: "Helvahanede şekerin kokusu, sarayın en tatlı yalanlarını saklar. Kiler ve Helvahane: Ustanın Sınavı anında Nimet Ana, seni elçinin bakışıyla varislerin hesabı arasına sıkıştırır. Yanlış tatlı elçilik geleneğinde evlilik ve ittifak işareti sayıldığı için helvahanedeki hata diplomatik bir kapıya dönüşür. Seçeceğin yol, helvahane itibarının ve dış destek ihtimalinin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_helvahane_gul_kokusu"
     focusImageId: "focus_smm_060_pantry_pastry"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Kiler ve Helvahane: Ustanın Sınavı scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Nimet Ana, Lale Kalfa, a mistaken ornate dessert tray with diplomatic tension, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron measures a spoonful of spice with a clear active pose, oversized hands, and a simple expressive face. Nimet Ana, a watchful pantry keeper with a big key ring watches close by with one simple reaction gesture. a sweet tray and rose syrup jar identify the confectionery room. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "nimet_kilerci"
@@ -715,8 +825,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_060_a"
+        choiceImageId: "choice_smm_card_060_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron points at a simple alliance token and small ring with a clear explaining gesture and raised eyebrows. Mirel, a foreign envoy with a patterned cloak and small ring reacts nearby with one simple readable gesture. a sweet tray and rose syrup jar identify the confectionery room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Elçiye hatayı incelikle anlat"
-        resultText: "Kiler ve Helvahane: Ustanın Sınavı kararında hesabı açık tutarsın. Nimet Ana bunu fark eder ve helvahane itibarının ve dış destek ihtimalinin dengesi senin lehine bir çizik alır."
+        resultText: "Kiler ve Helvahane: Ustanın Sınavı sırasında \"Elçiye hatayı incelikle anlat\" yolunu seçersin. Bu hamle mutfak güvenini artırır ve tatlı diplomasisini canlandırır."
         healthDelta: 0
         setFlags:
           - "flag_lale_trust"
@@ -742,8 +857,13 @@ cards:
         nextCardId: "smm_card_061"
       -
         choiceId: "smm_card_060_b"
+        choiceImageId: "choice_smm_card_060_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron accepts a simple alliance token and small ring with one hesitant hand and a cautious sideways glance. Mirel, a foreign envoy with a patterned cloak and small ring reacts nearby with one simple readable gesture. a sweet tray and rose syrup jar identify the confectionery room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Elçinin yüzüğünü kabul et"
-        resultText: "Kiler ve Helvahane: Ustanın Sınavı kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde helvahane itibarının ve dış destek ihtimalinin için daha keskin bir kayıt açılır."
+        resultText: "Kiler ve Helvahane: Ustanın Sınavı sırasında \"Elçinin yüzüğünü kabul et\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir, karaborsa borcunu büyütür ve tatlı diplomasisini belirgin biçimde canlandırır."
         healthDelta: 0
         setFlags:
           - "flag_dessert_error_hidden"
@@ -777,7 +897,9 @@ cards:
     bodyText: "Bir tepsi yanlış yere gittiğinde, diplomasi kapıları beklenmedik biçimde açılır. Kiler ve Helvahane: Kazanın Gölgesi anında Elçi Mirel, senden her lokmanın kaynağını hatırlamanı bekler. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, helvahane itibarının ve dış destek ihtimalinin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_helvahane_gece"
     focusImageId: "focus_smm_061_pantry_pastry"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Kiler ve Helvahane: Kazanın Gölgesi scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Elçi Mirel, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron stirs a round copper cauldron with a clear active pose, oversized hands, and a simple expressive face. Mirel, a foreign envoy with a patterned cloak and small ring watches close by with one simple reaction gesture. a sweet tray and rose syrup jar identify the confectionery room. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "elci_mirel"
@@ -789,8 +911,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_061_a"
+        choiceImageId: "choice_smm_card_061_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents an oversized serving cup and sweet tray forward with a decisive hand gesture and a clear expressive face. Mirel, a foreign envoy with a patterned cloak and small ring reacts nearby with one simple readable gesture. a sweet tray and rose syrup jar identify the confectionery room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Yanlış tepsiyi hemen geri çağır"
-        resultText: "Kiler ve Helvahane: Kazanın Gölgesi kararında hesabı açık tutarsın. Elçi Mirel bunu fark eder ve helvahane itibarının ve dış destek ihtimalinin dengesi senin lehine bir çizik alır."
+        resultText: "Kiler ve Helvahane: Kazanın Gölgesi sırasında \"Yanlış tepsiyi hemen geri çağır\" yolunu seçersin. Bu hamle mutfak güvenini artırır."
         healthDelta: 0
         setFlags:
           - "flag_lale_trust"
@@ -816,8 +943,13 @@ cards:
         nextCardId: "smm_card_062"
       -
         choiceId: "smm_card_061_b"
+        choiceImageId: "choice_smm_card_061_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron slides an oversized serving cup and sweet tray across a low table with a sly sideways glance and one hidden hand. Mirel, a foreign envoy with a patterned cloak and small ring reacts nearby with one simple readable gesture. a sweet tray and rose syrup jar identify the confectionery room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Tatlı hatasını fırsata çevir"
-        resultText: "Kiler ve Helvahane: Kazanın Gölgesi kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde helvahane itibarının ve dış destek ihtimalinin için daha keskin bir kayıt açılır."
+        resultText: "Kiler ve Helvahane: Kazanın Gölgesi sırasında \"Tatlı hatasını fırsata çevir\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve karaborsa borcunu büyütür."
         healthDelta: 0
         setFlags:
           - "flag_dessert_error_hidden"
@@ -851,7 +983,9 @@ cards:
     bodyText: "Bir tepsi yanlış yere gittiğinde, diplomasi kapıları beklenmedik biçimde açılır. Kiler ve Helvahane: Tuz ve Yemin anında Miskal, tatlı bir hatanın acı bir evlilik yemini sayılabileceğini anlatır. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, helvahane itibarının ve dış destek ihtimalinin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_elcilik_salonu"
     focusImageId: "focus_smm_062_pantry_pastry"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Kiler ve Helvahane: Tuz ve Yemin scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Miskal, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron sprinkles a pinch of salt with a clear active pose, oversized hands, and a simple expressive face. Miskal, a narrow-eyed palace jester with a crooked half-smile watches close by with one simple reaction gesture. foreign textiles and a serving tray identify the embassy room. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "miskal_soytari"
@@ -863,8 +997,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_062_a"
+        choiceImageId: "choice_smm_card_062_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron hands over an oversized iron key with both oversized hands and a tense polite smile. Nimet Ana, a watchful pantry keeper with a big key ring reacts nearby with one simple readable gesture. foreign textiles and a serving tray identify the embassy room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Kiler anahtarını Nimet'e teslim et"
-        resultText: "Kiler ve Helvahane: Tuz ve Yemin kararında hesabı açık tutarsın. Miskal bunu fark eder ve helvahane itibarının ve dış destek ihtimalinin dengesi senin lehine bir çizik alır."
+        resultText: "Kiler ve Helvahane: Tuz ve Yemin sırasında \"Kiler anahtarını Nimet'e teslim et\" yolunu seçersin. Bu hamle mutfak güvenini artırır."
         healthDelta: 0
         setFlags:
           - "flag_lale_trust"
@@ -890,8 +1029,13 @@ cards:
         nextCardId: "smm_card_063"
       -
         choiceId: "smm_card_062_b"
+        choiceImageId: "choice_smm_card_062_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron slips an oversized iron key into the apron pocket with wide nervous eyes and curled fingers. Miskal, a narrow-eyed palace jester with a crooked half-smile reacts nearby with one simple readable gesture. foreign textiles and a serving tray identify the embassy room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Anahtarın kopyasını gizlice al"
-        resultText: "Kiler ve Helvahane: Tuz ve Yemin kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde helvahane itibarının ve dış destek ihtimalinin için daha keskin bir kayıt açılır."
+        resultText: "Kiler ve Helvahane: Tuz ve Yemin sırasında \"Anahtarın kopyasını gizlice al\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve karaborsa borcunu büyütür."
         healthDelta: 0
         setFlags:
           - "flag_dessert_error_hidden"
@@ -925,7 +1069,9 @@ cards:
     bodyText: "Bir tepsi yanlış yere gittiğinde, diplomasi kapıları beklenmedik biçimde açılır. Kiler ve Helvahane: Kırık Tabak anında Lale Kalfa, şekerin bile devlet sırrı taşıyabileceğini sezdirir. Yanlış tatlı elçilik geleneğinde evlilik ve ittifak işareti sayıldığı için helvahanedeki hata diplomatik bir kapıya dönüşür. Seçeceğin yol, helvahane itibarının ve dış destek ihtimalinin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_buzlu_kiler_odasi"
     focusImageId: "focus_smm_063_pantry_pastry"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Kiler ve Helvahane: Kırık Tabak scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Lale Kalfa, Elçi Mirel, a mistaken ornate dessert tray with diplomatic tension, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron raises a cracked plate with a clear active pose, oversized hands, and a simple expressive face. Lale Kalfa, a proud confectioner with a syrup-stained apron watches close by with one simple reaction gesture. grain sacks and a key rack identify the pantry. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "lale_helvaci"
@@ -942,8 +1088,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_063_a"
+        choiceImageId: "choice_smm_card_063_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron hands over an oversized serving cup and sweet tray with both oversized hands and a tense polite smile. Lale Kalfa, a proud confectioner with a syrup-stained apron reacts nearby with one simple readable gesture. grain sacks and a key rack identify the pantry. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Gül şerbetini usulüne göre sun"
-        resultText: "Kiler ve Helvahane: Kırık Tabak kararında hesabı açık tutarsın. Lale Kalfa bunu fark eder ve helvahane itibarının ve dış destek ihtimalinin dengesi senin lehine bir çizik alır."
+        resultText: "Kiler ve Helvahane: Kırık Tabak sırasında \"Gül şerbetini usulüne göre sun\" yolunu seçersin. Bu hamle mutfak güvenini artırır, saray kuşkusunu yatıştırır ve tatlı diplomasisini canlandırır."
         healthDelta: 0
         setFlags:
           - "flag_lale_trust"
@@ -969,8 +1120,13 @@ cards:
         nextCardId: "smm_card_064"
       -
         choiceId: "smm_card_063_b"
+        choiceImageId: "choice_smm_card_063_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron hands over an oversized serving cup and sweet tray with both oversized hands and a tense polite smile. Lale Kalfa, a proud confectioner with a syrup-stained apron reacts nearby with one simple readable gesture. grain sacks and a key rack identify the pantry. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Şerbeti varis adına yolla"
-        resultText: "Kiler ve Helvahane: Kırık Tabak kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde helvahane itibarının ve dış destek ihtimalinin için daha keskin bir kayıt açılır."
+        resultText: "Kiler ve Helvahane: Kırık Tabak sırasında \"Şerbeti varis adına yolla\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir, karaborsa borcunu büyütür ve tatlı diplomasisini belirgin biçimde canlandırır. Canın 1 azalır."
         healthDelta: -1
         setFlags:
           - "flag_dessert_error_hidden"
@@ -1004,7 +1160,9 @@ cards:
     bodyText: "Bir tepsi yanlış yere gittiğinde, diplomasi kapıları beklenmedik biçimde açılır. Kiler ve Helvahane: Mum Işığı anında Nimet Ana, kilerdeki eksiklerin aç halktan mı hırsız memurlardan mı geldiğini sorar. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, helvahane itibarının ve dış destek ihtimalinin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_yabanci_elci_cadiri"
     focusImageId: "focus_smm_064_pantry_pastry"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Kiler ve Helvahane: Mum Işığı scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Nimet Ana, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron holds a stubby candle with a clear active pose, oversized hands, and a simple expressive face. Nimet Ana, a watchful pantry keeper with a big key ring watches close by with one simple reaction gesture. a tent cloth and low serving tray identify the foreign envoy tent. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "nimet_kilerci"
@@ -1016,8 +1174,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_064_a"
+        choiceImageId: "choice_smm_card_064_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron opens a large readable story prop with a decisive pull and bright alert eyes. Lale Kalfa, a proud confectioner with a syrup-stained apron reacts nearby with one simple readable gesture. a tent cloth and low serving tray identify the foreign envoy tent. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Lale Kalfa'yı açıkça savun"
-        resultText: "Kiler ve Helvahane: Mum Işığı kararında hesabı açık tutarsın. Nimet Ana bunu fark eder ve helvahane itibarının ve dış destek ihtimalinin dengesi senin lehine bir çizik alır."
+        resultText: "Kiler ve Helvahane: Mum Işığı sırasında \"Lale Kalfa'yı açıkça savun\" yolunu seçersin. Bu hamle mutfak güvenini artırır."
         healthDelta: 0
         setFlags:
           - "flag_lale_trust"
@@ -1044,8 +1207,13 @@ cards:
         nextCardId: "smm_card_065"
       -
         choiceId: "smm_card_064_b"
+        choiceImageId: "choice_smm_card_064_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron points sharply at a stained cracked plate while glancing away with a guilty crooked mouth. Nimet Ana, a watchful pantry keeper with a big key ring reacts nearby with one simple readable gesture. a tent cloth and low serving tray identify the foreign envoy tent. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Suçu suskun çırağa yükle"
-        resultText: "Kiler ve Helvahane: Mum Işığı kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde helvahane itibarının ve dış destek ihtimalinin için daha keskin bir kayıt açılır."
+        resultText: "Kiler ve Helvahane: Mum Işığı sırasında \"Suçu suskun çırağa yükle\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve karaborsa borcunu büyütür."
         healthDelta: 0
         setFlags:
           - "flag_dessert_error_hidden"
@@ -1080,7 +1248,9 @@ cards:
     bodyText: "Bir tepsi yanlış yere gittiğinde, diplomasi kapıları beklenmedik biçimde açılır. Kiler ve Helvahane: Gece Nöbeti anında Elçi Mirel, seni elçinin bakışıyla varislerin hesabı arasına sıkıştırır. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, helvahane itibarının ve dış destek ihtimalinin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_kiler_serin_tas"
     focusImageId: "focus_smm_065_pantry_pastry"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Kiler ve Helvahane: Gece Nöbeti scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Elçi Mirel, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron guards a small tray with a clear active pose, oversized hands, and a simple expressive face. Mirel, a foreign envoy with a patterned cloak and small ring watches close by with one simple reaction gesture. grain sacks and a key rack identify the pantry. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "elci_mirel"
@@ -1092,8 +1262,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_065_a"
+        choiceImageId: "choice_smm_card_065_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron points at a simple alliance token and small ring with a clear explaining gesture and raised eyebrows. Mirel, a foreign envoy with a patterned cloak and small ring reacts nearby with one simple readable gesture. grain sacks and a key rack identify the pantry. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Elçiye hatayı incelikle anlat"
-        resultText: "Kiler ve Helvahane: Gece Nöbeti kararında hesabı açık tutarsın. Elçi Mirel bunu fark eder ve helvahane itibarının ve dış destek ihtimalinin dengesi senin lehine bir çizik alır."
+        resultText: "Kiler ve Helvahane: Gece Nöbeti sırasında \"Elçiye hatayı incelikle anlat\" yolunu seçersin. Bu hamle mutfak güvenini artırır."
         healthDelta: 0
         setFlags:
           - "flag_lale_trust"
@@ -1119,8 +1294,13 @@ cards:
         nextCardId: "smm_card_066"
       -
         choiceId: "smm_card_065_b"
+        choiceImageId: "choice_smm_card_065_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron accepts a simple alliance token and small ring with one hesitant hand and a cautious sideways glance. Mirel, a foreign envoy with a patterned cloak and small ring reacts nearby with one simple readable gesture. grain sacks and a key rack identify the pantry. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Elçinin yüzüğünü kabul et"
-        resultText: "Kiler ve Helvahane: Gece Nöbeti kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde helvahane itibarının ve dış destek ihtimalinin için daha keskin bir kayıt açılır."
+        resultText: "Kiler ve Helvahane: Gece Nöbeti sırasında \"Elçinin yüzüğünü kabul et\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve karaborsa borcunu büyütür."
         healthDelta: 0
         setFlags:
           - "flag_dessert_error_hidden"
@@ -1154,7 +1334,9 @@ cards:
     bodyText: "Nimet Ana'nın anahtarları yalnız rafları değil, insanların zaaflarını da kilitler. Kiler ve Helvahane: Kilitli Raf anında Miskal, senden her lokmanın kaynağını hatırlamanı bekler. Yanlış tatlı elçilik geleneğinde evlilik ve ittifak işareti sayıldığı için helvahanedeki hata diplomatik bir kapıya dönüşür. Seçeceğin yol, helvahane itibarının ve dış destek ihtimalinin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_kiler_gizli_raflar"
     focusImageId: "focus_smm_066_pantry_pastry"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Kiler ve Helvahane: Kilitli Raf scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Miskal, Lale Kalfa, a mistaken ornate dessert tray with diplomatic tension, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron reaches toward a locked shelf key with a clear active pose, oversized hands, and a simple expressive face. Miskal, a narrow-eyed palace jester with a crooked half-smile watches close by with one simple reaction gesture. grain sacks and a key rack identify the pantry. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "miskal_soytari"
@@ -1172,8 +1354,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_066_a"
+        choiceImageId: "choice_smm_card_066_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents an oversized serving cup and sweet tray forward with a decisive hand gesture and a clear expressive face. Miskal, a narrow-eyed palace jester with a crooked half-smile reacts nearby with one simple readable gesture. grain sacks and a key rack identify the pantry. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Yanlış tepsiyi hemen geri çağır"
-        resultText: "Kiler ve Helvahane: Kilitli Raf kararında hesabı açık tutarsın. Miskal bunu fark eder ve helvahane itibarının ve dış destek ihtimalinin dengesi senin lehine bir çizik alır."
+        resultText: "Kiler ve Helvahane: Kilitli Raf sırasında \"Yanlış tepsiyi hemen geri çağır\" yolunu seçersin. Bu hamle mutfak güvenini artırır ve tatlı diplomasisini canlandırır."
         healthDelta: 0
         setFlags:
           - "flag_lale_trust"
@@ -1199,8 +1386,13 @@ cards:
         nextCardId: "smm_card_067"
       -
         choiceId: "smm_card_066_b"
+        choiceImageId: "choice_smm_card_066_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron slides an oversized serving cup and sweet tray across a low table with a sly sideways glance and one hidden hand. Miskal, a narrow-eyed palace jester with a crooked half-smile reacts nearby with one simple readable gesture. grain sacks and a key rack identify the pantry. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Tatlı hatasını fırsata çevir"
-        resultText: "Kiler ve Helvahane: Kilitli Raf kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde helvahane itibarının ve dış destek ihtimalinin için daha keskin bir kayıt açılır."
+        resultText: "Kiler ve Helvahane: Kilitli Raf sırasında \"Tatlı hatasını fırsata çevir\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir, karaborsa borcunu büyütür ve tatlı diplomasisini belirgin biçimde canlandırır."
         healthDelta: 0
         setFlags:
           - "flag_dessert_error_hidden"
@@ -1234,7 +1426,9 @@ cards:
     bodyText: "Nimet Ana'nın anahtarları yalnız rafları değil, insanların zaaflarını da kilitler. Kiler ve Helvahane: Sarayın Kulağı anında Lale Kalfa, tatlı bir hatanın acı bir evlilik yemini sayılabileceğini anlatır. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, helvahane itibarının ve dış destek ihtimalinin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_helvahane_gul_kokusu"
     focusImageId: "focus_smm_067_pantry_pastry"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Kiler ve Helvahane: Sarayın Kulağı scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Lale Kalfa, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron listens beside a half-open door with a clear active pose, oversized hands, and a simple expressive face. Lale Kalfa, a proud confectioner with a syrup-stained apron watches close by with one simple reaction gesture. a sweet tray and rose syrup jar identify the confectionery room. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "lale_helvaci"
@@ -1246,8 +1440,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_067_a"
+        choiceImageId: "choice_smm_card_067_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron hands over an oversized iron key with both oversized hands and a tense polite smile. Nimet Ana, a watchful pantry keeper with a big key ring reacts nearby with one simple readable gesture. a sweet tray and rose syrup jar identify the confectionery room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Kiler anahtarını Nimet'e teslim et"
-        resultText: "Kiler ve Helvahane: Sarayın Kulağı kararında hesabı açık tutarsın. Lale Kalfa bunu fark eder ve helvahane itibarının ve dış destek ihtimalinin dengesi senin lehine bir çizik alır."
+        resultText: "Kiler ve Helvahane: Sarayın Kulağı sırasında \"Kiler anahtarını Nimet'e teslim et\" yolunu seçersin. Bu hamle mutfak güvenini artırır."
         healthDelta: 0
         setFlags:
           - "flag_lale_trust"
@@ -1273,8 +1472,13 @@ cards:
         nextCardId: "smm_card_068"
       -
         choiceId: "smm_card_067_b"
+        choiceImageId: "choice_smm_card_067_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron slips an oversized iron key into the apron pocket with wide nervous eyes and curled fingers. Lale Kalfa, a proud confectioner with a syrup-stained apron reacts nearby with one simple readable gesture. a sweet tray and rose syrup jar identify the confectionery room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Anahtarın kopyasını gizlice al"
-        resultText: "Kiler ve Helvahane: Sarayın Kulağı kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde helvahane itibarının ve dış destek ihtimalinin için daha keskin bir kayıt açılır."
+        resultText: "Kiler ve Helvahane: Sarayın Kulağı sırasında \"Anahtarın kopyasını gizlice al\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve karaborsa borcunu büyütür."
         healthDelta: 0
         setFlags:
           - "flag_dessert_error_hidden"
@@ -1308,7 +1512,9 @@ cards:
     bodyText: "Nimet Ana'nın anahtarları yalnız rafları değil, insanların zaaflarını da kilitler. Kiler ve Helvahane: Yağ Halkası anında Nimet Ana, şekerin bile devlet sırrı taşıyabileceğini sezdirir. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, helvahane itibarının ve dış destek ihtimalinin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_helvahane_gece"
     focusImageId: "focus_smm_068_pantry_pastry"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Kiler ve Helvahane: Yağ Halkası scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Nimet Ana, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron tilts an omen soup bowl with a clear active pose, oversized hands, and a simple expressive face. Nimet Ana, a watchful pantry keeper with a big key ring watches close by with one simple reaction gesture. a sweet tray and rose syrup jar identify the confectionery room. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "nimet_kilerci"
@@ -1320,8 +1526,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_068_a"
+        choiceImageId: "choice_smm_card_068_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron hands over an oversized serving cup and sweet tray with both oversized hands and a tense polite smile. Nimet Ana, a watchful pantry keeper with a big key ring reacts nearby with one simple readable gesture. a sweet tray and rose syrup jar identify the confectionery room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Gül şerbetini usulüne göre sun"
-        resultText: "Kiler ve Helvahane: Yağ Halkası kararında hesabı açık tutarsın. Nimet Ana bunu fark eder ve helvahane itibarının ve dış destek ihtimalinin dengesi senin lehine bir çizik alır."
+        resultText: "Kiler ve Helvahane: Yağ Halkası sırasında \"Gül şerbetini usulüne göre sun\" yolunu seçersin. Bu hamle mutfak güvenini artırır."
         healthDelta: 0
         setFlags:
           - "flag_lale_trust"
@@ -1347,8 +1558,13 @@ cards:
         nextCardId: "smm_card_069"
       -
         choiceId: "smm_card_068_b"
+        choiceImageId: "choice_smm_card_068_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron hands over an oversized serving cup and sweet tray with both oversized hands and a tense polite smile. Nimet Ana, a watchful pantry keeper with a big key ring reacts nearby with one simple readable gesture. a sweet tray and rose syrup jar identify the confectionery room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Şerbeti varis adına yolla"
-        resultText: "Kiler ve Helvahane: Yağ Halkası kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde helvahane itibarının ve dış destek ihtimalinin için daha keskin bir kayıt açılır."
+        resultText: "Kiler ve Helvahane: Yağ Halkası sırasında \"Şerbeti varis adına yolla\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve karaborsa borcunu büyütür."
         healthDelta: 0
         setFlags:
           - "flag_dessert_error_hidden"
@@ -1382,7 +1598,9 @@ cards:
     bodyText: "Nimet Ana'nın anahtarları yalnız rafları değil, insanların zaaflarını da kilitler. Kiler ve Helvahane: Ak Gaga'nın Yolu anında Elçi Mirel, kilerdeki eksiklerin aç halktan mı hırsız memurlardan mı geldiğini sorar. Yanlış tatlı elçilik geleneğinde evlilik ve ittifak işareti sayıldığı için helvahanedeki hata diplomatik bir kapıya dönüşür. Seçeceğin yol, helvahane itibarının ve dış destek ihtimalinin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_elcilik_salonu"
     focusImageId: "focus_smm_069_pantry_pastry"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Kiler ve Helvahane: Ak Gaga'nın Yolu scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Elçi Mirel, Lale Kalfa, a mistaken ornate dessert tray with diplomatic tension, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron guides a white goose feather marker with a clear active pose, oversized hands, and a simple expressive face. Mirel, a foreign envoy with a patterned cloak and small ring watches close by with one simple reaction gesture. foreign textiles and a serving tray identify the embassy room. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "elci_mirel"
@@ -1399,8 +1617,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_069_a"
+        choiceImageId: "choice_smm_card_069_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron opens a large readable story prop with a decisive pull and bright alert eyes. Lale Kalfa, a proud confectioner with a syrup-stained apron reacts nearby with one simple readable gesture. foreign textiles and a serving tray identify the embassy room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Lale Kalfa'yı açıkça savun"
-        resultText: "Kiler ve Helvahane: Ak Gaga'nın Yolu kararında hesabı açık tutarsın. Elçi Mirel bunu fark eder ve helvahane itibarının ve dış destek ihtimalinin dengesi senin lehine bir çizik alır."
+        resultText: "Kiler ve Helvahane: Ak Gaga'nın Yolu sırasında \"Lale Kalfa'yı açıkça savun\" yolunu seçersin. Bu hamle mutfak güvenini artırır ve tatlı diplomasisini canlandırır."
         healthDelta: 0
         setFlags:
           - "flag_lale_trust"
@@ -1426,8 +1649,13 @@ cards:
         nextCardId: "smm_card_070"
       -
         choiceId: "smm_card_069_b"
+        choiceImageId: "choice_smm_card_069_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron points sharply at a stained cracked plate while glancing away with a guilty crooked mouth. Mirel, a foreign envoy with a patterned cloak and small ring reacts nearby with one simple readable gesture. foreign textiles and a serving tray identify the embassy room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Suçu suskun çırağa yükle"
-        resultText: "Kiler ve Helvahane: Ak Gaga'nın Yolu kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde helvahane itibarının ve dış destek ihtimalinin için daha keskin bir kayıt açılır."
+        resultText: "Kiler ve Helvahane: Ak Gaga'nın Yolu sırasında \"Suçu suskun çırağa yükle\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir, karaborsa borcunu büyütür ve tatlı diplomasisini belirgin biçimde canlandırır."
         healthDelta: 0
         setFlags:
           - "flag_dessert_error_hidden"
@@ -1461,7 +1689,9 @@ cards:
     bodyText: "Nimet Ana'nın anahtarları yalnız rafları değil, insanların zaaflarını da kilitler. Kiler ve Helvahane: Gümüş Kaşık anında Miskal, seni elçinin bakışıyla varislerin hesabı arasına sıkıştırır. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, helvahane itibarının ve dış destek ihtimalinin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_buzlu_kiler_odasi"
     focusImageId: "focus_smm_070_pantry_pastry"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Kiler ve Helvahane: Gümüş Kaşık scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Miskal, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron inspects a silver spoon with a clear active pose, oversized hands, and a simple expressive face. Miskal, a narrow-eyed palace jester with a crooked half-smile watches close by with one simple reaction gesture. grain sacks and a key rack identify the pantry. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "miskal_soytari"
@@ -1473,8 +1703,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_070_a"
+        choiceImageId: "choice_smm_card_070_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron points at a simple alliance token and small ring with a clear explaining gesture and raised eyebrows. Mirel, a foreign envoy with a patterned cloak and small ring reacts nearby with one simple readable gesture. grain sacks and a key rack identify the pantry. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Elçiye hatayı incelikle anlat"
-        resultText: "Kiler ve Helvahane: Gümüş Kaşık kararında hesabı açık tutarsın. Miskal bunu fark eder ve helvahane itibarının ve dış destek ihtimalinin dengesi senin lehine bir çizik alır."
+        resultText: "Kiler ve Helvahane: Gümüş Kaşık sırasında \"Elçiye hatayı incelikle anlat\" yolunu seçersin. Bu hamle mutfak güvenini artırır ve saray kuşkusunu yatıştırır."
         healthDelta: 0
         setFlags:
           - "flag_lale_trust"
@@ -1500,8 +1735,13 @@ cards:
         nextCardId: "smm_card_071"
       -
         choiceId: "smm_card_070_b"
+        choiceImageId: "choice_smm_card_070_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron accepts a simple alliance token and small ring with one hesitant hand and a cautious sideways glance. Mirel, a foreign envoy with a patterned cloak and small ring reacts nearby with one simple readable gesture. grain sacks and a key rack identify the pantry. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Elçinin yüzüğünü kabul et"
-        resultText: "Kiler ve Helvahane: Gümüş Kaşık kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde helvahane itibarının ve dış destek ihtimalinin için daha keskin bir kayıt açılır."
+        resultText: "Kiler ve Helvahane: Gümüş Kaşık sırasında \"Elçinin yüzüğünü kabul et\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve karaborsa borcunu büyütür."
         healthDelta: 0
         setFlags:
           - "flag_dessert_error_hidden"
@@ -1535,7 +1775,9 @@ cards:
     bodyText: "Elçilik salonuna giden tabaklar, sınır boyundaki ordular kadar dikkat ister. Kiler ve Helvahane: Kayıp Ölçü anında Lale Kalfa, senden her lokmanın kaynağını hatırlamanı bekler. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, helvahane itibarının ve dış destek ihtimalinin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_yabanci_elci_cadiri"
     focusImageId: "focus_smm_071_pantry_pastry"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Kiler ve Helvahane: Kayıp Ölçü scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Lale Kalfa, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron searches for a missing measuring cup with a clear active pose, oversized hands, and a simple expressive face. Lale Kalfa, a proud confectioner with a syrup-stained apron watches close by with one simple reaction gesture. a tent cloth and low serving tray identify the foreign envoy tent. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "lale_helvaci"
@@ -1547,8 +1789,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_071_a"
+        choiceImageId: "choice_smm_card_071_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents an oversized serving cup and sweet tray forward with a decisive hand gesture and a clear expressive face. Lale Kalfa, a proud confectioner with a syrup-stained apron reacts nearby with one simple readable gesture. a tent cloth and low serving tray identify the foreign envoy tent. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Yanlış tepsiyi hemen geri çağır"
-        resultText: "Kiler ve Helvahane: Kayıp Ölçü kararında hesabı açık tutarsın. Lale Kalfa bunu fark eder ve helvahane itibarının ve dış destek ihtimalinin dengesi senin lehine bir çizik alır."
+        resultText: "Kiler ve Helvahane: Kayıp Ölçü sırasında \"Yanlış tepsiyi hemen geri çağır\" yolunu seçersin. Bu hamle mutfak güvenini artırır."
         healthDelta: 0
         setFlags:
           - "flag_lale_trust"
@@ -1574,8 +1821,13 @@ cards:
         nextCardId: "smm_card_072"
       -
         choiceId: "smm_card_071_b"
+        choiceImageId: "choice_smm_card_071_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron slides an oversized serving cup and sweet tray across a low table with a sly sideways glance and one hidden hand. Lale Kalfa, a proud confectioner with a syrup-stained apron reacts nearby with one simple readable gesture. a tent cloth and low serving tray identify the foreign envoy tent. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Tatlı hatasını fırsata çevir"
-        resultText: "Kiler ve Helvahane: Kayıp Ölçü kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde helvahane itibarının ve dış destek ihtimalinin için daha keskin bir kayıt açılır."
+        resultText: "Kiler ve Helvahane: Kayıp Ölçü sırasında \"Tatlı hatasını fırsata çevir\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve karaborsa borcunu büyütür."
         healthDelta: 0
         setFlags:
           - "flag_dessert_error_hidden"
@@ -1609,7 +1861,9 @@ cards:
     bodyText: "Elçilik salonuna giden tabaklar, sınır boyundaki ordular kadar dikkat ister. Kiler ve Helvahane: Kuyrukta Ekmek anında Nimet Ana, tatlı bir hatanın acı bir evlilik yemini sayılabileceğini anlatır. Yanlış tatlı elçilik geleneğinde evlilik ve ittifak işareti sayıldığı için helvahanedeki hata diplomatik bir kapıya dönüşür. Seçeceğin yol, helvahane itibarının ve dış destek ihtimalinin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_kiler_serin_tas"
     focusImageId: "focus_smm_072_pantry_pastry"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Kiler ve Helvahane: Kuyrukta Ekmek scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Nimet Ana, Lale Kalfa, a mistaken ornate dessert tray with diplomatic tension, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron carries a bread basket with a clear active pose, oversized hands, and a simple expressive face. Nimet Ana, a watchful pantry keeper with a big key ring watches close by with one simple reaction gesture. grain sacks and a key rack identify the pantry. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "nimet_kilerci"
@@ -1627,8 +1881,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_072_a"
+        choiceImageId: "choice_smm_card_072_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron hands over an oversized iron key with both oversized hands and a tense polite smile. Nimet Ana, a watchful pantry keeper with a big key ring reacts nearby with one simple readable gesture. grain sacks and a key rack identify the pantry. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Kiler anahtarını Nimet'e teslim et"
-        resultText: "Kiler ve Helvahane: Kuyrukta Ekmek kararında hesabı açık tutarsın. Nimet Ana bunu fark eder ve helvahane itibarının ve dış destek ihtimalinin dengesi senin lehine bir çizik alır."
+        resultText: "Kiler ve Helvahane: Kuyrukta Ekmek sırasında \"Kiler anahtarını Nimet'e teslim et\" yolunu seçersin. Bu hamle mutfak güvenini artırır ve tatlı diplomasisini canlandırır."
         healthDelta: 0
         setFlags:
           - "flag_lale_trust"
@@ -1655,8 +1914,13 @@ cards:
         nextCardId: "smm_card_073"
       -
         choiceId: "smm_card_072_b"
+        choiceImageId: "choice_smm_card_072_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron slips an oversized iron key into the apron pocket with wide nervous eyes and curled fingers. Nimet Ana, a watchful pantry keeper with a big key ring reacts nearby with one simple readable gesture. grain sacks and a key rack identify the pantry. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Anahtarın kopyasını gizlice al"
-        resultText: "Kiler ve Helvahane: Kuyrukta Ekmek kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde helvahane itibarının ve dış destek ihtimalinin için daha keskin bir kayıt açılır."
+        resultText: "Kiler ve Helvahane: Kuyrukta Ekmek sırasında \"Anahtarın kopyasını gizlice al\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir, karaborsa borcunu büyütür ve tatlı diplomasisini belirgin biçimde canlandırır. Canın 1 azalır."
         healthDelta: -1
         setFlags:
           - "flag_dessert_error_hidden"
@@ -1691,7 +1955,9 @@ cards:
     bodyText: "Elçilik salonuna giden tabaklar, sınır boyundaki ordular kadar dikkat ister. Kiler ve Helvahane: Keskin Koku anında Elçi Mirel, şekerin bile devlet sırrı taşıyabileceğini sezdirir. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, helvahane itibarının ve dış destek ihtimalinin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_kiler_gizli_raflar"
     focusImageId: "focus_smm_073_pantry_pastry"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Kiler ve Helvahane: Keskin Koku scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Elçi Mirel, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron sniffs a tiny spice pouch with a clear active pose, oversized hands, and a simple expressive face. Mirel, a foreign envoy with a patterned cloak and small ring watches close by with one simple reaction gesture. grain sacks and a key rack identify the pantry. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "elci_mirel"
@@ -1703,8 +1969,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_073_a"
+        choiceImageId: "choice_smm_card_073_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron hands over an oversized serving cup and sweet tray with both oversized hands and a tense polite smile. Mirel, a foreign envoy with a patterned cloak and small ring reacts nearby with one simple readable gesture. grain sacks and a key rack identify the pantry. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Gül şerbetini usulüne göre sun"
-        resultText: "Kiler ve Helvahane: Keskin Koku kararında hesabı açık tutarsın. Elçi Mirel bunu fark eder ve helvahane itibarının ve dış destek ihtimalinin dengesi senin lehine bir çizik alır."
+        resultText: "Kiler ve Helvahane: Keskin Koku sırasında \"Gül şerbetini usulüne göre sun\" yolunu seçersin. Bu hamle mutfak güvenini artırır."
         healthDelta: 0
         setFlags:
           - "flag_lale_trust"
@@ -1730,8 +2001,13 @@ cards:
         nextCardId: "smm_card_074"
       -
         choiceId: "smm_card_073_b"
+        choiceImageId: "choice_smm_card_073_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron hands over an oversized serving cup and sweet tray with both oversized hands and a tense polite smile. Mirel, a foreign envoy with a patterned cloak and small ring reacts nearby with one simple readable gesture. grain sacks and a key rack identify the pantry. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Şerbeti varis adına yolla"
-        resultText: "Kiler ve Helvahane: Keskin Koku kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde helvahane itibarının ve dış destek ihtimalinin için daha keskin bir kayıt açılır."
+        resultText: "Kiler ve Helvahane: Keskin Koku sırasında \"Şerbeti varis adına yolla\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve karaborsa borcunu büyütür."
         healthDelta: 0
         setFlags:
           - "flag_dessert_error_hidden"
@@ -1765,7 +2041,9 @@ cards:
     bodyText: "Elçilik salonuna giden tabaklar, sınır boyundaki ordular kadar dikkat ister. Kiler ve Helvahane: Mühre Giden İz anında Miskal, kilerdeki eksiklerin aç halktan mı hırsız memurlardan mı geldiğini sorar. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, helvahane itibarının ve dış destek ihtimalinin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_helvahane_gul_kokusu"
     focusImageId: "focus_smm_074_pantry_pastry"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Kiler ve Helvahane: Mühre Giden İz scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Miskal, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron traces a red wax footprint with a clear active pose, oversized hands, and a simple expressive face. Miskal, a narrow-eyed palace jester with a crooked half-smile watches close by with one simple reaction gesture. a sweet tray and rose syrup jar identify the confectionery room. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "miskal_soytari"
@@ -1777,8 +2055,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_074_a"
+        choiceImageId: "choice_smm_card_074_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron opens a large readable story prop with a decisive pull and bright alert eyes. Lale Kalfa, a proud confectioner with a syrup-stained apron reacts nearby with one simple readable gesture. a sweet tray and rose syrup jar identify the confectionery room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Lale Kalfa'yı açıkça savun"
-        resultText: "Kiler ve Helvahane: Mühre Giden İz kararında hesabı açık tutarsın. Miskal bunu fark eder ve helvahane itibarının ve dış destek ihtimalinin dengesi senin lehine bir çizik alır."
+        resultText: "Kiler ve Helvahane: Mühre Giden İz sırasında \"Lale Kalfa'yı açıkça savun\" yolunu seçersin. Bu hamle mutfak güvenini artırır."
         healthDelta: 0
         setFlags:
           - "flag_lale_trust"
@@ -1804,8 +2087,13 @@ cards:
         nextCardId: "smm_card_075"
       -
         choiceId: "smm_card_074_b"
+        choiceImageId: "choice_smm_card_074_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron points sharply at a stained cracked plate while glancing away with a guilty crooked mouth. Miskal, a narrow-eyed palace jester with a crooked half-smile reacts nearby with one simple readable gesture. a sweet tray and rose syrup jar identify the confectionery room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Suçu suskun çırağa yükle"
-        resultText: "Kiler ve Helvahane: Mühre Giden İz kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde helvahane itibarının ve dış destek ihtimalinin için daha keskin bir kayıt açılır."
+        resultText: "Kiler ve Helvahane: Mühre Giden İz sırasında \"Suçu suskun çırağa yükle\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve karaborsa borcunu büyütür."
         healthDelta: 0
         setFlags:
           - "flag_dessert_error_hidden"
@@ -1839,7 +2127,9 @@ cards:
     bodyText: "Elçilik salonuna giden tabaklar, sınır boyundaki ordular kadar dikkat ister. Kiler ve Helvahane: Dar Boğaz anında Lale Kalfa, seni elçinin bakışıyla varislerin hesabı arasına sıkıştırır. Yanlış tatlı elçilik geleneğinde evlilik ve ittifak işareti sayıldığı için helvahanedeki hata diplomatik bir kapıya dönüşür. Seçeceğin yol, helvahane itibarının ve dış destek ihtimalinin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_helvahane_gece"
     focusImageId: "focus_smm_075_pantry_pastry"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Kiler ve Helvahane: Dar Boğaz scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Lale Kalfa, Elçi Mirel, a mistaken ornate dessert tray with diplomatic tension, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron squeezes through a narrow doorway with a bundle with a clear active pose, oversized hands, and a simple expressive face. Lale Kalfa, a proud confectioner with a syrup-stained apron watches close by with one simple reaction gesture. a sweet tray and rose syrup jar identify the confectionery room. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "lale_helvaci"
@@ -1856,8 +2146,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_075_a"
+        choiceImageId: "choice_smm_card_075_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron points at a simple alliance token and small ring with a clear explaining gesture and raised eyebrows. Mirel, a foreign envoy with a patterned cloak and small ring reacts nearby with one simple readable gesture. a sweet tray and rose syrup jar identify the confectionery room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Elçiye hatayı incelikle anlat"
-        resultText: "Kiler ve Helvahane: Dar Boğaz kararında hesabı açık tutarsın. Lale Kalfa bunu fark eder ve helvahane itibarının ve dış destek ihtimalinin dengesi senin lehine bir çizik alır."
+        resultText: "Kiler ve Helvahane: Dar Boğaz sırasında \"Elçiye hatayı incelikle anlat\" yolunu seçersin. Bu hamle mutfak güvenini artırır ve tatlı diplomasisini canlandırır."
         healthDelta: 0
         setFlags:
           - "flag_lale_trust"
@@ -1883,8 +2178,13 @@ cards:
         nextCardId: "smm_card_076"
       -
         choiceId: "smm_card_075_b"
+        choiceImageId: "choice_smm_card_075_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron accepts a simple alliance token and small ring with one hesitant hand and a cautious sideways glance. Mirel, a foreign envoy with a patterned cloak and small ring reacts nearby with one simple readable gesture. a sweet tray and rose syrup jar identify the confectionery room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Elçinin yüzüğünü kabul et"
-        resultText: "Kiler ve Helvahane: Dar Boğaz kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde helvahane itibarının ve dış destek ihtimalinin için daha keskin bir kayıt açılır."
+        resultText: "Kiler ve Helvahane: Dar Boğaz sırasında \"Elçinin yüzüğünü kabul et\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir, karaborsa borcunu büyütür ve tatlı diplomasisini belirgin biçimde canlandırır."
         healthDelta: 0
         setFlags:
           - "flag_dessert_error_hidden"

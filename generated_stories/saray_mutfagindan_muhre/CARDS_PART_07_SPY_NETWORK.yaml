@@ -9,7 +9,9 @@ cards:
     bodyText: "Gizli geçitler, sarayın görkemli kapılarından daha çok insan taşır. Saray Casusları: İlk Eşik anında Rasih, senden duyduğunu değil, duymamış gibi yaptığını hatırlamanı ister. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, casus ağının ve mühür erişiminin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_gizli_gecit_mumlu"
     focusImageId: "focus_smm_151_spy_network"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Saray Casusları: İlk Eşik scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Rasih, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron steps over a chipped plate threshold with a clear active pose, oversized hands, and a simple expressive face. Rasih, a polite spy chief half-hidden by a dark hood watches close by with one simple reaction gesture. a hidden stone arch and stubby candles identify the secret passage. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "rasih_casusbasi"
@@ -21,8 +23,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_151_a"
+        choiceImageId: "choice_smm_card_151_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a folded blank note and stubby candle forward with a decisive hand gesture and a clear expressive face. Rasih, a polite spy chief half-hidden by a dark hood reacts nearby with one simple readable gesture. a hidden stone arch and stubby candles identify the secret passage. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Sırrı Rasih'e eksiksiz götür"
-        resultText: "Saray Casusları: İlk Eşik kararında hesabı açık tutarsın. Rasih bunu fark eder ve casus ağının ve mühür erişiminin dengesi senin lehine bir çizik alır."
+        resultText: "Saray Casusları: İlk Eşik sırasında \"Sırrı Rasih'e eksiksiz götür\" yolunu seçersin. Bu hamle casus ağını genişletir."
         healthDelta: 0
         setFlags:
           - "flag_rasih_blackfile"
@@ -48,8 +55,13 @@ cards:
         nextCardId: "smm_card_152"
       -
         choiceId: "smm_card_151_b"
+        choiceImageId: "choice_smm_card_151_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron slides a folded blank note and stubby candle across a low table with a sly sideways glance and one hidden hand. Rasih, a polite spy chief half-hidden by a dark hood reacts nearby with one simple readable gesture. a hidden stone arch and stubby candles identify the secret passage. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Sırrı iki tarafa sat"
-        resultText: "Saray Casusları: İlk Eşik kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde casus ağının ve mühür erişiminin için daha keskin bir kayıt açılır."
+        resultText: "Saray Casusları: İlk Eşik sırasında \"Sırrı iki tarafa sat\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir, casus ağını genişletir ve mühür erişimini yaklaştırır."
         healthDelta: 0
         setFlags:
           - "flag_secret_sold"
@@ -83,7 +95,9 @@ cards:
     bodyText: "Gizli geçitler, sarayın görkemli kapılarından daha çok insan taşır. Saray Casusları: Sıcak Bakır anında Başvezir Sadreddin, bir söylentiyi kimin başlattığının çoğu zaman kimin bitirdiğinden önemli olduğunu söyler. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, casus ağının ve mühür erişiminin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_eski_arsiv_odasi"
     focusImageId: "focus_smm_152_spy_network"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Saray Casusları: Sıcak Bakır scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Başvezir Sadreddin, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron lifts a hot copper basin with a clear active pose, oversized hands, and a simple expressive face. Sadreddin, a thin grand vizier with a wax seal case watches close by with one simple reaction gesture. scroll shelves and a locked chest identify the archive room, with no readable writing. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "sadreddin_basvezir"
@@ -95,8 +109,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_152_a"
+        choiceImageId: "choice_smm_card_152_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron guards a plain round wax seal and stamp with no glyphs behind the apron with narrowed eyes and one protective hand. Sadreddin, a thin grand vizier with a wax seal case reacts nearby with one simple readable gesture. scroll shelves and a locked chest identify the archive room, with no readable writing. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Arşiv notunu mühürle koru"
-        resultText: "Saray Casusları: Sıcak Bakır kararında hesabı açık tutarsın. Başvezir Sadreddin bunu fark eder ve casus ağının ve mühür erişiminin dengesi senin lehine bir çizik alır."
+        resultText: "Saray Casusları: Sıcak Bakır sırasında \"Arşiv notunu mühürle koru\" yolunu seçersin. Bu hamle casus ağını genişletir."
         healthDelta: 0
         setFlags:
           - "flag_rasih_blackfile"
@@ -123,8 +142,13 @@ cards:
         nextCardId: "smm_card_153"
       -
         choiceId: "smm_card_152_b"
+        choiceImageId: "choice_smm_card_152_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a folded blank note and stubby candle forward with a decisive hand gesture and a clear expressive face. Sadreddin, a thin grand vizier with a wax seal case reacts nearby with one simple readable gesture. scroll shelves and a locked chest identify the archive room, with no readable writing. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Arşiv notunu değiştir"
-        resultText: "Saray Casusları: Sıcak Bakır kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde casus ağının ve mühür erişiminin için daha keskin bir kayıt açılır."
+        resultText: "Saray Casusları: Sıcak Bakır sırasında \"Arşiv notunu değiştir\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir, casus ağını genişletir ve mühür erişimini yaklaştırır."
         healthDelta: 0
         setFlags:
           - "flag_secret_sold"
@@ -159,7 +183,9 @@ cards:
     bodyText: "Gizli geçitler, sarayın görkemli kapılarından daha çok insan taşır. Saray Casusları: Sessiz Bakış anında Miskal, başvezirin gülüşünde mühür odasının kilidini aratır. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, casus ağının ve mühür erişiminin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_hizmetkar_koridoru"
     focusImageId: "focus_smm_153_spy_network"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Saray Casusları: Sessiz Bakış scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Miskal, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron points at a suspicious small clue with a clear active pose, oversized hands, and a simple expressive face. Miskal, a narrow-eyed palace jester with a crooked half-smile watches close by with one simple reaction gesture. plain doors and one oil lamp identify the servant corridor. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "miskal_soytari"
@@ -171,8 +197,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_153_a"
+        choiceImageId: "choice_smm_card_153_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a large readable story prop forward with a decisive hand gesture and a clear expressive face. Miskal, a narrow-eyed palace jester with a crooked half-smile reacts nearby with one simple readable gesture. plain doors and one oil lamp identify the servant corridor. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Soytarının sözünü dikkatle tart"
-        resultText: "Saray Casusları: Sessiz Bakış kararında hesabı açık tutarsın. Miskal bunu fark eder ve casus ağının ve mühür erişiminin dengesi senin lehine bir çizik alır."
+        resultText: "Saray Casusları: Sessiz Bakış sırasında \"Soytarının sözünü dikkatle tart\" yolunu seçersin. Bu hamle casus ağını genişletir."
         healthDelta: 0
         setFlags:
           - "flag_rasih_blackfile"
@@ -198,8 +229,13 @@ cards:
         nextCardId: "smm_card_154"
       -
         choiceId: "smm_card_153_b"
+        choiceImageId: "choice_smm_card_153_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a large readable story prop forward with a decisive hand gesture and a clear expressive face. Miskal, a narrow-eyed palace jester with a crooked half-smile reacts nearby with one simple readable gesture. plain doors and one oil lamp identify the servant corridor. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Soytarıyı sahte habere sür"
-        resultText: "Saray Casusları: Sessiz Bakış kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde casus ağının ve mühür erişiminin için daha keskin bir kayıt açılır."
+        resultText: "Saray Casusları: Sessiz Bakış sırasında \"Soytarıyı sahte habere sür\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir, casus ağını genişletir ve mühür erişimini yaklaştırır. Canın 1 azalır."
         healthDelta: -1
         setFlags:
           - "flag_secret_sold"
@@ -233,7 +269,9 @@ cards:
     bodyText: "Gizli geçitler, sarayın görkemli kapılarından daha çok insan taşır. Saray Casusları: İnce Hesap anında Kapıcı Boran, Miskal'in şakasında saray haritası saklı olabileceğini gösterir. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, casus ağının ve mühür erişiminin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_mutfak_cati_arasi"
     focusImageId: "focus_smm_154_spy_network"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Saray Casusları: İnce Hesap scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Kapıcı Boran, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron counts three chunky tally stones with a clear active pose, oversized hands, and a simple expressive face. Boran, a stiff palace gatekeeper with a large belt key watches close by with one simple reaction gesture. roof beams and storage crates identify the kitchen attic. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "kapici_boran"
@@ -245,8 +283,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_154_a"
+        choiceImageId: "choice_smm_card_154_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron guards a large readable story prop behind the apron with narrowed eyes and one protective hand. Boran, a stiff palace gatekeeper with a large belt key reacts nearby with one simple readable gesture. roof beams and storage crates identify the kitchen attic. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Geçidi kimseye belli etme"
-        resultText: "Saray Casusları: İnce Hesap kararında hesabı açık tutarsın. Kapıcı Boran bunu fark eder ve casus ağının ve mühür erişiminin dengesi senin lehine bir çizik alır."
+        resultText: "Saray Casusları: İnce Hesap sırasında \"Geçidi kimseye belli etme\" yolunu seçersin. Bu hamle saray kuşkusunu yatıştırır ve casus ağını genişletir."
         healthDelta: 0
         setFlags:
           - "flag_rasih_blackfile"
@@ -272,8 +315,13 @@ cards:
         nextCardId: "smm_card_155"
       -
         choiceId: "smm_card_154_b"
+        choiceImageId: "choice_smm_card_154_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a white goose feather and a feed bowl forward with a decisive hand gesture and a clear expressive face. Boran, a stiff palace gatekeeper with a large belt key reacts nearby with one simple readable gesture. roof beams and storage crates identify the kitchen attic. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Geçide işaret kazı"
-        resultText: "Saray Casusları: İnce Hesap kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde casus ağının ve mühür erişiminin için daha keskin bir kayıt açılır."
+        resultText: "Saray Casusları: İnce Hesap sırasında \"Geçide işaret kazı\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir, casus ağını genişletir ve mühür erişimini yaklaştırır."
         healthDelta: 0
         setFlags:
           - "flag_secret_sold"
@@ -307,7 +355,9 @@ cards:
     bodyText: "Gizli geçitler, sarayın görkemli kapılarından daha çok insan taşır. Saray Casusları: Gizli Lekeler anında Rasih, geçitte attığın adımın iki fraksiyonca sayıldığını sezdirir. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, casus ağının ve mühür erişiminin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_sessiz_kutuphane"
     focusImageId: "focus_smm_155_spy_network"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Saray Casusları: Gizli Lekeler scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Rasih, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron scrubs a dark stain on a plate with a clear active pose, oversized hands, and a simple expressive face. Rasih, a polite spy chief half-hidden by a dark hood watches close by with one simple reaction gesture. tall shelves and a candle identify the quiet library, with no readable books. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "rasih_casusbasi"
@@ -319,8 +369,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_155_a"
+        choiceImageId: "choice_smm_card_155_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron offers a big wooden measuring spoon forward with a cautious bow and one respectful open palm. Sadreddin, a thin grand vizier with a wax seal case reacts nearby with one simple readable gesture. tall shelves and a candle identify the quiet library, with no readable books. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Başvezire ölçülü bilgi ver"
-        resultText: "Saray Casusları: Gizli Lekeler kararında hesabı açık tutarsın. Rasih bunu fark eder ve casus ağının ve mühür erişiminin dengesi senin lehine bir çizik alır."
+        resultText: "Saray Casusları: Gizli Lekeler sırasında \"Başvezire ölçülü bilgi ver\" yolunu seçersin. Bu hamle casus ağını genişletir."
         healthDelta: 0
         setFlags:
           - "flag_rasih_blackfile"
@@ -346,8 +401,13 @@ cards:
         nextCardId: "smm_card_156"
       -
         choiceId: "smm_card_155_b"
+        choiceImageId: "choice_smm_card_155_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron slams a large readable story prop onto the table with a hard angry stare and one clenched fist. Sadreddin, a thin grand vizier with a wax seal case reacts nearby with one simple readable gesture. tall shelves and a candle identify the quiet library, with no readable books. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Başveziri korkuyla zorla"
-        resultText: "Saray Casusları: Gizli Lekeler kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde casus ağının ve mühür erişiminin için daha keskin bir kayıt açılır."
+        resultText: "Saray Casusları: Gizli Lekeler sırasında \"Başveziri korkuyla zorla\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir, casus ağını genişletir ve mühür erişimini yaklaştırır."
         healthDelta: 0
         setFlags:
           - "flag_secret_sold"
@@ -381,7 +441,9 @@ cards:
     bodyText: "Rasih, kimsenin yalnızca söylediği şeyle suçlanmadığını öğretir. Saray Casusları: Kör Alev anında Başvezir Sadreddin, senden duyduğunu değil, duymamış gibi yaptığını hatırlamanı ister. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, casus ağının ve mühür erişiminin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_saray_camasirhanesi"
     focusImageId: "focus_smm_156_spy_network"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Saray Casusları: Kör Alev scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Başvezir Sadreddin, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron shields a weak kitchen flame with a clear active pose, oversized hands, and a simple expressive face. Sadreddin, a thin grand vizier with a wax seal case watches close by with one simple reaction gesture. laundry lines and a wash basin identify the palace laundry. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "sadreddin_basvezir"
@@ -393,8 +455,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_156_a"
+        choiceImageId: "choice_smm_card_156_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a folded blank note and stubby candle forward with a decisive hand gesture and a clear expressive face. Rasih, a polite spy chief half-hidden by a dark hood reacts nearby with one simple readable gesture. laundry lines and a wash basin identify the palace laundry. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Sırrı Rasih'e eksiksiz götür"
-        resultText: "Saray Casusları: Kör Alev kararında hesabı açık tutarsın. Başvezir Sadreddin bunu fark eder ve casus ağının ve mühür erişiminin dengesi senin lehine bir çizik alır."
+        resultText: "Saray Casusları: Kör Alev sırasında \"Sırrı Rasih'e eksiksiz götür\" yolunu seçersin. Bu hamle casus ağını genişletir."
         healthDelta: 0
         setFlags:
           - "flag_rasih_blackfile"
@@ -420,8 +487,13 @@ cards:
         nextCardId: "smm_card_157"
       -
         choiceId: "smm_card_156_b"
+        choiceImageId: "choice_smm_card_156_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron slides a folded blank note and stubby candle across a low table with a sly sideways glance and one hidden hand. Sadreddin, a thin grand vizier with a wax seal case reacts nearby with one simple readable gesture. laundry lines and a wash basin identify the palace laundry. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Sırrı iki tarafa sat"
-        resultText: "Saray Casusları: Kör Alev kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde casus ağının ve mühür erişiminin için daha keskin bir kayıt açılır."
+        resultText: "Saray Casusları: Kör Alev sırasında \"Sırrı iki tarafa sat\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir, casus ağını genişletir ve mühür erişimini yaklaştırır."
         healthDelta: 0
         setFlags:
           - "flag_secret_sold"
@@ -455,7 +527,9 @@ cards:
     bodyText: "Rasih, kimsenin yalnızca söylediği şeyle suçlanmadığını öğretir. Saray Casusları: Üç Nohut anında Miskal, bir söylentiyi kimin başlattığının çoğu zaman kimin bitirdiğinden önemli olduğunu söyler. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, casus ağının ve mühür erişiminin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_gizli_gecit_mumlu"
     focusImageId: "focus_smm_157_spy_network"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Saray Casusları: Üç Nohut scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Miskal, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron arranges three oversized chickpeas with a clear active pose, oversized hands, and a simple expressive face. Miskal, a narrow-eyed palace jester with a crooked half-smile watches close by with one simple reaction gesture. a hidden stone arch and stubby candles identify the secret passage. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "miskal_soytari"
@@ -467,8 +541,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_157_a"
+        choiceImageId: "choice_smm_card_157_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron guards a plain round wax seal and stamp with no glyphs behind the apron with narrowed eyes and one protective hand. Miskal, a narrow-eyed palace jester with a crooked half-smile reacts nearby with one simple readable gesture. a hidden stone arch and stubby candles identify the secret passage. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Arşiv notunu mühürle koru"
-        resultText: "Saray Casusları: Üç Nohut kararında hesabı açık tutarsın. Miskal bunu fark eder ve casus ağının ve mühür erişiminin dengesi senin lehine bir çizik alır."
+        resultText: "Saray Casusları: Üç Nohut sırasında \"Arşiv notunu mühürle koru\" yolunu seçersin. Bu hamle casus ağını genişletir."
         healthDelta: 0
         setFlags:
           - "flag_rasih_blackfile"
@@ -494,8 +573,13 @@ cards:
         nextCardId: "smm_card_158"
       -
         choiceId: "smm_card_157_b"
+        choiceImageId: "choice_smm_card_157_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a folded blank note and stubby candle forward with a decisive hand gesture and a clear expressive face. Miskal, a narrow-eyed palace jester with a crooked half-smile reacts nearby with one simple readable gesture. a hidden stone arch and stubby candles identify the secret passage. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Arşiv notunu değiştir"
-        resultText: "Saray Casusları: Üç Nohut kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde casus ağının ve mühür erişiminin için daha keskin bir kayıt açılır."
+        resultText: "Saray Casusları: Üç Nohut sırasında \"Arşiv notunu değiştir\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir, casus ağını genişletir ve mühür erişimini yaklaştırır."
         healthDelta: 0
         setFlags:
           - "flag_secret_sold"
@@ -529,7 +613,9 @@ cards:
     bodyText: "Rasih, kimsenin yalnızca söylediği şeyle suçlanmadığını öğretir. Saray Casusları: Kapıdaki Fısıltı anında Kapıcı Boran, başvezirin gülüşünde mühür odasının kilidini aratır. Ak Gaga'nın davranışı divanda bir devlet işareti gibi yorumlanır ve oyuncunun önceki yem tercihleri hatırlanır. Seçeceğin yol, casus ağının ve mühür erişiminin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_eski_arsiv_odasi"
     focusImageId: "focus_smm_158_spy_network"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Saray Casusları: Kapıdaki Fısıltı scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Kapıcı Boran, Durna, the dignified palace goose Ak Gaga nearby, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron hides a folded blank note with a clear active pose, oversized hands, and a simple expressive face. Boran, a stiff palace gatekeeper with a large belt key watches close by with one simple reaction gesture. scroll shelves and a locked chest identify the archive room, with no readable writing. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "kapici_boran"
@@ -546,8 +632,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_158_a"
+        choiceImageId: "choice_smm_card_158_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a large readable story prop forward with a decisive hand gesture and a clear expressive face. Boran, a stiff palace gatekeeper with a large belt key reacts nearby with one simple readable gesture. scroll shelves and a locked chest identify the archive room, with no readable writing. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Soytarının sözünü dikkatle tart"
-        resultText: "Saray Casusları: Kapıdaki Fısıltı kararında hesabı açık tutarsın. Kapıcı Boran bunu fark eder ve casus ağının ve mühür erişiminin dengesi senin lehine bir çizik alır."
+        resultText: "Saray Casusları: Kapıdaki Fısıltı sırasında \"Soytarının sözünü dikkatle tart\" yolunu seçersin. Bu hamle casus ağını genişletir ve Ak Gaga söylencesini güçlendirir."
         healthDelta: 0
         setFlags:
           - "flag_rasih_blackfile"
@@ -576,8 +667,13 @@ cards:
         nextCardId: "smm_card_159"
       -
         choiceId: "smm_card_158_b"
+        choiceImageId: "choice_smm_card_158_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a large readable story prop forward with a decisive hand gesture and a clear expressive face. Boran, a stiff palace gatekeeper with a large belt key reacts nearby with one simple readable gesture. scroll shelves and a locked chest identify the archive room, with no readable writing. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Soytarıyı sahte habere sür"
-        resultText: "Saray Casusları: Kapıdaki Fısıltı kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde casus ağının ve mühür erişiminin için daha keskin bir kayıt açılır."
+        resultText: "Saray Casusları: Kapıdaki Fısıltı sırasında \"Soytarıyı sahte habere sür\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir, casus ağını genişletir, mühür erişimini yaklaştırır ve Ak Gaga söylencesini belirgin biçimde güçlendirir."
         healthDelta: 0
         setFlags:
           - "flag_secret_sold"
@@ -612,7 +708,9 @@ cards:
     bodyText: "Rasih, kimsenin yalnızca söylediği şeyle suçlanmadığını öğretir. Saray Casusları: Aç Karnın Sözü anında Rasih, Miskal'in şakasında saray haritası saklı olabileceğini gösterir. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, casus ağının ve mühür erişiminin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_hizmetkar_koridoru"
     focusImageId: "focus_smm_159_spy_network"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Saray Casusları: Aç Karnın Sözü scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Rasih, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron offers a small bread piece with a clear active pose, oversized hands, and a simple expressive face. Rasih, a polite spy chief half-hidden by a dark hood watches close by with one simple reaction gesture. plain doors and one oil lamp identify the servant corridor. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "rasih_casusbasi"
@@ -624,8 +722,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_159_a"
+        choiceImageId: "choice_smm_card_159_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron guards a large readable story prop behind the apron with narrowed eyes and one protective hand. Rasih, a polite spy chief half-hidden by a dark hood reacts nearby with one simple readable gesture. plain doors and one oil lamp identify the servant corridor. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Geçidi kimseye belli etme"
-        resultText: "Saray Casusları: Aç Karnın Sözü kararında hesabı açık tutarsın. Rasih bunu fark eder ve casus ağının ve mühür erişiminin dengesi senin lehine bir çizik alır."
+        resultText: "Saray Casusları: Aç Karnın Sözü sırasında \"Geçidi kimseye belli etme\" yolunu seçersin. Bu hamle casus ağını genişletir."
         healthDelta: 0
         setFlags:
           - "flag_rasih_blackfile"
@@ -651,8 +754,13 @@ cards:
         nextCardId: "smm_card_160"
       -
         choiceId: "smm_card_159_b"
+        choiceImageId: "choice_smm_card_159_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a white goose feather and a feed bowl forward with a decisive hand gesture and a clear expressive face. Rasih, a polite spy chief half-hidden by a dark hood reacts nearby with one simple readable gesture. plain doors and one oil lamp identify the servant corridor. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Geçide işaret kazı"
-        resultText: "Saray Casusları: Aç Karnın Sözü kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde casus ağının ve mühür erişiminin için daha keskin bir kayıt açılır."
+        resultText: "Saray Casusları: Aç Karnın Sözü sırasında \"Geçide işaret kazı\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir, casus ağını genişletir ve mühür erişimini yaklaştırır."
         healthDelta: 0
         setFlags:
           - "flag_secret_sold"
@@ -686,7 +794,9 @@ cards:
     bodyText: "Rasih, kimsenin yalnızca söylediği şeyle suçlanmadığını öğretir. Saray Casusları: Ustanın Sınavı anında Başvezir Sadreddin, geçitte attığın adımın iki fraksiyonca sayıldığını sezdirir. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, casus ağının ve mühür erişiminin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_mutfak_cati_arasi"
     focusImageId: "focus_smm_160_spy_network"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Saray Casusları: Ustanın Sınavı scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Başvezir Sadreddin, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron measures a spoonful of spice with a clear active pose, oversized hands, and a simple expressive face. Sadreddin, a thin grand vizier with a wax seal case watches close by with one simple reaction gesture. roof beams and storage crates identify the kitchen attic. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "sadreddin_basvezir"
@@ -698,8 +808,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_160_a"
+        choiceImageId: "choice_smm_card_160_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron offers a big wooden measuring spoon forward with a cautious bow and one respectful open palm. Sadreddin, a thin grand vizier with a wax seal case reacts nearby with one simple readable gesture. roof beams and storage crates identify the kitchen attic. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Başvezire ölçülü bilgi ver"
-        resultText: "Saray Casusları: Ustanın Sınavı kararında hesabı açık tutarsın. Başvezir Sadreddin bunu fark eder ve casus ağının ve mühür erişiminin dengesi senin lehine bir çizik alır."
+        resultText: "Saray Casusları: Ustanın Sınavı sırasında \"Başvezire ölçülü bilgi ver\" yolunu seçersin. Bu hamle casus ağını genişletir."
         healthDelta: 0
         setFlags:
           - "flag_rasih_blackfile"
@@ -726,8 +841,13 @@ cards:
         nextCardId: "smm_card_161"
       -
         choiceId: "smm_card_160_b"
+        choiceImageId: "choice_smm_card_160_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron slams a large readable story prop onto the table with a hard angry stare and one clenched fist. Sadreddin, a thin grand vizier with a wax seal case reacts nearby with one simple readable gesture. roof beams and storage crates identify the kitchen attic. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Başveziri korkuyla zorla"
-        resultText: "Saray Casusları: Ustanın Sınavı kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde casus ağının ve mühür erişiminin için daha keskin bir kayıt açılır."
+        resultText: "Saray Casusları: Ustanın Sınavı sırasında \"Başveziri korkuyla zorla\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir, casus ağını genişletir ve mühür erişimini yaklaştırır."
         healthDelta: 0
         setFlags:
           - "flag_secret_sold"
@@ -762,7 +882,9 @@ cards:
     bodyText: "Arşiv odasında unutulmuş notlar, yaşayan vezirlerden daha tehlikelidir. Saray Casusları: Kazanın Gölgesi anında Miskal, senden duyduğunu değil, duymamış gibi yaptığını hatırlamanı ister. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, casus ağının ve mühür erişiminin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_sessiz_kutuphane"
     focusImageId: "focus_smm_161_spy_network"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Saray Casusları: Kazanın Gölgesi scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Miskal, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron stirs a round copper cauldron with a clear active pose, oversized hands, and a simple expressive face. Miskal, a narrow-eyed palace jester with a crooked half-smile watches close by with one simple reaction gesture. tall shelves and a candle identify the quiet library, with no readable books. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "miskal_soytari"
@@ -774,8 +896,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_161_a"
+        choiceImageId: "choice_smm_card_161_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a folded blank note and stubby candle forward with a decisive hand gesture and a clear expressive face. Rasih, a polite spy chief half-hidden by a dark hood reacts nearby with one simple readable gesture. tall shelves and a candle identify the quiet library, with no readable books. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Sırrı Rasih'e eksiksiz götür"
-        resultText: "Saray Casusları: Kazanın Gölgesi kararında hesabı açık tutarsın. Miskal bunu fark eder ve casus ağının ve mühür erişiminin dengesi senin lehine bir çizik alır."
+        resultText: "Saray Casusları: Kazanın Gölgesi sırasında \"Sırrı Rasih'e eksiksiz götür\" yolunu seçersin. Bu hamle saray kuşkusunu yatıştırır ve casus ağını genişletir."
         healthDelta: 0
         setFlags:
           - "flag_rasih_blackfile"
@@ -801,8 +928,13 @@ cards:
         nextCardId: "smm_card_162"
       -
         choiceId: "smm_card_161_b"
+        choiceImageId: "choice_smm_card_161_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron slides a folded blank note and stubby candle across a low table with a sly sideways glance and one hidden hand. Miskal, a narrow-eyed palace jester with a crooked half-smile reacts nearby with one simple readable gesture. tall shelves and a candle identify the quiet library, with no readable books. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Sırrı iki tarafa sat"
-        resultText: "Saray Casusları: Kazanın Gölgesi kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde casus ağının ve mühür erişiminin için daha keskin bir kayıt açılır."
+        resultText: "Saray Casusları: Kazanın Gölgesi sırasında \"Sırrı iki tarafa sat\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir, casus ağını genişletir ve mühür erişimini yaklaştırır."
         healthDelta: 0
         setFlags:
           - "flag_secret_sold"
@@ -836,7 +968,9 @@ cards:
     bodyText: "Arşiv odasında unutulmuş notlar, yaşayan vezirlerden daha tehlikelidir. Saray Casusları: Tuz ve Yemin anında Kapıcı Boran, bir söylentiyi kimin başlattığının çoğu zaman kimin bitirdiğinden önemli olduğunu söyler. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, casus ağının ve mühür erişiminin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_saray_camasirhanesi"
     focusImageId: "focus_smm_162_spy_network"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Saray Casusları: Tuz ve Yemin scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Kapıcı Boran, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron sprinkles a pinch of salt with a clear active pose, oversized hands, and a simple expressive face. Boran, a stiff palace gatekeeper with a large belt key watches close by with one simple reaction gesture. laundry lines and a wash basin identify the palace laundry. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "kapici_boran"
@@ -848,8 +982,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_162_a"
+        choiceImageId: "choice_smm_card_162_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron guards a plain round wax seal and stamp with no glyphs behind the apron with narrowed eyes and one protective hand. Boran, a stiff palace gatekeeper with a large belt key reacts nearby with one simple readable gesture. laundry lines and a wash basin identify the palace laundry. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Arşiv notunu mühürle koru"
-        resultText: "Saray Casusları: Tuz ve Yemin kararında hesabı açık tutarsın. Kapıcı Boran bunu fark eder ve casus ağının ve mühür erişiminin dengesi senin lehine bir çizik alır."
+        resultText: "Saray Casusları: Tuz ve Yemin sırasında \"Arşiv notunu mühürle koru\" yolunu seçersin. Bu hamle casus ağını genişletir."
         healthDelta: 0
         setFlags:
           - "flag_rasih_blackfile"
@@ -875,8 +1014,13 @@ cards:
         nextCardId: "smm_card_163"
       -
         choiceId: "smm_card_162_b"
+        choiceImageId: "choice_smm_card_162_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a folded blank note and stubby candle forward with a decisive hand gesture and a clear expressive face. Boran, a stiff palace gatekeeper with a large belt key reacts nearby with one simple readable gesture. laundry lines and a wash basin identify the palace laundry. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Arşiv notunu değiştir"
-        resultText: "Saray Casusları: Tuz ve Yemin kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde casus ağının ve mühür erişiminin için daha keskin bir kayıt açılır."
+        resultText: "Saray Casusları: Tuz ve Yemin sırasında \"Arşiv notunu değiştir\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir, casus ağını genişletir ve mühür erişimini yaklaştırır. Canın 1 azalır."
         healthDelta: -1
         setFlags:
           - "flag_secret_sold"
@@ -910,7 +1054,9 @@ cards:
     bodyText: "Arşiv odasında unutulmuş notlar, yaşayan vezirlerden daha tehlikelidir. Saray Casusları: Kırık Tabak anında Rasih, başvezirin gülüşünde mühür odasının kilidini aratır. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, casus ağının ve mühür erişiminin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_gizli_gecit_mumlu"
     focusImageId: "focus_smm_163_spy_network"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Saray Casusları: Kırık Tabak scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Rasih, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron raises a cracked plate with a clear active pose, oversized hands, and a simple expressive face. Rasih, a polite spy chief half-hidden by a dark hood watches close by with one simple reaction gesture. a hidden stone arch and stubby candles identify the secret passage. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "rasih_casusbasi"
@@ -922,8 +1068,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_163_a"
+        choiceImageId: "choice_smm_card_163_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a large readable story prop forward with a decisive hand gesture and a clear expressive face. Rasih, a polite spy chief half-hidden by a dark hood reacts nearby with one simple readable gesture. a hidden stone arch and stubby candles identify the secret passage. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Soytarının sözünü dikkatle tart"
-        resultText: "Saray Casusları: Kırık Tabak kararında hesabı açık tutarsın. Rasih bunu fark eder ve casus ağının ve mühür erişiminin dengesi senin lehine bir çizik alır."
+        resultText: "Saray Casusları: Kırık Tabak sırasında \"Soytarının sözünü dikkatle tart\" yolunu seçersin. Bu hamle casus ağını genişletir."
         healthDelta: 0
         setFlags:
           - "flag_rasih_blackfile"
@@ -949,8 +1100,13 @@ cards:
         nextCardId: "smm_card_164"
       -
         choiceId: "smm_card_163_b"
+        choiceImageId: "choice_smm_card_163_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a large readable story prop forward with a decisive hand gesture and a clear expressive face. Rasih, a polite spy chief half-hidden by a dark hood reacts nearby with one simple readable gesture. a hidden stone arch and stubby candles identify the secret passage. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Soytarıyı sahte habere sür"
-        resultText: "Saray Casusları: Kırık Tabak kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde casus ağının ve mühür erişiminin için daha keskin bir kayıt açılır."
+        resultText: "Saray Casusları: Kırık Tabak sırasında \"Soytarıyı sahte habere sür\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir, casus ağını genişletir ve mühür erişimini yaklaştırır."
         healthDelta: 0
         setFlags:
           - "flag_secret_sold"
@@ -984,7 +1140,9 @@ cards:
     bodyText: "Arşiv odasında unutulmuş notlar, yaşayan vezirlerden daha tehlikelidir. Saray Casusları: Mum Işığı anında Başvezir Sadreddin, Miskal'in şakasında saray haritası saklı olabileceğini gösterir. Yanlış tatlı krizi, Safira'nın dış destek arayışında ya fırsat ya da utanç olarak yeniden açılır. Seçeceğin yol, casus ağının ve mühür erişiminin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_eski_arsiv_odasi"
     focusImageId: "focus_smm_164_spy_network"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Saray Casusları: Mum Işığı scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Başvezir Sadreddin, Lale Kalfa, a mistaken ornate dessert tray with diplomatic tension, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron holds a stubby candle with a clear active pose, oversized hands, and a simple expressive face. Sadreddin, a thin grand vizier with a wax seal case watches close by with one simple reaction gesture. scroll shelves and a locked chest identify the archive room, with no readable writing. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "sadreddin_basvezir"
@@ -1002,8 +1160,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_164_a"
+        choiceImageId: "choice_smm_card_164_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron guards a large readable story prop behind the apron with narrowed eyes and one protective hand. Sadreddin, a thin grand vizier with a wax seal case reacts nearby with one simple readable gesture. scroll shelves and a locked chest identify the archive room, with no readable writing. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Geçidi kimseye belli etme"
-        resultText: "Saray Casusları: Mum Işığı kararında hesabı açık tutarsın. Başvezir Sadreddin bunu fark eder ve casus ağının ve mühür erişiminin dengesi senin lehine bir çizik alır."
+        resultText: "Saray Casusları: Mum Işığı sırasında \"Geçidi kimseye belli etme\" yolunu seçersin. Bu hamle casus ağını genişletir ve tatlı diplomasisini canlandırır."
         healthDelta: 0
         setFlags:
           - "flag_rasih_blackfile"
@@ -1030,8 +1193,13 @@ cards:
         nextCardId: "smm_card_165"
       -
         choiceId: "smm_card_164_b"
+        choiceImageId: "choice_smm_card_164_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a white goose feather and a feed bowl forward with a decisive hand gesture and a clear expressive face. Sadreddin, a thin grand vizier with a wax seal case reacts nearby with one simple readable gesture. scroll shelves and a locked chest identify the archive room, with no readable writing. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Geçide işaret kazı"
-        resultText: "Saray Casusları: Mum Işığı kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde casus ağının ve mühür erişiminin için daha keskin bir kayıt açılır."
+        resultText: "Saray Casusları: Mum Işığı sırasında \"Geçide işaret kazı\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir, casus ağını genişletir, mühür erişimini yaklaştırır ve tatlı diplomasisini belirgin biçimde canlandırır."
         healthDelta: 0
         setFlags:
           - "flag_secret_sold"
@@ -1067,7 +1235,9 @@ cards:
     bodyText: "Arşiv odasında unutulmuş notlar, yaşayan vezirlerden daha tehlikelidir. Saray Casusları: Gece Nöbeti anında Miskal, geçitte attığın adımın iki fraksiyonca sayıldığını sezdirir. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, casus ağının ve mühür erişiminin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_hizmetkar_koridoru"
     focusImageId: "focus_smm_165_spy_network"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Saray Casusları: Gece Nöbeti scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Miskal, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron guards a small tray with a clear active pose, oversized hands, and a simple expressive face. Miskal, a narrow-eyed palace jester with a crooked half-smile watches close by with one simple reaction gesture. plain doors and one oil lamp identify the servant corridor. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "miskal_soytari"
@@ -1079,8 +1249,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_165_a"
+        choiceImageId: "choice_smm_card_165_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron offers a big wooden measuring spoon forward with a cautious bow and one respectful open palm. Sadreddin, a thin grand vizier with a wax seal case reacts nearby with one simple readable gesture. plain doors and one oil lamp identify the servant corridor. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Başvezire ölçülü bilgi ver"
-        resultText: "Saray Casusları: Gece Nöbeti kararında hesabı açık tutarsın. Miskal bunu fark eder ve casus ağının ve mühür erişiminin dengesi senin lehine bir çizik alır."
+        resultText: "Saray Casusları: Gece Nöbeti sırasında \"Başvezire ölçülü bilgi ver\" yolunu seçersin. Bu hamle casus ağını genişletir."
         healthDelta: 0
         setFlags:
           - "flag_rasih_blackfile"
@@ -1106,8 +1281,13 @@ cards:
         nextCardId: "smm_card_166"
       -
         choiceId: "smm_card_165_b"
+        choiceImageId: "choice_smm_card_165_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron slams a large readable story prop onto the table with a hard angry stare and one clenched fist. Sadreddin, a thin grand vizier with a wax seal case reacts nearby with one simple readable gesture. plain doors and one oil lamp identify the servant corridor. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Başveziri korkuyla zorla"
-        resultText: "Saray Casusları: Gece Nöbeti kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde casus ağının ve mühür erişiminin için daha keskin bir kayıt açılır."
+        resultText: "Saray Casusları: Gece Nöbeti sırasında \"Başveziri korkuyla zorla\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir, casus ağını genişletir ve mühür erişimini yaklaştırır."
         healthDelta: 0
         setFlags:
           - "flag_secret_sold"
@@ -1141,7 +1321,9 @@ cards:
     bodyText: "Casus ağına giren biri, artık kendi suskunluğunun da hesabını verir. Saray Casusları: Kilitli Raf anında Kapıcı Boran, senden duyduğunu değil, duymamış gibi yaptığını hatırlamanı ister. Kehanet çorbası artık sarayda küçük bir şaka değil, varislerin kendi lehine çevirmek istediği ciddi bir alamettir. Seçeceğin yol, casus ağının ve mühür erişiminin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_mutfak_cati_arasi"
     focusImageId: "focus_smm_166_spy_network"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Saray Casusları: Kilitli Raf scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Kapıcı Boran, Müneccim Zerya, a bowl of omen soup with oil rings and three chickpeas, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron reaches toward a locked shelf key with a clear active pose, oversized hands, and a simple expressive face. Boran, a stiff palace gatekeeper with a large belt key watches close by with one simple reaction gesture. roof beams and storage crates identify the kitchen attic. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "kapici_boran"
@@ -1158,8 +1340,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_166_a"
+        choiceImageId: "choice_smm_card_166_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a folded blank note and stubby candle forward with a decisive hand gesture and a clear expressive face. Rasih, a polite spy chief half-hidden by a dark hood reacts nearby with one simple readable gesture. roof beams and storage crates identify the kitchen attic. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Sırrı Rasih'e eksiksiz götür"
-        resultText: "Saray Casusları: Kilitli Raf kararında hesabı açık tutarsın. Kapıcı Boran bunu fark eder ve casus ağının ve mühür erişiminin dengesi senin lehine bir çizik alır."
+        resultText: "Saray Casusları: Kilitli Raf sırasında \"Sırrı Rasih'e eksiksiz götür\" yolunu seçersin. Bu hamle casus ağını genişletir ve çorba alametini büyütür."
         healthDelta: 0
         setFlags:
           - "flag_rasih_blackfile"
@@ -1186,8 +1373,13 @@ cards:
         nextCardId: "smm_card_167"
       -
         choiceId: "smm_card_166_b"
+        choiceImageId: "choice_smm_card_166_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron slides a folded blank note and stubby candle across a low table with a sly sideways glance and one hidden hand. Boran, a stiff palace gatekeeper with a large belt key reacts nearby with one simple readable gesture. roof beams and storage crates identify the kitchen attic. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Sırrı iki tarafa sat"
-        resultText: "Saray Casusları: Kilitli Raf kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde casus ağının ve mühür erişiminin için daha keskin bir kayıt açılır."
+        resultText: "Saray Casusları: Kilitli Raf sırasında \"Sırrı iki tarafa sat\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir, casus ağını genişletir, mühür erişimini yaklaştırır ve çorba alametini belirgin biçimde büyütür."
         healthDelta: 0
         setFlags:
           - "flag_secret_sold"
@@ -1222,7 +1414,9 @@ cards:
     bodyText: "Casus ağına giren biri, artık kendi suskunluğunun da hesabını verir. Saray Casusları: Sarayın Kulağı anında Rasih, bir söylentiyi kimin başlattığının çoğu zaman kimin bitirdiğinden önemli olduğunu söyler. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, casus ağının ve mühür erişiminin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_sessiz_kutuphane"
     focusImageId: "focus_smm_167_spy_network"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Saray Casusları: Sarayın Kulağı scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Rasih, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron listens beside a half-open door with a clear active pose, oversized hands, and a simple expressive face. Rasih, a polite spy chief half-hidden by a dark hood watches close by with one simple reaction gesture. tall shelves and a candle identify the quiet library, with no readable books. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "rasih_casusbasi"
@@ -1234,8 +1428,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_167_a"
+        choiceImageId: "choice_smm_card_167_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron guards a plain round wax seal and stamp with no glyphs behind the apron with narrowed eyes and one protective hand. Rasih, a polite spy chief half-hidden by a dark hood reacts nearby with one simple readable gesture. tall shelves and a candle identify the quiet library, with no readable books. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Arşiv notunu mühürle koru"
-        resultText: "Saray Casusları: Sarayın Kulağı kararında hesabı açık tutarsın. Rasih bunu fark eder ve casus ağının ve mühür erişiminin dengesi senin lehine bir çizik alır."
+        resultText: "Saray Casusları: Sarayın Kulağı sırasında \"Arşiv notunu mühürle koru\" yolunu seçersin. Bu hamle casus ağını genişletir."
         healthDelta: 0
         setFlags:
           - "flag_rasih_blackfile"
@@ -1261,8 +1460,13 @@ cards:
         nextCardId: "smm_card_168"
       -
         choiceId: "smm_card_167_b"
+        choiceImageId: "choice_smm_card_167_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a folded blank note and stubby candle forward with a decisive hand gesture and a clear expressive face. Rasih, a polite spy chief half-hidden by a dark hood reacts nearby with one simple readable gesture. tall shelves and a candle identify the quiet library, with no readable books. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Arşiv notunu değiştir"
-        resultText: "Saray Casusları: Sarayın Kulağı kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde casus ağının ve mühür erişiminin için daha keskin bir kayıt açılır."
+        resultText: "Saray Casusları: Sarayın Kulağı sırasında \"Arşiv notunu değiştir\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir, casus ağını genişletir ve mühür erişimini yaklaştırır."
         healthDelta: 0
         setFlags:
           - "flag_secret_sold"
@@ -1296,7 +1500,9 @@ cards:
     bodyText: "Casus ağına giren biri, artık kendi suskunluğunun da hesabını verir. Saray Casusları: Yağ Halkası anında Başvezir Sadreddin, başvezirin gülüşünde mühür odasının kilidini aratır. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, casus ağının ve mühür erişiminin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_saray_camasirhanesi"
     focusImageId: "focus_smm_168_spy_network"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Saray Casusları: Yağ Halkası scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Başvezir Sadreddin, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron tilts an omen soup bowl with a clear active pose, oversized hands, and a simple expressive face. Sadreddin, a thin grand vizier with a wax seal case watches close by with one simple reaction gesture. laundry lines and a wash basin identify the palace laundry. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "sadreddin_basvezir"
@@ -1308,8 +1514,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_168_a"
+        choiceImageId: "choice_smm_card_168_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a large readable story prop forward with a decisive hand gesture and a clear expressive face. Sadreddin, a thin grand vizier with a wax seal case reacts nearby with one simple readable gesture. laundry lines and a wash basin identify the palace laundry. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Soytarının sözünü dikkatle tart"
-        resultText: "Saray Casusları: Yağ Halkası kararında hesabı açık tutarsın. Başvezir Sadreddin bunu fark eder ve casus ağının ve mühür erişiminin dengesi senin lehine bir çizik alır."
+        resultText: "Saray Casusları: Yağ Halkası sırasında \"Soytarının sözünü dikkatle tart\" yolunu seçersin. Bu hamle saray kuşkusunu yatıştırır ve casus ağını genişletir."
         healthDelta: 0
         setFlags:
           - "flag_rasih_blackfile"
@@ -1336,8 +1547,13 @@ cards:
         nextCardId: "smm_card_169"
       -
         choiceId: "smm_card_168_b"
+        choiceImageId: "choice_smm_card_168_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a large readable story prop forward with a decisive hand gesture and a clear expressive face. Sadreddin, a thin grand vizier with a wax seal case reacts nearby with one simple readable gesture. laundry lines and a wash basin identify the palace laundry. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Soytarıyı sahte habere sür"
-        resultText: "Saray Casusları: Yağ Halkası kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde casus ağının ve mühür erişiminin için daha keskin bir kayıt açılır."
+        resultText: "Saray Casusları: Yağ Halkası sırasında \"Soytarıyı sahte habere sür\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir, casus ağını genişletir ve mühür erişimini yaklaştırır."
         healthDelta: 0
         setFlags:
           - "flag_secret_sold"
@@ -1372,7 +1588,9 @@ cards:
     bodyText: "Casus ağına giren biri, artık kendi suskunluğunun da hesabını verir. Saray Casusları: Ak Gaga'nın Yolu anında Miskal, Miskal'in şakasında saray haritası saklı olabileceğini gösterir. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, casus ağının ve mühür erişiminin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_gizli_gecit_mumlu"
     focusImageId: "focus_smm_169_spy_network"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Saray Casusları: Ak Gaga'nın Yolu scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Miskal, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron guides a white goose feather marker with a clear active pose, oversized hands, and a simple expressive face. Miskal, a narrow-eyed palace jester with a crooked half-smile watches close by with one simple reaction gesture. a hidden stone arch and stubby candles identify the secret passage. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "miskal_soytari"
@@ -1384,8 +1602,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_169_a"
+        choiceImageId: "choice_smm_card_169_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron guards a large readable story prop behind the apron with narrowed eyes and one protective hand. Miskal, a narrow-eyed palace jester with a crooked half-smile reacts nearby with one simple readable gesture. a hidden stone arch and stubby candles identify the secret passage. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Geçidi kimseye belli etme"
-        resultText: "Saray Casusları: Ak Gaga'nın Yolu kararında hesabı açık tutarsın. Miskal bunu fark eder ve casus ağının ve mühür erişiminin dengesi senin lehine bir çizik alır."
+        resultText: "Saray Casusları: Ak Gaga'nın Yolu sırasında \"Geçidi kimseye belli etme\" yolunu seçersin. Bu hamle casus ağını genişletir."
         healthDelta: 0
         setFlags:
           - "flag_rasih_blackfile"
@@ -1411,8 +1634,13 @@ cards:
         nextCardId: "smm_card_170"
       -
         choiceId: "smm_card_169_b"
+        choiceImageId: "choice_smm_card_169_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a white goose feather and a feed bowl forward with a decisive hand gesture and a clear expressive face. Miskal, a narrow-eyed palace jester with a crooked half-smile reacts nearby with one simple readable gesture. a hidden stone arch and stubby candles identify the secret passage. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Geçide işaret kazı"
-        resultText: "Saray Casusları: Ak Gaga'nın Yolu kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde casus ağının ve mühür erişiminin için daha keskin bir kayıt açılır."
+        resultText: "Saray Casusları: Ak Gaga'nın Yolu sırasında \"Geçide işaret kazı\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir, casus ağını genişletir ve mühür erişimini yaklaştırır."
         healthDelta: 0
         setFlags:
           - "flag_secret_sold"
@@ -1446,7 +1674,9 @@ cards:
     bodyText: "Casus ağına giren biri, artık kendi suskunluğunun da hesabını verir. Saray Casusları: Gümüş Kaşık anında Kapıcı Boran, geçitte attığın adımın iki fraksiyonca sayıldığını sezdirir. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, casus ağının ve mühür erişiminin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_eski_arsiv_odasi"
     focusImageId: "focus_smm_170_spy_network"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Saray Casusları: Gümüş Kaşık scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Kapıcı Boran, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron inspects a silver spoon with a clear active pose, oversized hands, and a simple expressive face. Boran, a stiff palace gatekeeper with a large belt key watches close by with one simple reaction gesture. scroll shelves and a locked chest identify the archive room, with no readable writing. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "kapici_boran"
@@ -1458,8 +1688,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_170_a"
+        choiceImageId: "choice_smm_card_170_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron offers a big wooden measuring spoon forward with a cautious bow and one respectful open palm. Sadreddin, a thin grand vizier with a wax seal case reacts nearby with one simple readable gesture. scroll shelves and a locked chest identify the archive room, with no readable writing. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Başvezire ölçülü bilgi ver"
-        resultText: "Saray Casusları: Gümüş Kaşık kararında hesabı açık tutarsın. Kapıcı Boran bunu fark eder ve casus ağının ve mühür erişiminin dengesi senin lehine bir çizik alır."
+        resultText: "Saray Casusları: Gümüş Kaşık sırasında \"Başvezire ölçülü bilgi ver\" yolunu seçersin. Bu hamle casus ağını genişletir."
         healthDelta: 0
         setFlags:
           - "flag_rasih_blackfile"
@@ -1485,8 +1720,13 @@ cards:
         nextCardId: "smm_card_171"
       -
         choiceId: "smm_card_170_b"
+        choiceImageId: "choice_smm_card_170_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron slams a large readable story prop onto the table with a hard angry stare and one clenched fist. Sadreddin, a thin grand vizier with a wax seal case reacts nearby with one simple readable gesture. scroll shelves and a locked chest identify the archive room, with no readable writing. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Başveziri korkuyla zorla"
-        resultText: "Saray Casusları: Gümüş Kaşık kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde casus ağının ve mühür erişiminin için daha keskin bir kayıt açılır."
+        resultText: "Saray Casusları: Gümüş Kaşık sırasında \"Başveziri korkuyla zorla\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir, casus ağını genişletir ve mühür erişimini yaklaştırır."
         healthDelta: 0
         setFlags:
           - "flag_secret_sold"
@@ -1520,7 +1760,9 @@ cards:
     bodyText: "Sırlar seni mühür odasına yaklaştırır ama gölgeni de uzatır. Saray Casusları: Kayıp Ölçü anında Rasih, senden duyduğunu değil, duymamış gibi yaptığını hatırlamanı ister. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, casus ağının ve mühür erişiminin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_hizmetkar_koridoru"
     focusImageId: "focus_smm_171_spy_network"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Saray Casusları: Kayıp Ölçü scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Rasih, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron searches for a missing measuring cup with a clear active pose, oversized hands, and a simple expressive face. Rasih, a polite spy chief half-hidden by a dark hood watches close by with one simple reaction gesture. plain doors and one oil lamp identify the servant corridor. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "rasih_casusbasi"
@@ -1532,8 +1774,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_171_a"
+        choiceImageId: "choice_smm_card_171_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a folded blank note and stubby candle forward with a decisive hand gesture and a clear expressive face. Rasih, a polite spy chief half-hidden by a dark hood reacts nearby with one simple readable gesture. plain doors and one oil lamp identify the servant corridor. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Sırrı Rasih'e eksiksiz götür"
-        resultText: "Saray Casusları: Kayıp Ölçü kararında hesabı açık tutarsın. Rasih bunu fark eder ve casus ağının ve mühür erişiminin dengesi senin lehine bir çizik alır."
+        resultText: "Saray Casusları: Kayıp Ölçü sırasında \"Sırrı Rasih'e eksiksiz götür\" yolunu seçersin. Bu hamle casus ağını genişletir."
         healthDelta: 0
         setFlags:
           - "flag_rasih_blackfile"
@@ -1559,8 +1806,13 @@ cards:
         nextCardId: "smm_card_172"
       -
         choiceId: "smm_card_171_b"
+        choiceImageId: "choice_smm_card_171_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron slides a folded blank note and stubby candle across a low table with a sly sideways glance and one hidden hand. Rasih, a polite spy chief half-hidden by a dark hood reacts nearby with one simple readable gesture. plain doors and one oil lamp identify the servant corridor. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Sırrı iki tarafa sat"
-        resultText: "Saray Casusları: Kayıp Ölçü kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde casus ağının ve mühür erişiminin için daha keskin bir kayıt açılır."
+        resultText: "Saray Casusları: Kayıp Ölçü sırasında \"Sırrı iki tarafa sat\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir, casus ağını genişletir ve mühür erişimini yaklaştırır. Canın 1 azalır."
         healthDelta: -1
         setFlags:
           - "flag_secret_sold"
@@ -1594,7 +1846,9 @@ cards:
     bodyText: "Sırlar seni mühür odasına yaklaştırır ama gölgeni de uzatır. Saray Casusları: Kuyrukta Ekmek anında Başvezir Sadreddin, bir söylentiyi kimin başlattığının çoğu zaman kimin bitirdiğinden önemli olduğunu söyler. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, casus ağının ve mühür erişiminin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_mutfak_cati_arasi"
     focusImageId: "focus_smm_172_spy_network"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Saray Casusları: Kuyrukta Ekmek scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Başvezir Sadreddin, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron carries a bread basket with a clear active pose, oversized hands, and a simple expressive face. Sadreddin, a thin grand vizier with a wax seal case watches close by with one simple reaction gesture. roof beams and storage crates identify the kitchen attic. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "sadreddin_basvezir"
@@ -1606,8 +1860,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_172_a"
+        choiceImageId: "choice_smm_card_172_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron guards a plain round wax seal and stamp with no glyphs behind the apron with narrowed eyes and one protective hand. Sadreddin, a thin grand vizier with a wax seal case reacts nearby with one simple readable gesture. roof beams and storage crates identify the kitchen attic. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Arşiv notunu mühürle koru"
-        resultText: "Saray Casusları: Kuyrukta Ekmek kararında hesabı açık tutarsın. Başvezir Sadreddin bunu fark eder ve casus ağının ve mühür erişiminin dengesi senin lehine bir çizik alır."
+        resultText: "Saray Casusları: Kuyrukta Ekmek sırasında \"Arşiv notunu mühürle koru\" yolunu seçersin. Bu hamle casus ağını genişletir."
         healthDelta: 0
         setFlags:
           - "flag_rasih_blackfile"
@@ -1633,8 +1892,13 @@ cards:
         nextCardId: "smm_card_173"
       -
         choiceId: "smm_card_172_b"
+        choiceImageId: "choice_smm_card_172_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a folded blank note and stubby candle forward with a decisive hand gesture and a clear expressive face. Sadreddin, a thin grand vizier with a wax seal case reacts nearby with one simple readable gesture. roof beams and storage crates identify the kitchen attic. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Arşiv notunu değiştir"
-        resultText: "Saray Casusları: Kuyrukta Ekmek kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde casus ağının ve mühür erişiminin için daha keskin bir kayıt açılır."
+        resultText: "Saray Casusları: Kuyrukta Ekmek sırasında \"Arşiv notunu değiştir\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir, casus ağını genişletir ve mühür erişimini yaklaştırır."
         healthDelta: 0
         setFlags:
           - "flag_secret_sold"
@@ -1668,7 +1932,9 @@ cards:
     bodyText: "Sırlar seni mühür odasına yaklaştırır ama gölgeni de uzatır. Saray Casusları: Keskin Koku anında Miskal, başvezirin gülüşünde mühür odasının kilidini aratır. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, casus ağının ve mühür erişiminin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_sessiz_kutuphane"
     focusImageId: "focus_smm_173_spy_network"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Saray Casusları: Keskin Koku scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Miskal, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron sniffs a tiny spice pouch with a clear active pose, oversized hands, and a simple expressive face. Miskal, a narrow-eyed palace jester with a crooked half-smile watches close by with one simple reaction gesture. tall shelves and a candle identify the quiet library, with no readable books. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "miskal_soytari"
@@ -1680,8 +1946,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_173_a"
+        choiceImageId: "choice_smm_card_173_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a large readable story prop forward with a decisive hand gesture and a clear expressive face. Miskal, a narrow-eyed palace jester with a crooked half-smile reacts nearby with one simple readable gesture. tall shelves and a candle identify the quiet library, with no readable books. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Soytarının sözünü dikkatle tart"
-        resultText: "Saray Casusları: Keskin Koku kararında hesabı açık tutarsın. Miskal bunu fark eder ve casus ağının ve mühür erişiminin dengesi senin lehine bir çizik alır."
+        resultText: "Saray Casusları: Keskin Koku sırasında \"Soytarının sözünü dikkatle tart\" yolunu seçersin. Bu hamle casus ağını genişletir."
         healthDelta: 0
         setFlags:
           - "flag_rasih_blackfile"
@@ -1707,8 +1978,13 @@ cards:
         nextCardId: "smm_card_174"
       -
         choiceId: "smm_card_173_b"
+        choiceImageId: "choice_smm_card_173_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a large readable story prop forward with a decisive hand gesture and a clear expressive face. Miskal, a narrow-eyed palace jester with a crooked half-smile reacts nearby with one simple readable gesture. tall shelves and a candle identify the quiet library, with no readable books. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Soytarıyı sahte habere sür"
-        resultText: "Saray Casusları: Keskin Koku kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde casus ağının ve mühür erişiminin için daha keskin bir kayıt açılır."
+        resultText: "Saray Casusları: Keskin Koku sırasında \"Soytarıyı sahte habere sür\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir, casus ağını genişletir ve mühür erişimini yaklaştırır."
         healthDelta: 0
         setFlags:
           - "flag_secret_sold"
@@ -1742,7 +2018,9 @@ cards:
     bodyText: "Sırlar seni mühür odasına yaklaştırır ama gölgeni de uzatır. Saray Casusları: Mühre Giden İz anında Kapıcı Boran, Miskal'in şakasında saray haritası saklı olabileceğini gösterir. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, casus ağının ve mühür erişiminin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_saray_camasirhanesi"
     focusImageId: "focus_smm_174_spy_network"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Saray Casusları: Mühre Giden İz scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Kapıcı Boran, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron traces a red wax footprint with a clear active pose, oversized hands, and a simple expressive face. Boran, a stiff palace gatekeeper with a large belt key watches close by with one simple reaction gesture. laundry lines and a wash basin identify the palace laundry. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "kapici_boran"
@@ -1754,8 +2032,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_174_a"
+        choiceImageId: "choice_smm_card_174_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron guards a large readable story prop behind the apron with narrowed eyes and one protective hand. Boran, a stiff palace gatekeeper with a large belt key reacts nearby with one simple readable gesture. laundry lines and a wash basin identify the palace laundry. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Geçidi kimseye belli etme"
-        resultText: "Saray Casusları: Mühre Giden İz kararında hesabı açık tutarsın. Kapıcı Boran bunu fark eder ve casus ağının ve mühür erişiminin dengesi senin lehine bir çizik alır."
+        resultText: "Saray Casusları: Mühre Giden İz sırasında \"Geçidi kimseye belli etme\" yolunu seçersin. Bu hamle casus ağını genişletir."
         healthDelta: 0
         setFlags:
           - "flag_rasih_blackfile"
@@ -1781,8 +2064,13 @@ cards:
         nextCardId: "smm_card_175"
       -
         choiceId: "smm_card_174_b"
+        choiceImageId: "choice_smm_card_174_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a white goose feather and a feed bowl forward with a decisive hand gesture and a clear expressive face. Boran, a stiff palace gatekeeper with a large belt key reacts nearby with one simple readable gesture. laundry lines and a wash basin identify the palace laundry. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Geçide işaret kazı"
-        resultText: "Saray Casusları: Mühre Giden İz kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde casus ağının ve mühür erişiminin için daha keskin bir kayıt açılır."
+        resultText: "Saray Casusları: Mühre Giden İz sırasında \"Geçide işaret kazı\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir, casus ağını genişletir ve mühür erişimini yaklaştırır."
         healthDelta: 0
         setFlags:
           - "flag_secret_sold"
@@ -1816,7 +2104,9 @@ cards:
     bodyText: "Sırlar seni mühür odasına yaklaştırır ama gölgeni de uzatır. Saray Casusları: Dar Boğaz anında Rasih, geçitte attığın adımın iki fraksiyonca sayıldığını sezdirir. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, casus ağının ve mühür erişiminin üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_gizli_gecit_mumlu"
     focusImageId: "focus_smm_175_spy_network"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Saray Casusları: Dar Boğaz scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Rasih, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron squeezes through a narrow doorway with a bundle with a clear active pose, oversized hands, and a simple expressive face. Rasih, a polite spy chief half-hidden by a dark hood watches close by with one simple reaction gesture. a hidden stone arch and stubby candles identify the secret passage. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "rasih_casusbasi"
@@ -1828,8 +2118,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_175_a"
+        choiceImageId: "choice_smm_card_175_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron offers a big wooden measuring spoon forward with a cautious bow and one respectful open palm. Sadreddin, a thin grand vizier with a wax seal case reacts nearby with one simple readable gesture. a hidden stone arch and stubby candles identify the secret passage. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Başvezire ölçülü bilgi ver"
-        resultText: "Saray Casusları: Dar Boğaz kararında hesabı açık tutarsın. Rasih bunu fark eder ve casus ağının ve mühür erişiminin dengesi senin lehine bir çizik alır."
+        resultText: "Saray Casusları: Dar Boğaz sırasında \"Başvezire ölçülü bilgi ver\" yolunu seçersin. Bu hamle saray kuşkusunu yatıştırır ve casus ağını genişletir."
         healthDelta: 0
         setFlags:
           - "flag_rasih_blackfile"
@@ -1855,8 +2150,13 @@ cards:
         nextCardId: "smm_card_176"
       -
         choiceId: "smm_card_175_b"
+        choiceImageId: "choice_smm_card_175_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron slams a large readable story prop onto the table with a hard angry stare and one clenched fist. Sadreddin, a thin grand vizier with a wax seal case reacts nearby with one simple readable gesture. a hidden stone arch and stubby candles identify the secret passage. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Başveziri korkuyla zorla"
-        resultText: "Saray Casusları: Dar Boğaz kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde casus ağının ve mühür erişiminin için daha keskin bir kayıt açılır."
+        resultText: "Saray Casusları: Dar Boğaz sırasında \"Başveziri korkuyla zorla\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir, casus ağını genişletir ve mühür erişimini yaklaştırır."
         healthDelta: 0
         setFlags:
           - "flag_secret_sold"

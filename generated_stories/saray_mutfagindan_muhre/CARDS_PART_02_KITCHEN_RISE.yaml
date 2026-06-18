@@ -9,7 +9,9 @@ cards:
     bodyText: "Büyük mutfakta sabah dumanı bakır kazanlardan bir divan kararı gibi yükselir. Büyük Mutfakta Yükseliş: İlk Eşik anında Bahir Usta, senden hızlı değil, hatırlanacak kadar doğru çalışmanı ister. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, aşçı yolunun ve hükümdara yakınlığının üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_buyuk_mutfak_atesli"
     focusImageId: "focus_smm_026_kitchen_rise"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Büyük Mutfakta Yükseliş: İlk Eşik scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Bahir Usta, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron steps over a chipped plate threshold with a clear active pose, oversized hands, and a simple expressive face. Bahir Usta, a broad stern kitchen master with rolled sleeves and a heavy ladle watches close by with one simple reaction gesture. a round copper cauldron and hanging herbs identify the grand kitchen. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "bahir_usta"
@@ -21,8 +23,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_026_a"
+        choiceImageId: "choice_smm_card_026_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron stirs a white goose feather and a feed bowl in a round pot with a determined frown and an oversized spoon hand. Bahir Usta, a broad stern kitchen master with rolled sleeves and a heavy ladle reacts nearby with one simple readable gesture. a round copper cauldron and hanging herbs identify the grand kitchen. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Kazanı ustanın yöntemiyle kurtar"
-        resultText: "Büyük Mutfakta Yükseliş: İlk Eşik kararında hesabı açık tutarsın. Bahir Usta bunu fark eder ve aşçı yolunun ve hükümdara yakınlığının dengesi senin lehine bir çizik alır."
+        resultText: "Büyük Mutfakta Yükseliş: İlk Eşik sırasında \"Kazanı ustanın yöntemiyle kurtar\" yolunu seçersin. Bu hamle mutfak güvenini artırır."
         healthDelta: 0
         setFlags:
           - "flag_kitchen_apprentice"
@@ -48,8 +55,13 @@ cards:
         nextCardId: "smm_card_027"
       -
         choiceId: "smm_card_026_b"
+        choiceImageId: "choice_smm_card_026_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a big wooden measuring spoon forward with a decisive hand gesture and a clear expressive face. Bahir Usta, a broad stern kitchen master with rolled sleeves and a heavy ladle reacts nearby with one simple readable gesture. a round copper cauldron and hanging herbs identify the grand kitchen. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Lezzeti gizli baharatla yükselt"
-        resultText: "Büyük Mutfakta Yükseliş: İlk Eşik kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde aşçı yolunun ve hükümdara yakınlığının için daha keskin bir kayıt açılır."
+        resultText: "Büyük Mutfakta Yükseliş: İlk Eşik sırasında \"Lezzeti gizli baharatla yükselt\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve iaşe hâkimiyetini artırır."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"
@@ -83,7 +95,9 @@ cards:
     bodyText: "Büyük mutfakta sabah dumanı bakır kazanlardan bir divan kararı gibi yükselir. Büyük Mutfakta Yükseliş: Sıcak Bakır anında Hükümdar Azem, bir kepçenin bile sarayda taraf tuttuğunu ima eder. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, aşçı yolunun ve hükümdara yakınlığının üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_buyuk_mutfak_sakin"
     focusImageId: "focus_smm_027_kitchen_rise"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Büyük Mutfakta Yükseliş: Sıcak Bakır scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Hükümdar Azem, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron lifts a hot copper basin with a clear active pose, oversized hands, and a simple expressive face. Azem, an aging ruler with a tired crown and heavy robe watches close by with one simple reaction gesture. a round copper cauldron and hanging herbs identify the grand kitchen. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "hukumdar_azem"
@@ -95,8 +109,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_027_a"
+        choiceImageId: "choice_smm_card_027_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron measures a big wooden measuring spoon carefully over a bowl with pursed lips and one steady raised hand. Azem, an aging ruler with a tired crown and heavy robe reacts nearby with one simple readable gesture. a round copper cauldron and hanging herbs identify the grand kitchen. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Baharatı ölçerek sabırla ekle"
-        resultText: "Büyük Mutfakta Yükseliş: Sıcak Bakır kararında hesabı açık tutarsın. Hükümdar Azem bunu fark eder ve aşçı yolunun ve hükümdara yakınlığının dengesi senin lehine bir çizik alır."
+        resultText: "Büyük Mutfakta Yükseliş: Sıcak Bakır sırasında \"Baharatı ölçerek sabırla ekle\" yolunu seçersin. Bu hamle mutfak güvenini artırır."
         healthDelta: 0
         setFlags:
           - "flag_kitchen_apprentice"
@@ -122,8 +141,13 @@ cards:
         nextCardId: "smm_card_028"
       -
         choiceId: "smm_card_027_b"
+        choiceImageId: "choice_smm_card_027_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron turns a big wooden measuring spoon toward a new path with a firm pulling gesture and clenched jaw. Azem, an aging ruler with a tired crown and heavy robe reacts nearby with one simple readable gesture. a round copper cauldron and hanging herbs identify the grand kitchen. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Ustanın tarifini kendi adına geçir"
-        resultText: "Büyük Mutfakta Yükseliş: Sıcak Bakır kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde aşçı yolunun ve hükümdara yakınlığının için daha keskin bir kayıt açılır."
+        resultText: "Büyük Mutfakta Yükseliş: Sıcak Bakır sırasında \"Ustanın tarifini kendi adına geçir\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve iaşe hâkimiyetini artırır. Canın 1 azalır."
         healthDelta: -1
         setFlags:
           - "flag_secret_kept"
@@ -157,7 +181,9 @@ cards:
     bodyText: "Büyük mutfakta sabah dumanı bakır kazanlardan bir divan kararı gibi yükselir. Büyük Mutfakta Yükseliş: Sessiz Bakış anında Miskal, başkasının kusurunu örtmenin ileride kapı açabileceğini söyler. Kehanet çorbası henüz bir mutfak hatası gibi görünür, fakat yağ halkası ve üç nohut hizmetkârların diline düşer. Seçeceğin yol, aşçı yolunun ve hükümdara yakınlığının üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_baharat_odasi_safran"
     focusImageId: "focus_smm_028_kitchen_rise"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Büyük Mutfakta Yükseliş: Sessiz Bakış scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Miskal, Müneccim Zerya, a bowl of omen soup with oil rings and three chickpeas, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron points at a suspicious small clue with a clear active pose, oversized hands, and a simple expressive face. Miskal, a narrow-eyed palace jester with a crooked half-smile watches close by with one simple reaction gesture. big spice jars and saffron bundles identify the spice room. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "miskal_soytari"
@@ -174,8 +200,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_028_a"
+        choiceImageId: "choice_smm_card_028_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron wipes the area around a large readable story prop clean with a proud tiny smile and a broad sweeping hand. Azem, an aging ruler with a tired crown and heavy robe reacts nearby with one simple readable gesture. big spice jars and saffron bundles identify the spice room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Hükümdarın tabağını temiz tut"
-        resultText: "Büyük Mutfakta Yükseliş: Sessiz Bakış kararında hesabı açık tutarsın. Miskal bunu fark eder ve aşçı yolunun ve hükümdara yakınlığının dengesi senin lehine bir çizik alır."
+        resultText: "Büyük Mutfakta Yükseliş: Sessiz Bakış sırasında \"Hükümdarın tabağını temiz tut\" yolunu seçersin. Bu hamle mutfak güvenini artırır, saray kuşkusunu yatıştırır ve çorba alametini büyütür."
         healthDelta: 0
         setFlags:
           - "flag_kitchen_apprentice"
@@ -203,8 +234,13 @@ cards:
         nextCardId: "smm_card_029"
       -
         choiceId: "smm_card_028_b"
+        choiceImageId: "choice_smm_card_028_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron places a large readable story prop quietly at the scene edge with a soft worried smile. Azem, an aging ruler with a tired crown and heavy robe reacts nearby with one simple readable gesture. big spice jars and saffron bundles identify the spice room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Hükümdarın tabağına işaret bırak"
-        resultText: "Büyük Mutfakta Yükseliş: Sessiz Bakış kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde aşçı yolunun ve hükümdara yakınlığının için daha keskin bir kayıt açılır."
+        resultText: "Büyük Mutfakta Yükseliş: Sessiz Bakış sırasında \"Hükümdarın tabağına işaret bırak\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir, iaşe hâkimiyetini artırır ve çorba alametini belirgin biçimde büyütür."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"
@@ -240,7 +276,9 @@ cards:
     bodyText: "Büyük mutfakta sabah dumanı bakır kazanlardan bir divan kararı gibi yükselir. Büyük Mutfakta Yükseliş: İnce Hesap anında Nimet Ana, hükümdarın damak tadının korkudan daha etkili olduğunu gösterir. Ak Gaga'nın avluda yürüdüğü yön, önce komik bir ayrıntı sanılır; Durna ise bunun sarayda hafife alınmayacağını bilir. Seçeceğin yol, aşçı yolunun ve hükümdara yakınlığının üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_saray_bulasikhanesi_gece"
     focusImageId: "focus_smm_029_kitchen_rise"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Büyük Mutfakta Yükseliş: İnce Hesap scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Nimet Ana, Durna, the dignified palace goose Ak Gaga nearby, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron counts three chunky tally stones with a clear active pose, oversized hands, and a simple expressive face. Nimet Ana, a watchful pantry keeper with a big key ring watches close by with one simple reaction gesture. a stone washing basin and two hanging ladles identify the palace scullery. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "nimet_kilerci"
@@ -257,8 +295,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_029_a"
+        choiceImageId: "choice_smm_card_029_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron arranges a folded blank note and stubby candle into a neat visible row with focused eyes and both hands spread wide. Nimet Ana, a watchful pantry keeper with a big key ring reacts nearby with one simple readable gesture. a stone washing basin and two hanging ladles identify the palace scullery. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Yamakları adil biçimde sırala"
-        resultText: "Büyük Mutfakta Yükseliş: İnce Hesap kararında hesabı açık tutarsın. Nimet Ana bunu fark eder ve aşçı yolunun ve hükümdara yakınlığının dengesi senin lehine bir çizik alır."
+        resultText: "Büyük Mutfakta Yükseliş: İnce Hesap sırasında \"Yamakları adil biçimde sırala\" yolunu seçersin. Bu hamle mutfak güvenini artırır ve Ak Gaga söylencesini güçlendirir."
         healthDelta: 0
         setFlags:
           - "flag_kitchen_apprentice"
@@ -287,8 +330,13 @@ cards:
         nextCardId: "smm_card_030"
       -
         choiceId: "smm_card_029_b"
+        choiceImageId: "choice_smm_card_029_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a large readable story prop forward with a decisive hand gesture and a clear expressive face. Nimet Ana, a watchful pantry keeper with a big key ring reacts nearby with one simple readable gesture. a stone washing basin and two hanging ladles identify the palace scullery. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Yamakları birbirine düşür"
-        resultText: "Büyük Mutfakta Yükseliş: İnce Hesap kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde aşçı yolunun ve hükümdara yakınlığının için daha keskin bir kayıt açılır."
+        resultText: "Büyük Mutfakta Yükseliş: İnce Hesap sırasında \"Yamakları birbirine düşür\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir, iaşe hâkimiyetini artırır ve Ak Gaga söylencesini belirgin biçimde güçlendirir."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"
@@ -323,7 +371,9 @@ cards:
     bodyText: "Büyük mutfakta sabah dumanı bakır kazanlardan bir divan kararı gibi yükselir. Büyük Mutfakta Yükseliş: Gizli Lekeler anında Bahir Usta, sarayın karnını doyuranın bazen aklını da yönettiğini anlatır. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, aşçı yolunun ve hükümdara yakınlığının üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_taht_salonu"
     focusImageId: "focus_smm_030_kitchen_rise"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Büyük Mutfakta Yükseliş: Gizli Lekeler scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Bahir Usta, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron scrubs a dark stain on a plate with a clear active pose, oversized hands, and a simple expressive face. Bahir Usta, a broad stern kitchen master with rolled sleeves and a heavy ladle watches close by with one simple reaction gesture. a worn throne step and faded banners identify the throne room. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "bahir_usta"
@@ -335,8 +385,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_030_a"
+        choiceImageId: "choice_smm_card_030_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron marks a bead tally board and grain sack with big non-letter tally blocks while biting the lip in concentration. Bahir Usta, a broad stern kitchen master with rolled sleeves and a heavy ladle reacts nearby with one simple readable gesture. a worn throne step and faded banners identify the throne room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Eksik eti deftere açık yaz"
-        resultText: "Büyük Mutfakta Yükseliş: Gizli Lekeler kararında hesabı açık tutarsın. Bahir Usta bunu fark eder ve aşçı yolunun ve hükümdara yakınlığının dengesi senin lehine bir çizik alır."
+        resultText: "Büyük Mutfakta Yükseliş: Gizli Lekeler sırasında \"Eksik eti deftere açık yaz\" yolunu seçersin. Bu hamle mutfak güvenini artırır."
         healthDelta: 0
         setFlags:
           - "flag_kitchen_apprentice"
@@ -362,8 +417,13 @@ cards:
         nextCardId: "smm_card_031"
       -
         choiceId: "smm_card_030_b"
+        choiceImageId: "choice_smm_card_030_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a folded blank note and stubby candle forward with a decisive hand gesture and a clear expressive face. Bahir Usta, a broad stern kitchen master with rolled sleeves and a heavy ladle reacts nearby with one simple readable gesture. a worn throne step and faded banners identify the throne room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Eksik eti fısıltıyla kapat"
-        resultText: "Büyük Mutfakta Yükseliş: Gizli Lekeler kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde aşçı yolunun ve hükümdara yakınlığının için daha keskin bir kayıt açılır."
+        resultText: "Büyük Mutfakta Yükseliş: Gizli Lekeler sırasında \"Eksik eti fısıltıyla kapat\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve iaşe hâkimiyetini artırır."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"
@@ -397,7 +457,9 @@ cards:
     bodyText: "Pişen her yemek, mutfak dışındaki birinin itibarını kurtarabilir ya da yakabilir. Büyük Mutfakta Yükseliş: Kör Alev anında Hükümdar Azem, senden hızlı değil, hatırlanacak kadar doğru çalışmanı ister. Kehanet çorbası henüz bir mutfak hatası gibi görünür, fakat yağ halkası ve üç nohut hizmetkârların diline düşer. Seçeceğin yol, aşçı yolunun ve hükümdara yakınlığının üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_mutfak_cati_arasi"
     focusImageId: "focus_smm_031_kitchen_rise"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Büyük Mutfakta Yükseliş: Kör Alev scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Hükümdar Azem, Müneccim Zerya, a bowl of omen soup with oil rings and three chickpeas, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron shields a weak kitchen flame with a clear active pose, oversized hands, and a simple expressive face. Azem, an aging ruler with a tired crown and heavy robe watches close by with one simple reaction gesture. roof beams and storage crates identify the kitchen attic. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "hukumdar_azem"
@@ -414,8 +476,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_031_a"
+        choiceImageId: "choice_smm_card_031_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron stirs a white goose feather and a feed bowl in a round pot with a determined frown and an oversized spoon hand. Azem, an aging ruler with a tired crown and heavy robe reacts nearby with one simple readable gesture. roof beams and storage crates identify the kitchen attic. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Kazanı ustanın yöntemiyle kurtar"
-        resultText: "Büyük Mutfakta Yükseliş: Kör Alev kararında hesabı açık tutarsın. Hükümdar Azem bunu fark eder ve aşçı yolunun ve hükümdara yakınlığının dengesi senin lehine bir çizik alır."
+        resultText: "Büyük Mutfakta Yükseliş: Kör Alev sırasında \"Kazanı ustanın yöntemiyle kurtar\" yolunu seçersin. Bu hamle mutfak güvenini artırır ve çorba alametini büyütür."
         healthDelta: 0
         setFlags:
           - "flag_kitchen_apprentice"
@@ -443,8 +510,13 @@ cards:
         nextCardId: "smm_card_032"
       -
         choiceId: "smm_card_031_b"
+        choiceImageId: "choice_smm_card_031_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a big wooden measuring spoon forward with a decisive hand gesture and a clear expressive face. Azem, an aging ruler with a tired crown and heavy robe reacts nearby with one simple readable gesture. roof beams and storage crates identify the kitchen attic. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Lezzeti gizli baharatla yükselt"
-        resultText: "Büyük Mutfakta Yükseliş: Kör Alev kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde aşçı yolunun ve hükümdara yakınlığının için daha keskin bir kayıt açılır."
+        resultText: "Büyük Mutfakta Yükseliş: Kör Alev sırasında \"Lezzeti gizli baharatla yükselt\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir, iaşe hâkimiyetini artırır ve çorba alametini belirgin biçimde büyütür."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"
@@ -480,7 +552,9 @@ cards:
     bodyText: "Pişen her yemek, mutfak dışındaki birinin itibarını kurtarabilir ya da yakabilir. Büyük Mutfakta Yükseliş: Üç Nohut anında Miskal, bir kepçenin bile sarayda taraf tuttuğunu ima eder. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, aşçı yolunun ve hükümdara yakınlığının üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_buyuk_mutfak_atesli"
     focusImageId: "focus_smm_032_kitchen_rise"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Büyük Mutfakta Yükseliş: Üç Nohut scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Miskal, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron arranges three oversized chickpeas with a clear active pose, oversized hands, and a simple expressive face. Miskal, a narrow-eyed palace jester with a crooked half-smile watches close by with one simple reaction gesture. a round copper cauldron and hanging herbs identify the grand kitchen. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "miskal_soytari"
@@ -492,8 +566,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_032_a"
+        choiceImageId: "choice_smm_card_032_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron measures a big wooden measuring spoon carefully over a bowl with pursed lips and one steady raised hand. Miskal, a narrow-eyed palace jester with a crooked half-smile reacts nearby with one simple readable gesture. a round copper cauldron and hanging herbs identify the grand kitchen. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Baharatı ölçerek sabırla ekle"
-        resultText: "Büyük Mutfakta Yükseliş: Üç Nohut kararında hesabı açık tutarsın. Miskal bunu fark eder ve aşçı yolunun ve hükümdara yakınlığının dengesi senin lehine bir çizik alır."
+        resultText: "Büyük Mutfakta Yükseliş: Üç Nohut sırasında \"Baharatı ölçerek sabırla ekle\" yolunu seçersin. Bu hamle mutfak güvenini artırır."
         healthDelta: 0
         setFlags:
           - "flag_kitchen_apprentice"
@@ -520,8 +599,13 @@ cards:
         nextCardId: "smm_card_033"
       -
         choiceId: "smm_card_032_b"
+        choiceImageId: "choice_smm_card_032_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron turns a big wooden measuring spoon toward a new path with a firm pulling gesture and clenched jaw. Miskal, a narrow-eyed palace jester with a crooked half-smile reacts nearby with one simple readable gesture. a round copper cauldron and hanging herbs identify the grand kitchen. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Ustanın tarifini kendi adına geçir"
-        resultText: "Büyük Mutfakta Yükseliş: Üç Nohut kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde aşçı yolunun ve hükümdara yakınlığının için daha keskin bir kayıt açılır."
+        resultText: "Büyük Mutfakta Yükseliş: Üç Nohut sırasında \"Ustanın tarifini kendi adına geçir\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve iaşe hâkimiyetini artırır."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"
@@ -556,7 +640,9 @@ cards:
     bodyText: "Pişen her yemek, mutfak dışındaki birinin itibarını kurtarabilir ya da yakabilir. Büyük Mutfakta Yükseliş: Kapıdaki Fısıltı anında Nimet Ana, başkasının kusurunu örtmenin ileride kapı açabileceğini söyler. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, aşçı yolunun ve hükümdara yakınlığının üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_buyuk_mutfak_sakin"
     focusImageId: "focus_smm_033_kitchen_rise"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Büyük Mutfakta Yükseliş: Kapıdaki Fısıltı scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Nimet Ana, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron hides a folded blank note with a clear active pose, oversized hands, and a simple expressive face. Nimet Ana, a watchful pantry keeper with a big key ring watches close by with one simple reaction gesture. a round copper cauldron and hanging herbs identify the grand kitchen. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "nimet_kilerci"
@@ -568,8 +654,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_033_a"
+        choiceImageId: "choice_smm_card_033_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron wipes the area around a large readable story prop clean with a proud tiny smile and a broad sweeping hand. Azem, an aging ruler with a tired crown and heavy robe reacts nearby with one simple readable gesture. a round copper cauldron and hanging herbs identify the grand kitchen. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Hükümdarın tabağını temiz tut"
-        resultText: "Büyük Mutfakta Yükseliş: Kapıdaki Fısıltı kararında hesabı açık tutarsın. Nimet Ana bunu fark eder ve aşçı yolunun ve hükümdara yakınlığının dengesi senin lehine bir çizik alır."
+        resultText: "Büyük Mutfakta Yükseliş: Kapıdaki Fısıltı sırasında \"Hükümdarın tabağını temiz tut\" yolunu seçersin. Bu hamle mutfak güvenini artırır. Canın 1 artar."
         healthDelta: 1
         setFlags:
           - "flag_kitchen_apprentice"
@@ -595,8 +686,13 @@ cards:
         nextCardId: "smm_card_034"
       -
         choiceId: "smm_card_033_b"
+        choiceImageId: "choice_smm_card_033_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron places a large readable story prop quietly at the scene edge with a soft worried smile. Azem, an aging ruler with a tired crown and heavy robe reacts nearby with one simple readable gesture. a round copper cauldron and hanging herbs identify the grand kitchen. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Hükümdarın tabağına işaret bırak"
-        resultText: "Büyük Mutfakta Yükseliş: Kapıdaki Fısıltı kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde aşçı yolunun ve hükümdara yakınlığının için daha keskin bir kayıt açılır."
+        resultText: "Büyük Mutfakta Yükseliş: Kapıdaki Fısıltı sırasında \"Hükümdarın tabağına işaret bırak\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve iaşe hâkimiyetini artırır."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"
@@ -630,7 +726,9 @@ cards:
     bodyText: "Pişen her yemek, mutfak dışındaki birinin itibarını kurtarabilir ya da yakabilir. Büyük Mutfakta Yükseliş: Aç Karnın Sözü anında Bahir Usta, hükümdarın damak tadının korkudan daha etkili olduğunu gösterir. Kehanet çorbası henüz bir mutfak hatası gibi görünür, fakat yağ halkası ve üç nohut hizmetkârların diline düşer. Seçeceğin yol, aşçı yolunun ve hükümdara yakınlığının üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_baharat_odasi_safran"
     focusImageId: "focus_smm_034_kitchen_rise"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Büyük Mutfakta Yükseliş: Aç Karnın Sözü scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Bahir Usta, Müneccim Zerya, a bowl of omen soup with oil rings and three chickpeas, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron offers a small bread piece with a clear active pose, oversized hands, and a simple expressive face. Bahir Usta, a broad stern kitchen master with rolled sleeves and a heavy ladle watches close by with one simple reaction gesture. big spice jars and saffron bundles identify the spice room. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "bahir_usta"
@@ -647,8 +745,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_034_a"
+        choiceImageId: "choice_smm_card_034_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron arranges a folded blank note and stubby candle into a neat visible row with focused eyes and both hands spread wide. Bahir Usta, a broad stern kitchen master with rolled sleeves and a heavy ladle reacts nearby with one simple readable gesture. big spice jars and saffron bundles identify the spice room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Yamakları adil biçimde sırala"
-        resultText: "Büyük Mutfakta Yükseliş: Aç Karnın Sözü kararında hesabı açık tutarsın. Bahir Usta bunu fark eder ve aşçı yolunun ve hükümdara yakınlığının dengesi senin lehine bir çizik alır."
+        resultText: "Büyük Mutfakta Yükseliş: Aç Karnın Sözü sırasında \"Yamakları adil biçimde sırala\" yolunu seçersin. Bu hamle mutfak güvenini artırır ve çorba alametini büyütür."
         healthDelta: 0
         setFlags:
           - "flag_kitchen_apprentice"
@@ -676,8 +779,13 @@ cards:
         nextCardId: "smm_card_035"
       -
         choiceId: "smm_card_034_b"
+        choiceImageId: "choice_smm_card_034_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a large readable story prop forward with a decisive hand gesture and a clear expressive face. Bahir Usta, a broad stern kitchen master with rolled sleeves and a heavy ladle reacts nearby with one simple readable gesture. big spice jars and saffron bundles identify the spice room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Yamakları birbirine düşür"
-        resultText: "Büyük Mutfakta Yükseliş: Aç Karnın Sözü kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde aşçı yolunun ve hükümdara yakınlığının için daha keskin bir kayıt açılır."
+        resultText: "Büyük Mutfakta Yükseliş: Aç Karnın Sözü sırasında \"Yamakları birbirine düşür\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir, iaşe hâkimiyetini artırır ve çorba alametini belirgin biçimde büyütür."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"
@@ -713,7 +821,9 @@ cards:
     bodyText: "Pişen her yemek, mutfak dışındaki birinin itibarını kurtarabilir ya da yakabilir. Büyük Mutfakta Yükseliş: Ustanın Sınavı anında Hükümdar Azem, sarayın karnını doyuranın bazen aklını da yönettiğini anlatır. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, aşçı yolunun ve hükümdara yakınlığının üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_saray_bulasikhanesi_gece"
     focusImageId: "focus_smm_035_kitchen_rise"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Büyük Mutfakta Yükseliş: Ustanın Sınavı scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Hükümdar Azem, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron measures a spoonful of spice with a clear active pose, oversized hands, and a simple expressive face. Azem, an aging ruler with a tired crown and heavy robe watches close by with one simple reaction gesture. a stone washing basin and two hanging ladles identify the palace scullery. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "hukumdar_azem"
@@ -725,8 +835,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_035_a"
+        choiceImageId: "choice_smm_card_035_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron marks a bead tally board and grain sack with big non-letter tally blocks while biting the lip in concentration. Azem, an aging ruler with a tired crown and heavy robe reacts nearby with one simple readable gesture. a stone washing basin and two hanging ladles identify the palace scullery. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Eksik eti deftere açık yaz"
-        resultText: "Büyük Mutfakta Yükseliş: Ustanın Sınavı kararında hesabı açık tutarsın. Hükümdar Azem bunu fark eder ve aşçı yolunun ve hükümdara yakınlığının dengesi senin lehine bir çizik alır."
+        resultText: "Büyük Mutfakta Yükseliş: Ustanın Sınavı sırasında \"Eksik eti deftere açık yaz\" yolunu seçersin. Bu hamle mutfak güvenini artırır ve saray kuşkusunu yatıştırır."
         healthDelta: 0
         setFlags:
           - "flag_kitchen_apprentice"
@@ -752,8 +867,13 @@ cards:
         nextCardId: "smm_card_036"
       -
         choiceId: "smm_card_035_b"
+        choiceImageId: "choice_smm_card_035_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a folded blank note and stubby candle forward with a decisive hand gesture and a clear expressive face. Azem, an aging ruler with a tired crown and heavy robe reacts nearby with one simple readable gesture. a stone washing basin and two hanging ladles identify the palace scullery. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Eksik eti fısıltıyla kapat"
-        resultText: "Büyük Mutfakta Yükseliş: Ustanın Sınavı kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde aşçı yolunun ve hükümdara yakınlığının için daha keskin bir kayıt açılır."
+        resultText: "Büyük Mutfakta Yükseliş: Ustanın Sınavı sırasında \"Eksik eti fısıltıyla kapat\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve iaşe hâkimiyetini artırır."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"
@@ -787,7 +907,9 @@ cards:
     bodyText: "Usta aşçılar seni yalnızca el becerinle değil, kime sadık kaldığınla tartar. Büyük Mutfakta Yükseliş: Kazanın Gölgesi anında Miskal, senden hızlı değil, hatırlanacak kadar doğru çalışmanı ister. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, aşçı yolunun ve hükümdara yakınlığının üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_taht_salonu"
     focusImageId: "focus_smm_036_kitchen_rise"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Büyük Mutfakta Yükseliş: Kazanın Gölgesi scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Miskal, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron stirs a round copper cauldron with a clear active pose, oversized hands, and a simple expressive face. Miskal, a narrow-eyed palace jester with a crooked half-smile watches close by with one simple reaction gesture. a worn throne step and faded banners identify the throne room. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "miskal_soytari"
@@ -799,8 +921,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_036_a"
+        choiceImageId: "choice_smm_card_036_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron stirs a white goose feather and a feed bowl in a round pot with a determined frown and an oversized spoon hand. Miskal, a narrow-eyed palace jester with a crooked half-smile reacts nearby with one simple readable gesture. a worn throne step and faded banners identify the throne room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Kazanı ustanın yöntemiyle kurtar"
-        resultText: "Büyük Mutfakta Yükseliş: Kazanın Gölgesi kararında hesabı açık tutarsın. Miskal bunu fark eder ve aşçı yolunun ve hükümdara yakınlığının dengesi senin lehine bir çizik alır."
+        resultText: "Büyük Mutfakta Yükseliş: Kazanın Gölgesi sırasında \"Kazanı ustanın yöntemiyle kurtar\" yolunu seçersin. Bu hamle mutfak güvenini artırır."
         healthDelta: 0
         setFlags:
           - "flag_kitchen_apprentice"
@@ -826,8 +953,13 @@ cards:
         nextCardId: "smm_card_037"
       -
         choiceId: "smm_card_036_b"
+        choiceImageId: "choice_smm_card_036_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a big wooden measuring spoon forward with a decisive hand gesture and a clear expressive face. Miskal, a narrow-eyed palace jester with a crooked half-smile reacts nearby with one simple readable gesture. a worn throne step and faded banners identify the throne room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Lezzeti gizli baharatla yükselt"
-        resultText: "Büyük Mutfakta Yükseliş: Kazanın Gölgesi kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde aşçı yolunun ve hükümdara yakınlığının için daha keskin bir kayıt açılır."
+        resultText: "Büyük Mutfakta Yükseliş: Kazanın Gölgesi sırasında \"Lezzeti gizli baharatla yükselt\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve iaşe hâkimiyetini artırır. Canın 1 azalır."
         healthDelta: -1
         setFlags:
           - "flag_secret_kept"
@@ -861,7 +993,9 @@ cards:
     bodyText: "Usta aşçılar seni yalnızca el becerinle değil, kime sadık kaldığınla tartar. Büyük Mutfakta Yükseliş: Tuz ve Yemin anında Nimet Ana, bir kepçenin bile sarayda taraf tuttuğunu ima eder. Ak Gaga'nın avluda yürüdüğü yön, önce komik bir ayrıntı sanılır; Durna ise bunun sarayda hafife alınmayacağını bilir. Seçeceğin yol, aşçı yolunun ve hükümdara yakınlığının üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_mutfak_cati_arasi"
     focusImageId: "focus_smm_037_kitchen_rise"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Büyük Mutfakta Yükseliş: Tuz ve Yemin scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Nimet Ana, Durna, the dignified palace goose Ak Gaga nearby, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron sprinkles a pinch of salt with a clear active pose, oversized hands, and a simple expressive face. Nimet Ana, a watchful pantry keeper with a big key ring watches close by with one simple reaction gesture. roof beams and storage crates identify the kitchen attic. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "nimet_kilerci"
@@ -878,8 +1012,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_037_a"
+        choiceImageId: "choice_smm_card_037_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron measures a big wooden measuring spoon carefully over a bowl with pursed lips and one steady raised hand. Nimet Ana, a watchful pantry keeper with a big key ring reacts nearby with one simple readable gesture. roof beams and storage crates identify the kitchen attic. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Baharatı ölçerek sabırla ekle"
-        resultText: "Büyük Mutfakta Yükseliş: Tuz ve Yemin kararında hesabı açık tutarsın. Nimet Ana bunu fark eder ve aşçı yolunun ve hükümdara yakınlığının dengesi senin lehine bir çizik alır."
+        resultText: "Büyük Mutfakta Yükseliş: Tuz ve Yemin sırasında \"Baharatı ölçerek sabırla ekle\" yolunu seçersin. Bu hamle mutfak güvenini artırır ve Ak Gaga söylencesini güçlendirir."
         healthDelta: 0
         setFlags:
           - "flag_kitchen_apprentice"
@@ -908,8 +1047,13 @@ cards:
         nextCardId: "smm_card_038"
       -
         choiceId: "smm_card_037_b"
+        choiceImageId: "choice_smm_card_037_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron turns a big wooden measuring spoon toward a new path with a firm pulling gesture and clenched jaw. Nimet Ana, a watchful pantry keeper with a big key ring reacts nearby with one simple readable gesture. roof beams and storage crates identify the kitchen attic. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Ustanın tarifini kendi adına geçir"
-        resultText: "Büyük Mutfakta Yükseliş: Tuz ve Yemin kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde aşçı yolunun ve hükümdara yakınlığının için daha keskin bir kayıt açılır."
+        resultText: "Büyük Mutfakta Yükseliş: Tuz ve Yemin sırasında \"Ustanın tarifini kendi adına geçir\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir, iaşe hâkimiyetini artırır ve Ak Gaga söylencesini belirgin biçimde güçlendirir."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"
@@ -944,7 +1088,9 @@ cards:
     bodyText: "Usta aşçılar seni yalnızca el becerinle değil, kime sadık kaldığınla tartar. Büyük Mutfakta Yükseliş: Kırık Tabak anında Bahir Usta, başkasının kusurunu örtmenin ileride kapı açabileceğini söyler. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, aşçı yolunun ve hükümdara yakınlığının üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_buyuk_mutfak_atesli"
     focusImageId: "focus_smm_038_kitchen_rise"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Büyük Mutfakta Yükseliş: Kırık Tabak scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Bahir Usta, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron raises a cracked plate with a clear active pose, oversized hands, and a simple expressive face. Bahir Usta, a broad stern kitchen master with rolled sleeves and a heavy ladle watches close by with one simple reaction gesture. a round copper cauldron and hanging herbs identify the grand kitchen. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "bahir_usta"
@@ -956,8 +1102,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_038_a"
+        choiceImageId: "choice_smm_card_038_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron wipes the area around a large readable story prop clean with a proud tiny smile and a broad sweeping hand. Azem, an aging ruler with a tired crown and heavy robe reacts nearby with one simple readable gesture. a round copper cauldron and hanging herbs identify the grand kitchen. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Hükümdarın tabağını temiz tut"
-        resultText: "Büyük Mutfakta Yükseliş: Kırık Tabak kararında hesabı açık tutarsın. Bahir Usta bunu fark eder ve aşçı yolunun ve hükümdara yakınlığının dengesi senin lehine bir çizik alır."
+        resultText: "Büyük Mutfakta Yükseliş: Kırık Tabak sırasında \"Hükümdarın tabağını temiz tut\" yolunu seçersin. Bu hamle mutfak güvenini artırır."
         healthDelta: 0
         setFlags:
           - "flag_kitchen_apprentice"
@@ -983,8 +1134,13 @@ cards:
         nextCardId: "smm_card_039"
       -
         choiceId: "smm_card_038_b"
+        choiceImageId: "choice_smm_card_038_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron places a large readable story prop quietly at the scene edge with a soft worried smile. Azem, an aging ruler with a tired crown and heavy robe reacts nearby with one simple readable gesture. a round copper cauldron and hanging herbs identify the grand kitchen. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Hükümdarın tabağına işaret bırak"
-        resultText: "Büyük Mutfakta Yükseliş: Kırık Tabak kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde aşçı yolunun ve hükümdara yakınlığının için daha keskin bir kayıt açılır."
+        resultText: "Büyük Mutfakta Yükseliş: Kırık Tabak sırasında \"Hükümdarın tabağına işaret bırak\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve iaşe hâkimiyetini artırır."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"
@@ -1018,7 +1174,9 @@ cards:
     bodyText: "Usta aşçılar seni yalnızca el becerinle değil, kime sadık kaldığınla tartar. Büyük Mutfakta Yükseliş: Mum Işığı anında Hükümdar Azem, hükümdarın damak tadının korkudan daha etkili olduğunu gösterir. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, aşçı yolunun ve hükümdara yakınlığının üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_buyuk_mutfak_sakin"
     focusImageId: "focus_smm_039_kitchen_rise"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Büyük Mutfakta Yükseliş: Mum Işığı scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Hükümdar Azem, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron holds a stubby candle with a clear active pose, oversized hands, and a simple expressive face. Azem, an aging ruler with a tired crown and heavy robe watches close by with one simple reaction gesture. a round copper cauldron and hanging herbs identify the grand kitchen. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "hukumdar_azem"
@@ -1030,8 +1188,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_039_a"
+        choiceImageId: "choice_smm_card_039_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron arranges a folded blank note and stubby candle into a neat visible row with focused eyes and both hands spread wide. Azem, an aging ruler with a tired crown and heavy robe reacts nearby with one simple readable gesture. a round copper cauldron and hanging herbs identify the grand kitchen. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Yamakları adil biçimde sırala"
-        resultText: "Büyük Mutfakta Yükseliş: Mum Işığı kararında hesabı açık tutarsın. Hükümdar Azem bunu fark eder ve aşçı yolunun ve hükümdara yakınlığının dengesi senin lehine bir çizik alır."
+        resultText: "Büyük Mutfakta Yükseliş: Mum Işığı sırasında \"Yamakları adil biçimde sırala\" yolunu seçersin. Bu hamle mutfak güvenini artırır."
         healthDelta: 0
         setFlags:
           - "flag_kitchen_apprentice"
@@ -1057,8 +1220,13 @@ cards:
         nextCardId: "smm_card_040"
       -
         choiceId: "smm_card_039_b"
+        choiceImageId: "choice_smm_card_039_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a large readable story prop forward with a decisive hand gesture and a clear expressive face. Azem, an aging ruler with a tired crown and heavy robe reacts nearby with one simple readable gesture. a round copper cauldron and hanging herbs identify the grand kitchen. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Yamakları birbirine düşür"
-        resultText: "Büyük Mutfakta Yükseliş: Mum Işığı kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde aşçı yolunun ve hükümdara yakınlığının için daha keskin bir kayıt açılır."
+        resultText: "Büyük Mutfakta Yükseliş: Mum Işığı sırasında \"Yamakları birbirine düşür\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve iaşe hâkimiyetini artırır."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"
@@ -1092,7 +1260,9 @@ cards:
     bodyText: "Usta aşçılar seni yalnızca el becerinle değil, kime sadık kaldığınla tartar. Büyük Mutfakta Yükseliş: Gece Nöbeti anında Miskal, sarayın karnını doyuranın bazen aklını da yönettiğini anlatır. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, aşçı yolunun ve hükümdara yakınlığının üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_baharat_odasi_safran"
     focusImageId: "focus_smm_040_kitchen_rise"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Büyük Mutfakta Yükseliş: Gece Nöbeti scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Miskal, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron guards a small tray with a clear active pose, oversized hands, and a simple expressive face. Miskal, a narrow-eyed palace jester with a crooked half-smile watches close by with one simple reaction gesture. big spice jars and saffron bundles identify the spice room. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "miskal_soytari"
@@ -1104,8 +1274,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_040_a"
+        choiceImageId: "choice_smm_card_040_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron marks a bead tally board and grain sack with big non-letter tally blocks while biting the lip in concentration. Miskal, a narrow-eyed palace jester with a crooked half-smile reacts nearby with one simple readable gesture. big spice jars and saffron bundles identify the spice room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Eksik eti deftere açık yaz"
-        resultText: "Büyük Mutfakta Yükseliş: Gece Nöbeti kararında hesabı açık tutarsın. Miskal bunu fark eder ve aşçı yolunun ve hükümdara yakınlığının dengesi senin lehine bir çizik alır."
+        resultText: "Büyük Mutfakta Yükseliş: Gece Nöbeti sırasında \"Eksik eti deftere açık yaz\" yolunu seçersin. Bu hamle mutfak güvenini artırır."
         healthDelta: 0
         setFlags:
           - "flag_kitchen_apprentice"
@@ -1132,8 +1307,13 @@ cards:
         nextCardId: "smm_card_041"
       -
         choiceId: "smm_card_040_b"
+        choiceImageId: "choice_smm_card_040_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a folded blank note and stubby candle forward with a decisive hand gesture and a clear expressive face. Miskal, a narrow-eyed palace jester with a crooked half-smile reacts nearby with one simple readable gesture. big spice jars and saffron bundles identify the spice room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Eksik eti fısıltıyla kapat"
-        resultText: "Büyük Mutfakta Yükseliş: Gece Nöbeti kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde aşçı yolunun ve hükümdara yakınlığının için daha keskin bir kayıt açılır."
+        resultText: "Büyük Mutfakta Yükseliş: Gece Nöbeti sırasında \"Eksik eti fısıltıyla kapat\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve iaşe hâkimiyetini artırır."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"
@@ -1168,7 +1348,9 @@ cards:
     bodyText: "Hükümdarın sofrasına yaklaşmak, ateşe yaklaşmak kadar faydalı ve tehlikelidir. Büyük Mutfakta Yükseliş: Kilitli Raf anında Nimet Ana, senden hızlı değil, hatırlanacak kadar doğru çalışmanı ister. Kehanet çorbası henüz bir mutfak hatası gibi görünür, fakat yağ halkası ve üç nohut hizmetkârların diline düşer. Seçeceğin yol, aşçı yolunun ve hükümdara yakınlığının üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_saray_bulasikhanesi_gece"
     focusImageId: "focus_smm_041_kitchen_rise"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Büyük Mutfakta Yükseliş: Kilitli Raf scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Nimet Ana, Müneccim Zerya, a bowl of omen soup with oil rings and three chickpeas, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron reaches toward a locked shelf key with a clear active pose, oversized hands, and a simple expressive face. Nimet Ana, a watchful pantry keeper with a big key ring watches close by with one simple reaction gesture. a stone washing basin and two hanging ladles identify the palace scullery. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "nimet_kilerci"
@@ -1185,8 +1367,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_041_a"
+        choiceImageId: "choice_smm_card_041_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron stirs a white goose feather and a feed bowl in a round pot with a determined frown and an oversized spoon hand. Nimet Ana, a watchful pantry keeper with a big key ring reacts nearby with one simple readable gesture. a stone washing basin and two hanging ladles identify the palace scullery. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Kazanı ustanın yöntemiyle kurtar"
-        resultText: "Büyük Mutfakta Yükseliş: Kilitli Raf kararında hesabı açık tutarsın. Nimet Ana bunu fark eder ve aşçı yolunun ve hükümdara yakınlığının dengesi senin lehine bir çizik alır."
+        resultText: "Büyük Mutfakta Yükseliş: Kilitli Raf sırasında \"Kazanı ustanın yöntemiyle kurtar\" yolunu seçersin. Bu hamle mutfak güvenini artırır ve çorba alametini büyütür."
         healthDelta: 0
         setFlags:
           - "flag_kitchen_apprentice"
@@ -1213,8 +1400,13 @@ cards:
         nextCardId: "smm_card_042"
       -
         choiceId: "smm_card_041_b"
+        choiceImageId: "choice_smm_card_041_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a big wooden measuring spoon forward with a decisive hand gesture and a clear expressive face. Nimet Ana, a watchful pantry keeper with a big key ring reacts nearby with one simple readable gesture. a stone washing basin and two hanging ladles identify the palace scullery. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Lezzeti gizli baharatla yükselt"
-        resultText: "Büyük Mutfakta Yükseliş: Kilitli Raf kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde aşçı yolunun ve hükümdara yakınlığının için daha keskin bir kayıt açılır."
+        resultText: "Büyük Mutfakta Yükseliş: Kilitli Raf sırasında \"Lezzeti gizli baharatla yükselt\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir, iaşe hâkimiyetini artırır ve çorba alametini belirgin biçimde büyütür."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"
@@ -1249,7 +1441,9 @@ cards:
     bodyText: "Hükümdarın sofrasına yaklaşmak, ateşe yaklaşmak kadar faydalı ve tehlikelidir. Büyük Mutfakta Yükseliş: Sarayın Kulağı anında Bahir Usta, bir kepçenin bile sarayda taraf tuttuğunu ima eder. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, aşçı yolunun ve hükümdara yakınlığının üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_taht_salonu"
     focusImageId: "focus_smm_042_kitchen_rise"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Büyük Mutfakta Yükseliş: Sarayın Kulağı scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Bahir Usta, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron listens beside a half-open door with a clear active pose, oversized hands, and a simple expressive face. Bahir Usta, a broad stern kitchen master with rolled sleeves and a heavy ladle watches close by with one simple reaction gesture. a worn throne step and faded banners identify the throne room. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "bahir_usta"
@@ -1261,8 +1455,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_042_a"
+        choiceImageId: "choice_smm_card_042_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron measures a big wooden measuring spoon carefully over a bowl with pursed lips and one steady raised hand. Bahir Usta, a broad stern kitchen master with rolled sleeves and a heavy ladle reacts nearby with one simple readable gesture. a worn throne step and faded banners identify the throne room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Baharatı ölçerek sabırla ekle"
-        resultText: "Büyük Mutfakta Yükseliş: Sarayın Kulağı kararında hesabı açık tutarsın. Bahir Usta bunu fark eder ve aşçı yolunun ve hükümdara yakınlığının dengesi senin lehine bir çizik alır."
+        resultText: "Büyük Mutfakta Yükseliş: Sarayın Kulağı sırasında \"Baharatı ölçerek sabırla ekle\" yolunu seçersin. Bu hamle mutfak güvenini artırır ve saray kuşkusunu yatıştırır."
         healthDelta: 0
         setFlags:
           - "flag_kitchen_apprentice"
@@ -1288,8 +1487,13 @@ cards:
         nextCardId: "smm_card_043"
       -
         choiceId: "smm_card_042_b"
+        choiceImageId: "choice_smm_card_042_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron turns a big wooden measuring spoon toward a new path with a firm pulling gesture and clenched jaw. Bahir Usta, a broad stern kitchen master with rolled sleeves and a heavy ladle reacts nearby with one simple readable gesture. a worn throne step and faded banners identify the throne room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Ustanın tarifini kendi adına geçir"
-        resultText: "Büyük Mutfakta Yükseliş: Sarayın Kulağı kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde aşçı yolunun ve hükümdara yakınlığının için daha keskin bir kayıt açılır."
+        resultText: "Büyük Mutfakta Yükseliş: Sarayın Kulağı sırasında \"Ustanın tarifini kendi adına geçir\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve iaşe hâkimiyetini artırır."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"
@@ -1323,7 +1527,9 @@ cards:
     bodyText: "Hükümdarın sofrasına yaklaşmak, ateşe yaklaşmak kadar faydalı ve tehlikelidir. Büyük Mutfakta Yükseliş: Yağ Halkası anında Hükümdar Azem, başkasının kusurunu örtmenin ileride kapı açabileceğini söyler. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, aşçı yolunun ve hükümdara yakınlığının üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_mutfak_cati_arasi"
     focusImageId: "focus_smm_043_kitchen_rise"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Büyük Mutfakta Yükseliş: Yağ Halkası scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Hükümdar Azem, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron tilts an omen soup bowl with a clear active pose, oversized hands, and a simple expressive face. Azem, an aging ruler with a tired crown and heavy robe watches close by with one simple reaction gesture. roof beams and storage crates identify the kitchen attic. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "hukumdar_azem"
@@ -1335,8 +1541,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_043_a"
+        choiceImageId: "choice_smm_card_043_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron wipes the area around a large readable story prop clean with a proud tiny smile and a broad sweeping hand. Azem, an aging ruler with a tired crown and heavy robe reacts nearby with one simple readable gesture. roof beams and storage crates identify the kitchen attic. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Hükümdarın tabağını temiz tut"
-        resultText: "Büyük Mutfakta Yükseliş: Yağ Halkası kararında hesabı açık tutarsın. Hükümdar Azem bunu fark eder ve aşçı yolunun ve hükümdara yakınlığının dengesi senin lehine bir çizik alır."
+        resultText: "Büyük Mutfakta Yükseliş: Yağ Halkası sırasında \"Hükümdarın tabağını temiz tut\" yolunu seçersin. Bu hamle mutfak güvenini artırır."
         healthDelta: 0
         setFlags:
           - "flag_kitchen_apprentice"
@@ -1362,8 +1573,13 @@ cards:
         nextCardId: "smm_card_044"
       -
         choiceId: "smm_card_043_b"
+        choiceImageId: "choice_smm_card_043_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron places a large readable story prop quietly at the scene edge with a soft worried smile. Azem, an aging ruler with a tired crown and heavy robe reacts nearby with one simple readable gesture. roof beams and storage crates identify the kitchen attic. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Hükümdarın tabağına işaret bırak"
-        resultText: "Büyük Mutfakta Yükseliş: Yağ Halkası kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde aşçı yolunun ve hükümdara yakınlığının için daha keskin bir kayıt açılır."
+        resultText: "Büyük Mutfakta Yükseliş: Yağ Halkası sırasında \"Hükümdarın tabağına işaret bırak\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve iaşe hâkimiyetini artırır."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"
@@ -1397,7 +1613,9 @@ cards:
     bodyText: "Hükümdarın sofrasına yaklaşmak, ateşe yaklaşmak kadar faydalı ve tehlikelidir. Büyük Mutfakta Yükseliş: Ak Gaga'nın Yolu anında Miskal, hükümdarın damak tadının korkudan daha etkili olduğunu gösterir. Ak Gaga'nın avluda yürüdüğü yön, önce komik bir ayrıntı sanılır; Durna ise bunun sarayda hafife alınmayacağını bilir. Seçeceğin yol, aşçı yolunun ve hükümdara yakınlığının üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_buyuk_mutfak_atesli"
     focusImageId: "focus_smm_044_kitchen_rise"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Büyük Mutfakta Yükseliş: Ak Gaga'nın Yolu scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Miskal, Durna, the dignified palace goose Ak Gaga nearby, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron guides a white goose feather marker with a clear active pose, oversized hands, and a simple expressive face. Miskal, a narrow-eyed palace jester with a crooked half-smile watches close by with one simple reaction gesture. a round copper cauldron and hanging herbs identify the grand kitchen. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "miskal_soytari"
@@ -1414,8 +1632,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_044_a"
+        choiceImageId: "choice_smm_card_044_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron arranges a folded blank note and stubby candle into a neat visible row with focused eyes and both hands spread wide. Miskal, a narrow-eyed palace jester with a crooked half-smile reacts nearby with one simple readable gesture. a round copper cauldron and hanging herbs identify the grand kitchen. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Yamakları adil biçimde sırala"
-        resultText: "Büyük Mutfakta Yükseliş: Ak Gaga'nın Yolu kararında hesabı açık tutarsın. Miskal bunu fark eder ve aşçı yolunun ve hükümdara yakınlığının dengesi senin lehine bir çizik alır."
+        resultText: "Büyük Mutfakta Yükseliş: Ak Gaga'nın Yolu sırasında \"Yamakları adil biçimde sırala\" yolunu seçersin. Bu hamle mutfak güvenini artırır ve Ak Gaga söylencesini güçlendirir. Canın 1 artar."
         healthDelta: 1
         setFlags:
           - "flag_kitchen_apprentice"
@@ -1444,8 +1667,13 @@ cards:
         nextCardId: "smm_card_045"
       -
         choiceId: "smm_card_044_b"
+        choiceImageId: "choice_smm_card_044_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a large readable story prop forward with a decisive hand gesture and a clear expressive face. Miskal, a narrow-eyed palace jester with a crooked half-smile reacts nearby with one simple readable gesture. a round copper cauldron and hanging herbs identify the grand kitchen. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Yamakları birbirine düşür"
-        resultText: "Büyük Mutfakta Yükseliş: Ak Gaga'nın Yolu kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde aşçı yolunun ve hükümdara yakınlığının için daha keskin bir kayıt açılır."
+        resultText: "Büyük Mutfakta Yükseliş: Ak Gaga'nın Yolu sırasında \"Yamakları birbirine düşür\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir, iaşe hâkimiyetini artırır ve Ak Gaga söylencesini belirgin biçimde güçlendirir."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"
@@ -1480,7 +1708,9 @@ cards:
     bodyText: "Hükümdarın sofrasına yaklaşmak, ateşe yaklaşmak kadar faydalı ve tehlikelidir. Büyük Mutfakta Yükseliş: Gümüş Kaşık anında Nimet Ana, sarayın karnını doyuranın bazen aklını da yönettiğini anlatır. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, aşçı yolunun ve hükümdara yakınlığının üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_buyuk_mutfak_sakin"
     focusImageId: "focus_smm_045_kitchen_rise"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Büyük Mutfakta Yükseliş: Gümüş Kaşık scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Nimet Ana, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron inspects a silver spoon with a clear active pose, oversized hands, and a simple expressive face. Nimet Ana, a watchful pantry keeper with a big key ring watches close by with one simple reaction gesture. a round copper cauldron and hanging herbs identify the grand kitchen. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "nimet_kilerci"
@@ -1492,8 +1722,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_045_a"
+        choiceImageId: "choice_smm_card_045_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron marks a bead tally board and grain sack with big non-letter tally blocks while biting the lip in concentration. Nimet Ana, a watchful pantry keeper with a big key ring reacts nearby with one simple readable gesture. a round copper cauldron and hanging herbs identify the grand kitchen. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Eksik eti deftere açık yaz"
-        resultText: "Büyük Mutfakta Yükseliş: Gümüş Kaşık kararında hesabı açık tutarsın. Nimet Ana bunu fark eder ve aşçı yolunun ve hükümdara yakınlığının dengesi senin lehine bir çizik alır."
+        resultText: "Büyük Mutfakta Yükseliş: Gümüş Kaşık sırasında \"Eksik eti deftere açık yaz\" yolunu seçersin. Bu hamle mutfak güvenini artırır."
         healthDelta: 0
         setFlags:
           - "flag_kitchen_apprentice"
@@ -1519,8 +1754,13 @@ cards:
         nextCardId: "smm_card_046"
       -
         choiceId: "smm_card_045_b"
+        choiceImageId: "choice_smm_card_045_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a folded blank note and stubby candle forward with a decisive hand gesture and a clear expressive face. Nimet Ana, a watchful pantry keeper with a big key ring reacts nearby with one simple readable gesture. a round copper cauldron and hanging herbs identify the grand kitchen. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Eksik eti fısıltıyla kapat"
-        resultText: "Büyük Mutfakta Yükseliş: Gümüş Kaşık kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde aşçı yolunun ve hükümdara yakınlığının için daha keskin bir kayıt açılır."
+        resultText: "Büyük Mutfakta Yükseliş: Gümüş Kaşık sırasında \"Eksik eti fısıltıyla kapat\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve iaşe hâkimiyetini artırır. Canın 1 azalır."
         healthDelta: -1
         setFlags:
           - "flag_secret_kept"
@@ -1554,7 +1794,9 @@ cards:
     bodyText: "Mutfak düzeninin arkasındaki defterler, saray hiyerarşisinin gerçek haritasını gösterir. Büyük Mutfakta Yükseliş: Kayıp Ölçü anında Bahir Usta, senden hızlı değil, hatırlanacak kadar doğru çalışmanı ister. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, aşçı yolunun ve hükümdara yakınlığının üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_baharat_odasi_safran"
     focusImageId: "focus_smm_046_kitchen_rise"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Büyük Mutfakta Yükseliş: Kayıp Ölçü scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Bahir Usta, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron searches for a missing measuring cup with a clear active pose, oversized hands, and a simple expressive face. Bahir Usta, a broad stern kitchen master with rolled sleeves and a heavy ladle watches close by with one simple reaction gesture. big spice jars and saffron bundles identify the spice room. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "bahir_usta"
@@ -1566,8 +1808,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_046_a"
+        choiceImageId: "choice_smm_card_046_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron stirs a white goose feather and a feed bowl in a round pot with a determined frown and an oversized spoon hand. Bahir Usta, a broad stern kitchen master with rolled sleeves and a heavy ladle reacts nearby with one simple readable gesture. big spice jars and saffron bundles identify the spice room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Kazanı ustanın yöntemiyle kurtar"
-        resultText: "Büyük Mutfakta Yükseliş: Kayıp Ölçü kararında hesabı açık tutarsın. Bahir Usta bunu fark eder ve aşçı yolunun ve hükümdara yakınlığının dengesi senin lehine bir çizik alır."
+        resultText: "Büyük Mutfakta Yükseliş: Kayıp Ölçü sırasında \"Kazanı ustanın yöntemiyle kurtar\" yolunu seçersin. Bu hamle mutfak güvenini artırır."
         healthDelta: 0
         setFlags:
           - "flag_kitchen_apprentice"
@@ -1593,8 +1840,13 @@ cards:
         nextCardId: "smm_card_047"
       -
         choiceId: "smm_card_046_b"
+        choiceImageId: "choice_smm_card_046_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a big wooden measuring spoon forward with a decisive hand gesture and a clear expressive face. Bahir Usta, a broad stern kitchen master with rolled sleeves and a heavy ladle reacts nearby with one simple readable gesture. big spice jars and saffron bundles identify the spice room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Lezzeti gizli baharatla yükselt"
-        resultText: "Büyük Mutfakta Yükseliş: Kayıp Ölçü kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde aşçı yolunun ve hükümdara yakınlığının için daha keskin bir kayıt açılır."
+        resultText: "Büyük Mutfakta Yükseliş: Kayıp Ölçü sırasında \"Lezzeti gizli baharatla yükselt\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve iaşe hâkimiyetini artırır."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"
@@ -1628,7 +1880,9 @@ cards:
     bodyText: "Mutfak düzeninin arkasındaki defterler, saray hiyerarşisinin gerçek haritasını gösterir. Büyük Mutfakta Yükseliş: Kuyrukta Ekmek anında Hükümdar Azem, bir kepçenin bile sarayda taraf tuttuğunu ima eder. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, aşçı yolunun ve hükümdara yakınlığının üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_saray_bulasikhanesi_gece"
     focusImageId: "focus_smm_047_kitchen_rise"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Büyük Mutfakta Yükseliş: Kuyrukta Ekmek scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Hükümdar Azem, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron carries a bread basket with a clear active pose, oversized hands, and a simple expressive face. Azem, an aging ruler with a tired crown and heavy robe watches close by with one simple reaction gesture. a stone washing basin and two hanging ladles identify the palace scullery. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "hukumdar_azem"
@@ -1640,8 +1894,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_047_a"
+        choiceImageId: "choice_smm_card_047_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron measures a big wooden measuring spoon carefully over a bowl with pursed lips and one steady raised hand. Azem, an aging ruler with a tired crown and heavy robe reacts nearby with one simple readable gesture. a stone washing basin and two hanging ladles identify the palace scullery. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Baharatı ölçerek sabırla ekle"
-        resultText: "Büyük Mutfakta Yükseliş: Kuyrukta Ekmek kararında hesabı açık tutarsın. Hükümdar Azem bunu fark eder ve aşçı yolunun ve hükümdara yakınlığının dengesi senin lehine bir çizik alır."
+        resultText: "Büyük Mutfakta Yükseliş: Kuyrukta Ekmek sırasında \"Baharatı ölçerek sabırla ekle\" yolunu seçersin. Bu hamle mutfak güvenini artırır."
         healthDelta: 0
         setFlags:
           - "flag_kitchen_apprentice"
@@ -1667,8 +1926,13 @@ cards:
         nextCardId: "smm_card_048"
       -
         choiceId: "smm_card_047_b"
+        choiceImageId: "choice_smm_card_047_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron turns a big wooden measuring spoon toward a new path with a firm pulling gesture and clenched jaw. Azem, an aging ruler with a tired crown and heavy robe reacts nearby with one simple readable gesture. a stone washing basin and two hanging ladles identify the palace scullery. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Ustanın tarifini kendi adına geçir"
-        resultText: "Büyük Mutfakta Yükseliş: Kuyrukta Ekmek kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde aşçı yolunun ve hükümdara yakınlığının için daha keskin bir kayıt açılır."
+        resultText: "Büyük Mutfakta Yükseliş: Kuyrukta Ekmek sırasında \"Ustanın tarifini kendi adına geçir\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve iaşe hâkimiyetini artırır."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"
@@ -1702,7 +1966,9 @@ cards:
     bodyText: "Mutfak düzeninin arkasındaki defterler, saray hiyerarşisinin gerçek haritasını gösterir. Büyük Mutfakta Yükseliş: Keskin Koku anında Miskal, başkasının kusurunu örtmenin ileride kapı açabileceğini söyler. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, aşçı yolunun ve hükümdara yakınlığının üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_taht_salonu"
     focusImageId: "focus_smm_048_kitchen_rise"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Büyük Mutfakta Yükseliş: Keskin Koku scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Miskal, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron sniffs a tiny spice pouch with a clear active pose, oversized hands, and a simple expressive face. Miskal, a narrow-eyed palace jester with a crooked half-smile watches close by with one simple reaction gesture. a worn throne step and faded banners identify the throne room. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "miskal_soytari"
@@ -1714,8 +1980,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_048_a"
+        choiceImageId: "choice_smm_card_048_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron wipes the area around a large readable story prop clean with a proud tiny smile and a broad sweeping hand. Azem, an aging ruler with a tired crown and heavy robe reacts nearby with one simple readable gesture. a worn throne step and faded banners identify the throne room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Hükümdarın tabağını temiz tut"
-        resultText: "Büyük Mutfakta Yükseliş: Keskin Koku kararında hesabı açık tutarsın. Miskal bunu fark eder ve aşçı yolunun ve hükümdara yakınlığının dengesi senin lehine bir çizik alır."
+        resultText: "Büyük Mutfakta Yükseliş: Keskin Koku sırasında \"Hükümdarın tabağını temiz tut\" yolunu seçersin. Bu hamle mutfak güvenini artırır."
         healthDelta: 0
         setFlags:
           - "flag_kitchen_apprentice"
@@ -1742,8 +2013,13 @@ cards:
         nextCardId: "smm_card_049"
       -
         choiceId: "smm_card_048_b"
+        choiceImageId: "choice_smm_card_048_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron places a large readable story prop quietly at the scene edge with a soft worried smile. Azem, an aging ruler with a tired crown and heavy robe reacts nearby with one simple readable gesture. a worn throne step and faded banners identify the throne room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Hükümdarın tabağına işaret bırak"
-        resultText: "Büyük Mutfakta Yükseliş: Keskin Koku kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde aşçı yolunun ve hükümdara yakınlığının için daha keskin bir kayıt açılır."
+        resultText: "Büyük Mutfakta Yükseliş: Keskin Koku sırasında \"Hükümdarın tabağına işaret bırak\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve iaşe hâkimiyetini artırır."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"
@@ -1778,7 +2054,9 @@ cards:
     bodyText: "Mutfak düzeninin arkasındaki defterler, saray hiyerarşisinin gerçek haritasını gösterir. Büyük Mutfakta Yükseliş: Mühre Giden İz anında Nimet Ana, hükümdarın damak tadının korkudan daha etkili olduğunu gösterir. Kehanet çorbası henüz bir mutfak hatası gibi görünür, fakat yağ halkası ve üç nohut hizmetkârların diline düşer. Seçeceğin yol, aşçı yolunun ve hükümdara yakınlığının üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_mutfak_cati_arasi"
     focusImageId: "focus_smm_049_kitchen_rise"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Büyük Mutfakta Yükseliş: Mühre Giden İz scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Nimet Ana, Müneccim Zerya, a bowl of omen soup with oil rings and three chickpeas, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron traces a red wax footprint with a clear active pose, oversized hands, and a simple expressive face. Nimet Ana, a watchful pantry keeper with a big key ring watches close by with one simple reaction gesture. roof beams and storage crates identify the kitchen attic. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "nimet_kilerci"
@@ -1795,8 +2073,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_049_a"
+        choiceImageId: "choice_smm_card_049_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron arranges a folded blank note and stubby candle into a neat visible row with focused eyes and both hands spread wide. Nimet Ana, a watchful pantry keeper with a big key ring reacts nearby with one simple readable gesture. roof beams and storage crates identify the kitchen attic. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Yamakları adil biçimde sırala"
-        resultText: "Büyük Mutfakta Yükseliş: Mühre Giden İz kararında hesabı açık tutarsın. Nimet Ana bunu fark eder ve aşçı yolunun ve hükümdara yakınlığının dengesi senin lehine bir çizik alır."
+        resultText: "Büyük Mutfakta Yükseliş: Mühre Giden İz sırasında \"Yamakları adil biçimde sırala\" yolunu seçersin. Bu hamle mutfak güvenini artırır, saray kuşkusunu yatıştırır ve çorba alametini büyütür."
         healthDelta: 0
         setFlags:
           - "flag_kitchen_apprentice"
@@ -1823,8 +2106,13 @@ cards:
         nextCardId: "smm_card_050"
       -
         choiceId: "smm_card_049_b"
+        choiceImageId: "choice_smm_card_049_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a large readable story prop forward with a decisive hand gesture and a clear expressive face. Nimet Ana, a watchful pantry keeper with a big key ring reacts nearby with one simple readable gesture. roof beams and storage crates identify the kitchen attic. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Yamakları birbirine düşür"
-        resultText: "Büyük Mutfakta Yükseliş: Mühre Giden İz kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde aşçı yolunun ve hükümdara yakınlığının için daha keskin bir kayıt açılır."
+        resultText: "Büyük Mutfakta Yükseliş: Mühre Giden İz sırasında \"Yamakları birbirine düşür\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir, iaşe hâkimiyetini artırır ve çorba alametini belirgin biçimde büyütür."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"
@@ -1859,7 +2147,9 @@ cards:
     bodyText: "Mutfak düzeninin arkasındaki defterler, saray hiyerarşisinin gerçek haritasını gösterir. Büyük Mutfakta Yükseliş: Dar Boğaz anında Bahir Usta, sarayın karnını doyuranın bazen aklını da yönettiğini anlatır. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, aşçı yolunun ve hükümdara yakınlığının üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_buyuk_mutfak_atesli"
     focusImageId: "focus_smm_050_kitchen_rise"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Büyük Mutfakta Yükseliş: Dar Boğaz scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Bahir Usta, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron squeezes through a narrow doorway with a bundle with a clear active pose, oversized hands, and a simple expressive face. Bahir Usta, a broad stern kitchen master with rolled sleeves and a heavy ladle watches close by with one simple reaction gesture. a round copper cauldron and hanging herbs identify the grand kitchen. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "bahir_usta"
@@ -1871,8 +2161,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_050_a"
+        choiceImageId: "choice_smm_card_050_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron marks a bead tally board and grain sack with big non-letter tally blocks while biting the lip in concentration. Bahir Usta, a broad stern kitchen master with rolled sleeves and a heavy ladle reacts nearby with one simple readable gesture. a round copper cauldron and hanging herbs identify the grand kitchen. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Eksik eti deftere açık yaz"
-        resultText: "Büyük Mutfakta Yükseliş: Dar Boğaz kararında hesabı açık tutarsın. Bahir Usta bunu fark eder ve aşçı yolunun ve hükümdara yakınlığının dengesi senin lehine bir çizik alır."
+        resultText: "Büyük Mutfakta Yükseliş: Dar Boğaz sırasında \"Eksik eti deftere açık yaz\" yolunu seçersin. Bu hamle mutfak güvenini artırır."
         healthDelta: 0
         setFlags:
           - "flag_kitchen_apprentice"
@@ -1898,8 +2193,13 @@ cards:
         nextCardId: "smm_card_051"
       -
         choiceId: "smm_card_050_b"
+        choiceImageId: "choice_smm_card_050_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a folded blank note and stubby candle forward with a decisive hand gesture and a clear expressive face. Bahir Usta, a broad stern kitchen master with rolled sleeves and a heavy ladle reacts nearby with one simple readable gesture. a round copper cauldron and hanging herbs identify the grand kitchen. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Eksik eti fısıltıyla kapat"
-        resultText: "Büyük Mutfakta Yükseliş: Dar Boğaz kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde aşçı yolunun ve hükümdara yakınlığının için daha keskin bir kayıt açılır."
+        resultText: "Büyük Mutfakta Yükseliş: Dar Boğaz sırasında \"Eksik eti fısıltıyla kapat\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve iaşe hâkimiyetini artırır."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"

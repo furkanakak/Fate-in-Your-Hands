@@ -9,7 +9,9 @@ cards:
     bodyText: "Arka sokak karaborsasında saray sırları baharat kadar küçük keselerde satılır. Sır Pazarı: İlk Eşik anında Kara Yusuf, senden hangi sırrın satılınca hâlâ sır kalacağını hesaplamanı ister. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, karaborsa borcunun ve sır ağının üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_arka_sokak_karaborsa"
     focusImageId: "focus_smm_201_black_market"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Sır Pazarı: İlk Eşik scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Kara Yusuf, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron steps over a chipped plate threshold with a clear active pose, oversized hands, and a simple expressive face. Kara Yusuf, a smiling black-market broker under a small lantern watches close by with one simple reaction gesture. a covered stall and small lantern identify the black market alley. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "kara_yusuf"
@@ -21,8 +23,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_201_a"
+        choiceImageId: "choice_smm_card_201_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a folded blank note and stubby candle forward with a decisive hand gesture and a clear expressive face. Kara Yusuf, a smiling black-market broker under a small lantern reacts nearby with one simple readable gesture. a covered stall and small lantern identify the black market alley. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Borcu küçük sırla kapat"
-        resultText: "Sır Pazarı: İlk Eşik kararında hesabı açık tutarsın. Kara Yusuf bunu fark eder ve karaborsa borcunun ve sır ağının dengesi senin lehine bir çizik alır."
+        resultText: "Sır Pazarı: İlk Eşik sırasında \"Borcu küçük sırla kapat\" yolunu seçersin. Bu hamle karaborsa borcunu büyütür."
         healthDelta: 0
         setFlags:
           - "flag_black_market_debt_paid"
@@ -48,8 +55,13 @@ cards:
         nextCardId: "smm_card_202"
       -
         choiceId: "smm_card_201_b"
+        choiceImageId: "choice_smm_card_201_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron slides a folded blank note and stubby candle across a low table with a sly sideways glance and one hidden hand. Kara Yusuf, a smiling black-market broker under a small lantern reacts nearby with one simple readable gesture. a covered stall and small lantern identify the black market alley. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Sırrı yüksek bedelle sat"
-        resultText: "Sır Pazarı: İlk Eşik kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde karaborsa borcunun ve sır ağının için daha keskin bir kayıt açılır."
+        resultText: "Sır Pazarı: İlk Eşik sırasında \"Sırrı yüksek bedelle sat\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve casus ağını belirgin biçimde genişletir."
         healthDelta: 0
         setFlags:
           - "flag_yusuf_debt_mark"
@@ -83,7 +95,9 @@ cards:
     bodyText: "Arka sokak karaborsasında saray sırları baharat kadar küçük keselerde satılır. Sır Pazarı: Sıcak Bakır anında Rasih, Nimet'in anahtarlarının sokakta nasıl fiyatlandığını gösterir. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, karaborsa borcunun ve sır ağının üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_sehir_pazari"
     focusImageId: "focus_smm_202_black_market"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Sır Pazarı: Sıcak Bakır scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Rasih, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron lifts a hot copper basin with a clear active pose, oversized hands, and a simple expressive face. Rasih, a polite spy chief half-hidden by a dark hood watches close by with one simple reaction gesture. a spice stall and bread basket identify the city market. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "rasih_casusbasi"
@@ -95,8 +109,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_202_a"
+        choiceImageId: "choice_smm_card_202_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron pushes a large readable story prop away with both palms and a stubborn frown. Rasih, a polite spy chief half-hidden by a dark hood reacts nearby with one simple readable gesture. a spice stall and bread basket identify the city market. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Sahte mührü reddet"
-        resultText: "Sır Pazarı: Sıcak Bakır kararında hesabı açık tutarsın. Rasih bunu fark eder ve karaborsa borcunun ve sır ağının dengesi senin lehine bir çizik alır."
+        resultText: "Sır Pazarı: Sıcak Bakır sırasında \"Sahte mührü reddet\" yolunu seçersin. Bu hamle karaborsa borcunu büyütür."
         healthDelta: 0
         setFlags:
           - "flag_black_market_debt_paid"
@@ -122,8 +141,13 @@ cards:
         nextCardId: "smm_card_203"
       -
         choiceId: "smm_card_202_b"
+        choiceImageId: "choice_smm_card_202_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a plain round wax seal and stamp with no glyphs forward with a decisive hand gesture and a clear expressive face. Rasih, a polite spy chief half-hidden by a dark hood reacts nearby with one simple readable gesture. a spice stall and bread basket identify the city market. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Sahte mühür kalıbı al"
-        resultText: "Sır Pazarı: Sıcak Bakır kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde karaborsa borcunun ve sır ağının için daha keskin bir kayıt açılır."
+        resultText: "Sır Pazarı: Sıcak Bakır sırasında \"Sahte mühür kalıbı al\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve casus ağını belirgin biçimde genişletir."
         healthDelta: 0
         setFlags:
           - "flag_yusuf_debt_mark"
@@ -157,7 +181,9 @@ cards:
     bodyText: "Arka sokak karaborsasında saray sırları baharat kadar küçük keselerde satılır. Sır Pazarı: Sessiz Bakış anında Nimet Ana, Rasih'in adını borç defterinde görmenin tehlikesini sezdirir. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, karaborsa borcunun ve sır ağının üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_gizli_muhur_atolyesi"
     focusImageId: "focus_smm_203_black_market"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Sır Pazarı: Sessiz Bakış scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Nimet Ana, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron points at a suspicious small clue with a clear active pose, oversized hands, and a simple expressive face. Nimet Ana, a watchful pantry keeper with a big key ring watches close by with one simple reaction gesture. a red wax table and locked chest identify the seal room. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "nimet_kilerci"
@@ -169,8 +195,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_203_a"
+        choiceImageId: "choice_smm_card_203_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a bead tally board and grain sack forward with a decisive hand gesture and a clear expressive face. Kara Yusuf, a smiling black-market broker under a small lantern reacts nearby with one simple readable gesture. a red wax table and locked chest identify the seal room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Yusuf'un defterini ezberle"
-        resultText: "Sır Pazarı: Sessiz Bakış kararında hesabı açık tutarsın. Nimet Ana bunu fark eder ve karaborsa borcunun ve sır ağının dengesi senin lehine bir çizik alır."
+        resultText: "Sır Pazarı: Sessiz Bakış sırasında \"Yusuf'un defterini ezberle\" yolunu seçersin. Bu hamle saray kuşkusunu yatıştırır ve karaborsa borcunu büyütür."
         healthDelta: 0
         setFlags:
           - "flag_black_market_debt_paid"
@@ -196,8 +227,13 @@ cards:
         nextCardId: "smm_card_204"
       -
         choiceId: "smm_card_203_b"
+        choiceImageId: "choice_smm_card_203_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron slides a small coin purse and covered bundle across a low table with a sly sideways glance and one hidden hand. Kara Yusuf, a smiling black-market broker under a small lantern reacts nearby with one simple readable gesture. a red wax table and locked chest identify the seal room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Yusuf'a yeni borç yazdır"
-        resultText: "Sır Pazarı: Sessiz Bakış kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde karaborsa borcunun ve sır ağının için daha keskin bir kayıt açılır."
+        resultText: "Sır Pazarı: Sessiz Bakış sırasında \"Yusuf'a yeni borç yazdır\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve casus ağını belirgin biçimde genişletir."
         healthDelta: 0
         setFlags:
           - "flag_yusuf_debt_mark"
@@ -231,7 +267,9 @@ cards:
     bodyText: "Arka sokak karaborsasında saray sırları baharat kadar küçük keselerde satılır. Sır Pazarı: İnce Hesap anında Miskal, sahte mühürle gerçek emrin birbirine ne kadar benzediğini fısıldar. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, karaborsa borcunun ve sır ağının üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_bakircilar_carsisi"
     focusImageId: "focus_smm_204_black_market"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Sır Pazarı: İnce Hesap scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Miskal, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron counts three chunky tally stones with a clear active pose, oversized hands, and a simple expressive face. Miskal, a narrow-eyed palace jester with a crooked half-smile watches close by with one simple reaction gesture. copper bowls and small hammers identify the coppersmith market. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "miskal_soytari"
@@ -243,8 +281,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_204_a"
+        choiceImageId: "choice_smm_card_204_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron hands over an oversized iron key with both oversized hands and a tense polite smile. Miskal, a narrow-eyed palace jester with a crooked half-smile reacts nearby with one simple readable gesture. copper bowls and small hammers identify the coppersmith market. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Anahtarı sahibine geri götür"
-        resultText: "Sır Pazarı: İnce Hesap kararında hesabı açık tutarsın. Miskal bunu fark eder ve karaborsa borcunun ve sır ağının dengesi senin lehine bir çizik alır."
+        resultText: "Sır Pazarı: İnce Hesap sırasında \"Anahtarı sahibine geri götür\" yolunu seçersin. Bu hamle karaborsa borcunu büyütür."
         healthDelta: 0
         setFlags:
           - "flag_black_market_debt_paid"
@@ -270,8 +313,13 @@ cards:
         nextCardId: "smm_card_205"
       -
         choiceId: "smm_card_204_b"
+        choiceImageId: "choice_smm_card_204_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents an oversized iron key forward with a decisive hand gesture and a clear expressive face. Miskal, a narrow-eyed palace jester with a crooked half-smile reacts nearby with one simple readable gesture. copper bowls and small hammers identify the coppersmith market. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Anahtarı gece pazarlık et"
-        resultText: "Sır Pazarı: İnce Hesap kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde karaborsa borcunun ve sır ağının için daha keskin bir kayıt açılır."
+        resultText: "Sır Pazarı: İnce Hesap sırasında \"Anahtarı gece pazarlık et\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve casus ağını belirgin biçimde genişletir."
         healthDelta: 0
         setFlags:
           - "flag_yusuf_debt_mark"
@@ -305,7 +353,9 @@ cards:
     bodyText: "Arka sokak karaborsasında saray sırları baharat kadar küçük keselerde satılır. Sır Pazarı: Gizli Lekeler anında Kara Yusuf, kârın yanında seni satın alınabilir gösteren bir leke bırakır. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, karaborsa borcunun ve sır ağının üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_kiler_gizli_raflar"
     focusImageId: "focus_smm_205_black_market"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Sır Pazarı: Gizli Lekeler scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Kara Yusuf, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron scrubs a dark stain on a plate with a clear active pose, oversized hands, and a simple expressive face. Kara Yusuf, a smiling black-market broker under a small lantern watches close by with one simple reaction gesture. grain sacks and a key rack identify the pantry. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "kara_yusuf"
@@ -317,8 +367,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_205_a"
+        choiceImageId: "choice_smm_card_205_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron points at a folded blank note and stubby candle with a clear explaining gesture and raised eyebrows. Rasih, a polite spy chief half-hidden by a dark hood reacts nearby with one simple readable gesture. grain sacks and a key rack identify the pantry. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Söylentiyi Rasih'e bildir"
-        resultText: "Sır Pazarı: Gizli Lekeler kararında hesabı açık tutarsın. Kara Yusuf bunu fark eder ve karaborsa borcunun ve sır ağının dengesi senin lehine bir çizik alır."
+        resultText: "Sır Pazarı: Gizli Lekeler sırasında \"Söylentiyi Rasih'e bildir\" yolunu seçersin. Bu hamle karaborsa borcunu büyütür."
         healthDelta: 0
         setFlags:
           - "flag_black_market_debt_paid"
@@ -344,8 +399,13 @@ cards:
         nextCardId: "smm_card_206"
       -
         choiceId: "smm_card_205_b"
+        choiceImageId: "choice_smm_card_205_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron points at a folded blank note and stubby candle with a clear explaining gesture and raised eyebrows. Kara Yusuf, a smiling black-market broker under a small lantern reacts nearby with one simple readable gesture. grain sacks and a key rack identify the pantry. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Söylentiyi varise taşı"
-        resultText: "Sır Pazarı: Gizli Lekeler kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde karaborsa borcunun ve sır ağının için daha keskin bir kayıt açılır."
+        resultText: "Sır Pazarı: Gizli Lekeler sırasında \"Söylentiyi varise taşı\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve casus ağını belirgin biçimde genişletir. Canın 1 azalır."
         healthDelta: -1
         setFlags:
           - "flag_yusuf_debt_mark"
@@ -379,7 +439,9 @@ cards:
     bodyText: "Kara Yusuf, borcun paradan çok hatırlanmakla büyüdüğünü söyler. Sır Pazarı: Kör Alev anında Rasih, senden hangi sırrın satılınca hâlâ sır kalacağını hesaplamanı ister. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, karaborsa borcunun ve sır ağının üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_arka_sokak_karaborsa"
     focusImageId: "focus_smm_206_black_market"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Sır Pazarı: Kör Alev scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Rasih, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron shields a weak kitchen flame with a clear active pose, oversized hands, and a simple expressive face. Rasih, a polite spy chief half-hidden by a dark hood watches close by with one simple reaction gesture. a covered stall and small lantern identify the black market alley. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "rasih_casusbasi"
@@ -391,8 +453,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_206_a"
+        choiceImageId: "choice_smm_card_206_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a folded blank note and stubby candle forward with a decisive hand gesture and a clear expressive face. Rasih, a polite spy chief half-hidden by a dark hood reacts nearby with one simple readable gesture. a covered stall and small lantern identify the black market alley. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Borcu küçük sırla kapat"
-        resultText: "Sır Pazarı: Kör Alev kararında hesabı açık tutarsın. Rasih bunu fark eder ve karaborsa borcunun ve sır ağının dengesi senin lehine bir çizik alır."
+        resultText: "Sır Pazarı: Kör Alev sırasında \"Borcu küçük sırla kapat\" yolunu seçersin. Bu hamle karaborsa borcunu büyütür."
         healthDelta: 0
         setFlags:
           - "flag_black_market_debt_paid"
@@ -418,8 +485,13 @@ cards:
         nextCardId: "smm_card_207"
       -
         choiceId: "smm_card_206_b"
+        choiceImageId: "choice_smm_card_206_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron slides a folded blank note and stubby candle across a low table with a sly sideways glance and one hidden hand. Rasih, a polite spy chief half-hidden by a dark hood reacts nearby with one simple readable gesture. a covered stall and small lantern identify the black market alley. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Sırrı yüksek bedelle sat"
-        resultText: "Sır Pazarı: Kör Alev kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde karaborsa borcunun ve sır ağının için daha keskin bir kayıt açılır."
+        resultText: "Sır Pazarı: Kör Alev sırasında \"Sırrı yüksek bedelle sat\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve casus ağını belirgin biçimde genişletir."
         healthDelta: 0
         setFlags:
           - "flag_yusuf_debt_mark"
@@ -453,7 +525,9 @@ cards:
     bodyText: "Kara Yusuf, borcun paradan çok hatırlanmakla büyüdüğünü söyler. Sır Pazarı: Üç Nohut anında Nimet Ana, Nimet'in anahtarlarının sokakta nasıl fiyatlandığını gösterir. Kehanet çorbası artık sarayda küçük bir şaka değil, varislerin kendi lehine çevirmek istediği ciddi bir alamettir. Seçeceğin yol, karaborsa borcunun ve sır ağının üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_sehir_pazari"
     focusImageId: "focus_smm_207_black_market"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Sır Pazarı: Üç Nohut scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Nimet Ana, Müneccim Zerya, a bowl of omen soup with oil rings and three chickpeas, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron arranges three oversized chickpeas with a clear active pose, oversized hands, and a simple expressive face. Nimet Ana, a watchful pantry keeper with a big key ring watches close by with one simple reaction gesture. a spice stall and bread basket identify the city market. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "nimet_kilerci"
@@ -470,8 +544,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_207_a"
+        choiceImageId: "choice_smm_card_207_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron pushes a large readable story prop away with both palms and a stubborn frown. Nimet Ana, a watchful pantry keeper with a big key ring reacts nearby with one simple readable gesture. a spice stall and bread basket identify the city market. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Sahte mührü reddet"
-        resultText: "Sır Pazarı: Üç Nohut kararında hesabı açık tutarsın. Nimet Ana bunu fark eder ve karaborsa borcunun ve sır ağının dengesi senin lehine bir çizik alır."
+        resultText: "Sır Pazarı: Üç Nohut sırasında \"Sahte mührü reddet\" yolunu seçersin. Bu hamle karaborsa borcunu büyütür ve çorba alametini büyütür."
         healthDelta: 0
         setFlags:
           - "flag_black_market_debt_paid"
@@ -498,8 +577,13 @@ cards:
         nextCardId: "smm_card_208"
       -
         choiceId: "smm_card_207_b"
+        choiceImageId: "choice_smm_card_207_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a plain round wax seal and stamp with no glyphs forward with a decisive hand gesture and a clear expressive face. Nimet Ana, a watchful pantry keeper with a big key ring reacts nearby with one simple readable gesture. a spice stall and bread basket identify the city market. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Sahte mühür kalıbı al"
-        resultText: "Sır Pazarı: Üç Nohut kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde karaborsa borcunun ve sır ağının için daha keskin bir kayıt açılır."
+        resultText: "Sır Pazarı: Üç Nohut sırasında \"Sahte mühür kalıbı al\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir, casus ağını belirgin biçimde genişletir ve çorba alametini belirgin biçimde büyütür. Canın 1 azalır."
         healthDelta: -1
         setFlags:
           - "flag_yusuf_debt_mark"
@@ -534,7 +618,9 @@ cards:
     bodyText: "Kara Yusuf, borcun paradan çok hatırlanmakla büyüdüğünü söyler. Sır Pazarı: Kapıdaki Fısıltı anında Miskal, Rasih'in adını borç defterinde görmenin tehlikesini sezdirir. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, karaborsa borcunun ve sır ağının üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_gizli_muhur_atolyesi"
     focusImageId: "focus_smm_208_black_market"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Sır Pazarı: Kapıdaki Fısıltı scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Miskal, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron hides a folded blank note with a clear active pose, oversized hands, and a simple expressive face. Miskal, a narrow-eyed palace jester with a crooked half-smile watches close by with one simple reaction gesture. a red wax table and locked chest identify the seal room. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "miskal_soytari"
@@ -546,8 +632,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_208_a"
+        choiceImageId: "choice_smm_card_208_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a bead tally board and grain sack forward with a decisive hand gesture and a clear expressive face. Kara Yusuf, a smiling black-market broker under a small lantern reacts nearby with one simple readable gesture. a red wax table and locked chest identify the seal room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Yusuf'un defterini ezberle"
-        resultText: "Sır Pazarı: Kapıdaki Fısıltı kararında hesabı açık tutarsın. Miskal bunu fark eder ve karaborsa borcunun ve sır ağının dengesi senin lehine bir çizik alır."
+        resultText: "Sır Pazarı: Kapıdaki Fısıltı sırasında \"Yusuf'un defterini ezberle\" yolunu seçersin. Bu hamle karaborsa borcunu büyütür."
         healthDelta: 0
         setFlags:
           - "flag_black_market_debt_paid"
@@ -574,8 +665,13 @@ cards:
         nextCardId: "smm_card_209"
       -
         choiceId: "smm_card_208_b"
+        choiceImageId: "choice_smm_card_208_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron slides a small coin purse and covered bundle across a low table with a sly sideways glance and one hidden hand. Kara Yusuf, a smiling black-market broker under a small lantern reacts nearby with one simple readable gesture. a red wax table and locked chest identify the seal room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Yusuf'a yeni borç yazdır"
-        resultText: "Sır Pazarı: Kapıdaki Fısıltı kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde karaborsa borcunun ve sır ağının için daha keskin bir kayıt açılır."
+        resultText: "Sır Pazarı: Kapıdaki Fısıltı sırasında \"Yusuf'a yeni borç yazdır\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve casus ağını belirgin biçimde genişletir."
         healthDelta: 0
         setFlags:
           - "flag_yusuf_debt_mark"
@@ -610,7 +706,9 @@ cards:
     bodyText: "Kara Yusuf, borcun paradan çok hatırlanmakla büyüdüğünü söyler. Sır Pazarı: Aç Karnın Sözü anında Kara Yusuf, sahte mühürle gerçek emrin birbirine ne kadar benzediğini fısıldar. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, karaborsa borcunun ve sır ağının üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_bakircilar_carsisi"
     focusImageId: "focus_smm_209_black_market"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Sır Pazarı: Aç Karnın Sözü scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Kara Yusuf, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron offers a small bread piece with a clear active pose, oversized hands, and a simple expressive face. Kara Yusuf, a smiling black-market broker under a small lantern watches close by with one simple reaction gesture. copper bowls and small hammers identify the coppersmith market. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "kara_yusuf"
@@ -622,8 +720,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_209_a"
+        choiceImageId: "choice_smm_card_209_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron hands over an oversized iron key with both oversized hands and a tense polite smile. Kara Yusuf, a smiling black-market broker under a small lantern reacts nearby with one simple readable gesture. copper bowls and small hammers identify the coppersmith market. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Anahtarı sahibine geri götür"
-        resultText: "Sır Pazarı: Aç Karnın Sözü kararında hesabı açık tutarsın. Kara Yusuf bunu fark eder ve karaborsa borcunun ve sır ağının dengesi senin lehine bir çizik alır."
+        resultText: "Sır Pazarı: Aç Karnın Sözü sırasında \"Anahtarı sahibine geri götür\" yolunu seçersin. Bu hamle karaborsa borcunu büyütür."
         healthDelta: 0
         setFlags:
           - "flag_black_market_debt_paid"
@@ -649,8 +752,13 @@ cards:
         nextCardId: "smm_card_210"
       -
         choiceId: "smm_card_209_b"
+        choiceImageId: "choice_smm_card_209_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents an oversized iron key forward with a decisive hand gesture and a clear expressive face. Kara Yusuf, a smiling black-market broker under a small lantern reacts nearby with one simple readable gesture. copper bowls and small hammers identify the coppersmith market. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Anahtarı gece pazarlık et"
-        resultText: "Sır Pazarı: Aç Karnın Sözü kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde karaborsa borcunun ve sır ağının için daha keskin bir kayıt açılır."
+        resultText: "Sır Pazarı: Aç Karnın Sözü sırasında \"Anahtarı gece pazarlık et\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve casus ağını belirgin biçimde genişletir."
         healthDelta: 0
         setFlags:
           - "flag_yusuf_debt_mark"
@@ -684,7 +792,9 @@ cards:
     bodyText: "Kara Yusuf, borcun paradan çok hatırlanmakla büyüdüğünü söyler. Sır Pazarı: Ustanın Sınavı anında Rasih, kârın yanında seni satın alınabilir gösteren bir leke bırakır. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, karaborsa borcunun ve sır ağının üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_kiler_gizli_raflar"
     focusImageId: "focus_smm_210_black_market"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Sır Pazarı: Ustanın Sınavı scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Rasih, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron measures a spoonful of spice with a clear active pose, oversized hands, and a simple expressive face. Rasih, a polite spy chief half-hidden by a dark hood watches close by with one simple reaction gesture. grain sacks and a key rack identify the pantry. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "rasih_casusbasi"
@@ -696,8 +806,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_210_a"
+        choiceImageId: "choice_smm_card_210_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron points at a folded blank note and stubby candle with a clear explaining gesture and raised eyebrows. Rasih, a polite spy chief half-hidden by a dark hood reacts nearby with one simple readable gesture. grain sacks and a key rack identify the pantry. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Söylentiyi Rasih'e bildir"
-        resultText: "Sır Pazarı: Ustanın Sınavı kararında hesabı açık tutarsın. Rasih bunu fark eder ve karaborsa borcunun ve sır ağının dengesi senin lehine bir çizik alır."
+        resultText: "Sır Pazarı: Ustanın Sınavı sırasında \"Söylentiyi Rasih'e bildir\" yolunu seçersin. Bu hamle saray kuşkusunu yatıştırır ve karaborsa borcunu büyütür."
         healthDelta: 0
         setFlags:
           - "flag_black_market_debt_paid"
@@ -723,8 +838,13 @@ cards:
         nextCardId: "smm_card_211"
       -
         choiceId: "smm_card_210_b"
+        choiceImageId: "choice_smm_card_210_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron points at a folded blank note and stubby candle with a clear explaining gesture and raised eyebrows. Rasih, a polite spy chief half-hidden by a dark hood reacts nearby with one simple readable gesture. grain sacks and a key rack identify the pantry. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Söylentiyi varise taşı"
-        resultText: "Sır Pazarı: Ustanın Sınavı kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde karaborsa borcunun ve sır ağının için daha keskin bir kayıt açılır."
+        resultText: "Sır Pazarı: Ustanın Sınavı sırasında \"Söylentiyi varise taşı\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve casus ağını belirgin biçimde genişletir. Canın 1 azalır."
         healthDelta: -1
         setFlags:
           - "flag_yusuf_debt_mark"
@@ -758,7 +878,9 @@ cards:
     bodyText: "Sahte mühür söylentisi, gerçek mühür odasından daha kalabalık bir kuyruk toplar. Sır Pazarı: Kazanın Gölgesi anında Nimet Ana, senden hangi sırrın satılınca hâlâ sır kalacağını hesaplamanı ister. Yanlış tatlı krizi, Safira'nın dış destek arayışında ya fırsat ya da utanç olarak yeniden açılır. Seçeceğin yol, karaborsa borcunun ve sır ağının üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_arka_sokak_karaborsa"
     focusImageId: "focus_smm_211_black_market"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Sır Pazarı: Kazanın Gölgesi scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Nimet Ana, Lale Kalfa, a mistaken ornate dessert tray with diplomatic tension, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron stirs a round copper cauldron with a clear active pose, oversized hands, and a simple expressive face. Nimet Ana, a watchful pantry keeper with a big key ring watches close by with one simple reaction gesture. a covered stall and small lantern identify the black market alley. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "nimet_kilerci"
@@ -776,8 +898,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_211_a"
+        choiceImageId: "choice_smm_card_211_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a folded blank note and stubby candle forward with a decisive hand gesture and a clear expressive face. Nimet Ana, a watchful pantry keeper with a big key ring reacts nearby with one simple readable gesture. a covered stall and small lantern identify the black market alley. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Borcu küçük sırla kapat"
-        resultText: "Sır Pazarı: Kazanın Gölgesi kararında hesabı açık tutarsın. Nimet Ana bunu fark eder ve karaborsa borcunun ve sır ağının dengesi senin lehine bir çizik alır."
+        resultText: "Sır Pazarı: Kazanın Gölgesi sırasında \"Borcu küçük sırla kapat\" yolunu seçersin. Bu hamle karaborsa borcunu büyütür ve tatlı diplomasisini canlandırır."
         healthDelta: 0
         setFlags:
           - "flag_black_market_debt_paid"
@@ -804,8 +931,13 @@ cards:
         nextCardId: "smm_card_212"
       -
         choiceId: "smm_card_211_b"
+        choiceImageId: "choice_smm_card_211_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron slides a folded blank note and stubby candle across a low table with a sly sideways glance and one hidden hand. Nimet Ana, a watchful pantry keeper with a big key ring reacts nearby with one simple readable gesture. a covered stall and small lantern identify the black market alley. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Sırrı yüksek bedelle sat"
-        resultText: "Sır Pazarı: Kazanın Gölgesi kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde karaborsa borcunun ve sır ağının için daha keskin bir kayıt açılır."
+        resultText: "Sır Pazarı: Kazanın Gölgesi sırasında \"Sırrı yüksek bedelle sat\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir, casus ağını belirgin biçimde genişletir ve tatlı diplomasisini belirgin biçimde canlandırır."
         healthDelta: 0
         setFlags:
           - "flag_yusuf_debt_mark"
@@ -841,7 +973,9 @@ cards:
     bodyText: "Sahte mühür söylentisi, gerçek mühür odasından daha kalabalık bir kuyruk toplar. Sır Pazarı: Tuz ve Yemin anında Miskal, Nimet'in anahtarlarının sokakta nasıl fiyatlandığını gösterir. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, karaborsa borcunun ve sır ağının üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_sehir_pazari"
     focusImageId: "focus_smm_212_black_market"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Sır Pazarı: Tuz ve Yemin scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Miskal, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron sprinkles a pinch of salt with a clear active pose, oversized hands, and a simple expressive face. Miskal, a narrow-eyed palace jester with a crooked half-smile watches close by with one simple reaction gesture. a spice stall and bread basket identify the city market. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "miskal_soytari"
@@ -853,8 +987,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_212_a"
+        choiceImageId: "choice_smm_card_212_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron pushes a large readable story prop away with both palms and a stubborn frown. Miskal, a narrow-eyed palace jester with a crooked half-smile reacts nearby with one simple readable gesture. a spice stall and bread basket identify the city market. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Sahte mührü reddet"
-        resultText: "Sır Pazarı: Tuz ve Yemin kararında hesabı açık tutarsın. Miskal bunu fark eder ve karaborsa borcunun ve sır ağının dengesi senin lehine bir çizik alır."
+        resultText: "Sır Pazarı: Tuz ve Yemin sırasında \"Sahte mührü reddet\" yolunu seçersin. Bu hamle karaborsa borcunu büyütür."
         healthDelta: 0
         setFlags:
           - "flag_black_market_debt_paid"
@@ -880,8 +1019,13 @@ cards:
         nextCardId: "smm_card_213"
       -
         choiceId: "smm_card_212_b"
+        choiceImageId: "choice_smm_card_212_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a plain round wax seal and stamp with no glyphs forward with a decisive hand gesture and a clear expressive face. Miskal, a narrow-eyed palace jester with a crooked half-smile reacts nearby with one simple readable gesture. a spice stall and bread basket identify the city market. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Sahte mühür kalıbı al"
-        resultText: "Sır Pazarı: Tuz ve Yemin kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde karaborsa borcunun ve sır ağının için daha keskin bir kayıt açılır."
+        resultText: "Sır Pazarı: Tuz ve Yemin sırasında \"Sahte mühür kalıbı al\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve casus ağını belirgin biçimde genişletir."
         healthDelta: 0
         setFlags:
           - "flag_yusuf_debt_mark"
@@ -915,7 +1059,9 @@ cards:
     bodyText: "Sahte mühür söylentisi, gerçek mühür odasından daha kalabalık bir kuyruk toplar. Sır Pazarı: Kırık Tabak anında Kara Yusuf, Rasih'in adını borç defterinde görmenin tehlikesini sezdirir. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, karaborsa borcunun ve sır ağının üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_gizli_muhur_atolyesi"
     focusImageId: "focus_smm_213_black_market"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Sır Pazarı: Kırık Tabak scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Kara Yusuf, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron raises a cracked plate with a clear active pose, oversized hands, and a simple expressive face. Kara Yusuf, a smiling black-market broker under a small lantern watches close by with one simple reaction gesture. a red wax table and locked chest identify the seal room. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "kara_yusuf"
@@ -927,8 +1073,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_213_a"
+        choiceImageId: "choice_smm_card_213_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a bead tally board and grain sack forward with a decisive hand gesture and a clear expressive face. Kara Yusuf, a smiling black-market broker under a small lantern reacts nearby with one simple readable gesture. a red wax table and locked chest identify the seal room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Yusuf'un defterini ezberle"
-        resultText: "Sır Pazarı: Kırık Tabak kararında hesabı açık tutarsın. Kara Yusuf bunu fark eder ve karaborsa borcunun ve sır ağının dengesi senin lehine bir çizik alır."
+        resultText: "Sır Pazarı: Kırık Tabak sırasında \"Yusuf'un defterini ezberle\" yolunu seçersin. Bu hamle karaborsa borcunu büyütür."
         healthDelta: 0
         setFlags:
           - "flag_black_market_debt_paid"
@@ -954,8 +1105,13 @@ cards:
         nextCardId: "smm_card_214"
       -
         choiceId: "smm_card_213_b"
+        choiceImageId: "choice_smm_card_213_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron slides a small coin purse and covered bundle across a low table with a sly sideways glance and one hidden hand. Kara Yusuf, a smiling black-market broker under a small lantern reacts nearby with one simple readable gesture. a red wax table and locked chest identify the seal room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Yusuf'a yeni borç yazdır"
-        resultText: "Sır Pazarı: Kırık Tabak kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde karaborsa borcunun ve sır ağının için daha keskin bir kayıt açılır."
+        resultText: "Sır Pazarı: Kırık Tabak sırasında \"Yusuf'a yeni borç yazdır\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve casus ağını belirgin biçimde genişletir."
         healthDelta: 0
         setFlags:
           - "flag_yusuf_debt_mark"
@@ -989,7 +1145,9 @@ cards:
     bodyText: "Sahte mühür söylentisi, gerçek mühür odasından daha kalabalık bir kuyruk toplar. Sır Pazarı: Mum Işığı anında Rasih, sahte mühürle gerçek emrin birbirine ne kadar benzediğini fısıldar. Ak Gaga'nın davranışı divanda bir devlet işareti gibi yorumlanır ve oyuncunun önceki yem tercihleri hatırlanır. Seçeceğin yol, karaborsa borcunun ve sır ağının üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_bakircilar_carsisi"
     focusImageId: "focus_smm_214_black_market"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Sır Pazarı: Mum Işığı scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Rasih, Durna, the dignified palace goose Ak Gaga nearby, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron holds a stubby candle with a clear active pose, oversized hands, and a simple expressive face. Rasih, a polite spy chief half-hidden by a dark hood watches close by with one simple reaction gesture. copper bowls and small hammers identify the coppersmith market. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "rasih_casusbasi"
@@ -1006,8 +1164,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_214_a"
+        choiceImageId: "choice_smm_card_214_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron hands over an oversized iron key with both oversized hands and a tense polite smile. Rasih, a polite spy chief half-hidden by a dark hood reacts nearby with one simple readable gesture. copper bowls and small hammers identify the coppersmith market. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Anahtarı sahibine geri götür"
-        resultText: "Sır Pazarı: Mum Işığı kararında hesabı açık tutarsın. Rasih bunu fark eder ve karaborsa borcunun ve sır ağının dengesi senin lehine bir çizik alır."
+        resultText: "Sır Pazarı: Mum Işığı sırasında \"Anahtarı sahibine geri götür\" yolunu seçersin. Bu hamle karaborsa borcunu büyütür ve Ak Gaga söylencesini güçlendirir."
         healthDelta: 0
         setFlags:
           - "flag_black_market_debt_paid"
@@ -1036,8 +1199,13 @@ cards:
         nextCardId: "smm_card_215"
       -
         choiceId: "smm_card_214_b"
+        choiceImageId: "choice_smm_card_214_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents an oversized iron key forward with a decisive hand gesture and a clear expressive face. Rasih, a polite spy chief half-hidden by a dark hood reacts nearby with one simple readable gesture. copper bowls and small hammers identify the coppersmith market. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Anahtarı gece pazarlık et"
-        resultText: "Sır Pazarı: Mum Işığı kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde karaborsa borcunun ve sır ağının için daha keskin bir kayıt açılır."
+        resultText: "Sır Pazarı: Mum Işığı sırasında \"Anahtarı gece pazarlık et\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir, casus ağını belirgin biçimde genişletir ve Ak Gaga söylencesini belirgin biçimde güçlendirir."
         healthDelta: 0
         setFlags:
           - "flag_yusuf_debt_mark"
@@ -1072,7 +1240,9 @@ cards:
     bodyText: "Sahte mühür söylentisi, gerçek mühür odasından daha kalabalık bir kuyruk toplar. Sır Pazarı: Gece Nöbeti anında Nimet Ana, kârın yanında seni satın alınabilir gösteren bir leke bırakır. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, karaborsa borcunun ve sır ağının üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_kiler_gizli_raflar"
     focusImageId: "focus_smm_215_black_market"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Sır Pazarı: Gece Nöbeti scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Nimet Ana, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron guards a small tray with a clear active pose, oversized hands, and a simple expressive face. Nimet Ana, a watchful pantry keeper with a big key ring watches close by with one simple reaction gesture. grain sacks and a key rack identify the pantry. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "nimet_kilerci"
@@ -1084,8 +1254,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_215_a"
+        choiceImageId: "choice_smm_card_215_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron points at a folded blank note and stubby candle with a clear explaining gesture and raised eyebrows. Rasih, a polite spy chief half-hidden by a dark hood reacts nearby with one simple readable gesture. grain sacks and a key rack identify the pantry. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Söylentiyi Rasih'e bildir"
-        resultText: "Sır Pazarı: Gece Nöbeti kararında hesabı açık tutarsın. Nimet Ana bunu fark eder ve karaborsa borcunun ve sır ağının dengesi senin lehine bir çizik alır."
+        resultText: "Sır Pazarı: Gece Nöbeti sırasında \"Söylentiyi Rasih'e bildir\" yolunu seçersin. Bu hamle karaborsa borcunu büyütür."
         healthDelta: 0
         setFlags:
           - "flag_black_market_debt_paid"
@@ -1111,8 +1286,13 @@ cards:
         nextCardId: "smm_card_216"
       -
         choiceId: "smm_card_215_b"
+        choiceImageId: "choice_smm_card_215_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron points at a folded blank note and stubby candle with a clear explaining gesture and raised eyebrows. Nimet Ana, a watchful pantry keeper with a big key ring reacts nearby with one simple readable gesture. grain sacks and a key rack identify the pantry. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Söylentiyi varise taşı"
-        resultText: "Sır Pazarı: Gece Nöbeti kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde karaborsa borcunun ve sır ağının için daha keskin bir kayıt açılır."
+        resultText: "Sır Pazarı: Gece Nöbeti sırasında \"Söylentiyi varise taşı\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve casus ağını belirgin biçimde genişletir. Canın 1 azalır."
         healthDelta: -1
         setFlags:
           - "flag_yusuf_debt_mark"
@@ -1146,7 +1326,9 @@ cards:
     bodyText: "Sır satmak seni hızla yükseltir ama herkesin eline bir ip verir. Sır Pazarı: Kilitli Raf anında Miskal, senden hangi sırrın satılınca hâlâ sır kalacağını hesaplamanı ister. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, karaborsa borcunun ve sır ağının üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_arka_sokak_karaborsa"
     focusImageId: "focus_smm_216_black_market"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Sır Pazarı: Kilitli Raf scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Miskal, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron reaches toward a locked shelf key with a clear active pose, oversized hands, and a simple expressive face. Miskal, a narrow-eyed palace jester with a crooked half-smile watches close by with one simple reaction gesture. a covered stall and small lantern identify the black market alley. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "miskal_soytari"
@@ -1158,8 +1340,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_216_a"
+        choiceImageId: "choice_smm_card_216_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a folded blank note and stubby candle forward with a decisive hand gesture and a clear expressive face. Miskal, a narrow-eyed palace jester with a crooked half-smile reacts nearby with one simple readable gesture. a covered stall and small lantern identify the black market alley. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Borcu küçük sırla kapat"
-        resultText: "Sır Pazarı: Kilitli Raf kararında hesabı açık tutarsın. Miskal bunu fark eder ve karaborsa borcunun ve sır ağının dengesi senin lehine bir çizik alır."
+        resultText: "Sır Pazarı: Kilitli Raf sırasında \"Borcu küçük sırla kapat\" yolunu seçersin. Bu hamle karaborsa borcunu büyütür."
         healthDelta: 0
         setFlags:
           - "flag_black_market_debt_paid"
@@ -1186,8 +1373,13 @@ cards:
         nextCardId: "smm_card_217"
       -
         choiceId: "smm_card_216_b"
+        choiceImageId: "choice_smm_card_216_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron slides a folded blank note and stubby candle across a low table with a sly sideways glance and one hidden hand. Miskal, a narrow-eyed palace jester with a crooked half-smile reacts nearby with one simple readable gesture. a covered stall and small lantern identify the black market alley. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Sırrı yüksek bedelle sat"
-        resultText: "Sır Pazarı: Kilitli Raf kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde karaborsa borcunun ve sır ağının için daha keskin bir kayıt açılır."
+        resultText: "Sır Pazarı: Kilitli Raf sırasında \"Sırrı yüksek bedelle sat\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve casus ağını belirgin biçimde genişletir. Canın 1 azalır."
         healthDelta: -1
         setFlags:
           - "flag_yusuf_debt_mark"
@@ -1222,7 +1414,9 @@ cards:
     bodyText: "Sır satmak seni hızla yükseltir ama herkesin eline bir ip verir. Sır Pazarı: Sarayın Kulağı anında Kara Yusuf, Nimet'in anahtarlarının sokakta nasıl fiyatlandığını gösterir. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, karaborsa borcunun ve sır ağının üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_sehir_pazari"
     focusImageId: "focus_smm_217_black_market"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Sır Pazarı: Sarayın Kulağı scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Kara Yusuf, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron listens beside a half-open door with a clear active pose, oversized hands, and a simple expressive face. Kara Yusuf, a smiling black-market broker under a small lantern watches close by with one simple reaction gesture. a spice stall and bread basket identify the city market. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "kara_yusuf"
@@ -1234,8 +1428,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_217_a"
+        choiceImageId: "choice_smm_card_217_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron pushes a large readable story prop away with both palms and a stubborn frown. Kara Yusuf, a smiling black-market broker under a small lantern reacts nearby with one simple readable gesture. a spice stall and bread basket identify the city market. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Sahte mührü reddet"
-        resultText: "Sır Pazarı: Sarayın Kulağı kararında hesabı açık tutarsın. Kara Yusuf bunu fark eder ve karaborsa borcunun ve sır ağının dengesi senin lehine bir çizik alır."
+        resultText: "Sır Pazarı: Sarayın Kulağı sırasında \"Sahte mührü reddet\" yolunu seçersin. Bu hamle saray kuşkusunu yatıştırır ve karaborsa borcunu büyütür."
         healthDelta: 0
         setFlags:
           - "flag_black_market_debt_paid"
@@ -1261,8 +1460,13 @@ cards:
         nextCardId: "smm_card_218"
       -
         choiceId: "smm_card_217_b"
+        choiceImageId: "choice_smm_card_217_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a plain round wax seal and stamp with no glyphs forward with a decisive hand gesture and a clear expressive face. Kara Yusuf, a smiling black-market broker under a small lantern reacts nearby with one simple readable gesture. a spice stall and bread basket identify the city market. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Sahte mühür kalıbı al"
-        resultText: "Sır Pazarı: Sarayın Kulağı kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde karaborsa borcunun ve sır ağının için daha keskin bir kayıt açılır."
+        resultText: "Sır Pazarı: Sarayın Kulağı sırasında \"Sahte mühür kalıbı al\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve casus ağını belirgin biçimde genişletir."
         healthDelta: 0
         setFlags:
           - "flag_yusuf_debt_mark"
@@ -1296,7 +1500,9 @@ cards:
     bodyText: "Sır satmak seni hızla yükseltir ama herkesin eline bir ip verir. Sır Pazarı: Yağ Halkası anında Rasih, Rasih'in adını borç defterinde görmenin tehlikesini sezdirir. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, karaborsa borcunun ve sır ağının üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_gizli_muhur_atolyesi"
     focusImageId: "focus_smm_218_black_market"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Sır Pazarı: Yağ Halkası scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Rasih, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron tilts an omen soup bowl with a clear active pose, oversized hands, and a simple expressive face. Rasih, a polite spy chief half-hidden by a dark hood watches close by with one simple reaction gesture. a red wax table and locked chest identify the seal room. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "rasih_casusbasi"
@@ -1308,8 +1514,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_218_a"
+        choiceImageId: "choice_smm_card_218_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a bead tally board and grain sack forward with a decisive hand gesture and a clear expressive face. Kara Yusuf, a smiling black-market broker under a small lantern reacts nearby with one simple readable gesture. a red wax table and locked chest identify the seal room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Yusuf'un defterini ezberle"
-        resultText: "Sır Pazarı: Yağ Halkası kararında hesabı açık tutarsın. Rasih bunu fark eder ve karaborsa borcunun ve sır ağının dengesi senin lehine bir çizik alır."
+        resultText: "Sır Pazarı: Yağ Halkası sırasında \"Yusuf'un defterini ezberle\" yolunu seçersin. Bu hamle karaborsa borcunu büyütür."
         healthDelta: 0
         setFlags:
           - "flag_black_market_debt_paid"
@@ -1335,8 +1546,13 @@ cards:
         nextCardId: "smm_card_219"
       -
         choiceId: "smm_card_218_b"
+        choiceImageId: "choice_smm_card_218_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron slides a small coin purse and covered bundle across a low table with a sly sideways glance and one hidden hand. Kara Yusuf, a smiling black-market broker under a small lantern reacts nearby with one simple readable gesture. a red wax table and locked chest identify the seal room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Yusuf'a yeni borç yazdır"
-        resultText: "Sır Pazarı: Yağ Halkası kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde karaborsa borcunun ve sır ağının için daha keskin bir kayıt açılır."
+        resultText: "Sır Pazarı: Yağ Halkası sırasında \"Yusuf'a yeni borç yazdır\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve casus ağını belirgin biçimde genişletir."
         healthDelta: 0
         setFlags:
           - "flag_yusuf_debt_mark"
@@ -1370,7 +1586,9 @@ cards:
     bodyText: "Sır satmak seni hızla yükseltir ama herkesin eline bir ip verir. Sır Pazarı: Ak Gaga'nın Yolu anında Nimet Ana, sahte mühürle gerçek emrin birbirine ne kadar benzediğini fısıldar. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, karaborsa borcunun ve sır ağının üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_bakircilar_carsisi"
     focusImageId: "focus_smm_219_black_market"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Sır Pazarı: Ak Gaga'nın Yolu scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Nimet Ana, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron guides a white goose feather marker with a clear active pose, oversized hands, and a simple expressive face. Nimet Ana, a watchful pantry keeper with a big key ring watches close by with one simple reaction gesture. copper bowls and small hammers identify the coppersmith market. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "nimet_kilerci"
@@ -1382,8 +1600,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_219_a"
+        choiceImageId: "choice_smm_card_219_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron hands over an oversized iron key with both oversized hands and a tense polite smile. Nimet Ana, a watchful pantry keeper with a big key ring reacts nearby with one simple readable gesture. copper bowls and small hammers identify the coppersmith market. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Anahtarı sahibine geri götür"
-        resultText: "Sır Pazarı: Ak Gaga'nın Yolu kararında hesabı açık tutarsın. Nimet Ana bunu fark eder ve karaborsa borcunun ve sır ağının dengesi senin lehine bir çizik alır."
+        resultText: "Sır Pazarı: Ak Gaga'nın Yolu sırasında \"Anahtarı sahibine geri götür\" yolunu seçersin. Bu hamle karaborsa borcunu büyütür."
         healthDelta: 0
         setFlags:
           - "flag_black_market_debt_paid"
@@ -1409,8 +1632,13 @@ cards:
         nextCardId: "smm_card_220"
       -
         choiceId: "smm_card_219_b"
+        choiceImageId: "choice_smm_card_219_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents an oversized iron key forward with a decisive hand gesture and a clear expressive face. Nimet Ana, a watchful pantry keeper with a big key ring reacts nearby with one simple readable gesture. copper bowls and small hammers identify the coppersmith market. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Anahtarı gece pazarlık et"
-        resultText: "Sır Pazarı: Ak Gaga'nın Yolu kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde karaborsa borcunun ve sır ağının için daha keskin bir kayıt açılır."
+        resultText: "Sır Pazarı: Ak Gaga'nın Yolu sırasında \"Anahtarı gece pazarlık et\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve casus ağını belirgin biçimde genişletir."
         healthDelta: 0
         setFlags:
           - "flag_yusuf_debt_mark"
@@ -1444,7 +1672,9 @@ cards:
     bodyText: "Sır satmak seni hızla yükseltir ama herkesin eline bir ip verir. Sır Pazarı: Gümüş Kaşık anında Miskal, kârın yanında seni satın alınabilir gösteren bir leke bırakır. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, karaborsa borcunun ve sır ağının üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_kiler_gizli_raflar"
     focusImageId: "focus_smm_220_black_market"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Sır Pazarı: Gümüş Kaşık scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Miskal, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron inspects a silver spoon with a clear active pose, oversized hands, and a simple expressive face. Miskal, a narrow-eyed palace jester with a crooked half-smile watches close by with one simple reaction gesture. grain sacks and a key rack identify the pantry. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "miskal_soytari"
@@ -1456,8 +1686,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_220_a"
+        choiceImageId: "choice_smm_card_220_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron points at a folded blank note and stubby candle with a clear explaining gesture and raised eyebrows. Rasih, a polite spy chief half-hidden by a dark hood reacts nearby with one simple readable gesture. grain sacks and a key rack identify the pantry. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Söylentiyi Rasih'e bildir"
-        resultText: "Sır Pazarı: Gümüş Kaşık kararında hesabı açık tutarsın. Miskal bunu fark eder ve karaborsa borcunun ve sır ağının dengesi senin lehine bir çizik alır."
+        resultText: "Sır Pazarı: Gümüş Kaşık sırasında \"Söylentiyi Rasih'e bildir\" yolunu seçersin. Bu hamle karaborsa borcunu büyütür."
         healthDelta: 0
         setFlags:
           - "flag_black_market_debt_paid"
@@ -1483,8 +1718,13 @@ cards:
         nextCardId: "smm_card_221"
       -
         choiceId: "smm_card_220_b"
+        choiceImageId: "choice_smm_card_220_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron points at a folded blank note and stubby candle with a clear explaining gesture and raised eyebrows. Miskal, a narrow-eyed palace jester with a crooked half-smile reacts nearby with one simple readable gesture. grain sacks and a key rack identify the pantry. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Söylentiyi varise taşı"
-        resultText: "Sır Pazarı: Gümüş Kaşık kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde karaborsa borcunun ve sır ağının için daha keskin bir kayıt açılır."
+        resultText: "Sır Pazarı: Gümüş Kaşık sırasında \"Söylentiyi varise taşı\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve casus ağını belirgin biçimde genişletir. Canın 1 azalır."
         healthDelta: -1
         setFlags:
           - "flag_yusuf_debt_mark"
@@ -1518,7 +1758,9 @@ cards:
     bodyText: "Karaborsa yolunda her fırsat, ileride ödenecek bir kapı parası bırakır. Sır Pazarı: Kayıp Ölçü anında Kara Yusuf, senden hangi sırrın satılınca hâlâ sır kalacağını hesaplamanı ister. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, karaborsa borcunun ve sır ağının üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_arka_sokak_karaborsa"
     focusImageId: "focus_smm_221_black_market"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Sır Pazarı: Kayıp Ölçü scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Kara Yusuf, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron searches for a missing measuring cup with a clear active pose, oversized hands, and a simple expressive face. Kara Yusuf, a smiling black-market broker under a small lantern watches close by with one simple reaction gesture. a covered stall and small lantern identify the black market alley. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "kara_yusuf"
@@ -1530,8 +1772,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_221_a"
+        choiceImageId: "choice_smm_card_221_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a folded blank note and stubby candle forward with a decisive hand gesture and a clear expressive face. Kara Yusuf, a smiling black-market broker under a small lantern reacts nearby with one simple readable gesture. a covered stall and small lantern identify the black market alley. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Borcu küçük sırla kapat"
-        resultText: "Sır Pazarı: Kayıp Ölçü kararında hesabı açık tutarsın. Kara Yusuf bunu fark eder ve karaborsa borcunun ve sır ağının dengesi senin lehine bir çizik alır."
+        resultText: "Sır Pazarı: Kayıp Ölçü sırasında \"Borcu küçük sırla kapat\" yolunu seçersin. Bu hamle karaborsa borcunu büyütür."
         healthDelta: 0
         setFlags:
           - "flag_black_market_debt_paid"
@@ -1557,8 +1804,13 @@ cards:
         nextCardId: "smm_card_222"
       -
         choiceId: "smm_card_221_b"
+        choiceImageId: "choice_smm_card_221_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron slides a folded blank note and stubby candle across a low table with a sly sideways glance and one hidden hand. Kara Yusuf, a smiling black-market broker under a small lantern reacts nearby with one simple readable gesture. a covered stall and small lantern identify the black market alley. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Sırrı yüksek bedelle sat"
-        resultText: "Sır Pazarı: Kayıp Ölçü kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde karaborsa borcunun ve sır ağının için daha keskin bir kayıt açılır."
+        resultText: "Sır Pazarı: Kayıp Ölçü sırasında \"Sırrı yüksek bedelle sat\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve casus ağını belirgin biçimde genişletir."
         healthDelta: 0
         setFlags:
           - "flag_yusuf_debt_mark"
@@ -1592,7 +1844,9 @@ cards:
     bodyText: "Karaborsa yolunda her fırsat, ileride ödenecek bir kapı parası bırakır. Sır Pazarı: Kuyrukta Ekmek anında Rasih, Nimet'in anahtarlarının sokakta nasıl fiyatlandığını gösterir. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, karaborsa borcunun ve sır ağının üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_sehir_pazari"
     focusImageId: "focus_smm_222_black_market"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Sır Pazarı: Kuyrukta Ekmek scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Rasih, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron carries a bread basket with a clear active pose, oversized hands, and a simple expressive face. Rasih, a polite spy chief half-hidden by a dark hood watches close by with one simple reaction gesture. a spice stall and bread basket identify the city market. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "rasih_casusbasi"
@@ -1604,8 +1858,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_222_a"
+        choiceImageId: "choice_smm_card_222_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron pushes a large readable story prop away with both palms and a stubborn frown. Rasih, a polite spy chief half-hidden by a dark hood reacts nearby with one simple readable gesture. a spice stall and bread basket identify the city market. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Sahte mührü reddet"
-        resultText: "Sır Pazarı: Kuyrukta Ekmek kararında hesabı açık tutarsın. Rasih bunu fark eder ve karaborsa borcunun ve sır ağının dengesi senin lehine bir çizik alır."
+        resultText: "Sır Pazarı: Kuyrukta Ekmek sırasında \"Sahte mührü reddet\" yolunu seçersin. Bu hamle karaborsa borcunu büyütür."
         healthDelta: 0
         setFlags:
           - "flag_black_market_debt_paid"
@@ -1631,8 +1890,13 @@ cards:
         nextCardId: "smm_card_223"
       -
         choiceId: "smm_card_222_b"
+        choiceImageId: "choice_smm_card_222_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a plain round wax seal and stamp with no glyphs forward with a decisive hand gesture and a clear expressive face. Rasih, a polite spy chief half-hidden by a dark hood reacts nearby with one simple readable gesture. a spice stall and bread basket identify the city market. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Sahte mühür kalıbı al"
-        resultText: "Sır Pazarı: Kuyrukta Ekmek kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde karaborsa borcunun ve sır ağının için daha keskin bir kayıt açılır."
+        resultText: "Sır Pazarı: Kuyrukta Ekmek sırasında \"Sahte mühür kalıbı al\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve casus ağını belirgin biçimde genişletir."
         healthDelta: 0
         setFlags:
           - "flag_yusuf_debt_mark"
@@ -1666,7 +1930,9 @@ cards:
     bodyText: "Karaborsa yolunda her fırsat, ileride ödenecek bir kapı parası bırakır. Sır Pazarı: Keskin Koku anında Nimet Ana, Rasih'in adını borç defterinde görmenin tehlikesini sezdirir. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, karaborsa borcunun ve sır ağının üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_gizli_muhur_atolyesi"
     focusImageId: "focus_smm_223_black_market"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Sır Pazarı: Keskin Koku scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Nimet Ana, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron sniffs a tiny spice pouch with a clear active pose, oversized hands, and a simple expressive face. Nimet Ana, a watchful pantry keeper with a big key ring watches close by with one simple reaction gesture. a red wax table and locked chest identify the seal room. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "nimet_kilerci"
@@ -1678,8 +1944,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_223_a"
+        choiceImageId: "choice_smm_card_223_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a bead tally board and grain sack forward with a decisive hand gesture and a clear expressive face. Kara Yusuf, a smiling black-market broker under a small lantern reacts nearby with one simple readable gesture. a red wax table and locked chest identify the seal room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Yusuf'un defterini ezberle"
-        resultText: "Sır Pazarı: Keskin Koku kararında hesabı açık tutarsın. Nimet Ana bunu fark eder ve karaborsa borcunun ve sır ağının dengesi senin lehine bir çizik alır."
+        resultText: "Sır Pazarı: Keskin Koku sırasında \"Yusuf'un defterini ezberle\" yolunu seçersin. Bu hamle karaborsa borcunu büyütür."
         healthDelta: 0
         setFlags:
           - "flag_black_market_debt_paid"
@@ -1705,8 +1976,13 @@ cards:
         nextCardId: "smm_card_224"
       -
         choiceId: "smm_card_223_b"
+        choiceImageId: "choice_smm_card_223_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron slides a small coin purse and covered bundle across a low table with a sly sideways glance and one hidden hand. Kara Yusuf, a smiling black-market broker under a small lantern reacts nearby with one simple readable gesture. a red wax table and locked chest identify the seal room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Yusuf'a yeni borç yazdır"
-        resultText: "Sır Pazarı: Keskin Koku kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde karaborsa borcunun ve sır ağının için daha keskin bir kayıt açılır."
+        resultText: "Sır Pazarı: Keskin Koku sırasında \"Yusuf'a yeni borç yazdır\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve casus ağını belirgin biçimde genişletir."
         healthDelta: 0
         setFlags:
           - "flag_yusuf_debt_mark"
@@ -1740,7 +2016,9 @@ cards:
     bodyText: "Karaborsa yolunda her fırsat, ileride ödenecek bir kapı parası bırakır. Sır Pazarı: Mühre Giden İz anında Miskal, sahte mühürle gerçek emrin birbirine ne kadar benzediğini fısıldar. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, karaborsa borcunun ve sır ağının üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_bakircilar_carsisi"
     focusImageId: "focus_smm_224_black_market"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Sır Pazarı: Mühre Giden İz scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Miskal, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron traces a red wax footprint with a clear active pose, oversized hands, and a simple expressive face. Miskal, a narrow-eyed palace jester with a crooked half-smile watches close by with one simple reaction gesture. copper bowls and small hammers identify the coppersmith market. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "miskal_soytari"
@@ -1752,8 +2030,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_224_a"
+        choiceImageId: "choice_smm_card_224_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron hands over an oversized iron key with both oversized hands and a tense polite smile. Miskal, a narrow-eyed palace jester with a crooked half-smile reacts nearby with one simple readable gesture. copper bowls and small hammers identify the coppersmith market. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Anahtarı sahibine geri götür"
-        resultText: "Sır Pazarı: Mühre Giden İz kararında hesabı açık tutarsın. Miskal bunu fark eder ve karaborsa borcunun ve sır ağının dengesi senin lehine bir çizik alır."
+        resultText: "Sır Pazarı: Mühre Giden İz sırasında \"Anahtarı sahibine geri götür\" yolunu seçersin. Bu hamle saray kuşkusunu yatıştırır ve karaborsa borcunu büyütür."
         healthDelta: 0
         setFlags:
           - "flag_black_market_debt_paid"
@@ -1780,8 +2063,13 @@ cards:
         nextCardId: "smm_card_225"
       -
         choiceId: "smm_card_224_b"
+        choiceImageId: "choice_smm_card_224_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents an oversized iron key forward with a decisive hand gesture and a clear expressive face. Miskal, a narrow-eyed palace jester with a crooked half-smile reacts nearby with one simple readable gesture. copper bowls and small hammers identify the coppersmith market. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Anahtarı gece pazarlık et"
-        resultText: "Sır Pazarı: Mühre Giden İz kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde karaborsa borcunun ve sır ağının için daha keskin bir kayıt açılır."
+        resultText: "Sır Pazarı: Mühre Giden İz sırasında \"Anahtarı gece pazarlık et\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve casus ağını belirgin biçimde genişletir."
         healthDelta: 0
         setFlags:
           - "flag_yusuf_debt_mark"
@@ -1816,7 +2104,9 @@ cards:
     bodyText: "Karaborsa yolunda her fırsat, ileride ödenecek bir kapı parası bırakır. Sır Pazarı: Dar Boğaz anında Kara Yusuf, kârın yanında seni satın alınabilir gösteren bir leke bırakır. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, karaborsa borcunun ve sır ağının üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_kiler_gizli_raflar"
     focusImageId: "focus_smm_225_black_market"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Sır Pazarı: Dar Boğaz scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Kara Yusuf, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron squeezes through a narrow doorway with a bundle with a clear active pose, oversized hands, and a simple expressive face. Kara Yusuf, a smiling black-market broker under a small lantern watches close by with one simple reaction gesture. grain sacks and a key rack identify the pantry. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "kara_yusuf"
@@ -1828,8 +2118,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_225_a"
+        choiceImageId: "choice_smm_card_225_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron points at a folded blank note and stubby candle with a clear explaining gesture and raised eyebrows. Rasih, a polite spy chief half-hidden by a dark hood reacts nearby with one simple readable gesture. grain sacks and a key rack identify the pantry. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Söylentiyi Rasih'e bildir"
-        resultText: "Sır Pazarı: Dar Boğaz kararında hesabı açık tutarsın. Kara Yusuf bunu fark eder ve karaborsa borcunun ve sır ağının dengesi senin lehine bir çizik alır."
+        resultText: "Sır Pazarı: Dar Boğaz sırasında \"Söylentiyi Rasih'e bildir\" yolunu seçersin. Bu hamle karaborsa borcunu büyütür."
         healthDelta: 0
         setFlags:
           - "flag_black_market_debt_paid"
@@ -1855,8 +2150,13 @@ cards:
         nextCardId: "smm_card_226"
       -
         choiceId: "smm_card_225_b"
+        choiceImageId: "choice_smm_card_225_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron points at a folded blank note and stubby candle with a clear explaining gesture and raised eyebrows. Kara Yusuf, a smiling black-market broker under a small lantern reacts nearby with one simple readable gesture. grain sacks and a key rack identify the pantry. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Söylentiyi varise taşı"
-        resultText: "Sır Pazarı: Dar Boğaz kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde karaborsa borcunun ve sır ağının için daha keskin bir kayıt açılır."
+        resultText: "Sır Pazarı: Dar Boğaz sırasında \"Söylentiyi varise taşı\" yolunu seçersin. Bu hamle saray kuşkusunu yükseltir ve casus ağını belirgin biçimde genişletir. Canın 1 azalır."
         healthDelta: -1
         setFlags:
           - "flag_yusuf_debt_mark"

@@ -9,7 +9,9 @@ cards:
     bodyText: "Zehir tadım odasında kokular, saray dedikodularından daha dürüst konuşur. Zehir Tadım Odası: İlk Eşik anında Simin, senden titremeden ama kör cesaret göstermeden tatmanı ister. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, zehir bilgisinin ve saray kuşkusunun üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_zehir_tadim_odasi"
     focusImageId: "focus_smm_101_poison_taster"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Zehir Tadım Odası: İlk Eşik scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Simin, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron steps over a chipped plate threshold with a clear active pose, oversized hands, and a simple expressive face. Simin, a calm poison taster with a tiny silver spoon watches close by with one simple reaction gesture. tiny cups and sealed vials identify the poison tasting chamber. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "simin_tadimci"
@@ -21,8 +23,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_101_a"
+        choiceImageId: "choice_smm_card_101_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron holds a tiny vial and silver tasting spoon high for inspection with wide honest eyes and a stiff straight arm. Simin, a calm poison taster with a tiny silver spoon reacts nearby with one simple readable gesture. tiny cups and sealed vials identify the poison tasting chamber. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Tortuyu Simin'e açıkça göster"
-        resultText: "Zehir Tadım Odası: İlk Eşik kararında hesabı açık tutarsın. Simin bunu fark eder ve zehir bilgisinin ve saray kuşkusunun dengesi senin lehine bir çizik alır."
+        resultText: "Zehir Tadım Odası: İlk Eşik sırasında \"Tortuyu Simin'e açıkça göster\" yolunu seçersin. Bu hamle zehir bilgisini belirgin biçimde derinleştirir."
         healthDelta: 0
         setFlags:
           - "flag_poison_sample_saved"
@@ -48,8 +55,13 @@ cards:
         nextCardId: "smm_card_102"
       -
         choiceId: "smm_card_101_b"
+        choiceImageId: "choice_smm_card_101_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a tiny vial and silver tasting spoon forward with a decisive hand gesture and a clear expressive face. Simin, a calm poison taster with a tiny silver spoon reacts nearby with one simple readable gesture. tiny cups and sealed vials identify the poison tasting chamber. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Tortuyu gizli koza çevir"
-        resultText: "Zehir Tadım Odası: İlk Eşik kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde zehir bilgisinin ve saray kuşkusunun için daha keskin bir kayıt açılır."
+        resultText: "Zehir Tadım Odası: İlk Eşik sırasında \"Tortuyu gizli koza çevir\" yolunu seçersin. Bu hamle saray kuşkusunu belirgin biçimde yükseltir ve zehir bilgisini belirgin biçimde derinleştirir."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"
@@ -83,7 +95,9 @@ cards:
     bodyText: "Zehir tadım odasında kokular, saray dedikodularından daha dürüst konuşur. Zehir Tadım Odası: Sıcak Bakır anında Hükümdar Azem, küçük bir tortunun büyük bir suikastın imzası olabileceğini gösterir. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, zehir bilgisinin ve saray kuşkusunun üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_zehir_tadim_odasi_gece"
     focusImageId: "focus_smm_102_poison_taster"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Zehir Tadım Odası: Sıcak Bakır scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Hükümdar Azem, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron lifts a hot copper basin with a clear active pose, oversized hands, and a simple expressive face. Azem, an aging ruler with a tired crown and heavy robe watches close by with one simple reaction gesture. tiny cups and sealed vials identify the poison tasting chamber. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "hukumdar_azem"
@@ -95,8 +109,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_102_a"
+        choiceImageId: "choice_smm_card_102_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron hands over a tiny vial and silver tasting spoon with both oversized hands and a tense polite smile. Azem, an aging ruler with a tired crown and heavy robe reacts nearby with one simple readable gesture. tiny cups and sealed vials identify the poison tasting chamber. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Panzehiri doğru kişiye ulaştır"
-        resultText: "Zehir Tadım Odası: Sıcak Bakır kararında hesabı açık tutarsın. Hükümdar Azem bunu fark eder ve zehir bilgisinin ve saray kuşkusunun dengesi senin lehine bir çizik alır."
+        resultText: "Zehir Tadım Odası: Sıcak Bakır sırasında \"Panzehiri doğru kişiye ulaştır\" yolunu seçersin. Bu hamle zehir bilgisini belirgin biçimde derinleştirir."
         healthDelta: 0
         setFlags:
           - "flag_poison_sample_saved"
@@ -122,8 +141,13 @@ cards:
         nextCardId: "smm_card_103"
       -
         choiceId: "smm_card_102_b"
+        choiceImageId: "choice_smm_card_102_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron guards a tiny vial and silver tasting spoon behind the apron with narrowed eyes and one protective hand. Azem, an aging ruler with a tired crown and heavy robe reacts nearby with one simple readable gesture. tiny cups and sealed vials identify the poison tasting chamber. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Panzehir kavanozunu sakla"
-        resultText: "Zehir Tadım Odası: Sıcak Bakır kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde zehir bilgisinin ve saray kuşkusunun için daha keskin bir kayıt açılır."
+        resultText: "Zehir Tadım Odası: Sıcak Bakır sırasında \"Panzehir kavanozunu sakla\" yolunu seçersin. Bu hamle saray kuşkusunu belirgin biçimde yükseltir ve zehir bilgisini belirgin biçimde derinleştirir."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"
@@ -157,7 +181,9 @@ cards:
     bodyText: "Zehir tadım odasında kokular, saray dedikodularından daha dürüst konuşur. Zehir Tadım Odası: Sessiz Bakış anında Başvezir Sadreddin, sır saklamanın can kurtardığı kadar can alabileceğini hatırlatır. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, zehir bilgisinin ve saray kuşkusunun üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_baharat_odasi_safran"
     focusImageId: "focus_smm_103_poison_taster"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Zehir Tadım Odası: Sessiz Bakış scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Başvezir Sadreddin, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron points at a suspicious small clue with a clear active pose, oversized hands, and a simple expressive face. Sadreddin, a thin grand vizier with a wax seal case watches close by with one simple reaction gesture. big spice jars and saffron bundles identify the spice room. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "sadreddin_basvezir"
@@ -169,8 +195,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_103_a"
+        choiceImageId: "choice_smm_card_103_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron tastes an oversized serving cup and sweet tray with a cautious puckered face and one hand hovering in alarm. Sadreddin, a thin grand vizier with a wax seal case reacts nearby with one simple readable gesture. big spice jars and saffron bundles identify the spice room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Kadehi usulünce önce kendin tat"
-        resultText: "Zehir Tadım Odası: Sessiz Bakış kararında hesabı açık tutarsın. Başvezir Sadreddin bunu fark eder ve zehir bilgisinin ve saray kuşkusunun dengesi senin lehine bir çizik alır."
+        resultText: "Zehir Tadım Odası: Sessiz Bakış sırasında \"Kadehi usulünce önce kendin tat\" yolunu seçersin. Bu hamle zehir bilgisini belirgin biçimde derinleştirir."
         healthDelta: 0
         setFlags:
           - "flag_poison_sample_saved"
@@ -196,8 +227,13 @@ cards:
         nextCardId: "smm_card_104"
       -
         choiceId: "smm_card_103_b"
+        choiceImageId: "choice_smm_card_103_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron hands over an oversized serving cup and sweet tray with both oversized hands and a tense polite smile. Sadreddin, a thin grand vizier with a wax seal case reacts nearby with one simple readable gesture. big spice jars and saffron bundles identify the spice room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Kadehi rakibe önce uzat"
-        resultText: "Zehir Tadım Odası: Sessiz Bakış kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde zehir bilgisinin ve saray kuşkusunun için daha keskin bir kayıt açılır."
+        resultText: "Zehir Tadım Odası: Sessiz Bakış sırasında \"Kadehi rakibe önce uzat\" yolunu seçersin. Bu hamle saray kuşkusunu belirgin biçimde yükseltir ve zehir bilgisini belirgin biçimde derinleştirir."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"
@@ -231,7 +267,9 @@ cards:
     bodyText: "Zehir tadım odasında kokular, saray dedikodularından daha dürüst konuşur. Zehir Tadım Odası: İnce Hesap anında Hekim Bera, panzehirin kime verildiğinin taht hesabı sayılacağını söyler. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, zehir bilgisinin ve saray kuşkusunun üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_taht_salonu"
     focusImageId: "focus_smm_104_poison_taster"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Zehir Tadım Odası: İnce Hesap scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Hekim Bera, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron counts three chunky tally stones with a clear active pose, oversized hands, and a simple expressive face. Bera, a tired healer with herb bundles and rolled bandages watches close by with one simple reaction gesture. a worn throne step and faded banners identify the throne room. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "bera_hekim"
@@ -243,8 +281,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_104_a"
+        choiceImageId: "choice_smm_card_104_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a tiny vial and silver tasting spoon forward with a decisive hand gesture and a clear expressive face. Bera, a tired healer with herb bundles and rolled bandages reacts nearby with one simple readable gesture. a worn throne step and faded banners identify the throne room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Zehir defterini eksiksiz tut"
-        resultText: "Zehir Tadım Odası: İnce Hesap kararında hesabı açık tutarsın. Hekim Bera bunu fark eder ve zehir bilgisinin ve saray kuşkusunun dengesi senin lehine bir çizik alır."
+        resultText: "Zehir Tadım Odası: İnce Hesap sırasında \"Zehir defterini eksiksiz tut\" yolunu seçersin. Bu hamle zehir bilgisini belirgin biçimde derinleştirir."
         healthDelta: 0
         setFlags:
           - "flag_poison_sample_saved"
@@ -271,8 +314,13 @@ cards:
         nextCardId: "smm_card_105"
       -
         choiceId: "smm_card_104_b"
+        choiceImageId: "choice_smm_card_104_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron slides a bead tally board and grain sack across a low table with a sly sideways glance and one hidden hand. Bera, a tired healer with herb bundles and rolled bandages reacts nearby with one simple readable gesture. a worn throne step and faded banners identify the throne room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Defterdeki satırı değiştir"
-        resultText: "Zehir Tadım Odası: İnce Hesap kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde zehir bilgisinin ve saray kuşkusunun için daha keskin bir kayıt açılır."
+        resultText: "Zehir Tadım Odası: İnce Hesap sırasında \"Defterdeki satırı değiştir\" yolunu seçersin. Bu hamle saray kuşkusunu belirgin biçimde yükseltir ve zehir bilgisini belirgin biçimde derinleştirir."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"
@@ -307,7 +355,9 @@ cards:
     bodyText: "Zehir tadım odasında kokular, saray dedikodularından daha dürüst konuşur. Zehir Tadım Odası: Gizli Lekeler anında Simin, damakta kalan acının sarayda uzun bir dosyaya dönüşeceğini sezdirir. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, zehir bilgisinin ve saray kuşkusunun üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_sifahane_ic_odasi"
     focusImageId: "focus_smm_105_poison_taster"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Zehir Tadım Odası: Gizli Lekeler scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Simin, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron scrubs a dark stain on a plate with a clear active pose, oversized hands, and a simple expressive face. Simin, a calm poison taster with a tiny silver spoon watches close by with one simple reaction gesture. herb bundles and rolled bandages identify the infirmary. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "simin_tadimci"
@@ -319,8 +369,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_105_a"
+        choiceImageId: "choice_smm_card_105_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a big wooden measuring spoon forward with a decisive hand gesture and a clear expressive face. Simin, a calm poison taster with a tiny silver spoon reacts nearby with one simple readable gesture. herb bundles and rolled bandages identify the infirmary. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Şüpheli baharatı mühürlet"
-        resultText: "Zehir Tadım Odası: Gizli Lekeler kararında hesabı açık tutarsın. Simin bunu fark eder ve zehir bilgisinin ve saray kuşkusunun dengesi senin lehine bir çizik alır."
+        resultText: "Zehir Tadım Odası: Gizli Lekeler sırasında \"Şüpheli baharatı mühürlet\" yolunu seçersin. Bu hamle saray kuşkusunu yatıştırır ve zehir bilgisini belirgin biçimde derinleştirir."
         healthDelta: 0
         setFlags:
           - "flag_poison_sample_saved"
@@ -346,8 +401,13 @@ cards:
         nextCardId: "smm_card_106"
       -
         choiceId: "smm_card_105_b"
+        choiceImageId: "choice_smm_card_105_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron slides a big wooden measuring spoon across a low table with a sly sideways glance and one hidden hand. Simin, a calm poison taster with a tiny silver spoon reacts nearby with one simple readable gesture. herb bundles and rolled bandages identify the infirmary. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Baharatı karaborsaya sızdır"
-        resultText: "Zehir Tadım Odası: Gizli Lekeler kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde zehir bilgisinin ve saray kuşkusunun için daha keskin bir kayıt açılır."
+        resultText: "Zehir Tadım Odası: Gizli Lekeler sırasında \"Baharatı karaborsaya sızdır\" yolunu seçersin. Bu hamle saray kuşkusunu belirgin biçimde yükseltir ve zehir bilgisini belirgin biçimde derinleştirir. Canın 1 azalır."
         healthDelta: -1
         setFlags:
           - "flag_secret_kept"
@@ -381,7 +441,9 @@ cards:
     bodyText: "Simin, hayatta kalmanın bazen dil ucunda başladığını öğretir. Zehir Tadım Odası: Kör Alev anında Hükümdar Azem, senden titremeden ama kör cesaret göstermeden tatmanı ister. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, zehir bilgisinin ve saray kuşkusunun üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_zehir_tadim_odasi"
     focusImageId: "focus_smm_106_poison_taster"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Zehir Tadım Odası: Kör Alev scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Hükümdar Azem, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron shields a weak kitchen flame with a clear active pose, oversized hands, and a simple expressive face. Azem, an aging ruler with a tired crown and heavy robe watches close by with one simple reaction gesture. tiny cups and sealed vials identify the poison tasting chamber. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "hukumdar_azem"
@@ -393,8 +455,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_106_a"
+        choiceImageId: "choice_smm_card_106_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron holds a tiny vial and silver tasting spoon high for inspection with wide honest eyes and a stiff straight arm. Simin, a calm poison taster with a tiny silver spoon reacts nearby with one simple readable gesture. tiny cups and sealed vials identify the poison tasting chamber. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Tortuyu Simin'e açıkça göster"
-        resultText: "Zehir Tadım Odası: Kör Alev kararında hesabı açık tutarsın. Hükümdar Azem bunu fark eder ve zehir bilgisinin ve saray kuşkusunun dengesi senin lehine bir çizik alır."
+        resultText: "Zehir Tadım Odası: Kör Alev sırasında \"Tortuyu Simin'e açıkça göster\" yolunu seçersin. Bu hamle zehir bilgisini belirgin biçimde derinleştirir."
         healthDelta: 0
         setFlags:
           - "flag_poison_sample_saved"
@@ -420,8 +487,13 @@ cards:
         nextCardId: "smm_card_107"
       -
         choiceId: "smm_card_106_b"
+        choiceImageId: "choice_smm_card_106_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a tiny vial and silver tasting spoon forward with a decisive hand gesture and a clear expressive face. Azem, an aging ruler with a tired crown and heavy robe reacts nearby with one simple readable gesture. tiny cups and sealed vials identify the poison tasting chamber. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Tortuyu gizli koza çevir"
-        resultText: "Zehir Tadım Odası: Kör Alev kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde zehir bilgisinin ve saray kuşkusunun için daha keskin bir kayıt açılır."
+        resultText: "Zehir Tadım Odası: Kör Alev sırasında \"Tortuyu gizli koza çevir\" yolunu seçersin. Bu hamle saray kuşkusunu belirgin biçimde yükseltir ve zehir bilgisini belirgin biçimde derinleştirir."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"
@@ -455,7 +527,9 @@ cards:
     bodyText: "Simin, hayatta kalmanın bazen dil ucunda başladığını öğretir. Zehir Tadım Odası: Üç Nohut anında Başvezir Sadreddin, küçük bir tortunun büyük bir suikastın imzası olabileceğini gösterir. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, zehir bilgisinin ve saray kuşkusunun üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_zehir_tadim_odasi_gece"
     focusImageId: "focus_smm_107_poison_taster"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Zehir Tadım Odası: Üç Nohut scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Başvezir Sadreddin, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron arranges three oversized chickpeas with a clear active pose, oversized hands, and a simple expressive face. Sadreddin, a thin grand vizier with a wax seal case watches close by with one simple reaction gesture. tiny cups and sealed vials identify the poison tasting chamber. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "sadreddin_basvezir"
@@ -467,8 +541,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_107_a"
+        choiceImageId: "choice_smm_card_107_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron hands over a tiny vial and silver tasting spoon with both oversized hands and a tense polite smile. Sadreddin, a thin grand vizier with a wax seal case reacts nearby with one simple readable gesture. tiny cups and sealed vials identify the poison tasting chamber. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Panzehiri doğru kişiye ulaştır"
-        resultText: "Zehir Tadım Odası: Üç Nohut kararında hesabı açık tutarsın. Başvezir Sadreddin bunu fark eder ve zehir bilgisinin ve saray kuşkusunun dengesi senin lehine bir çizik alır."
+        resultText: "Zehir Tadım Odası: Üç Nohut sırasında \"Panzehiri doğru kişiye ulaştır\" yolunu seçersin. Bu hamle zehir bilgisini belirgin biçimde derinleştirir."
         healthDelta: 0
         setFlags:
           - "flag_poison_sample_saved"
@@ -494,8 +573,13 @@ cards:
         nextCardId: "smm_card_108"
       -
         choiceId: "smm_card_107_b"
+        choiceImageId: "choice_smm_card_107_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron guards a tiny vial and silver tasting spoon behind the apron with narrowed eyes and one protective hand. Sadreddin, a thin grand vizier with a wax seal case reacts nearby with one simple readable gesture. tiny cups and sealed vials identify the poison tasting chamber. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Panzehir kavanozunu sakla"
-        resultText: "Zehir Tadım Odası: Üç Nohut kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde zehir bilgisinin ve saray kuşkusunun için daha keskin bir kayıt açılır."
+        resultText: "Zehir Tadım Odası: Üç Nohut sırasında \"Panzehir kavanozunu sakla\" yolunu seçersin. Bu hamle saray kuşkusunu belirgin biçimde yükseltir ve zehir bilgisini belirgin biçimde derinleştirir."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"
@@ -529,7 +613,9 @@ cards:
     bodyText: "Simin, hayatta kalmanın bazen dil ucunda başladığını öğretir. Zehir Tadım Odası: Kapıdaki Fısıltı anında Hekim Bera, sır saklamanın can kurtardığı kadar can alabileceğini hatırlatır. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, zehir bilgisinin ve saray kuşkusunun üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_baharat_odasi_safran"
     focusImageId: "focus_smm_108_poison_taster"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Zehir Tadım Odası: Kapıdaki Fısıltı scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Hekim Bera, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron hides a folded blank note with a clear active pose, oversized hands, and a simple expressive face. Bera, a tired healer with herb bundles and rolled bandages watches close by with one simple reaction gesture. big spice jars and saffron bundles identify the spice room. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "bera_hekim"
@@ -541,8 +627,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_108_a"
+        choiceImageId: "choice_smm_card_108_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron tastes an oversized serving cup and sweet tray with a cautious puckered face and one hand hovering in alarm. Bera, a tired healer with herb bundles and rolled bandages reacts nearby with one simple readable gesture. big spice jars and saffron bundles identify the spice room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Kadehi usulünce önce kendin tat"
-        resultText: "Zehir Tadım Odası: Kapıdaki Fısıltı kararında hesabı açık tutarsın. Hekim Bera bunu fark eder ve zehir bilgisinin ve saray kuşkusunun dengesi senin lehine bir çizik alır."
+        resultText: "Zehir Tadım Odası: Kapıdaki Fısıltı sırasında \"Kadehi usulünce önce kendin tat\" yolunu seçersin. Bu hamle zehir bilgisini belirgin biçimde derinleştirir."
         healthDelta: 0
         setFlags:
           - "flag_poison_sample_saved"
@@ -568,8 +659,13 @@ cards:
         nextCardId: "smm_card_109"
       -
         choiceId: "smm_card_108_b"
+        choiceImageId: "choice_smm_card_108_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron hands over an oversized serving cup and sweet tray with both oversized hands and a tense polite smile. Bera, a tired healer with herb bundles and rolled bandages reacts nearby with one simple readable gesture. big spice jars and saffron bundles identify the spice room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Kadehi rakibe önce uzat"
-        resultText: "Zehir Tadım Odası: Kapıdaki Fısıltı kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde zehir bilgisinin ve saray kuşkusunun için daha keskin bir kayıt açılır."
+        resultText: "Zehir Tadım Odası: Kapıdaki Fısıltı sırasında \"Kadehi rakibe önce uzat\" yolunu seçersin. Bu hamle saray kuşkusunu belirgin biçimde yükseltir ve zehir bilgisini belirgin biçimde derinleştirir. Canın 1 azalır."
         healthDelta: -1
         setFlags:
           - "flag_secret_kept"
@@ -603,7 +699,9 @@ cards:
     bodyText: "Simin, hayatta kalmanın bazen dil ucunda başladığını öğretir. Zehir Tadım Odası: Aç Karnın Sözü anında Simin, panzehirin kime verildiğinin taht hesabı sayılacağını söyler. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, zehir bilgisinin ve saray kuşkusunun üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_taht_salonu"
     focusImageId: "focus_smm_109_poison_taster"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Zehir Tadım Odası: Aç Karnın Sözü scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Simin, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron offers a small bread piece with a clear active pose, oversized hands, and a simple expressive face. Simin, a calm poison taster with a tiny silver spoon watches close by with one simple reaction gesture. a worn throne step and faded banners identify the throne room. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "simin_tadimci"
@@ -615,8 +713,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_109_a"
+        choiceImageId: "choice_smm_card_109_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a tiny vial and silver tasting spoon forward with a decisive hand gesture and a clear expressive face. Simin, a calm poison taster with a tiny silver spoon reacts nearby with one simple readable gesture. a worn throne step and faded banners identify the throne room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Zehir defterini eksiksiz tut"
-        resultText: "Zehir Tadım Odası: Aç Karnın Sözü kararında hesabı açık tutarsın. Simin bunu fark eder ve zehir bilgisinin ve saray kuşkusunun dengesi senin lehine bir çizik alır."
+        resultText: "Zehir Tadım Odası: Aç Karnın Sözü sırasında \"Zehir defterini eksiksiz tut\" yolunu seçersin. Bu hamle zehir bilgisini belirgin biçimde derinleştirir."
         healthDelta: 0
         setFlags:
           - "flag_poison_sample_saved"
@@ -642,8 +745,13 @@ cards:
         nextCardId: "smm_card_110"
       -
         choiceId: "smm_card_109_b"
+        choiceImageId: "choice_smm_card_109_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron slides a bead tally board and grain sack across a low table with a sly sideways glance and one hidden hand. Simin, a calm poison taster with a tiny silver spoon reacts nearby with one simple readable gesture. a worn throne step and faded banners identify the throne room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Defterdeki satırı değiştir"
-        resultText: "Zehir Tadım Odası: Aç Karnın Sözü kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde zehir bilgisinin ve saray kuşkusunun için daha keskin bir kayıt açılır."
+        resultText: "Zehir Tadım Odası: Aç Karnın Sözü sırasında \"Defterdeki satırı değiştir\" yolunu seçersin. Bu hamle saray kuşkusunu belirgin biçimde yükseltir ve zehir bilgisini belirgin biçimde derinleştirir."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"
@@ -677,7 +785,9 @@ cards:
     bodyText: "Simin, hayatta kalmanın bazen dil ucunda başladığını öğretir. Zehir Tadım Odası: Ustanın Sınavı anında Hükümdar Azem, damakta kalan acının sarayda uzun bir dosyaya dönüşeceğini sezdirir. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, zehir bilgisinin ve saray kuşkusunun üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_sifahane_ic_odasi"
     focusImageId: "focus_smm_110_poison_taster"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Zehir Tadım Odası: Ustanın Sınavı scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Hükümdar Azem, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron measures a spoonful of spice with a clear active pose, oversized hands, and a simple expressive face. Azem, an aging ruler with a tired crown and heavy robe watches close by with one simple reaction gesture. herb bundles and rolled bandages identify the infirmary. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "hukumdar_azem"
@@ -689,8 +799,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_110_a"
+        choiceImageId: "choice_smm_card_110_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a big wooden measuring spoon forward with a decisive hand gesture and a clear expressive face. Azem, an aging ruler with a tired crown and heavy robe reacts nearby with one simple readable gesture. herb bundles and rolled bandages identify the infirmary. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Şüpheli baharatı mühürlet"
-        resultText: "Zehir Tadım Odası: Ustanın Sınavı kararında hesabı açık tutarsın. Hükümdar Azem bunu fark eder ve zehir bilgisinin ve saray kuşkusunun dengesi senin lehine bir çizik alır."
+        resultText: "Zehir Tadım Odası: Ustanın Sınavı sırasında \"Şüpheli baharatı mühürlet\" yolunu seçersin. Bu hamle zehir bilgisini belirgin biçimde derinleştirir."
         healthDelta: 0
         setFlags:
           - "flag_poison_sample_saved"
@@ -716,8 +831,13 @@ cards:
         nextCardId: "smm_card_111"
       -
         choiceId: "smm_card_110_b"
+        choiceImageId: "choice_smm_card_110_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron slides a big wooden measuring spoon across a low table with a sly sideways glance and one hidden hand. Azem, an aging ruler with a tired crown and heavy robe reacts nearby with one simple readable gesture. herb bundles and rolled bandages identify the infirmary. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Baharatı karaborsaya sızdır"
-        resultText: "Zehir Tadım Odası: Ustanın Sınavı kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde zehir bilgisinin ve saray kuşkusunun için daha keskin bir kayıt açılır."
+        resultText: "Zehir Tadım Odası: Ustanın Sınavı sırasında \"Baharatı karaborsaya sızdır\" yolunu seçersin. Bu hamle saray kuşkusunu belirgin biçimde yükseltir ve zehir bilgisini belirgin biçimde derinleştirir. Canın 1 azalır."
         healthDelta: -1
         setFlags:
           - "flag_secret_kept"
@@ -751,7 +871,9 @@ cards:
     bodyText: "Hükümdarın kadehine yaklaşan herkes, kendi mezarını da görmüş sayılır. Zehir Tadım Odası: Kazanın Gölgesi anında Başvezir Sadreddin, senden titremeden ama kör cesaret göstermeden tatmanı ister. Yanlış tatlı krizi, Safira'nın dış destek arayışında ya fırsat ya da utanç olarak yeniden açılır. Seçeceğin yol, zehir bilgisinin ve saray kuşkusunun üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_zehir_tadim_odasi"
     focusImageId: "focus_smm_111_poison_taster"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Zehir Tadım Odası: Kazanın Gölgesi scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Başvezir Sadreddin, Lale Kalfa, a mistaken ornate dessert tray with diplomatic tension, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron stirs a round copper cauldron with a clear active pose, oversized hands, and a simple expressive face. Sadreddin, a thin grand vizier with a wax seal case watches close by with one simple reaction gesture. tiny cups and sealed vials identify the poison tasting chamber. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "sadreddin_basvezir"
@@ -769,8 +891,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_111_a"
+        choiceImageId: "choice_smm_card_111_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron holds a tiny vial and silver tasting spoon high for inspection with wide honest eyes and a stiff straight arm. Simin, a calm poison taster with a tiny silver spoon reacts nearby with one simple readable gesture. tiny cups and sealed vials identify the poison tasting chamber. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Tortuyu Simin'e açıkça göster"
-        resultText: "Zehir Tadım Odası: Kazanın Gölgesi kararında hesabı açık tutarsın. Başvezir Sadreddin bunu fark eder ve zehir bilgisinin ve saray kuşkusunun dengesi senin lehine bir çizik alır."
+        resultText: "Zehir Tadım Odası: Kazanın Gölgesi sırasında \"Tortuyu Simin'e açıkça göster\" yolunu seçersin. Bu hamle zehir bilgisini belirgin biçimde derinleştirir ve tatlı diplomasisini canlandırır."
         healthDelta: 0
         setFlags:
           - "flag_poison_sample_saved"
@@ -797,8 +924,13 @@ cards:
         nextCardId: "smm_card_112"
       -
         choiceId: "smm_card_111_b"
+        choiceImageId: "choice_smm_card_111_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a tiny vial and silver tasting spoon forward with a decisive hand gesture and a clear expressive face. Sadreddin, a thin grand vizier with a wax seal case reacts nearby with one simple readable gesture. tiny cups and sealed vials identify the poison tasting chamber. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Tortuyu gizli koza çevir"
-        resultText: "Zehir Tadım Odası: Kazanın Gölgesi kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde zehir bilgisinin ve saray kuşkusunun için daha keskin bir kayıt açılır."
+        resultText: "Zehir Tadım Odası: Kazanın Gölgesi sırasında \"Tortuyu gizli koza çevir\" yolunu seçersin. Bu hamle saray kuşkusunu belirgin biçimde yükseltir, zehir bilgisini belirgin biçimde derinleştirir ve tatlı diplomasisini belirgin biçimde canlandırır."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"
@@ -834,7 +966,9 @@ cards:
     bodyText: "Hükümdarın kadehine yaklaşan herkes, kendi mezarını da görmüş sayılır. Zehir Tadım Odası: Tuz ve Yemin anında Hekim Bera, küçük bir tortunun büyük bir suikastın imzası olabileceğini gösterir. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, zehir bilgisinin ve saray kuşkusunun üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_zehir_tadim_odasi_gece"
     focusImageId: "focus_smm_112_poison_taster"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Zehir Tadım Odası: Tuz ve Yemin scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Hekim Bera, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron sprinkles a pinch of salt with a clear active pose, oversized hands, and a simple expressive face. Bera, a tired healer with herb bundles and rolled bandages watches close by with one simple reaction gesture. tiny cups and sealed vials identify the poison tasting chamber. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "bera_hekim"
@@ -846,8 +980,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_112_a"
+        choiceImageId: "choice_smm_card_112_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron hands over a tiny vial and silver tasting spoon with both oversized hands and a tense polite smile. Bera, a tired healer with herb bundles and rolled bandages reacts nearby with one simple readable gesture. tiny cups and sealed vials identify the poison tasting chamber. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Panzehiri doğru kişiye ulaştır"
-        resultText: "Zehir Tadım Odası: Tuz ve Yemin kararında hesabı açık tutarsın. Hekim Bera bunu fark eder ve zehir bilgisinin ve saray kuşkusunun dengesi senin lehine bir çizik alır."
+        resultText: "Zehir Tadım Odası: Tuz ve Yemin sırasında \"Panzehiri doğru kişiye ulaştır\" yolunu seçersin. Bu hamle saray kuşkusunu yatıştırır ve zehir bilgisini belirgin biçimde derinleştirir."
         healthDelta: 0
         setFlags:
           - "flag_poison_sample_saved"
@@ -874,8 +1013,13 @@ cards:
         nextCardId: "smm_card_113"
       -
         choiceId: "smm_card_112_b"
+        choiceImageId: "choice_smm_card_112_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron guards a tiny vial and silver tasting spoon behind the apron with narrowed eyes and one protective hand. Bera, a tired healer with herb bundles and rolled bandages reacts nearby with one simple readable gesture. tiny cups and sealed vials identify the poison tasting chamber. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Panzehir kavanozunu sakla"
-        resultText: "Zehir Tadım Odası: Tuz ve Yemin kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde zehir bilgisinin ve saray kuşkusunun için daha keskin bir kayıt açılır."
+        resultText: "Zehir Tadım Odası: Tuz ve Yemin sırasında \"Panzehir kavanozunu sakla\" yolunu seçersin. Bu hamle saray kuşkusunu belirgin biçimde yükseltir ve zehir bilgisini belirgin biçimde derinleştirir."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"
@@ -910,7 +1054,9 @@ cards:
     bodyText: "Hükümdarın kadehine yaklaşan herkes, kendi mezarını da görmüş sayılır. Zehir Tadım Odası: Kırık Tabak anında Simin, sır saklamanın can kurtardığı kadar can alabileceğini hatırlatır. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, zehir bilgisinin ve saray kuşkusunun üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_baharat_odasi_safran"
     focusImageId: "focus_smm_113_poison_taster"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Zehir Tadım Odası: Kırık Tabak scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Simin, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron raises a cracked plate with a clear active pose, oversized hands, and a simple expressive face. Simin, a calm poison taster with a tiny silver spoon watches close by with one simple reaction gesture. big spice jars and saffron bundles identify the spice room. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "simin_tadimci"
@@ -922,8 +1068,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_113_a"
+        choiceImageId: "choice_smm_card_113_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron tastes an oversized serving cup and sweet tray with a cautious puckered face and one hand hovering in alarm. Simin, a calm poison taster with a tiny silver spoon reacts nearby with one simple readable gesture. big spice jars and saffron bundles identify the spice room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Kadehi usulünce önce kendin tat"
-        resultText: "Zehir Tadım Odası: Kırık Tabak kararında hesabı açık tutarsın. Simin bunu fark eder ve zehir bilgisinin ve saray kuşkusunun dengesi senin lehine bir çizik alır."
+        resultText: "Zehir Tadım Odası: Kırık Tabak sırasında \"Kadehi usulünce önce kendin tat\" yolunu seçersin. Bu hamle zehir bilgisini belirgin biçimde derinleştirir."
         healthDelta: 0
         setFlags:
           - "flag_poison_sample_saved"
@@ -949,8 +1100,13 @@ cards:
         nextCardId: "smm_card_114"
       -
         choiceId: "smm_card_113_b"
+        choiceImageId: "choice_smm_card_113_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron hands over an oversized serving cup and sweet tray with both oversized hands and a tense polite smile. Simin, a calm poison taster with a tiny silver spoon reacts nearby with one simple readable gesture. big spice jars and saffron bundles identify the spice room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Kadehi rakibe önce uzat"
-        resultText: "Zehir Tadım Odası: Kırık Tabak kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde zehir bilgisinin ve saray kuşkusunun için daha keskin bir kayıt açılır."
+        resultText: "Zehir Tadım Odası: Kırık Tabak sırasında \"Kadehi rakibe önce uzat\" yolunu seçersin. Bu hamle saray kuşkusunu belirgin biçimde yükseltir ve zehir bilgisini belirgin biçimde derinleştirir."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"
@@ -984,7 +1140,9 @@ cards:
     bodyText: "Hükümdarın kadehine yaklaşan herkes, kendi mezarını da görmüş sayılır. Zehir Tadım Odası: Mum Işığı anında Hükümdar Azem, panzehirin kime verildiğinin taht hesabı sayılacağını söyler. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, zehir bilgisinin ve saray kuşkusunun üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_taht_salonu"
     focusImageId: "focus_smm_114_poison_taster"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Zehir Tadım Odası: Mum Işığı scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Hükümdar Azem, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron holds a stubby candle with a clear active pose, oversized hands, and a simple expressive face. Azem, an aging ruler with a tired crown and heavy robe watches close by with one simple reaction gesture. a worn throne step and faded banners identify the throne room. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "hukumdar_azem"
@@ -996,8 +1154,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_114_a"
+        choiceImageId: "choice_smm_card_114_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a tiny vial and silver tasting spoon forward with a decisive hand gesture and a clear expressive face. Azem, an aging ruler with a tired crown and heavy robe reacts nearby with one simple readable gesture. a worn throne step and faded banners identify the throne room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Zehir defterini eksiksiz tut"
-        resultText: "Zehir Tadım Odası: Mum Işığı kararında hesabı açık tutarsın. Hükümdar Azem bunu fark eder ve zehir bilgisinin ve saray kuşkusunun dengesi senin lehine bir çizik alır."
+        resultText: "Zehir Tadım Odası: Mum Işığı sırasında \"Zehir defterini eksiksiz tut\" yolunu seçersin. Bu hamle zehir bilgisini belirgin biçimde derinleştirir."
         healthDelta: 0
         setFlags:
           - "flag_poison_sample_saved"
@@ -1023,8 +1186,13 @@ cards:
         nextCardId: "smm_card_115"
       -
         choiceId: "smm_card_114_b"
+        choiceImageId: "choice_smm_card_114_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron slides a bead tally board and grain sack across a low table with a sly sideways glance and one hidden hand. Azem, an aging ruler with a tired crown and heavy robe reacts nearby with one simple readable gesture. a worn throne step and faded banners identify the throne room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Defterdeki satırı değiştir"
-        resultText: "Zehir Tadım Odası: Mum Işığı kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde zehir bilgisinin ve saray kuşkusunun için daha keskin bir kayıt açılır."
+        resultText: "Zehir Tadım Odası: Mum Işığı sırasında \"Defterdeki satırı değiştir\" yolunu seçersin. Bu hamle saray kuşkusunu belirgin biçimde yükseltir ve zehir bilgisini belirgin biçimde derinleştirir."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"
@@ -1058,7 +1226,9 @@ cards:
     bodyText: "Hükümdarın kadehine yaklaşan herkes, kendi mezarını da görmüş sayılır. Zehir Tadım Odası: Gece Nöbeti anında Başvezir Sadreddin, damakta kalan acının sarayda uzun bir dosyaya dönüşeceğini sezdirir. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, zehir bilgisinin ve saray kuşkusunun üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_sifahane_ic_odasi"
     focusImageId: "focus_smm_115_poison_taster"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Zehir Tadım Odası: Gece Nöbeti scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Başvezir Sadreddin, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron guards a small tray with a clear active pose, oversized hands, and a simple expressive face. Sadreddin, a thin grand vizier with a wax seal case watches close by with one simple reaction gesture. herb bundles and rolled bandages identify the infirmary. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "sadreddin_basvezir"
@@ -1070,8 +1240,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_115_a"
+        choiceImageId: "choice_smm_card_115_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a big wooden measuring spoon forward with a decisive hand gesture and a clear expressive face. Sadreddin, a thin grand vizier with a wax seal case reacts nearby with one simple readable gesture. herb bundles and rolled bandages identify the infirmary. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Şüpheli baharatı mühürlet"
-        resultText: "Zehir Tadım Odası: Gece Nöbeti kararında hesabı açık tutarsın. Başvezir Sadreddin bunu fark eder ve zehir bilgisinin ve saray kuşkusunun dengesi senin lehine bir çizik alır."
+        resultText: "Zehir Tadım Odası: Gece Nöbeti sırasında \"Şüpheli baharatı mühürlet\" yolunu seçersin. Bu hamle zehir bilgisini belirgin biçimde derinleştirir."
         healthDelta: 0
         setFlags:
           - "flag_poison_sample_saved"
@@ -1097,8 +1272,13 @@ cards:
         nextCardId: "smm_card_116"
       -
         choiceId: "smm_card_115_b"
+        choiceImageId: "choice_smm_card_115_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron slides a big wooden measuring spoon across a low table with a sly sideways glance and one hidden hand. Sadreddin, a thin grand vizier with a wax seal case reacts nearby with one simple readable gesture. herb bundles and rolled bandages identify the infirmary. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Baharatı karaborsaya sızdır"
-        resultText: "Zehir Tadım Odası: Gece Nöbeti kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde zehir bilgisinin ve saray kuşkusunun için daha keskin bir kayıt açılır."
+        resultText: "Zehir Tadım Odası: Gece Nöbeti sırasında \"Baharatı karaborsaya sızdır\" yolunu seçersin. Bu hamle saray kuşkusunu belirgin biçimde yükseltir ve zehir bilgisini belirgin biçimde derinleştirir. Canın 1 azalır."
         healthDelta: -1
         setFlags:
           - "flag_secret_kept"
@@ -1132,7 +1312,9 @@ cards:
     bodyText: "Panzehir kavanozları, kimi kurtaracağına göre kutsal ya da suçlu görünür. Zehir Tadım Odası: Kilitli Raf anında Hekim Bera, senden titremeden ama kör cesaret göstermeden tatmanı ister. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, zehir bilgisinin ve saray kuşkusunun üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_zehir_tadim_odasi"
     focusImageId: "focus_smm_116_poison_taster"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Zehir Tadım Odası: Kilitli Raf scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Hekim Bera, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron reaches toward a locked shelf key with a clear active pose, oversized hands, and a simple expressive face. Bera, a tired healer with herb bundles and rolled bandages watches close by with one simple reaction gesture. tiny cups and sealed vials identify the poison tasting chamber. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "bera_hekim"
@@ -1144,8 +1326,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_116_a"
+        choiceImageId: "choice_smm_card_116_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron holds a tiny vial and silver tasting spoon high for inspection with wide honest eyes and a stiff straight arm. Simin, a calm poison taster with a tiny silver spoon reacts nearby with one simple readable gesture. tiny cups and sealed vials identify the poison tasting chamber. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Tortuyu Simin'e açıkça göster"
-        resultText: "Zehir Tadım Odası: Kilitli Raf kararında hesabı açık tutarsın. Hekim Bera bunu fark eder ve zehir bilgisinin ve saray kuşkusunun dengesi senin lehine bir çizik alır."
+        resultText: "Zehir Tadım Odası: Kilitli Raf sırasında \"Tortuyu Simin'e açıkça göster\" yolunu seçersin. Bu hamle zehir bilgisini belirgin biçimde derinleştirir."
         healthDelta: 0
         setFlags:
           - "flag_poison_sample_saved"
@@ -1171,8 +1358,13 @@ cards:
         nextCardId: "smm_card_117"
       -
         choiceId: "smm_card_116_b"
+        choiceImageId: "choice_smm_card_116_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a tiny vial and silver tasting spoon forward with a decisive hand gesture and a clear expressive face. Bera, a tired healer with herb bundles and rolled bandages reacts nearby with one simple readable gesture. tiny cups and sealed vials identify the poison tasting chamber. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Tortuyu gizli koza çevir"
-        resultText: "Zehir Tadım Odası: Kilitli Raf kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde zehir bilgisinin ve saray kuşkusunun için daha keskin bir kayıt açılır."
+        resultText: "Zehir Tadım Odası: Kilitli Raf sırasında \"Tortuyu gizli koza çevir\" yolunu seçersin. Bu hamle saray kuşkusunu belirgin biçimde yükseltir ve zehir bilgisini belirgin biçimde derinleştirir."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"
@@ -1206,7 +1398,9 @@ cards:
     bodyText: "Panzehir kavanozları, kimi kurtaracağına göre kutsal ya da suçlu görünür. Zehir Tadım Odası: Sarayın Kulağı anında Simin, küçük bir tortunun büyük bir suikastın imzası olabileceğini gösterir. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, zehir bilgisinin ve saray kuşkusunun üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_zehir_tadim_odasi_gece"
     focusImageId: "focus_smm_117_poison_taster"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Zehir Tadım Odası: Sarayın Kulağı scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Simin, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron listens beside a half-open door with a clear active pose, oversized hands, and a simple expressive face. Simin, a calm poison taster with a tiny silver spoon watches close by with one simple reaction gesture. tiny cups and sealed vials identify the poison tasting chamber. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "simin_tadimci"
@@ -1218,8 +1412,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_117_a"
+        choiceImageId: "choice_smm_card_117_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron hands over a tiny vial and silver tasting spoon with both oversized hands and a tense polite smile. Simin, a calm poison taster with a tiny silver spoon reacts nearby with one simple readable gesture. tiny cups and sealed vials identify the poison tasting chamber. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Panzehiri doğru kişiye ulaştır"
-        resultText: "Zehir Tadım Odası: Sarayın Kulağı kararında hesabı açık tutarsın. Simin bunu fark eder ve zehir bilgisinin ve saray kuşkusunun dengesi senin lehine bir çizik alır."
+        resultText: "Zehir Tadım Odası: Sarayın Kulağı sırasında \"Panzehiri doğru kişiye ulaştır\" yolunu seçersin. Bu hamle zehir bilgisini belirgin biçimde derinleştirir."
         healthDelta: 0
         setFlags:
           - "flag_poison_sample_saved"
@@ -1245,8 +1444,13 @@ cards:
         nextCardId: "smm_card_118"
       -
         choiceId: "smm_card_117_b"
+        choiceImageId: "choice_smm_card_117_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron guards a tiny vial and silver tasting spoon behind the apron with narrowed eyes and one protective hand. Simin, a calm poison taster with a tiny silver spoon reacts nearby with one simple readable gesture. tiny cups and sealed vials identify the poison tasting chamber. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Panzehir kavanozunu sakla"
-        resultText: "Zehir Tadım Odası: Sarayın Kulağı kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde zehir bilgisinin ve saray kuşkusunun için daha keskin bir kayıt açılır."
+        resultText: "Zehir Tadım Odası: Sarayın Kulağı sırasında \"Panzehir kavanozunu sakla\" yolunu seçersin. Bu hamle saray kuşkusunu belirgin biçimde yükseltir ve zehir bilgisini belirgin biçimde derinleştirir. Canın 1 azalır."
         healthDelta: -1
         setFlags:
           - "flag_secret_kept"
@@ -1280,7 +1484,9 @@ cards:
     bodyText: "Panzehir kavanozları, kimi kurtaracağına göre kutsal ya da suçlu görünür. Zehir Tadım Odası: Yağ Halkası anında Hükümdar Azem, sır saklamanın can kurtardığı kadar can alabileceğini hatırlatır. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, zehir bilgisinin ve saray kuşkusunun üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_baharat_odasi_safran"
     focusImageId: "focus_smm_118_poison_taster"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Zehir Tadım Odası: Yağ Halkası scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Hükümdar Azem, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron tilts an omen soup bowl with a clear active pose, oversized hands, and a simple expressive face. Azem, an aging ruler with a tired crown and heavy robe watches close by with one simple reaction gesture. big spice jars and saffron bundles identify the spice room. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "hukumdar_azem"
@@ -1292,8 +1498,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_118_a"
+        choiceImageId: "choice_smm_card_118_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron tastes an oversized serving cup and sweet tray with a cautious puckered face and one hand hovering in alarm. Azem, an aging ruler with a tired crown and heavy robe reacts nearby with one simple readable gesture. big spice jars and saffron bundles identify the spice room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Kadehi usulünce önce kendin tat"
-        resultText: "Zehir Tadım Odası: Yağ Halkası kararında hesabı açık tutarsın. Hükümdar Azem bunu fark eder ve zehir bilgisinin ve saray kuşkusunun dengesi senin lehine bir çizik alır."
+        resultText: "Zehir Tadım Odası: Yağ Halkası sırasında \"Kadehi usulünce önce kendin tat\" yolunu seçersin. Bu hamle zehir bilgisini belirgin biçimde derinleştirir."
         healthDelta: 0
         setFlags:
           - "flag_poison_sample_saved"
@@ -1319,8 +1530,13 @@ cards:
         nextCardId: "smm_card_119"
       -
         choiceId: "smm_card_118_b"
+        choiceImageId: "choice_smm_card_118_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron hands over an oversized serving cup and sweet tray with both oversized hands and a tense polite smile. Azem, an aging ruler with a tired crown and heavy robe reacts nearby with one simple readable gesture. big spice jars and saffron bundles identify the spice room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Kadehi rakibe önce uzat"
-        resultText: "Zehir Tadım Odası: Yağ Halkası kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde zehir bilgisinin ve saray kuşkusunun için daha keskin bir kayıt açılır."
+        resultText: "Zehir Tadım Odası: Yağ Halkası sırasında \"Kadehi rakibe önce uzat\" yolunu seçersin. Bu hamle saray kuşkusunu belirgin biçimde yükseltir ve zehir bilgisini belirgin biçimde derinleştirir."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"
@@ -1354,7 +1570,9 @@ cards:
     bodyText: "Panzehir kavanozları, kimi kurtaracağına göre kutsal ya da suçlu görünür. Zehir Tadım Odası: Ak Gaga'nın Yolu anında Başvezir Sadreddin, panzehirin kime verildiğinin taht hesabı sayılacağını söyler. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, zehir bilgisinin ve saray kuşkusunun üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_taht_salonu"
     focusImageId: "focus_smm_119_poison_taster"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Zehir Tadım Odası: Ak Gaga'nın Yolu scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Başvezir Sadreddin, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron guides a white goose feather marker with a clear active pose, oversized hands, and a simple expressive face. Sadreddin, a thin grand vizier with a wax seal case watches close by with one simple reaction gesture. a worn throne step and faded banners identify the throne room. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "sadreddin_basvezir"
@@ -1366,8 +1584,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_119_a"
+        choiceImageId: "choice_smm_card_119_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a tiny vial and silver tasting spoon forward with a decisive hand gesture and a clear expressive face. Sadreddin, a thin grand vizier with a wax seal case reacts nearby with one simple readable gesture. a worn throne step and faded banners identify the throne room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Zehir defterini eksiksiz tut"
-        resultText: "Zehir Tadım Odası: Ak Gaga'nın Yolu kararında hesabı açık tutarsın. Başvezir Sadreddin bunu fark eder ve zehir bilgisinin ve saray kuşkusunun dengesi senin lehine bir çizik alır."
+        resultText: "Zehir Tadım Odası: Ak Gaga'nın Yolu sırasında \"Zehir defterini eksiksiz tut\" yolunu seçersin. Bu hamle saray kuşkusunu yatıştırır ve zehir bilgisini belirgin biçimde derinleştirir."
         healthDelta: 0
         setFlags:
           - "flag_poison_sample_saved"
@@ -1393,8 +1616,13 @@ cards:
         nextCardId: "smm_card_120"
       -
         choiceId: "smm_card_119_b"
+        choiceImageId: "choice_smm_card_119_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron slides a bead tally board and grain sack across a low table with a sly sideways glance and one hidden hand. Sadreddin, a thin grand vizier with a wax seal case reacts nearby with one simple readable gesture. a worn throne step and faded banners identify the throne room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Defterdeki satırı değiştir"
-        resultText: "Zehir Tadım Odası: Ak Gaga'nın Yolu kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde zehir bilgisinin ve saray kuşkusunun için daha keskin bir kayıt açılır."
+        resultText: "Zehir Tadım Odası: Ak Gaga'nın Yolu sırasında \"Defterdeki satırı değiştir\" yolunu seçersin. Bu hamle saray kuşkusunu belirgin biçimde yükseltir ve zehir bilgisini belirgin biçimde derinleştirir."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"
@@ -1428,7 +1656,9 @@ cards:
     bodyText: "Panzehir kavanozları, kimi kurtaracağına göre kutsal ya da suçlu görünür. Zehir Tadım Odası: Gümüş Kaşık anında Hekim Bera, damakta kalan acının sarayda uzun bir dosyaya dönüşeceğini sezdirir. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, zehir bilgisinin ve saray kuşkusunun üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_sifahane_ic_odasi"
     focusImageId: "focus_smm_120_poison_taster"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Zehir Tadım Odası: Gümüş Kaşık scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Hekim Bera, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron inspects a silver spoon with a clear active pose, oversized hands, and a simple expressive face. Bera, a tired healer with herb bundles and rolled bandages watches close by with one simple reaction gesture. herb bundles and rolled bandages identify the infirmary. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "bera_hekim"
@@ -1440,8 +1670,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_120_a"
+        choiceImageId: "choice_smm_card_120_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a big wooden measuring spoon forward with a decisive hand gesture and a clear expressive face. Bera, a tired healer with herb bundles and rolled bandages reacts nearby with one simple readable gesture. herb bundles and rolled bandages identify the infirmary. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Şüpheli baharatı mühürlet"
-        resultText: "Zehir Tadım Odası: Gümüş Kaşık kararında hesabı açık tutarsın. Hekim Bera bunu fark eder ve zehir bilgisinin ve saray kuşkusunun dengesi senin lehine bir çizik alır."
+        resultText: "Zehir Tadım Odası: Gümüş Kaşık sırasında \"Şüpheli baharatı mühürlet\" yolunu seçersin. Bu hamle zehir bilgisini belirgin biçimde derinleştirir."
         healthDelta: 0
         setFlags:
           - "flag_poison_sample_saved"
@@ -1468,8 +1703,13 @@ cards:
         nextCardId: "smm_card_121"
       -
         choiceId: "smm_card_120_b"
+        choiceImageId: "choice_smm_card_120_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron slides a big wooden measuring spoon across a low table with a sly sideways glance and one hidden hand. Bera, a tired healer with herb bundles and rolled bandages reacts nearby with one simple readable gesture. herb bundles and rolled bandages identify the infirmary. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Baharatı karaborsaya sızdır"
-        resultText: "Zehir Tadım Odası: Gümüş Kaşık kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde zehir bilgisinin ve saray kuşkusunun için daha keskin bir kayıt açılır."
+        resultText: "Zehir Tadım Odası: Gümüş Kaşık sırasında \"Baharatı karaborsaya sızdır\" yolunu seçersin. Bu hamle saray kuşkusunu belirgin biçimde yükseltir ve zehir bilgisini belirgin biçimde derinleştirir. Canın 1 azalır."
         healthDelta: -1
         setFlags:
           - "flag_secret_kept"
@@ -1504,7 +1744,9 @@ cards:
     bodyText: "Zehir bilgisi seni hükümdara yaklaştırırken herkesi senden korkutur. Zehir Tadım Odası: Kayıp Ölçü anında Simin, senden titremeden ama kör cesaret göstermeden tatmanı ister. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, zehir bilgisinin ve saray kuşkusunun üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_zehir_tadim_odasi"
     focusImageId: "focus_smm_121_poison_taster"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Zehir Tadım Odası: Kayıp Ölçü scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Simin, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron searches for a missing measuring cup with a clear active pose, oversized hands, and a simple expressive face. Simin, a calm poison taster with a tiny silver spoon watches close by with one simple reaction gesture. tiny cups and sealed vials identify the poison tasting chamber. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "simin_tadimci"
@@ -1516,8 +1758,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_121_a"
+        choiceImageId: "choice_smm_card_121_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron holds a tiny vial and silver tasting spoon high for inspection with wide honest eyes and a stiff straight arm. Simin, a calm poison taster with a tiny silver spoon reacts nearby with one simple readable gesture. tiny cups and sealed vials identify the poison tasting chamber. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Tortuyu Simin'e açıkça göster"
-        resultText: "Zehir Tadım Odası: Kayıp Ölçü kararında hesabı açık tutarsın. Simin bunu fark eder ve zehir bilgisinin ve saray kuşkusunun dengesi senin lehine bir çizik alır."
+        resultText: "Zehir Tadım Odası: Kayıp Ölçü sırasında \"Tortuyu Simin'e açıkça göster\" yolunu seçersin. Bu hamle zehir bilgisini belirgin biçimde derinleştirir."
         healthDelta: 0
         setFlags:
           - "flag_poison_sample_saved"
@@ -1543,8 +1790,13 @@ cards:
         nextCardId: "smm_card_122"
       -
         choiceId: "smm_card_121_b"
+        choiceImageId: "choice_smm_card_121_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a tiny vial and silver tasting spoon forward with a decisive hand gesture and a clear expressive face. Simin, a calm poison taster with a tiny silver spoon reacts nearby with one simple readable gesture. tiny cups and sealed vials identify the poison tasting chamber. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Tortuyu gizli koza çevir"
-        resultText: "Zehir Tadım Odası: Kayıp Ölçü kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde zehir bilgisinin ve saray kuşkusunun için daha keskin bir kayıt açılır."
+        resultText: "Zehir Tadım Odası: Kayıp Ölçü sırasında \"Tortuyu gizli koza çevir\" yolunu seçersin. Bu hamle saray kuşkusunu belirgin biçimde yükseltir ve zehir bilgisini belirgin biçimde derinleştirir."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"
@@ -1578,7 +1830,9 @@ cards:
     bodyText: "Zehir bilgisi seni hükümdara yaklaştırırken herkesi senden korkutur. Zehir Tadım Odası: Kuyrukta Ekmek anında Hükümdar Azem, küçük bir tortunun büyük bir suikastın imzası olabileceğini gösterir. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, zehir bilgisinin ve saray kuşkusunun üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_zehir_tadim_odasi_gece"
     focusImageId: "focus_smm_122_poison_taster"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Zehir Tadım Odası: Kuyrukta Ekmek scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Hükümdar Azem, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron carries a bread basket with a clear active pose, oversized hands, and a simple expressive face. Azem, an aging ruler with a tired crown and heavy robe watches close by with one simple reaction gesture. tiny cups and sealed vials identify the poison tasting chamber. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "hukumdar_azem"
@@ -1590,8 +1844,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_122_a"
+        choiceImageId: "choice_smm_card_122_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron hands over a tiny vial and silver tasting spoon with both oversized hands and a tense polite smile. Azem, an aging ruler with a tired crown and heavy robe reacts nearby with one simple readable gesture. tiny cups and sealed vials identify the poison tasting chamber. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Panzehiri doğru kişiye ulaştır"
-        resultText: "Zehir Tadım Odası: Kuyrukta Ekmek kararında hesabı açık tutarsın. Hükümdar Azem bunu fark eder ve zehir bilgisinin ve saray kuşkusunun dengesi senin lehine bir çizik alır."
+        resultText: "Zehir Tadım Odası: Kuyrukta Ekmek sırasında \"Panzehiri doğru kişiye ulaştır\" yolunu seçersin. Bu hamle zehir bilgisini belirgin biçimde derinleştirir."
         healthDelta: 0
         setFlags:
           - "flag_poison_sample_saved"
@@ -1617,8 +1876,13 @@ cards:
         nextCardId: "smm_card_123"
       -
         choiceId: "smm_card_122_b"
+        choiceImageId: "choice_smm_card_122_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron guards a tiny vial and silver tasting spoon behind the apron with narrowed eyes and one protective hand. Azem, an aging ruler with a tired crown and heavy robe reacts nearby with one simple readable gesture. tiny cups and sealed vials identify the poison tasting chamber. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Panzehir kavanozunu sakla"
-        resultText: "Zehir Tadım Odası: Kuyrukta Ekmek kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde zehir bilgisinin ve saray kuşkusunun için daha keskin bir kayıt açılır."
+        resultText: "Zehir Tadım Odası: Kuyrukta Ekmek sırasında \"Panzehir kavanozunu sakla\" yolunu seçersin. Bu hamle saray kuşkusunu belirgin biçimde yükseltir ve zehir bilgisini belirgin biçimde derinleştirir."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"
@@ -1652,7 +1916,9 @@ cards:
     bodyText: "Zehir bilgisi seni hükümdara yaklaştırırken herkesi senden korkutur. Zehir Tadım Odası: Keskin Koku anında Başvezir Sadreddin, sır saklamanın can kurtardığı kadar can alabileceğini hatırlatır. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, zehir bilgisinin ve saray kuşkusunun üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_baharat_odasi_safran"
     focusImageId: "focus_smm_123_poison_taster"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Zehir Tadım Odası: Keskin Koku scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Başvezir Sadreddin, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron sniffs a tiny spice pouch with a clear active pose, oversized hands, and a simple expressive face. Sadreddin, a thin grand vizier with a wax seal case watches close by with one simple reaction gesture. big spice jars and saffron bundles identify the spice room. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "sadreddin_basvezir"
@@ -1664,8 +1930,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_123_a"
+        choiceImageId: "choice_smm_card_123_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron tastes an oversized serving cup and sweet tray with a cautious puckered face and one hand hovering in alarm. Sadreddin, a thin grand vizier with a wax seal case reacts nearby with one simple readable gesture. big spice jars and saffron bundles identify the spice room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Kadehi usulünce önce kendin tat"
-        resultText: "Zehir Tadım Odası: Keskin Koku kararında hesabı açık tutarsın. Başvezir Sadreddin bunu fark eder ve zehir bilgisinin ve saray kuşkusunun dengesi senin lehine bir çizik alır."
+        resultText: "Zehir Tadım Odası: Keskin Koku sırasında \"Kadehi usulünce önce kendin tat\" yolunu seçersin. Bu hamle zehir bilgisini belirgin biçimde derinleştirir."
         healthDelta: 0
         setFlags:
           - "flag_poison_sample_saved"
@@ -1691,8 +1962,13 @@ cards:
         nextCardId: "smm_card_124"
       -
         choiceId: "smm_card_123_b"
+        choiceImageId: "choice_smm_card_123_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron hands over an oversized serving cup and sweet tray with both oversized hands and a tense polite smile. Sadreddin, a thin grand vizier with a wax seal case reacts nearby with one simple readable gesture. big spice jars and saffron bundles identify the spice room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Kadehi rakibe önce uzat"
-        resultText: "Zehir Tadım Odası: Keskin Koku kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde zehir bilgisinin ve saray kuşkusunun için daha keskin bir kayıt açılır."
+        resultText: "Zehir Tadım Odası: Keskin Koku sırasında \"Kadehi rakibe önce uzat\" yolunu seçersin. Bu hamle saray kuşkusunu belirgin biçimde yükseltir ve zehir bilgisini belirgin biçimde derinleştirir."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"
@@ -1726,7 +2002,9 @@ cards:
     bodyText: "Zehir bilgisi seni hükümdara yaklaştırırken herkesi senden korkutur. Zehir Tadım Odası: Mühre Giden İz anında Hekim Bera, panzehirin kime verildiğinin taht hesabı sayılacağını söyler. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, zehir bilgisinin ve saray kuşkusunun üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_taht_salonu"
     focusImageId: "focus_smm_124_poison_taster"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Zehir Tadım Odası: Mühre Giden İz scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Hekim Bera, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron traces a red wax footprint with a clear active pose, oversized hands, and a simple expressive face. Bera, a tired healer with herb bundles and rolled bandages watches close by with one simple reaction gesture. a worn throne step and faded banners identify the throne room. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "bera_hekim"
@@ -1738,8 +2016,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_124_a"
+        choiceImageId: "choice_smm_card_124_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a tiny vial and silver tasting spoon forward with a decisive hand gesture and a clear expressive face. Bera, a tired healer with herb bundles and rolled bandages reacts nearby with one simple readable gesture. a worn throne step and faded banners identify the throne room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Zehir defterini eksiksiz tut"
-        resultText: "Zehir Tadım Odası: Mühre Giden İz kararında hesabı açık tutarsın. Hekim Bera bunu fark eder ve zehir bilgisinin ve saray kuşkusunun dengesi senin lehine bir çizik alır."
+        resultText: "Zehir Tadım Odası: Mühre Giden İz sırasında \"Zehir defterini eksiksiz tut\" yolunu seçersin. Bu hamle zehir bilgisini belirgin biçimde derinleştirir."
         healthDelta: 0
         setFlags:
           - "flag_poison_sample_saved"
@@ -1765,8 +2048,13 @@ cards:
         nextCardId: "smm_card_125"
       -
         choiceId: "smm_card_124_b"
+        choiceImageId: "choice_smm_card_124_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron slides a bead tally board and grain sack across a low table with a sly sideways glance and one hidden hand. Bera, a tired healer with herb bundles and rolled bandages reacts nearby with one simple readable gesture. a worn throne step and faded banners identify the throne room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Defterdeki satırı değiştir"
-        resultText: "Zehir Tadım Odası: Mühre Giden İz kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde zehir bilgisinin ve saray kuşkusunun için daha keskin bir kayıt açılır."
+        resultText: "Zehir Tadım Odası: Mühre Giden İz sırasında \"Defterdeki satırı değiştir\" yolunu seçersin. Bu hamle saray kuşkusunu belirgin biçimde yükseltir ve zehir bilgisini belirgin biçimde derinleştirir."
         healthDelta: 0
         setFlags:
           - "flag_secret_kept"
@@ -1800,7 +2088,9 @@ cards:
     bodyText: "Zehir bilgisi seni hükümdara yaklaştırırken herkesi senden korkutur. Zehir Tadım Odası: Dar Boğaz anında Simin, damakta kalan acının sarayda uzun bir dosyaya dönüşeceğini sezdirir. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, zehir bilgisinin ve saray kuşkusunun üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_sifahane_ic_odasi"
     focusImageId: "focus_smm_125_poison_taster"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Zehir Tadım Odası: Dar Boğaz scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Simin, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron squeezes through a narrow doorway with a bundle with a clear active pose, oversized hands, and a simple expressive face. Simin, a calm poison taster with a tiny silver spoon watches close by with one simple reaction gesture. herb bundles and rolled bandages identify the infirmary. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "simin_tadimci"
@@ -1812,8 +2102,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_125_a"
+        choiceImageId: "choice_smm_card_125_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a big wooden measuring spoon forward with a decisive hand gesture and a clear expressive face. Simin, a calm poison taster with a tiny silver spoon reacts nearby with one simple readable gesture. herb bundles and rolled bandages identify the infirmary. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Şüpheli baharatı mühürlet"
-        resultText: "Zehir Tadım Odası: Dar Boğaz kararında hesabı açık tutarsın. Simin bunu fark eder ve zehir bilgisinin ve saray kuşkusunun dengesi senin lehine bir çizik alır."
+        resultText: "Zehir Tadım Odası: Dar Boğaz sırasında \"Şüpheli baharatı mühürlet\" yolunu seçersin. Bu hamle zehir bilgisini belirgin biçimde derinleştirir."
         healthDelta: 0
         setFlags:
           - "flag_poison_sample_saved"
@@ -1839,8 +2134,13 @@ cards:
         nextCardId: "smm_card_126"
       -
         choiceId: "smm_card_125_b"
+        choiceImageId: "choice_smm_card_125_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron slides a big wooden measuring spoon across a low table with a sly sideways glance and one hidden hand. Simin, a calm poison taster with a tiny silver spoon reacts nearby with one simple readable gesture. herb bundles and rolled bandages identify the infirmary. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Baharatı karaborsaya sızdır"
-        resultText: "Zehir Tadım Odası: Dar Boğaz kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde zehir bilgisinin ve saray kuşkusunun için daha keskin bir kayıt açılır."
+        resultText: "Zehir Tadım Odası: Dar Boğaz sırasında \"Baharatı karaborsaya sızdır\" yolunu seçersin. Bu hamle saray kuşkusunu belirgin biçimde yükseltir ve zehir bilgisini belirgin biçimde derinleştirir. Canın 1 azalır."
         healthDelta: -1
         setFlags:
           - "flag_secret_kept"

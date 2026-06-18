@@ -9,7 +9,9 @@ cards:
     bodyText: "Final sabahında saray avlusu, ekmek kuyruğu, kışla ve elçilik salonu aynı nefesi tutar. Mühür ve Sonlar: İlk Eşik anında Başvezir Sadreddin, senden bir varisi değil, geçmiş seçimlerinin toplamını imzalamanı ister. Kehanet çorbası finalde mührün kime güveneceği sorusuna gölge düşüren eski bir kanıt gibi masaya konur. Seçeceğin yol, final kararının ve imparatorluk mührünün üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_final_sabahi_saray_avlusu"
     focusImageId: "focus_smm_276_seal_and_finals"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Mühür ve Sonlar: İlk Eşik scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Başvezir Sadreddin, Müneccim Zerya, a bowl of omen soup with oil rings and three chickpeas, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron steps over a chipped plate threshold with a clear active pose, oversized hands, and a simple expressive face. Sadreddin, a thin grand vizier with a wax seal case watches close by with one simple reaction gesture. open palace gates and dawn paving identify the final courtyard. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "sadreddin_basvezir"
@@ -27,8 +29,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_276_a"
+        choiceImageId: "choice_smm_card_276_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a plain round wax seal and stamp with no glyphs forward with a decisive hand gesture and a clear expressive face. Sadreddin, a thin grand vizier with a wax seal case reacts nearby with one simple readable gesture. open palace gates and dawn paving identify the final courtyard. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Mühür odasına bir adım yaklaş"
-        resultText: "Mühür ve Sonlar: İlk Eşik kararında hesabı açık tutarsın. Başvezir Sadreddin bunu fark eder ve final kararının ve imparatorluk mührünün dengesi senin lehine bir çizik alır."
+        resultText: "Mühür ve Sonlar: İlk Eşik sırasında \"Mühür odasına bir adım yaklaş\" yolunu seçersin. Bu hamle Arslan desteğini artırır, mühür erişimini belirgin biçimde yaklaştırır ve çorba alametini büyütür."
         healthDelta: 0
         setFlags:
           - "flag_seal_access_granted"
@@ -56,8 +63,13 @@ cards:
         nextCardId: "smm_card_277"
       -
         choiceId: "smm_card_276_b"
+        choiceImageId: "choice_smm_card_276_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron opens an oversized iron key with a decisive pull and bright alert eyes. Sadreddin, a thin grand vizier with a wax seal case reacts nearby with one simple readable gesture. open palace gates and dawn paving identify the final courtyard. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Halk kapısını son kez aç"
-        resultText: "halk kapısını son kez aç kararını verirsin. Mühür ve Sonlar: İlk Eşik sırasında biriken deliller, borçlar ve alametler seni bu sona taşır."
+        resultText: "Mühür ve Sonlar: İlk Eşik sırasında \"Halk kapısını son kez aç\" yolunu seçersin. Bu hamle saray kuşkusunu belirgin biçimde yükseltir, Arslan desteğini artırır ve çorba alametini belirgin biçimde büyütür. Karar, hikâyeyi doğrudan bir sona bağlar."
         healthDelta: 0
         setFlags:
           - "flag_muhur_final_key"
@@ -93,7 +105,9 @@ cards:
     bodyText: "Final sabahında saray avlusu, ekmek kuyruğu, kışla ve elçilik salonu aynı nefesi tutar. Mühür ve Sonlar: Sıcak Bakır anında Hükümdar Azem, başvezirin sana artık hizmetkâr gibi değil, devlet görevlisi gibi baktığını gösterir. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, final kararının ve imparatorluk mührünün üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_muhur_odasi"
     focusImageId: "focus_smm_277_seal_and_finals"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Mühür ve Sonlar: Sıcak Bakır scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Hükümdar Azem, Başvezir Sadreddin, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron lifts a hot copper basin with a clear active pose, oversized hands, and a simple expressive face. Azem, an aging ruler with a tired crown and heavy robe watches close by with one simple reaction gesture. a red wax table and locked chest identify the seal room. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "hukumdar_azem"
@@ -106,8 +120,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_277_a"
+        choiceImageId: "choice_smm_card_277_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron slides a small coin purse and covered bundle across a low table with a sly sideways glance and one hidden hand. Azem, an aging ruler with a tired crown and heavy robe reacts nearby with one simple readable gesture. a red wax table and locked chest identify the seal room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Geçmiş borçları tek tek tart"
-        resultText: "Mühür ve Sonlar: Sıcak Bakır kararında hesabı açık tutarsın. Hükümdar Azem bunu fark eder ve final kararının ve imparatorluk mührünün dengesi senin lehine bir çizik alır."
+        resultText: "Mühür ve Sonlar: Sıcak Bakır sırasında \"Geçmiş borçları tek tek tart\" yolunu seçersin. Bu hamle Safira desteğini artırır ve mühür erişimini belirgin biçimde yaklaştırır."
         healthDelta: 0
         setFlags:
           - "flag_seal_access_granted"
@@ -134,8 +153,13 @@ cards:
         nextCardId: "smm_card_278"
       -
         choiceId: "smm_card_277_b"
+        choiceImageId: "choice_smm_card_277_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron carries a plain round wax seal and stamp with no glyphs toward an exit with hunched shoulders and fast stepping feet. Azem, an aging ruler with a tired crown and heavy robe reacts nearby with one simple readable gesture. a red wax table and locked chest identify the seal room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Yeni hükümdarı mühürle çıkar"
-        resultText: "yeni hükümdarı mühürle çıkar kararını verirsin. Mühür ve Sonlar: Sıcak Bakır sırasında biriken deliller, borçlar ve alametler seni bu sona taşır."
+        resultText: "Mühür ve Sonlar: Sıcak Bakır sırasında \"Yeni hükümdarı mühürle çıkar\" yolunu seçersin. Bu hamle saray kuşkusunu belirgin biçimde yükseltir ve Safira desteğini artırır. Karar, hikâyeyi doğrudan bir sona bağlar."
         healthDelta: 0
         setFlags:
           - "flag_muhur_final_key"
@@ -171,7 +195,9 @@ cards:
     bodyText: "Final sabahında saray avlusu, ekmek kuyruğu, kışla ve elçilik salonu aynı nefesi tutar. Mühür ve Sonlar: Sessiz Bakış anında Şehzade Arslan, hükümdarın zayıf sesiyle Ak Gaga'nın sesi arasında sarayın bölündüğünü hissettirir. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, final kararının ve imparatorluk mührünün üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_muhur_odasi_kapanis"
     focusImageId: "focus_smm_278_seal_and_finals"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Mühür ve Sonlar: Sessiz Bakış scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Şehzade Arslan, Başvezir Sadreddin, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron points at a suspicious small clue with a clear active pose, oversized hands, and a simple expressive face. Arslan, a rigid military heir in simple red-and-steel court dress watches close by with one simple reaction gesture. a red wax table and locked chest identify the seal room. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "heir_arslan"
@@ -185,8 +211,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_278_a"
+        choiceImageId: "choice_smm_card_278_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a simple alliance token and small ring forward with a decisive hand gesture and a clear expressive face. Arslan, a rigid military heir in simple red-and-steel court dress reacts nearby with one simple readable gesture. a red wax table and locked chest identify the seal room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Varisleri son kez dinle"
-        resultText: "Mühür ve Sonlar: Sessiz Bakış kararında hesabı açık tutarsın. Şehzade Arslan bunu fark eder ve final kararının ve imparatorluk mührünün dengesi senin lehine bir çizik alır."
+        resultText: "Mühür ve Sonlar: Sessiz Bakış sırasında \"Varisleri son kez dinle\" yolunu seçersin. Bu hamle Kemal desteğini artırır ve mühür erişimini belirgin biçimde yaklaştırır."
         healthDelta: 0
         setFlags:
           - "flag_seal_access_granted"
@@ -213,8 +244,13 @@ cards:
         nextCardId: "smm_card_279"
       -
         choiceId: "smm_card_278_b"
+        choiceImageId: "choice_smm_card_278_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron pushes a plain round wax seal and stamp with no glyphs away with both palms and a stubborn frown. Arslan, a rigid military heir in simple red-and-steel court dress reacts nearby with one simple readable gesture. a red wax table and locked chest identify the seal room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Mühürden vazgeçip hana kaç"
-        resultText: "mühürden vazgeçip hana kaç kararını verirsin. Mühür ve Sonlar: Sessiz Bakış sırasında biriken deliller, borçlar ve alametler seni bu sona taşır."
+        resultText: "Mühür ve Sonlar: Sessiz Bakış sırasında \"Mühürden vazgeçip hana kaç\" yolunu seçersin. Bu hamle saray kuşkusunu belirgin biçimde yükseltir ve Kemal desteğini artırır. Karar, hikâyeyi doğrudan bir sona bağlar."
         healthDelta: 0
         setFlags:
           - "flag_muhur_final_key"
@@ -249,7 +285,9 @@ cards:
     bodyText: "Final sabahında saray avlusu, ekmek kuyruğu, kışla ve elçilik salonu aynı nefesi tutar. Mühür ve Sonlar: İnce Hesap anında Sultan Safira, halkın kapıdaki uğultusunu mühür odasına kadar taşır. Ak Gaga son sabah avluda belirdiğinde, hükümdarın eski kaz kararları bütün fraksiyonların aklına gelir. Seçeceğin yol, final kararının ve imparatorluk mührünün üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_taht_salonu"
     focusImageId: "focus_smm_279_seal_and_finals"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Mühür ve Sonlar: İnce Hesap scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Sultan Safira, Durna, the dignified palace goose Ak Gaga nearby, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron counts three chunky tally stones with a clear active pose, oversized hands, and a simple expressive face. Safira, a poised diplomat heir with a pale blue sash watches close by with one simple reaction gesture. a worn throne step and faded banners identify the throne room. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "heir_safira"
@@ -268,8 +306,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_279_a"
+        choiceImageId: "choice_smm_card_279_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron marks a white goose feather and a feed bowl with big non-letter tally blocks while biting the lip in concentration. Safira, a poised diplomat heir with a pale blue sash reacts nearby with one simple readable gesture. a worn throne step and faded banners identify the throne room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Kazın işaretini kayıt altına al"
-        resultText: "Mühür ve Sonlar: İnce Hesap kararında hesabı açık tutarsın. Sultan Safira bunu fark eder ve final kararının ve imparatorluk mührünün dengesi senin lehine bir çizik alır."
+        resultText: "Mühür ve Sonlar: İnce Hesap sırasında \"Kazın işaretini kayıt altına al\" yolunu seçersin. Bu hamle Arslan desteğini artırır, mühür erişimini belirgin biçimde yaklaştırır ve Ak Gaga söylencesini güçlendirir."
         healthDelta: 0
         setFlags:
           - "flag_seal_access_granted"
@@ -299,8 +342,13 @@ cards:
         nextCardId: "smm_card_280"
       -
         choiceId: "smm_card_279_b"
+        choiceImageId: "choice_smm_card_279_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron tastes an oversized serving cup and sweet tray with a cautious puckered face and one hand hovering in alarm. Safira, a poised diplomat heir with a pale blue sash reacts nearby with one simple readable gesture. a worn throne step and faded banners identify the throne room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Şüpheli kadehi yalnız tat"
-        resultText: "şüpheli kadehi yalnız tat kararını verirsin. Mühür ve Sonlar: İnce Hesap sırasında biriken deliller, borçlar ve alametler seni bu sona taşır."
+        resultText: "Mühür ve Sonlar: İnce Hesap sırasında \"Şüpheli kadehi yalnız tat\" yolunu seçersin. Bu hamle saray kuşkusunu belirgin biçimde yükseltir, Arslan desteğini artırır ve Ak Gaga söylencesini belirgin biçimde güçlendirir. Canın 1 azalır. Karar, hikâyeyi doğrudan bir sona bağlar."
         healthDelta: -1
         setFlags:
           - "flag_muhur_final_key"
@@ -336,7 +384,9 @@ cards:
     bodyText: "Final sabahında saray avlusu, ekmek kuyruğu, kışla ve elçilik salonu aynı nefesi tutar. Mühür ve Sonlar: Gizli Lekeler anında Şehzade Kemal, tahta giden yolun bazen mutfak dumanından başladığını tamamlar. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, final kararının ve imparatorluk mührünün üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_mahkeme_avlusu"
     focusImageId: "focus_smm_280_seal_and_finals"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Mühür ve Sonlar: Gizli Lekeler scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Şehzade Kemal, Başvezir Sadreddin, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron scrubs a dark stain on a plate with a clear active pose, oversized hands, and a simple expressive face. Kemal, a serious reformer heir with plain scholar robes watches close by with one simple reaction gesture. a stone court bench and wax table identify the court courtyard. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "heir_kemal"
@@ -350,8 +400,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_280_a"
+        choiceImageId: "choice_smm_card_280_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron points at a chunky omen soup bowl with three chickpeas with a clear explaining gesture and raised eyebrows. Kemal, a serious reformer heir with plain scholar robes reacts nearby with one simple readable gesture. a stone court bench and wax table identify the court courtyard. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Çorba alametini sorguya aç"
-        resultText: "Mühür ve Sonlar: Gizli Lekeler kararında hesabı açık tutarsın. Şehzade Kemal bunu fark eder ve final kararının ve imparatorluk mührünün dengesi senin lehine bir çizik alır."
+        resultText: "Mühür ve Sonlar: Gizli Lekeler sırasında \"Çorba alametini sorguya aç\" yolunu seçersin. Bu hamle saray kuşkusunu yatıştırır, Safira desteğini artırır ve mühür erişimini belirgin biçimde yaklaştırır."
         healthDelta: 0
         setFlags:
           - "flag_seal_access_granted"
@@ -379,8 +434,13 @@ cards:
         nextCardId: "smm_card_281"
       -
         choiceId: "smm_card_280_b"
+        choiceImageId: "choice_smm_card_280_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a simple alliance token and small ring forward with a decisive hand gesture and a clear expressive face. Kemal, a serious reformer heir with plain scholar robes reacts nearby with one simple readable gesture. a stone court bench and wax table identify the court courtyard. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Yanlış varisin emrine güven"
-        resultText: "yanlış varisin emrine güven kararını verirsin. Mühür ve Sonlar: Gizli Lekeler sırasında biriken deliller, borçlar ve alametler seni bu sona taşır."
+        resultText: "Mühür ve Sonlar: Gizli Lekeler sırasında \"Yanlış varisin emrine güven\" yolunu seçersin. Bu hamle saray kuşkusunu belirgin biçimde yükseltir ve Safira desteğini artırır. Karar, hikâyeyi doğrudan bir sona bağlar."
         healthDelta: 0
         setFlags:
           - "flag_muhur_final_key"
@@ -416,7 +476,9 @@ cards:
     bodyText: "Mühür odasında balmumu kokusu, yıllarca taşıdığın sırlarla karışır. Mühür ve Sonlar: Kör Alev anında Başvezir Sadreddin, senden bir varisi değil, geçmiş seçimlerinin toplamını imzalamanı ister. Yanlış tatlı yüzünden başlayan diplomasi, finalde savaşın mı evliliğin mi mühürleneceğini belirleyebilir. Seçeceğin yol, final kararının ve imparatorluk mührünün üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_kapanis_han_mutfagi"
     focusImageId: "focus_smm_281_seal_and_finals"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Mühür ve Sonlar: Kör Alev scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Başvezir Sadreddin, Lale Kalfa, a mistaken ornate dessert tray with diplomatic tension, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron shields a weak kitchen flame with a clear active pose, oversized hands, and a simple expressive face. Sadreddin, a thin grand vizier with a wax seal case watches close by with one simple reaction gesture. a small inn hearth and rough wooden table identify the inn kitchen. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "sadreddin_basvezir"
@@ -435,8 +497,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_281_a"
+        choiceImageId: "choice_smm_card_281_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a plain round wax seal and stamp with no glyphs forward with a decisive hand gesture and a clear expressive face. Sadreddin, a thin grand vizier with a wax seal case reacts nearby with one simple readable gesture. a small inn hearth and rough wooden table identify the inn kitchen. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Mühür odasına bir adım yaklaş"
-        resultText: "Mühür ve Sonlar: Kör Alev kararında hesabı açık tutarsın. Başvezir Sadreddin bunu fark eder ve final kararının ve imparatorluk mührünün dengesi senin lehine bir çizik alır."
+        resultText: "Mühür ve Sonlar: Kör Alev sırasında \"Mühür odasına bir adım yaklaş\" yolunu seçersin. Bu hamle Kemal desteğini artırır, mühür erişimini belirgin biçimde yaklaştırır ve tatlı diplomasisini canlandırır."
         healthDelta: 0
         setFlags:
           - "flag_seal_access_granted"
@@ -464,8 +531,13 @@ cards:
         nextCardId: "smm_card_282"
       -
         choiceId: "smm_card_281_b"
+        choiceImageId: "choice_smm_card_281_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron points at a white goose feather and a feed bowl with a clear explaining gesture and raised eyebrows. Sadreddin, a thin grand vizier with a wax seal case reacts nearby with one simple readable gesture. a small inn hearth and rough wooden table identify the inn kitchen. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Ak Gaga'nın işaretini yorumla"
-        resultText: "ak gaga'nın işaretini yorumla kararını verirsin. Mühür ve Sonlar: Kör Alev sırasında biriken deliller, borçlar ve alametler seni bu sona taşır."
+        resultText: "Mühür ve Sonlar: Kör Alev sırasında \"Ak Gaga'nın işaretini yorumla\" yolunu seçersin. Bu hamle saray kuşkusunu belirgin biçimde yükseltir, Kemal desteğini artırır ve tatlı diplomasisini belirgin biçimde canlandırır. Karar, hikâyeyi doğrudan bir sona bağlar."
         healthDelta: 0
         setFlags:
           - "flag_muhur_final_key"
@@ -503,7 +575,9 @@ cards:
     bodyText: "Mühür odasında balmumu kokusu, yıllarca taşıdığın sırlarla karışır. Mühür ve Sonlar: Üç Nohut anında Hükümdar Azem, başvezirin sana artık hizmetkâr gibi değil, devlet görevlisi gibi baktığını gösterir. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, final kararının ve imparatorluk mührünün üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_final_sabahi_saray_avlusu"
     focusImageId: "focus_smm_282_seal_and_finals"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Mühür ve Sonlar: Üç Nohut scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Hükümdar Azem, Başvezir Sadreddin, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron arranges three oversized chickpeas with a clear active pose, oversized hands, and a simple expressive face. Azem, an aging ruler with a tired crown and heavy robe watches close by with one simple reaction gesture. open palace gates and dawn paving identify the final courtyard. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "hukumdar_azem"
@@ -516,8 +590,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_282_a"
+        choiceImageId: "choice_smm_card_282_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron slides a small coin purse and covered bundle across a low table with a sly sideways glance and one hidden hand. Azem, an aging ruler with a tired crown and heavy robe reacts nearby with one simple readable gesture. open palace gates and dawn paving identify the final courtyard. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Geçmiş borçları tek tek tart"
-        resultText: "Mühür ve Sonlar: Üç Nohut kararında hesabı açık tutarsın. Hükümdar Azem bunu fark eder ve final kararının ve imparatorluk mührünün dengesi senin lehine bir çizik alır."
+        resultText: "Mühür ve Sonlar: Üç Nohut sırasında \"Geçmiş borçları tek tek tart\" yolunu seçersin. Bu hamle Arslan desteğini artırır ve mühür erişimini belirgin biçimde yaklaştırır."
         healthDelta: 0
         setFlags:
           - "flag_seal_access_granted"
@@ -544,8 +623,13 @@ cards:
         nextCardId: "smm_card_283"
       -
         choiceId: "smm_card_282_b"
+        choiceImageId: "choice_smm_card_282_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a chunky omen soup bowl with three chickpeas forward with a decisive hand gesture and a clear expressive face. Azem, an aging ruler with a tired crown and heavy robe reacts nearby with one simple readable gesture. open palace gates and dawn paving identify the final courtyard. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Çorbayı kutsal alamet ilan et"
-        resultText: "çorbayı kutsal alamet ilan et kararını verirsin. Mühür ve Sonlar: Üç Nohut sırasında biriken deliller, borçlar ve alametler seni bu sona taşır."
+        resultText: "Mühür ve Sonlar: Üç Nohut sırasında \"Çorbayı kutsal alamet ilan et\" yolunu seçersin. Bu hamle saray kuşkusunu belirgin biçimde yükseltir ve Arslan desteğini artırır. Karar, hikâyeyi doğrudan bir sona bağlar."
         healthDelta: 0
         setFlags:
           - "flag_muhur_final_key"
@@ -581,7 +665,9 @@ cards:
     bodyText: "Mühür odasında balmumu kokusu, yıllarca taşıdığın sırlarla karışır. Mühür ve Sonlar: Kapıdaki Fısıltı anında Şehzade Arslan, hükümdarın zayıf sesiyle Ak Gaga'nın sesi arasında sarayın bölündüğünü hissettirir. Kehanet çorbası finalde mührün kime güveneceği sorusuna gölge düşüren eski bir kanıt gibi masaya konur. Seçeceğin yol, final kararının ve imparatorluk mührünün üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_muhur_odasi"
     focusImageId: "focus_smm_283_seal_and_finals"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Mühür ve Sonlar: Kapıdaki Fısıltı scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Şehzade Arslan, Müneccim Zerya, a bowl of omen soup with oil rings and three chickpeas, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron hides a folded blank note with a clear active pose, oversized hands, and a simple expressive face. Arslan, a rigid military heir in simple red-and-steel court dress watches close by with one simple reaction gesture. a red wax table and locked chest identify the seal room. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "heir_arslan"
@@ -600,8 +686,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_283_a"
+        choiceImageId: "choice_smm_card_283_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a simple alliance token and small ring forward with a decisive hand gesture and a clear expressive face. Arslan, a rigid military heir in simple red-and-steel court dress reacts nearby with one simple readable gesture. a red wax table and locked chest identify the seal room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Varisleri son kez dinle"
-        resultText: "Mühür ve Sonlar: Kapıdaki Fısıltı kararında hesabı açık tutarsın. Şehzade Arslan bunu fark eder ve final kararının ve imparatorluk mührünün dengesi senin lehine bir çizik alır."
+        resultText: "Mühür ve Sonlar: Kapıdaki Fısıltı sırasında \"Varisleri son kez dinle\" yolunu seçersin. Bu hamle Safira desteğini artırır, mühür erişimini belirgin biçimde yaklaştırır ve çorba alametini büyütür."
         healthDelta: 0
         setFlags:
           - "flag_seal_access_granted"
@@ -629,8 +720,13 @@ cards:
         nextCardId: "smm_card_284"
       -
         choiceId: "smm_card_283_b"
+        choiceImageId: "choice_smm_card_283_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron tastes an oversized serving cup and sweet tray with a cautious puckered face and one hand hovering in alarm. Arslan, a rigid military heir in simple red-and-steel court dress reacts nearby with one simple readable gesture. a red wax table and locked chest identify the seal room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Tatlı ittifakını evlilikle mühürle"
-        resultText: "tatlı ittifakını evlilikle mühürle kararını verirsin. Mühür ve Sonlar: Kapıdaki Fısıltı sırasında biriken deliller, borçlar ve alametler seni bu sona taşır."
+        resultText: "Mühür ve Sonlar: Kapıdaki Fısıltı sırasında \"Tatlı ittifakını evlilikle mühürle\" yolunu seçersin. Bu hamle saray kuşkusunu belirgin biçimde yükseltir, Safira desteğini artırır ve çorba alametini belirgin biçimde büyütür. Karar, hikâyeyi doğrudan bir sona bağlar."
         healthDelta: 0
         setFlags:
           - "flag_muhur_final_key"
@@ -667,7 +763,9 @@ cards:
     bodyText: "Mühür odasında balmumu kokusu, yıllarca taşıdığın sırlarla karışır. Mühür ve Sonlar: Aç Karnın Sözü anında Sultan Safira, halkın kapıdaki uğultusunu mühür odasına kadar taşır. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, final kararının ve imparatorluk mührünün üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_muhur_odasi_kapanis"
     focusImageId: "focus_smm_284_seal_and_finals"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Mühür ve Sonlar: Aç Karnın Sözü scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Sultan Safira, Başvezir Sadreddin, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron offers a small bread piece with a clear active pose, oversized hands, and a simple expressive face. Safira, a poised diplomat heir with a pale blue sash watches close by with one simple reaction gesture. a red wax table and locked chest identify the seal room. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "heir_safira"
@@ -681,8 +779,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_284_a"
+        choiceImageId: "choice_smm_card_284_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron marks a white goose feather and a feed bowl with big non-letter tally blocks while biting the lip in concentration. Safira, a poised diplomat heir with a pale blue sash reacts nearby with one simple readable gesture. a red wax table and locked chest identify the seal room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Kazın işaretini kayıt altına al"
-        resultText: "Mühür ve Sonlar: Aç Karnın Sözü kararında hesabı açık tutarsın. Sultan Safira bunu fark eder ve final kararının ve imparatorluk mührünün dengesi senin lehine bir çizik alır."
+        resultText: "Mühür ve Sonlar: Aç Karnın Sözü sırasında \"Kazın işaretini kayıt altına al\" yolunu seçersin. Bu hamle Kemal desteğini artırır ve mühür erişimini belirgin biçimde yaklaştırır."
         healthDelta: 0
         setFlags:
           - "flag_seal_access_granted"
@@ -709,8 +812,13 @@ cards:
         nextCardId: "smm_card_285"
       -
         choiceId: "smm_card_284_b"
+        choiceImageId: "choice_smm_card_284_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron marks a bead tally board and grain sack with big non-letter tally blocks while biting the lip in concentration. Safira, a poised diplomat heir with a pale blue sash reacts nearby with one simple readable gesture. a red wax table and locked chest identify the seal room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Tahıl defterlerini devral"
-        resultText: "tahıl defterlerini devral kararını verirsin. Mühür ve Sonlar: Aç Karnın Sözü sırasında biriken deliller, borçlar ve alametler seni bu sona taşır."
+        resultText: "Mühür ve Sonlar: Aç Karnın Sözü sırasında \"Tahıl defterlerini devral\" yolunu seçersin. Bu hamle saray kuşkusunu belirgin biçimde yükseltir ve Kemal desteğini artırır. Karar, hikâyeyi doğrudan bir sona bağlar."
         healthDelta: 0
         setFlags:
           - "flag_muhur_final_key"
@@ -745,7 +853,9 @@ cards:
     bodyText: "Mühür odasında balmumu kokusu, yıllarca taşıdığın sırlarla karışır. Mühür ve Sonlar: Ustanın Sınavı anında Şehzade Kemal, tahta giden yolun bazen mutfak dumanından başladığını tamamlar. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, final kararının ve imparatorluk mührünün üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_taht_salonu"
     focusImageId: "focus_smm_285_seal_and_finals"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Mühür ve Sonlar: Ustanın Sınavı scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Şehzade Kemal, Başvezir Sadreddin, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron measures a spoonful of spice with a clear active pose, oversized hands, and a simple expressive face. Kemal, a serious reformer heir with plain scholar robes watches close by with one simple reaction gesture. a worn throne step and faded banners identify the throne room. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "heir_kemal"
@@ -759,8 +869,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_285_a"
+        choiceImageId: "choice_smm_card_285_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron points at a chunky omen soup bowl with three chickpeas with a clear explaining gesture and raised eyebrows. Kemal, a serious reformer heir with plain scholar robes reacts nearby with one simple readable gesture. a worn throne step and faded banners identify the throne room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Çorba alametini sorguya aç"
-        resultText: "Mühür ve Sonlar: Ustanın Sınavı kararında hesabı açık tutarsın. Şehzade Kemal bunu fark eder ve final kararının ve imparatorluk mührünün dengesi senin lehine bir çizik alır."
+        resultText: "Mühür ve Sonlar: Ustanın Sınavı sırasında \"Çorba alametini sorguya aç\" yolunu seçersin. Bu hamle Arslan desteğini artırır ve mühür erişimini belirgin biçimde yaklaştırır."
         healthDelta: 0
         setFlags:
           - "flag_seal_access_granted"
@@ -787,8 +902,13 @@ cards:
         nextCardId: "smm_card_286"
       -
         choiceId: "smm_card_285_b"
+        choiceImageId: "choice_smm_card_285_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a folded blank note and stubby candle forward with a decisive hand gesture and a clear expressive face. Kemal, a serious reformer heir with plain scholar robes reacts nearby with one simple readable gesture. a worn throne step and faded banners identify the throne room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Sır pazarını tekeline al"
-        resultText: "sır pazarını tekeline al kararını verirsin. Mühür ve Sonlar: Ustanın Sınavı sırasında biriken deliller, borçlar ve alametler seni bu sona taşır."
+        resultText: "Mühür ve Sonlar: Ustanın Sınavı sırasında \"Sır pazarını tekeline al\" yolunu seçersin. Bu hamle saray kuşkusunu belirgin biçimde yükseltir ve Arslan desteğini artırır. Karar, hikâyeyi doğrudan bir sona bağlar."
         healthDelta: 0
         setFlags:
           - "flag_muhur_final_key"
@@ -823,7 +943,9 @@ cards:
     bodyText: "Ak Gaga'nın çığlığı ve kehanet çorbasının anısı, en ciddi belgelerin üstüne gölge düşürür. Mühür ve Sonlar: Kazanın Gölgesi anında Başvezir Sadreddin, senden bir varisi değil, geçmiş seçimlerinin toplamını imzalamanı ister. Ak Gaga son sabah avluda belirdiğinde, hükümdarın eski kaz kararları bütün fraksiyonların aklına gelir. Seçeceğin yol, final kararının ve imparatorluk mührünün üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_mahkeme_avlusu"
     focusImageId: "focus_smm_286_seal_and_finals"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Mühür ve Sonlar: Kazanın Gölgesi scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Başvezir Sadreddin, Durna, the dignified palace goose Ak Gaga nearby, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron stirs a round copper cauldron with a clear active pose, oversized hands, and a simple expressive face. Sadreddin, a thin grand vizier with a wax seal case watches close by with one simple reaction gesture. a stone court bench and wax table identify the court courtyard. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "sadreddin_basvezir"
@@ -841,8 +963,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_286_a"
+        choiceImageId: "choice_smm_card_286_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a plain round wax seal and stamp with no glyphs forward with a decisive hand gesture and a clear expressive face. Sadreddin, a thin grand vizier with a wax seal case reacts nearby with one simple readable gesture. a stone court bench and wax table identify the court courtyard. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Mühür odasına bir adım yaklaş"
-        resultText: "Mühür ve Sonlar: Kazanın Gölgesi kararında hesabı açık tutarsın. Başvezir Sadreddin bunu fark eder ve final kararının ve imparatorluk mührünün dengesi senin lehine bir çizik alır."
+        resultText: "Mühür ve Sonlar: Kazanın Gölgesi sırasında \"Mühür odasına bir adım yaklaş\" yolunu seçersin. Bu hamle Safira desteğini artırır, mühür erişimini belirgin biçimde yaklaştırır ve Ak Gaga söylencesini güçlendirir."
         healthDelta: 0
         setFlags:
           - "flag_seal_access_granted"
@@ -872,8 +999,13 @@ cards:
         nextCardId: "smm_card_287"
       -
         choiceId: "smm_card_286_b"
+        choiceImageId: "choice_smm_card_286_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron accepts a rolled bandage and herb bundle with one hesitant hand and a cautious sideways glance. Sadreddin, a thin grand vizier with a wax seal case reacts nearby with one simple readable gesture. a stone court bench and wax table identify the court courtyard. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Şifahane sürgününü kabul et"
-        resultText: "şifahane sürgününü kabul et kararını verirsin. Mühür ve Sonlar: Kazanın Gölgesi sırasında biriken deliller, borçlar ve alametler seni bu sona taşır."
+        resultText: "Mühür ve Sonlar: Kazanın Gölgesi sırasında \"Şifahane sürgününü kabul et\" yolunu seçersin. Bu hamle saray kuşkusunu belirgin biçimde yükseltir, Safira desteğini artırır ve Ak Gaga söylencesini belirgin biçimde güçlendirir. Karar, hikâyeyi doğrudan bir sona bağlar."
         healthDelta: 0
         setFlags:
           - "flag_muhur_final_key"
@@ -909,7 +1041,9 @@ cards:
     bodyText: "Ak Gaga'nın çığlığı ve kehanet çorbasının anısı, en ciddi belgelerin üstüne gölge düşürür. Mühür ve Sonlar: Tuz ve Yemin anında Hükümdar Azem, başvezirin sana artık hizmetkâr gibi değil, devlet görevlisi gibi baktığını gösterir. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, final kararının ve imparatorluk mührünün üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_kapanis_han_mutfagi"
     focusImageId: "focus_smm_287_seal_and_finals"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Mühür ve Sonlar: Tuz ve Yemin scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Hükümdar Azem, Başvezir Sadreddin, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron sprinkles a pinch of salt with a clear active pose, oversized hands, and a simple expressive face. Azem, an aging ruler with a tired crown and heavy robe watches close by with one simple reaction gesture. a small inn hearth and rough wooden table identify the inn kitchen. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "hukumdar_azem"
@@ -922,8 +1056,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_287_a"
+        choiceImageId: "choice_smm_card_287_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron slides a small coin purse and covered bundle across a low table with a sly sideways glance and one hidden hand. Azem, an aging ruler with a tired crown and heavy robe reacts nearby with one simple readable gesture. a small inn hearth and rough wooden table identify the inn kitchen. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Geçmiş borçları tek tek tart"
-        resultText: "Mühür ve Sonlar: Tuz ve Yemin kararında hesabı açık tutarsın. Hükümdar Azem bunu fark eder ve final kararının ve imparatorluk mührünün dengesi senin lehine bir çizik alır."
+        resultText: "Mühür ve Sonlar: Tuz ve Yemin sırasında \"Geçmiş borçları tek tek tart\" yolunu seçersin. Bu hamle saray kuşkusunu yatıştırır, Kemal desteğini artırır ve mühür erişimini belirgin biçimde yaklaştırır."
         healthDelta: 0
         setFlags:
           - "flag_seal_access_granted"
@@ -950,8 +1089,13 @@ cards:
         nextCardId: "smm_card_288"
       -
         choiceId: "smm_card_287_b"
+        choiceImageId: "choice_smm_card_287_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a large readable story prop forward with a decisive hand gesture and a clear expressive face. Azem, an aging ruler with a tired crown and heavy robe reacts nearby with one simple readable gesture. a small inn hearth and rough wooden table identify the inn kitchen. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Sahte mührü son kez bas"
-        resultText: "sahte mührü son kez bas kararını verirsin. Mühür ve Sonlar: Tuz ve Yemin sırasında biriken deliller, borçlar ve alametler seni bu sona taşır."
+        resultText: "Mühür ve Sonlar: Tuz ve Yemin sırasında \"Sahte mührü son kez bas\" yolunu seçersin. Bu hamle saray kuşkusunu belirgin biçimde yükseltir ve Kemal desteğini artırır. Karar, hikâyeyi doğrudan bir sona bağlar."
         healthDelta: 0
         setFlags:
           - "flag_muhur_final_key"
@@ -987,7 +1131,9 @@ cards:
     bodyText: "Ak Gaga'nın çığlığı ve kehanet çorbasının anısı, en ciddi belgelerin üstüne gölge düşürür. Mühür ve Sonlar: Kırık Tabak anında Şehzade Arslan, hükümdarın zayıf sesiyle Ak Gaga'nın sesi arasında sarayın bölündüğünü hissettirir. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, final kararının ve imparatorluk mührünün üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_final_sabahi_saray_avlusu"
     focusImageId: "focus_smm_288_seal_and_finals"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Mühür ve Sonlar: Kırık Tabak scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Şehzade Arslan, Başvezir Sadreddin, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron raises a cracked plate with a clear active pose, oversized hands, and a simple expressive face. Arslan, a rigid military heir in simple red-and-steel court dress watches close by with one simple reaction gesture. open palace gates and dawn paving identify the final courtyard. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "heir_arslan"
@@ -1001,8 +1147,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_288_a"
+        choiceImageId: "choice_smm_card_288_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a simple alliance token and small ring forward with a decisive hand gesture and a clear expressive face. Arslan, a rigid military heir in simple red-and-steel court dress reacts nearby with one simple readable gesture. open palace gates and dawn paving identify the final courtyard. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Varisleri son kez dinle"
-        resultText: "Mühür ve Sonlar: Kırık Tabak kararında hesabı açık tutarsın. Şehzade Arslan bunu fark eder ve final kararının ve imparatorluk mührünün dengesi senin lehine bir çizik alır."
+        resultText: "Mühür ve Sonlar: Kırık Tabak sırasında \"Varisleri son kez dinle\" yolunu seçersin. Bu hamle Arslan desteğini artırır ve mühür erişimini belirgin biçimde yaklaştırır."
         healthDelta: 0
         setFlags:
           - "flag_seal_access_granted"
@@ -1030,8 +1181,13 @@ cards:
         nextCardId: "smm_card_289"
       -
         choiceId: "smm_card_288_b"
+        choiceImageId: "choice_smm_card_288_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron guards a folded blank note and stubby candle behind the apron with narrowed eyes and one protective hand. Arslan, a rigid military heir in simple red-and-steel court dress reacts nearby with one simple readable gesture. open palace gates and dawn paving identify the final courtyard. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Canın pahasına sırrı sakla"
-        resultText: "canın pahasına sırrı sakla kararını verirsin. Mühür ve Sonlar: Kırık Tabak sırasında biriken deliller, borçlar ve alametler seni bu sona taşır."
+        resultText: "Mühür ve Sonlar: Kırık Tabak sırasında \"Canın pahasına sırrı sakla\" yolunu seçersin. Bu hamle saray kuşkusunu belirgin biçimde yükseltir ve Arslan desteğini artırır. Canın 1 azalır. Karar, hikâyeyi doğrudan bir sona bağlar."
         healthDelta: -1
         setFlags:
           - "flag_muhur_final_key"
@@ -1067,7 +1223,9 @@ cards:
     bodyText: "Ak Gaga'nın çığlığı ve kehanet çorbasının anısı, en ciddi belgelerin üstüne gölge düşürür. Mühür ve Sonlar: Mum Işığı anında Sultan Safira, halkın kapıdaki uğultusunu mühür odasına kadar taşır. Yanlış tatlı yüzünden başlayan diplomasi, finalde savaşın mı evliliğin mi mühürleneceğini belirleyebilir. Seçeceğin yol, final kararının ve imparatorluk mührünün üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_muhur_odasi"
     focusImageId: "focus_smm_289_seal_and_finals"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Mühür ve Sonlar: Mum Işığı scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Sultan Safira, Lale Kalfa, a mistaken ornate dessert tray with diplomatic tension, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron holds a stubby candle with a clear active pose, oversized hands, and a simple expressive face. Safira, a poised diplomat heir with a pale blue sash watches close by with one simple reaction gesture. a red wax table and locked chest identify the seal room. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "heir_safira"
@@ -1086,8 +1244,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_289_a"
+        choiceImageId: "choice_smm_card_289_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron marks a white goose feather and a feed bowl with big non-letter tally blocks while biting the lip in concentration. Safira, a poised diplomat heir with a pale blue sash reacts nearby with one simple readable gesture. a red wax table and locked chest identify the seal room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Kazın işaretini kayıt altına al"
-        resultText: "Mühür ve Sonlar: Mum Işığı kararında hesabı açık tutarsın. Sultan Safira bunu fark eder ve final kararının ve imparatorluk mührünün dengesi senin lehine bir çizik alır."
+        resultText: "Mühür ve Sonlar: Mum Işığı sırasında \"Kazın işaretini kayıt altına al\" yolunu seçersin. Bu hamle Safira desteğini artırır, mühür erişimini belirgin biçimde yaklaştırır ve tatlı diplomasisini canlandırır."
         healthDelta: 0
         setFlags:
           - "flag_seal_access_granted"
@@ -1115,8 +1278,13 @@ cards:
         nextCardId: "smm_card_290"
       -
         choiceId: "smm_card_289_b"
+        choiceImageId: "choice_smm_card_289_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron opens a simple alliance token and small ring with a decisive pull and bright alert eyes. Arslan, a rigid military heir in simple red-and-steel court dress reacts nearby with one simple readable gesture. a red wax table and locked chest identify the seal room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Arslan'a demir yolu aç"
-        resultText: "arslan'a demir yolu aç kararını verirsin. Mühür ve Sonlar: Mum Işığı sırasında biriken deliller, borçlar ve alametler seni bu sona taşır."
+        resultText: "Mühür ve Sonlar: Mum Işığı sırasında \"Arslan'a demir yolu aç\" yolunu seçersin. Bu hamle saray kuşkusunu belirgin biçimde yükseltir, Safira desteğini artırır ve tatlı diplomasisini belirgin biçimde canlandırır. Karar, hikâyeyi doğrudan bir sona bağlar."
         healthDelta: 0
         setFlags:
           - "flag_muhur_final_key"
@@ -1153,7 +1321,9 @@ cards:
     bodyText: "Ak Gaga'nın çığlığı ve kehanet çorbasının anısı, en ciddi belgelerin üstüne gölge düşürür. Mühür ve Sonlar: Gece Nöbeti anında Şehzade Kemal, tahta giden yolun bazen mutfak dumanından başladığını tamamlar. Kehanet çorbası finalde mührün kime güveneceği sorusuna gölge düşüren eski bir kanıt gibi masaya konur. Seçeceğin yol, final kararının ve imparatorluk mührünün üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_muhur_odasi_kapanis"
     focusImageId: "focus_smm_290_seal_and_finals"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Mühür ve Sonlar: Gece Nöbeti scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Şehzade Kemal, Müneccim Zerya, a bowl of omen soup with oil rings and three chickpeas, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron guards a small tray with a clear active pose, oversized hands, and a simple expressive face. Kemal, a serious reformer heir with plain scholar robes watches close by with one simple reaction gesture. a red wax table and locked chest identify the seal room. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "heir_kemal"
@@ -1172,8 +1342,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_290_a"
+        choiceImageId: "choice_smm_card_290_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron points at a chunky omen soup bowl with three chickpeas with a clear explaining gesture and raised eyebrows. Kemal, a serious reformer heir with plain scholar robes reacts nearby with one simple readable gesture. a red wax table and locked chest identify the seal room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Çorba alametini sorguya aç"
-        resultText: "Mühür ve Sonlar: Gece Nöbeti kararında hesabı açık tutarsın. Şehzade Kemal bunu fark eder ve final kararının ve imparatorluk mührünün dengesi senin lehine bir çizik alır."
+        resultText: "Mühür ve Sonlar: Gece Nöbeti sırasında \"Çorba alametini sorguya aç\" yolunu seçersin. Bu hamle Kemal desteğini artırır, mühür erişimini belirgin biçimde yaklaştırır ve çorba alametini büyütür."
         healthDelta: 0
         setFlags:
           - "flag_seal_access_granted"
@@ -1201,8 +1376,13 @@ cards:
         nextCardId: "smm_card_291"
       -
         choiceId: "smm_card_290_b"
+        choiceImageId: "choice_smm_card_290_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a plain round wax seal and stamp with no glyphs forward with a decisive hand gesture and a clear expressive face. Safira, a poised diplomat heir with a pale blue sash reacts nearby with one simple readable gesture. a red wax table and locked chest identify the seal room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Safira'nın ittifakını mühürle"
-        resultText: "safira'nın ittifakını mühürle kararını verirsin. Mühür ve Sonlar: Gece Nöbeti sırasında biriken deliller, borçlar ve alametler seni bu sona taşır."
+        resultText: "Mühür ve Sonlar: Gece Nöbeti sırasında \"Safira'nın ittifakını mühürle\" yolunu seçersin. Bu hamle saray kuşkusunu belirgin biçimde yükseltir, Kemal desteğini artırır ve çorba alametini belirgin biçimde büyütür. Karar, hikâyeyi doğrudan bir sona bağlar."
         healthDelta: 0
         setFlags:
           - "flag_muhur_final_key"
@@ -1238,7 +1418,9 @@ cards:
     bodyText: "Yanlış tatlıdan doğan ittifak, son anda savaş veya barış ihtimali olarak döner. Mühür ve Sonlar: Kilitli Raf anında Başvezir Sadreddin, senden bir varisi değil, geçmiş seçimlerinin toplamını imzalamanı ister. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, final kararının ve imparatorluk mührünün üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_taht_salonu"
     focusImageId: "focus_smm_291_seal_and_finals"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Mühür ve Sonlar: Kilitli Raf scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Başvezir Sadreddin, Hükümdar Azem, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron reaches toward a locked shelf key with a clear active pose, oversized hands, and a simple expressive face. Sadreddin, a thin grand vizier with a wax seal case watches close by with one simple reaction gesture. a worn throne step and faded banners identify the throne room. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "sadreddin_basvezir"
@@ -1251,8 +1433,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_291_a"
+        choiceImageId: "choice_smm_card_291_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a plain round wax seal and stamp with no glyphs forward with a decisive hand gesture and a clear expressive face. Sadreddin, a thin grand vizier with a wax seal case reacts nearby with one simple readable gesture. a worn throne step and faded banners identify the throne room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Mühür odasına bir adım yaklaş"
-        resultText: "Mühür ve Sonlar: Kilitli Raf kararında hesabı açık tutarsın. Başvezir Sadreddin bunu fark eder ve final kararının ve imparatorluk mührünün dengesi senin lehine bir çizik alır."
+        resultText: "Mühür ve Sonlar: Kilitli Raf sırasında \"Mühür odasına bir adım yaklaş\" yolunu seçersin. Bu hamle Arslan desteğini artırır ve mühür erişimini belirgin biçimde yaklaştırır."
         healthDelta: 0
         setFlags:
           - "flag_seal_access_granted"
@@ -1279,8 +1466,13 @@ cards:
         nextCardId: "smm_card_292"
       -
         choiceId: "smm_card_291_b"
+        choiceImageId: "choice_smm_card_291_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron points at a warm half loaf of bread with a clear explaining gesture and raised eyebrows. Kemal, a serious reformer heir with plain scholar robes reacts nearby with one simple readable gesture. a worn throne step and faded banners identify the throne room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Kemal'in ekmek yasasını duyur"
-        resultText: "kemal'in ekmek yasasını duyur kararını verirsin. Mühür ve Sonlar: Kilitli Raf sırasında biriken deliller, borçlar ve alametler seni bu sona taşır."
+        resultText: "Mühür ve Sonlar: Kilitli Raf sırasında \"Kemal'in ekmek yasasını duyur\" yolunu seçersin. Bu hamle saray kuşkusunu belirgin biçimde yükseltir ve Arslan desteğini artırır. Karar, hikâyeyi doğrudan bir sona bağlar."
         healthDelta: 0
         setFlags:
           - "flag_muhur_final_key"
@@ -1315,7 +1507,9 @@ cards:
     bodyText: "Yanlış tatlıdan doğan ittifak, son anda savaş veya barış ihtimali olarak döner. Mühür ve Sonlar: Sarayın Kulağı anında Hükümdar Azem, başvezirin sana artık hizmetkâr gibi değil, devlet görevlisi gibi baktığını gösterir. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, final kararının ve imparatorluk mührünün üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_mahkeme_avlusu"
     focusImageId: "focus_smm_292_seal_and_finals"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Mühür ve Sonlar: Sarayın Kulağı scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Hükümdar Azem, Başvezir Sadreddin, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron listens beside a half-open door with a clear active pose, oversized hands, and a simple expressive face. Azem, an aging ruler with a tired crown and heavy robe watches close by with one simple reaction gesture. a stone court bench and wax table identify the court courtyard. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "hukumdar_azem"
@@ -1328,8 +1522,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_292_a"
+        choiceImageId: "choice_smm_card_292_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron slides a small coin purse and covered bundle across a low table with a sly sideways glance and one hidden hand. Azem, an aging ruler with a tired crown and heavy robe reacts nearby with one simple readable gesture. a stone court bench and wax table identify the court courtyard. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Geçmiş borçları tek tek tart"
-        resultText: "Mühür ve Sonlar: Sarayın Kulağı kararında hesabı açık tutarsın. Hükümdar Azem bunu fark eder ve final kararının ve imparatorluk mührünün dengesi senin lehine bir çizik alır."
+        resultText: "Mühür ve Sonlar: Sarayın Kulağı sırasında \"Geçmiş borçları tek tek tart\" yolunu seçersin. Bu hamle Safira desteğini artırır ve mühür erişimini belirgin biçimde yaklaştırır."
         healthDelta: 0
         setFlags:
           - "flag_seal_access_granted"
@@ -1356,8 +1555,13 @@ cards:
         nextCardId: "smm_card_293"
       -
         choiceId: "smm_card_292_b"
+        choiceImageId: "choice_smm_card_292_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a white goose feather and a feed bowl forward with a decisive hand gesture and a clear expressive face. Azem, an aging ruler with a tired crown and heavy robe reacts nearby with one simple readable gesture. a stone court bench and wax table identify the court courtyard. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Mührü Ak Gaga'ya emanet et"
-        resultText: "mührü ak gaga'ya emanet et kararını verirsin. Mühür ve Sonlar: Sarayın Kulağı sırasında biriken deliller, borçlar ve alametler seni bu sona taşır."
+        resultText: "Mühür ve Sonlar: Sarayın Kulağı sırasında \"Mührü Ak Gaga'ya emanet et\" yolunu seçersin. Bu hamle saray kuşkusunu belirgin biçimde yükseltir ve Safira desteğini artırır. Karar, hikâyeyi doğrudan bir sona bağlar."
         healthDelta: 0
         setFlags:
           - "flag_muhur_final_key"
@@ -1392,7 +1596,9 @@ cards:
     bodyText: "Yanlış tatlıdan doğan ittifak, son anda savaş veya barış ihtimali olarak döner. Mühür ve Sonlar: Yağ Halkası anında Şehzade Arslan, hükümdarın zayıf sesiyle Ak Gaga'nın sesi arasında sarayın bölündüğünü hissettirir. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, final kararının ve imparatorluk mührünün üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_kapanis_han_mutfagi"
     focusImageId: "focus_smm_293_seal_and_finals"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Mühür ve Sonlar: Yağ Halkası scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Şehzade Arslan, Başvezir Sadreddin, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron tilts an omen soup bowl with a clear active pose, oversized hands, and a simple expressive face. Arslan, a rigid military heir in simple red-and-steel court dress watches close by with one simple reaction gesture. a small inn hearth and rough wooden table identify the inn kitchen. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "heir_arslan"
@@ -1406,8 +1612,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_293_a"
+        choiceImageId: "choice_smm_card_293_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a simple alliance token and small ring forward with a decisive hand gesture and a clear expressive face. Arslan, a rigid military heir in simple red-and-steel court dress reacts nearby with one simple readable gesture. a small inn hearth and rough wooden table identify the inn kitchen. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Varisleri son kez dinle"
-        resultText: "Mühür ve Sonlar: Yağ Halkası kararında hesabı açık tutarsın. Şehzade Arslan bunu fark eder ve final kararının ve imparatorluk mührünün dengesi senin lehine bir çizik alır."
+        resultText: "Mühür ve Sonlar: Yağ Halkası sırasında \"Varisleri son kez dinle\" yolunu seçersin. Bu hamle Kemal desteğini artırır ve mühür erişimini belirgin biçimde yaklaştırır."
         healthDelta: 0
         setFlags:
           - "flag_seal_access_granted"
@@ -1434,8 +1645,13 @@ cards:
         nextCardId: "smm_card_294"
       -
         choiceId: "smm_card_293_b"
+        choiceImageId: "choice_smm_card_293_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron ties a chunky omen soup bowl with three chickpeas with a chunky cord while staring firmly at the result. Arslan, a rigid military heir in simple red-and-steel court dress reacts nearby with one simple readable gesture. a small inn hearth and rough wooden table identify the inn kitchen. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Çifte alameti tahta taşı"
-        resultText: "çifte alameti tahta taşı kararını verirsin. Mühür ve Sonlar: Yağ Halkası sırasında biriken deliller, borçlar ve alametler seni bu sona taşır."
+        resultText: "Mühür ve Sonlar: Yağ Halkası sırasında \"Çifte alameti tahta taşı\" yolunu seçersin. Bu hamle saray kuşkusunu belirgin biçimde yükseltir ve Kemal desteğini artırır. Karar, hikâyeyi doğrudan bir sona bağlar."
         healthDelta: 0
         setFlags:
           - "flag_muhur_final_key"
@@ -1470,7 +1686,9 @@ cards:
     bodyText: "Yanlış tatlıdan doğan ittifak, son anda savaş veya barış ihtimali olarak döner. Mühür ve Sonlar: Ak Gaga'nın Yolu anında Sultan Safira, halkın kapıdaki uğultusunu mühür odasına kadar taşır. Yanlış tatlı yüzünden başlayan diplomasi, finalde savaşın mı evliliğin mi mühürleneceğini belirleyebilir. Seçeceğin yol, final kararının ve imparatorluk mührünün üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_final_sabahi_saray_avlusu"
     focusImageId: "focus_smm_294_seal_and_finals"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Mühür ve Sonlar: Ak Gaga'nın Yolu scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Sultan Safira, Lale Kalfa, a mistaken ornate dessert tray with diplomatic tension, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron guides a white goose feather marker with a clear active pose, oversized hands, and a simple expressive face. Safira, a poised diplomat heir with a pale blue sash watches close by with one simple reaction gesture. open palace gates and dawn paving identify the final courtyard. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "heir_safira"
@@ -1489,8 +1707,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_294_a"
+        choiceImageId: "choice_smm_card_294_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron marks a white goose feather and a feed bowl with big non-letter tally blocks while biting the lip in concentration. Safira, a poised diplomat heir with a pale blue sash reacts nearby with one simple readable gesture. open palace gates and dawn paving identify the final courtyard. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Kazın işaretini kayıt altına al"
-        resultText: "Mühür ve Sonlar: Ak Gaga'nın Yolu kararında hesabı açık tutarsın. Sultan Safira bunu fark eder ve final kararının ve imparatorluk mührünün dengesi senin lehine bir çizik alır."
+        resultText: "Mühür ve Sonlar: Ak Gaga'nın Yolu sırasında \"Kazın işaretini kayıt altına al\" yolunu seçersin. Bu hamle saray kuşkusunu yatıştırır, Arslan desteğini artırır, mühür erişimini belirgin biçimde yaklaştırır ve tatlı diplomasisini canlandırır."
         healthDelta: 0
         setFlags:
           - "flag_seal_access_granted"
@@ -1518,8 +1741,13 @@ cards:
         nextCardId: "smm_card_295"
       -
         choiceId: "smm_card_294_b"
+        choiceImageId: "choice_smm_card_294_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron turns a simple alliance token and small ring toward a new path with a firm pulling gesture and clenched jaw. Safira, a poised diplomat heir with a pale blue sash reacts nearby with one simple readable gesture. open palace gates and dawn paving identify the final courtyard. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Kırık ittifakı barışa çevir"
-        resultText: "kırık ittifakı barışa çevir kararını verirsin. Mühür ve Sonlar: Ak Gaga'nın Yolu sırasında biriken deliller, borçlar ve alametler seni bu sona taşır."
+        resultText: "Mühür ve Sonlar: Ak Gaga'nın Yolu sırasında \"Kırık ittifakı barışa çevir\" yolunu seçersin. Bu hamle saray kuşkusunu belirgin biçimde yükseltir, Arslan desteğini artırır ve tatlı diplomasisini belirgin biçimde canlandırır. Karar, hikâyeyi doğrudan bir sona bağlar."
         healthDelta: 0
         setFlags:
           - "flag_muhur_final_key"
@@ -1556,7 +1784,9 @@ cards:
     bodyText: "Yanlış tatlıdan doğan ittifak, son anda savaş veya barış ihtimali olarak döner. Mühür ve Sonlar: Gümüş Kaşık anında Şehzade Kemal, tahta giden yolun bazen mutfak dumanından başladığını tamamlar. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, final kararının ve imparatorluk mührünün üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_muhur_odasi"
     focusImageId: "focus_smm_295_seal_and_finals"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Mühür ve Sonlar: Gümüş Kaşık scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Şehzade Kemal, Başvezir Sadreddin, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron inspects a silver spoon with a clear active pose, oversized hands, and a simple expressive face. Kemal, a serious reformer heir with plain scholar robes watches close by with one simple reaction gesture. a red wax table and locked chest identify the seal room. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "heir_kemal"
@@ -1570,8 +1800,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_295_a"
+        choiceImageId: "choice_smm_card_295_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron points at a chunky omen soup bowl with three chickpeas with a clear explaining gesture and raised eyebrows. Kemal, a serious reformer heir with plain scholar robes reacts nearby with one simple readable gesture. a red wax table and locked chest identify the seal room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Çorba alametini sorguya aç"
-        resultText: "Mühür ve Sonlar: Gümüş Kaşık kararında hesabı açık tutarsın. Şehzade Kemal bunu fark eder ve final kararının ve imparatorluk mührünün dengesi senin lehine bir çizik alır."
+        resultText: "Mühür ve Sonlar: Gümüş Kaşık sırasında \"Çorba alametini sorguya aç\" yolunu seçersin. Bu hamle Safira desteğini artırır ve mühür erişimini belirgin biçimde yaklaştırır."
         healthDelta: 0
         setFlags:
           - "flag_seal_access_granted"
@@ -1598,8 +1833,13 @@ cards:
         nextCardId: "smm_card_296"
       -
         choiceId: "smm_card_295_b"
+        choiceImageId: "choice_smm_card_295_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron opens a bead tally board and grain sack with a decisive pull and bright alert eyes. Kemal, a serious reformer heir with plain scholar robes reacts nearby with one simple readable gesture. a red wax table and locked chest identify the seal room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Kiler defterini halka aç"
-        resultText: "kiler defterini halka aç kararını verirsin. Mühür ve Sonlar: Gümüş Kaşık sırasında biriken deliller, borçlar ve alametler seni bu sona taşır."
+        resultText: "Mühür ve Sonlar: Gümüş Kaşık sırasında \"Kiler defterini halka aç\" yolunu seçersin. Bu hamle saray kuşkusunu belirgin biçimde yükseltir ve Safira desteğini artırır. Karar, hikâyeyi doğrudan bir sona bağlar."
         healthDelta: 0
         setFlags:
           - "flag_muhur_final_key"
@@ -1634,7 +1874,9 @@ cards:
     bodyText: "Mührü kimin adına taşıyacağın, senin kim olduğuna dair son cevabı verir. Mühür ve Sonlar: Kayıp Ölçü anında Başvezir Sadreddin, senden bir varisi değil, geçmiş seçimlerinin toplamını imzalamanı ister. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, final kararının ve imparatorluk mührünün üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_muhur_odasi_kapanis"
     focusImageId: "focus_smm_296_seal_and_finals"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Mühür ve Sonlar: Kayıp Ölçü scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Başvezir Sadreddin, Hükümdar Azem, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron searches for a missing measuring cup with a clear active pose, oversized hands, and a simple expressive face. Sadreddin, a thin grand vizier with a wax seal case watches close by with one simple reaction gesture. a red wax table and locked chest identify the seal room. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "sadreddin_basvezir"
@@ -1647,8 +1889,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_296_a"
+        choiceImageId: "choice_smm_card_296_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a plain round wax seal and stamp with no glyphs forward with a decisive hand gesture and a clear expressive face. Sadreddin, a thin grand vizier with a wax seal case reacts nearby with one simple readable gesture. a red wax table and locked chest identify the seal room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Mühür odasına bir adım yaklaş"
-        resultText: "Mühür ve Sonlar: Kayıp Ölçü kararında hesabı açık tutarsın. Başvezir Sadreddin bunu fark eder ve final kararının ve imparatorluk mührünün dengesi senin lehine bir çizik alır."
+        resultText: "Mühür ve Sonlar: Kayıp Ölçü sırasında \"Mühür odasına bir adım yaklaş\" yolunu seçersin. Bu hamle Kemal desteğini artırır ve mühür erişimini belirgin biçimde yaklaştırır."
         healthDelta: 0
         setFlags:
           - "flag_seal_access_granted"
@@ -1675,8 +1922,13 @@ cards:
         nextCardId: "smm_card_297"
       -
         choiceId: "smm_card_296_b"
+        choiceImageId: "choice_smm_card_296_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron marks a tiny vial and silver tasting spoon with big non-letter tally blocks while biting the lip in concentration. Sadreddin, a thin grand vizier with a wax seal case reacts nearby with one simple readable gesture. a red wax table and locked chest identify the seal room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Zehir yasasını yeniden yaz"
-        resultText: "zehir yasasını yeniden yaz kararını verirsin. Mühür ve Sonlar: Kayıp Ölçü sırasında biriken deliller, borçlar ve alametler seni bu sona taşır."
+        resultText: "Mühür ve Sonlar: Kayıp Ölçü sırasında \"Zehir yasasını yeniden yaz\" yolunu seçersin. Bu hamle saray kuşkusunu belirgin biçimde yükseltir ve Kemal desteğini artırır. Karar, hikâyeyi doğrudan bir sona bağlar."
         healthDelta: 0
         setFlags:
           - "flag_muhur_final_key"
@@ -1711,7 +1963,9 @@ cards:
     bodyText: "Mührü kimin adına taşıyacağın, senin kim olduğuna dair son cevabı verir. Mühür ve Sonlar: Kuyrukta Ekmek anında Hükümdar Azem, başvezirin sana artık hizmetkâr gibi değil, devlet görevlisi gibi baktığını gösterir. Ak Gaga son sabah avluda belirdiğinde, hükümdarın eski kaz kararları bütün fraksiyonların aklına gelir. Seçeceğin yol, final kararının ve imparatorluk mührünün üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_taht_salonu"
     focusImageId: "focus_smm_297_seal_and_finals"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Mühür ve Sonlar: Kuyrukta Ekmek scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Hükümdar Azem, Durna, the dignified palace goose Ak Gaga nearby, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron carries a bread basket with a clear active pose, oversized hands, and a simple expressive face. Azem, an aging ruler with a tired crown and heavy robe watches close by with one simple reaction gesture. a worn throne step and faded banners identify the throne room. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "hukumdar_azem"
@@ -1729,8 +1983,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_297_a"
+        choiceImageId: "choice_smm_card_297_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron slides a small coin purse and covered bundle across a low table with a sly sideways glance and one hidden hand. Azem, an aging ruler with a tired crown and heavy robe reacts nearby with one simple readable gesture. a worn throne step and faded banners identify the throne room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Geçmiş borçları tek tek tart"
-        resultText: "Mühür ve Sonlar: Kuyrukta Ekmek kararında hesabı açık tutarsın. Hükümdar Azem bunu fark eder ve final kararının ve imparatorluk mührünün dengesi senin lehine bir çizik alır."
+        resultText: "Mühür ve Sonlar: Kuyrukta Ekmek sırasında \"Geçmiş borçları tek tek tart\" yolunu seçersin. Bu hamle Arslan desteğini artırır, mühür erişimini belirgin biçimde yaklaştırır ve Ak Gaga söylencesini güçlendirir."
         healthDelta: 0
         setFlags:
           - "flag_seal_access_granted"
@@ -1760,8 +2019,13 @@ cards:
         nextCardId: "smm_card_298"
       -
         choiceId: "smm_card_297_b"
+        choiceImageId: "choice_smm_card_297_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron drops a folded blank note and stubby candle into a small brazier with a grim tight mouth and open fingers. Azem, an aging ruler with a tired crown and heavy robe reacts nearby with one simple readable gesture. a worn throne step and faded banners identify the throne room. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Sırları ateşe ver"
-        resultText: "sırları ateşe ver kararını verirsin. Mühür ve Sonlar: Kuyrukta Ekmek sırasında biriken deliller, borçlar ve alametler seni bu sona taşır."
+        resultText: "Mühür ve Sonlar: Kuyrukta Ekmek sırasında \"Sırları ateşe ver\" yolunu seçersin. Bu hamle saray kuşkusunu belirgin biçimde yükseltir, Arslan desteğini artırır ve Ak Gaga söylencesini belirgin biçimde güçlendirir. Canın 1 azalır. Karar, hikâyeyi doğrudan bir sona bağlar."
         healthDelta: -1
         setFlags:
           - "flag_muhur_final_key"
@@ -1797,7 +2061,9 @@ cards:
     bodyText: "Mührü kimin adına taşıyacağın, senin kim olduğuna dair son cevabı verir. Mühür ve Sonlar: Keskin Koku anında Şehzade Arslan, hükümdarın zayıf sesiyle Ak Gaga'nın sesi arasında sarayın bölündüğünü hissettirir. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, final kararının ve imparatorluk mührünün üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_mahkeme_avlusu"
     focusImageId: "focus_smm_298_seal_and_finals"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Mühür ve Sonlar: Keskin Koku scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Şehzade Arslan, Başvezir Sadreddin, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron sniffs a tiny spice pouch with a clear active pose, oversized hands, and a simple expressive face. Arslan, a rigid military heir in simple red-and-steel court dress watches close by with one simple reaction gesture. a stone court bench and wax table identify the court courtyard. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "heir_arslan"
@@ -1811,8 +2077,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_298_a"
+        choiceImageId: "choice_smm_card_298_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents a simple alliance token and small ring forward with a decisive hand gesture and a clear expressive face. Arslan, a rigid military heir in simple red-and-steel court dress reacts nearby with one simple readable gesture. a stone court bench and wax table identify the court courtyard. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Varisleri son kez dinle"
-        resultText: "Mühür ve Sonlar: Keskin Koku kararında hesabı açık tutarsın. Şehzade Arslan bunu fark eder ve final kararının ve imparatorluk mührünün dengesi senin lehine bir çizik alır."
+        resultText: "Mühür ve Sonlar: Keskin Koku sırasında \"Varisleri son kez dinle\" yolunu seçersin. Bu hamle Safira desteğini artırır ve mühür erişimini belirgin biçimde yaklaştırır."
         healthDelta: 0
         setFlags:
           - "flag_seal_access_granted"
@@ -1839,8 +2110,13 @@ cards:
         nextCardId: "smm_card_299"
       -
         choiceId: "smm_card_298_b"
+        choiceImageId: "choice_smm_card_298_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron presents an oversized iron key forward with a decisive hand gesture and a clear expressive face. Arslan, a rigid military heir in simple red-and-steel court dress reacts nearby with one simple readable gesture. a stone court bench and wax table identify the court courtyard. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Halkla sarayı aynı kapıya çağır"
-        resultText: "halkla sarayı aynı kapıya çağır kararını verirsin. Mühür ve Sonlar: Keskin Koku sırasında biriken deliller, borçlar ve alametler seni bu sona taşır."
+        resultText: "Mühür ve Sonlar: Keskin Koku sırasında \"Halkla sarayı aynı kapıya çağır\" yolunu seçersin. Bu hamle saray kuşkusunu belirgin biçimde yükseltir ve Safira desteğini artırır. Karar, hikâyeyi doğrudan bir sona bağlar."
         healthDelta: 0
         setFlags:
           - "flag_muhur_final_key"
@@ -1875,7 +2151,9 @@ cards:
     bodyText: "Mührü kimin adına taşıyacağın, senin kim olduğuna dair son cevabı verir. Mühür ve Sonlar: Mühre Giden İz anında Sultan Safira, halkın kapıdaki uğultusunu mühür odasına kadar taşır. Yanlış tatlı yüzünden başlayan diplomasi, finalde savaşın mı evliliğin mi mühürleneceğini belirleyebilir. Seçeceğin yol, final kararının ve imparatorluk mührünün üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_kapanis_han_mutfagi"
     focusImageId: "focus_smm_299_seal_and_finals"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Mühür ve Sonlar: Mühre Giden İz scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Sultan Safira, Lale Kalfa, a mistaken ornate dessert tray with diplomatic tension, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron traces a red wax footprint with a clear active pose, oversized hands, and a simple expressive face. Safira, a poised diplomat heir with a pale blue sash watches close by with one simple reaction gesture. a small inn hearth and rough wooden table identify the inn kitchen. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "heir_safira"
@@ -1894,8 +2172,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_299_a"
+        choiceImageId: "choice_smm_card_299_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron marks a white goose feather and a feed bowl with big non-letter tally blocks while biting the lip in concentration. Safira, a poised diplomat heir with a pale blue sash reacts nearby with one simple readable gesture. a small inn hearth and rough wooden table identify the inn kitchen. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Kazın işaretini kayıt altına al"
-        resultText: "Mühür ve Sonlar: Mühre Giden İz kararında hesabı açık tutarsın. Sultan Safira bunu fark eder ve final kararının ve imparatorluk mührünün dengesi senin lehine bir çizik alır."
+        resultText: "Mühür ve Sonlar: Mühre Giden İz sırasında \"Kazın işaretini kayıt altına al\" yolunu seçersin. Bu hamle Kemal desteğini artırır, mühür erişimini belirgin biçimde yaklaştırır ve tatlı diplomasisini canlandırır."
         healthDelta: 0
         setFlags:
           - "flag_seal_access_granted"
@@ -1923,8 +2206,13 @@ cards:
         nextCardId: "smm_card_300"
       -
         choiceId: "smm_card_299_b"
+        choiceImageId: "choice_smm_card_299_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron accepts a large readable story prop with one hesitant hand and a cautious sideways glance. Safira, a poised diplomat heir with a pale blue sash reacts nearby with one simple readable gesture. a small inn hearth and rough wooden table identify the inn kitchen. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Sessiz sürgün hükmünü kabul et"
-        resultText: "sessiz sürgün hükmünü kabul et kararını verirsin. Mühür ve Sonlar: Mühre Giden İz sırasında biriken deliller, borçlar ve alametler seni bu sona taşır."
+        resultText: "Mühür ve Sonlar: Mühre Giden İz sırasında \"Sessiz sürgün hükmünü kabul et\" yolunu seçersin. Bu hamle saray kuşkusunu belirgin biçimde yükseltir, Kemal desteğini artırır ve tatlı diplomasisini belirgin biçimde canlandırır. Karar, hikâyeyi doğrudan bir sona bağlar."
         healthDelta: 0
         setFlags:
           - "flag_muhur_final_key"
@@ -1961,7 +2249,9 @@ cards:
     bodyText: "Mührü kimin adına taşıyacağın, senin kim olduğuna dair son cevabı verir. Mühür ve Sonlar: Dar Boğaz anında Şehzade Kemal, tahta giden yolun bazen mutfak dumanından başladığını tamamlar. Yanlış tatlı yüzünden başlayan diplomasi, finalde savaşın mı evliliğin mi mühürleneceğini belirleyebilir. Seçeceğin yol, final kararının ve imparatorluk mührünün üzerinde kalıcı bir iz bırakacak."
     backgroundId: "bg_final_sabahi_saray_avlusu"
     focusImageId: "focus_smm_300_seal_and_finals"
-    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Mühür ve Sonlar: Dar Boğaz scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Şehzade Kemal, Lale Kalfa, a mistaken ornate dessert tray with diplomatic tension, no photorealism, no 3D render look, no text, no watermark, no logo"
+    focusImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron squeezes through a narrow doorway with a bundle with a clear active pose, oversized hands, and a simple expressive face. Kemal, a serious reformer heir with plain scholar robes watches close by with one simple reaction gesture. open palace gates and dawn paving identify the final courtyard. The single action is immediately readable at small card size. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+    focusImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+    focusImagePromptLanguage: "en-US"
     presentCharacters:
       - "player_yetim"
       - "heir_kemal"
@@ -1980,8 +2270,13 @@ cards:
     choices:
       -
         choiceId: "smm_card_300_a"
+        choiceImageId: "choice_smm_card_300_a"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron ties a simple alliance token and small ring with a chunky cord while staring firmly at the result. Kemal, a serious reformer heir with plain scholar robes reacts nearby with one simple readable gesture. open palace gates and dawn paving identify the final courtyard. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Üç varisi ortak meclise bağla"
-        resultText: "üç varisi ortak meclise bağla kararını verirsin. Mühür ve Sonlar: Dar Boğaz sırasında biriken deliller, borçlar ve alametler seni bu sona taşır."
+        resultText: "Mühür ve Sonlar: Dar Boğaz sırasında \"Üç varisi ortak meclise bağla\" yolunu seçersin. Bu hamle Arslan desteğini artırır, mühür erişimini belirgin biçimde yaklaştırır ve tatlı diplomasisini canlandırır. Karar, hikâyeyi doğrudan bir sona bağlar."
         healthDelta: 0
         setFlags:
           - "flag_seal_access_granted"
@@ -2009,8 +2304,13 @@ cards:
         endingId: "ending_uclu_varis_meclisi"
       -
         choiceId: "smm_card_300_b"
+        choiceImageId: "choice_smm_card_300_b"
+        choiceImagePrompt: "Simple hand-drawn 2D medieval cartoon card art with thick, slightly uneven dark-brown ink outlines, flat warm muted colors, almost no gradients, very limited one-step cel shading, simplified chunky character proportions, slightly oversized hands and props, simple expressive faces, sparse environmental detail, clear silhouettes, a quirky naive comic-book feeling, and a clean composition readable at small card size. Cute and charming, but not chibi, childish, painterly, realistic, or cinematic. a slim young orphan with messy black hair and an oversized patched apron guards a folded blank note and stubby candle behind the apron with narrowed eyes and one protective hand. Kemal, a serious reformer heir with plain scholar robes reacts nearby with one simple readable gesture. open palace gates and dawn paving identify the final courtyard. The main prop is large and readable, and the face, hands, and body motion explain the action without any card text. Vertical 4:5 card composition. No text, letters, logo, watermark, UI, or card border."
+        choiceImageNegativePrompt: "photorealistic, realistic historical painting, cinematic concept art, painterly rendering, watercolor, gouache, oil painting, detailed textures, realistic anatomy, realistic materials, dramatic lighting, volumetric lighting, depth of field, grimdark, heavy sepia, monochrome brown palette, glossy digital art, 3D render, anime, manga, chibi, text, letters, logo, watermark, UI, card border"
+        choiceImageAspectRatio: "4:5"
+        choiceImagePromptLanguage: "en-US"
         text: "Canın pahasına sırrı sakla"
-        resultText: "canın pahasına sırrı sakla kararını verirsin. Mühür ve Sonlar: Dar Boğaz sırasında biriken deliller, borçlar ve alametler seni bu sona taşır."
+        resultText: "Mühür ve Sonlar: Dar Boğaz sırasında \"Canın pahasına sırrı sakla\" yolunu seçersin. Bu hamle saray kuşkusunu belirgin biçimde yükseltir, Arslan desteğini artırır ve tatlı diplomasisini belirgin biçimde canlandırır. Karar, hikâyeyi doğrudan bir sona bağlar."
         healthDelta: 0
         setFlags:
           - "flag_muhur_final_key"
