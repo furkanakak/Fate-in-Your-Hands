@@ -1,0 +1,1882 @@
+cards:
+  -
+    cardId: "smm_card_151"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "spy_network"
+    stage: "crisis"
+    routeFamily: "spy_network"
+    title: "Saray Casusları: İlk Eşik"
+    bodyText: "Gizli geçitler, sarayın görkemli kapılarından daha çok insan taşır. Saray Casusları: İlk Eşik anında Rasih, senden duyduğunu değil, duymamış gibi yaptığını hatırlamanı ister. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, casus ağının ve mühür erişiminin üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_gizli_gecit_mumlu"
+    focusImageId: "focus_smm_151_spy_network"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Saray Casusları: İlk Eşik scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Rasih, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "rasih_casusbasi"
+    dialogue:
+      -
+        speakerId: "rasih_casusbasi"
+        emotion: "yorgun"
+        text: "Sarayın duvarları konuşmaz; onları konuşturanlar vardır."
+    choices:
+      -
+        choiceId: "smm_card_151_a"
+        text: "Sırrı Rasih'e eksiksiz götür"
+        resultText: "Saray Casusları: İlk Eşik kararında hesabı açık tutarsın. Rasih bunu fark eder ve casus ağının ve mühür erişiminin dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_rasih_blackfile"
+          - "flag_secret_preserved"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 0
+          spy_network: 1
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_152"
+      -
+        choiceId: "smm_card_151_b"
+        text: "Sırrı iki tarafa sat"
+        resultText: "Saray Casusları: İlk Eşik kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde casus ağının ve mühür erişiminin için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_secret_sold"
+          - "flag_document_forged"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 1
+          poison_knowledge: 0
+          spy_network: 1
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 1
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_153"
+  -
+    cardId: "smm_card_152"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "spy_network"
+    stage: "crisis"
+    routeFamily: "spy_network"
+    title: "Saray Casusları: Sıcak Bakır"
+    bodyText: "Gizli geçitler, sarayın görkemli kapılarından daha çok insan taşır. Saray Casusları: Sıcak Bakır anında Başvezir Sadreddin, bir söylentiyi kimin başlattığının çoğu zaman kimin bitirdiğinden önemli olduğunu söyler. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, casus ağının ve mühür erişiminin üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_eski_arsiv_odasi"
+    focusImageId: "focus_smm_152_spy_network"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Saray Casusları: Sıcak Bakır scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Başvezir Sadreddin, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "sadreddin_basvezir"
+    dialogue:
+      -
+        speakerId: "sadreddin_basvezir"
+        emotion: "alaycı"
+        text: "Sarayın duvarları konuşmaz; onları konuşturanlar vardır."
+    choices:
+      -
+        choiceId: "smm_card_152_a"
+        text: "Arşiv notunu mühürle koru"
+        resultText: "Saray Casusları: Sıcak Bakır kararında hesabı açık tutarsın. Başvezir Sadreddin bunu fark eder ve casus ağının ve mühür erişiminin dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_rasih_blackfile"
+          - "flag_secret_preserved"
+          - "flag_major_branch_19"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 0
+          spy_network: 1
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_153"
+      -
+        choiceId: "smm_card_152_b"
+        text: "Arşiv notunu değiştir"
+        resultText: "Saray Casusları: Sıcak Bakır kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde casus ağının ve mühür erişiminin için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_secret_sold"
+          - "flag_document_forged"
+          - "flag_major_branch_19"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 1
+          poison_knowledge: 0
+          spy_network: 1
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 1
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_154"
+  -
+    cardId: "smm_card_153"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "spy_network"
+    stage: "crisis"
+    routeFamily: "spy_network"
+    title: "Saray Casusları: Sessiz Bakış"
+    bodyText: "Gizli geçitler, sarayın görkemli kapılarından daha çok insan taşır. Saray Casusları: Sessiz Bakış anında Miskal, başvezirin gülüşünde mühür odasının kilidini aratır. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, casus ağının ve mühür erişiminin üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_hizmetkar_koridoru"
+    focusImageId: "focus_smm_153_spy_network"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Saray Casusları: Sessiz Bakış scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Miskal, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "miskal_soytari"
+    dialogue:
+      -
+        speakerId: "miskal_soytari"
+        emotion: "sert"
+        text: "Sarayın duvarları konuşmaz; onları konuşturanlar vardır."
+    choices:
+      -
+        choiceId: "smm_card_153_a"
+        text: "Soytarının sözünü dikkatle tart"
+        resultText: "Saray Casusları: Sessiz Bakış kararında hesabı açık tutarsın. Miskal bunu fark eder ve casus ağının ve mühür erişiminin dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_rasih_blackfile"
+          - "flag_secret_preserved"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 0
+          spy_network: 1
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_154"
+      -
+        choiceId: "smm_card_153_b"
+        text: "Soytarıyı sahte habere sür"
+        resultText: "Saray Casusları: Sessiz Bakış kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde casus ağının ve mühür erişiminin için daha keskin bir kayıt açılır."
+        healthDelta: -1
+        setFlags:
+          - "flag_secret_sold"
+          - "flag_document_forged"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 1
+          poison_knowledge: 0
+          spy_network: 1
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 1
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_155"
+  -
+    cardId: "smm_card_154"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "spy_network"
+    stage: "crisis"
+    routeFamily: "spy_network"
+    title: "Saray Casusları: İnce Hesap"
+    bodyText: "Gizli geçitler, sarayın görkemli kapılarından daha çok insan taşır. Saray Casusları: İnce Hesap anında Kapıcı Boran, Miskal'in şakasında saray haritası saklı olabileceğini gösterir. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, casus ağının ve mühür erişiminin üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_mutfak_cati_arasi"
+    focusImageId: "focus_smm_154_spy_network"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Saray Casusları: İnce Hesap scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Kapıcı Boran, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "kapici_boran"
+    dialogue:
+      -
+        speakerId: "kapici_boran"
+        emotion: "düşünceli"
+        text: "Sarayın duvarları konuşmaz; onları konuşturanlar vardır."
+    choices:
+      -
+        choiceId: "smm_card_154_a"
+        text: "Geçidi kimseye belli etme"
+        resultText: "Saray Casusları: İnce Hesap kararında hesabı açık tutarsın. Kapıcı Boran bunu fark eder ve casus ağının ve mühür erişiminin dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_rasih_blackfile"
+          - "flag_secret_preserved"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: -1
+          poison_knowledge: 0
+          spy_network: 1
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_155"
+      -
+        choiceId: "smm_card_154_b"
+        text: "Geçide işaret kazı"
+        resultText: "Saray Casusları: İnce Hesap kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde casus ağının ve mühür erişiminin için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_secret_sold"
+          - "flag_document_forged"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 1
+          poison_knowledge: 0
+          spy_network: 1
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 1
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_156"
+  -
+    cardId: "smm_card_155"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "spy_network"
+    stage: "crisis"
+    routeFamily: "spy_network"
+    title: "Saray Casusları: Gizli Lekeler"
+    bodyText: "Gizli geçitler, sarayın görkemli kapılarından daha çok insan taşır. Saray Casusları: Gizli Lekeler anında Rasih, geçitte attığın adımın iki fraksiyonca sayıldığını sezdirir. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, casus ağının ve mühür erişiminin üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_sessiz_kutuphane"
+    focusImageId: "focus_smm_155_spy_network"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Saray Casusları: Gizli Lekeler scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Rasih, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "rasih_casusbasi"
+    dialogue:
+      -
+        speakerId: "rasih_casusbasi"
+        emotion: "fısıltılı"
+        text: "Sarayın duvarları konuşmaz; onları konuşturanlar vardır."
+    choices:
+      -
+        choiceId: "smm_card_155_a"
+        text: "Başvezire ölçülü bilgi ver"
+        resultText: "Saray Casusları: Gizli Lekeler kararında hesabı açık tutarsın. Rasih bunu fark eder ve casus ağının ve mühür erişiminin dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_rasih_blackfile"
+          - "flag_secret_preserved"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 0
+          spy_network: 1
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_156"
+      -
+        choiceId: "smm_card_155_b"
+        text: "Başveziri korkuyla zorla"
+        resultText: "Saray Casusları: Gizli Lekeler kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde casus ağının ve mühür erişiminin için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_secret_sold"
+          - "flag_document_forged"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 1
+          poison_knowledge: 0
+          spy_network: 1
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 1
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_158"
+  -
+    cardId: "smm_card_156"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "spy_network"
+    stage: "crisis"
+    routeFamily: "spy_network"
+    title: "Saray Casusları: Kör Alev"
+    bodyText: "Rasih, kimsenin yalnızca söylediği şeyle suçlanmadığını öğretir. Saray Casusları: Kör Alev anında Başvezir Sadreddin, senden duyduğunu değil, duymamış gibi yaptığını hatırlamanı ister. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, casus ağının ve mühür erişiminin üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_saray_camasirhanesi"
+    focusImageId: "focus_smm_156_spy_network"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Saray Casusları: Kör Alev scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Başvezir Sadreddin, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "sadreddin_basvezir"
+    dialogue:
+      -
+        speakerId: "sadreddin_basvezir"
+        emotion: "temkinli"
+        text: "Sarayın duvarları konuşmaz; onları konuşturanlar vardır."
+    choices:
+      -
+        choiceId: "smm_card_156_a"
+        text: "Sırrı Rasih'e eksiksiz götür"
+        resultText: "Saray Casusları: Kör Alev kararında hesabı açık tutarsın. Başvezir Sadreddin bunu fark eder ve casus ağının ve mühür erişiminin dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_rasih_blackfile"
+          - "flag_secret_preserved"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 0
+          spy_network: 1
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_157"
+      -
+        choiceId: "smm_card_156_b"
+        text: "Sırrı iki tarafa sat"
+        resultText: "Saray Casusları: Kör Alev kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde casus ağının ve mühür erişiminin için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_secret_sold"
+          - "flag_document_forged"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 1
+          poison_knowledge: 0
+          spy_network: 1
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 1
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_158"
+  -
+    cardId: "smm_card_157"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "spy_network"
+    stage: "crisis"
+    routeFamily: "spy_network"
+    title: "Saray Casusları: Üç Nohut"
+    bodyText: "Rasih, kimsenin yalnızca söylediği şeyle suçlanmadığını öğretir. Saray Casusları: Üç Nohut anında Miskal, bir söylentiyi kimin başlattığının çoğu zaman kimin bitirdiğinden önemli olduğunu söyler. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, casus ağının ve mühür erişiminin üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_gizli_gecit_mumlu"
+    focusImageId: "focus_smm_157_spy_network"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Saray Casusları: Üç Nohut scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Miskal, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "miskal_soytari"
+    dialogue:
+      -
+        speakerId: "miskal_soytari"
+        emotion: "yorgun"
+        text: "Sarayın duvarları konuşmaz; onları konuşturanlar vardır."
+    choices:
+      -
+        choiceId: "smm_card_157_a"
+        text: "Arşiv notunu mühürle koru"
+        resultText: "Saray Casusları: Üç Nohut kararında hesabı açık tutarsın. Miskal bunu fark eder ve casus ağının ve mühür erişiminin dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_rasih_blackfile"
+          - "flag_secret_preserved"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 0
+          spy_network: 1
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_158"
+      -
+        choiceId: "smm_card_157_b"
+        text: "Arşiv notunu değiştir"
+        resultText: "Saray Casusları: Üç Nohut kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde casus ağının ve mühür erişiminin için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_secret_sold"
+          - "flag_document_forged"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 1
+          poison_knowledge: 0
+          spy_network: 1
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 1
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_159"
+  -
+    cardId: "smm_card_158"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "spy_network"
+    stage: "crisis"
+    routeFamily: "spy_network"
+    title: "Saray Casusları: Kapıdaki Fısıltı"
+    bodyText: "Rasih, kimsenin yalnızca söylediği şeyle suçlanmadığını öğretir. Saray Casusları: Kapıdaki Fısıltı anında Kapıcı Boran, başvezirin gülüşünde mühür odasının kilidini aratır. Ak Gaga'nın davranışı divanda bir devlet işareti gibi yorumlanır ve oyuncunun önceki yem tercihleri hatırlanır. Seçeceğin yol, casus ağının ve mühür erişiminin üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_eski_arsiv_odasi"
+    focusImageId: "focus_smm_158_spy_network"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Saray Casusları: Kapıdaki Fısıltı scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Kapıcı Boran, Durna, the dignified palace goose Ak Gaga nearby, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "kapici_boran"
+      - "durna_kazci"
+    dialogue:
+      -
+        speakerId: "kapici_boran"
+        emotion: "alaycı"
+        text: "Sarayın duvarları konuşmaz; onları konuşturanlar vardır."
+      -
+        speakerId: "durna_kazci"
+        emotion: "ciddi"
+        text: "Ak Gaga boş yere dönmez; asıl mesele kimin onu izlediğidir."
+    choices:
+      -
+        choiceId: "smm_card_158_a"
+        text: "Soytarının sözünü dikkatle tart"
+        resultText: "Saray Casusları: Kapıdaki Fısıltı kararında hesabı açık tutarsın. Kapıcı Boran bunu fark eder ve casus ağının ve mühür erişiminin dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_rasih_blackfile"
+          - "flag_secret_preserved"
+          - "flag_ak_gaga_protected"
+          - "flag_ak_gaga_fed"
+          - "flag_durna_goose_friend"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 0
+          spy_network: 1
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 1
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_159"
+      -
+        choiceId: "smm_card_158_b"
+        text: "Soytarıyı sahte habere sür"
+        resultText: "Saray Casusları: Kapıdaki Fısıltı kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde casus ağının ve mühür erişiminin için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_secret_sold"
+          - "flag_document_forged"
+          - "flag_goose_misled_divan"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 1
+          poison_knowledge: 0
+          spy_network: 1
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 1
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 2
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_160"
+  -
+    cardId: "smm_card_159"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "spy_network"
+    stage: "crisis"
+    routeFamily: "spy_network"
+    title: "Saray Casusları: Aç Karnın Sözü"
+    bodyText: "Rasih, kimsenin yalnızca söylediği şeyle suçlanmadığını öğretir. Saray Casusları: Aç Karnın Sözü anında Rasih, Miskal'in şakasında saray haritası saklı olabileceğini gösterir. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, casus ağının ve mühür erişiminin üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_hizmetkar_koridoru"
+    focusImageId: "focus_smm_159_spy_network"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Saray Casusları: Aç Karnın Sözü scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Rasih, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "rasih_casusbasi"
+    dialogue:
+      -
+        speakerId: "rasih_casusbasi"
+        emotion: "sert"
+        text: "Sarayın duvarları konuşmaz; onları konuşturanlar vardır."
+    choices:
+      -
+        choiceId: "smm_card_159_a"
+        text: "Geçidi kimseye belli etme"
+        resultText: "Saray Casusları: Aç Karnın Sözü kararında hesabı açık tutarsın. Rasih bunu fark eder ve casus ağının ve mühür erişiminin dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_rasih_blackfile"
+          - "flag_secret_preserved"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 0
+          spy_network: 1
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_160"
+      -
+        choiceId: "smm_card_159_b"
+        text: "Geçide işaret kazı"
+        resultText: "Saray Casusları: Aç Karnın Sözü kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde casus ağının ve mühür erişiminin için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_secret_sold"
+          - "flag_document_forged"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 1
+          poison_knowledge: 0
+          spy_network: 1
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 1
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_161"
+  -
+    cardId: "smm_card_160"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "spy_network"
+    stage: "crisis"
+    routeFamily: "spy_network"
+    title: "Saray Casusları: Ustanın Sınavı"
+    bodyText: "Rasih, kimsenin yalnızca söylediği şeyle suçlanmadığını öğretir. Saray Casusları: Ustanın Sınavı anında Başvezir Sadreddin, geçitte attığın adımın iki fraksiyonca sayıldığını sezdirir. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, casus ağının ve mühür erişiminin üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_mutfak_cati_arasi"
+    focusImageId: "focus_smm_160_spy_network"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Saray Casusları: Ustanın Sınavı scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Başvezir Sadreddin, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "sadreddin_basvezir"
+    dialogue:
+      -
+        speakerId: "sadreddin_basvezir"
+        emotion: "düşünceli"
+        text: "Sarayın duvarları konuşmaz; onları konuşturanlar vardır."
+    choices:
+      -
+        choiceId: "smm_card_160_a"
+        text: "Başvezire ölçülü bilgi ver"
+        resultText: "Saray Casusları: Ustanın Sınavı kararında hesabı açık tutarsın. Başvezir Sadreddin bunu fark eder ve casus ağının ve mühür erişiminin dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_rasih_blackfile"
+          - "flag_secret_preserved"
+          - "flag_major_branch_20"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 0
+          spy_network: 1
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_161"
+      -
+        choiceId: "smm_card_160_b"
+        text: "Başveziri korkuyla zorla"
+        resultText: "Saray Casusları: Ustanın Sınavı kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde casus ağının ve mühür erişiminin için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_secret_sold"
+          - "flag_document_forged"
+          - "flag_major_branch_20"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 1
+          poison_knowledge: 0
+          spy_network: 1
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 1
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_163"
+  -
+    cardId: "smm_card_161"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "spy_network"
+    stage: "crisis"
+    routeFamily: "spy_network"
+    title: "Saray Casusları: Kazanın Gölgesi"
+    bodyText: "Arşiv odasında unutulmuş notlar, yaşayan vezirlerden daha tehlikelidir. Saray Casusları: Kazanın Gölgesi anında Miskal, senden duyduğunu değil, duymamış gibi yaptığını hatırlamanı ister. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, casus ağının ve mühür erişiminin üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_sessiz_kutuphane"
+    focusImageId: "focus_smm_161_spy_network"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Saray Casusları: Kazanın Gölgesi scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Miskal, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "miskal_soytari"
+    dialogue:
+      -
+        speakerId: "miskal_soytari"
+        emotion: "fısıltılı"
+        text: "Sarayın duvarları konuşmaz; onları konuşturanlar vardır."
+    choices:
+      -
+        choiceId: "smm_card_161_a"
+        text: "Sırrı Rasih'e eksiksiz götür"
+        resultText: "Saray Casusları: Kazanın Gölgesi kararında hesabı açık tutarsın. Miskal bunu fark eder ve casus ağının ve mühür erişiminin dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_rasih_blackfile"
+          - "flag_secret_preserved"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: -1
+          poison_knowledge: 0
+          spy_network: 1
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_162"
+      -
+        choiceId: "smm_card_161_b"
+        text: "Sırrı iki tarafa sat"
+        resultText: "Saray Casusları: Kazanın Gölgesi kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde casus ağının ve mühür erişiminin için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_secret_sold"
+          - "flag_document_forged"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 1
+          poison_knowledge: 0
+          spy_network: 1
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 1
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_163"
+  -
+    cardId: "smm_card_162"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "spy_network"
+    stage: "crisis"
+    routeFamily: "spy_network"
+    title: "Saray Casusları: Tuz ve Yemin"
+    bodyText: "Arşiv odasında unutulmuş notlar, yaşayan vezirlerden daha tehlikelidir. Saray Casusları: Tuz ve Yemin anında Kapıcı Boran, bir söylentiyi kimin başlattığının çoğu zaman kimin bitirdiğinden önemli olduğunu söyler. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, casus ağının ve mühür erişiminin üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_saray_camasirhanesi"
+    focusImageId: "focus_smm_162_spy_network"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Saray Casusları: Tuz ve Yemin scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Kapıcı Boran, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "kapici_boran"
+    dialogue:
+      -
+        speakerId: "kapici_boran"
+        emotion: "temkinli"
+        text: "Sarayın duvarları konuşmaz; onları konuşturanlar vardır."
+    choices:
+      -
+        choiceId: "smm_card_162_a"
+        text: "Arşiv notunu mühürle koru"
+        resultText: "Saray Casusları: Tuz ve Yemin kararında hesabı açık tutarsın. Kapıcı Boran bunu fark eder ve casus ağının ve mühür erişiminin dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_rasih_blackfile"
+          - "flag_secret_preserved"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 0
+          spy_network: 1
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_163"
+      -
+        choiceId: "smm_card_162_b"
+        text: "Arşiv notunu değiştir"
+        resultText: "Saray Casusları: Tuz ve Yemin kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde casus ağının ve mühür erişiminin için daha keskin bir kayıt açılır."
+        healthDelta: -1
+        setFlags:
+          - "flag_secret_sold"
+          - "flag_document_forged"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 1
+          poison_knowledge: 0
+          spy_network: 1
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 1
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_164"
+  -
+    cardId: "smm_card_163"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "spy_network"
+    stage: "crisis"
+    routeFamily: "spy_network"
+    title: "Saray Casusları: Kırık Tabak"
+    bodyText: "Arşiv odasında unutulmuş notlar, yaşayan vezirlerden daha tehlikelidir. Saray Casusları: Kırık Tabak anında Rasih, başvezirin gülüşünde mühür odasının kilidini aratır. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, casus ağının ve mühür erişiminin üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_gizli_gecit_mumlu"
+    focusImageId: "focus_smm_163_spy_network"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Saray Casusları: Kırık Tabak scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Rasih, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "rasih_casusbasi"
+    dialogue:
+      -
+        speakerId: "rasih_casusbasi"
+        emotion: "yorgun"
+        text: "Sarayın duvarları konuşmaz; onları konuşturanlar vardır."
+    choices:
+      -
+        choiceId: "smm_card_163_a"
+        text: "Soytarının sözünü dikkatle tart"
+        resultText: "Saray Casusları: Kırık Tabak kararında hesabı açık tutarsın. Rasih bunu fark eder ve casus ağının ve mühür erişiminin dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_rasih_blackfile"
+          - "flag_secret_preserved"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 0
+          spy_network: 1
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_164"
+      -
+        choiceId: "smm_card_163_b"
+        text: "Soytarıyı sahte habere sür"
+        resultText: "Saray Casusları: Kırık Tabak kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde casus ağının ve mühür erişiminin için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_secret_sold"
+          - "flag_document_forged"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 1
+          poison_knowledge: 0
+          spy_network: 1
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 1
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_165"
+  -
+    cardId: "smm_card_164"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "spy_network"
+    stage: "crisis"
+    routeFamily: "spy_network"
+    title: "Saray Casusları: Mum Işığı"
+    bodyText: "Arşiv odasında unutulmuş notlar, yaşayan vezirlerden daha tehlikelidir. Saray Casusları: Mum Işığı anında Başvezir Sadreddin, Miskal'in şakasında saray haritası saklı olabileceğini gösterir. Yanlış tatlı krizi, Safira'nın dış destek arayışında ya fırsat ya da utanç olarak yeniden açılır. Seçeceğin yol, casus ağının ve mühür erişiminin üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_eski_arsiv_odasi"
+    focusImageId: "focus_smm_164_spy_network"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Saray Casusları: Mum Işığı scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Başvezir Sadreddin, Lale Kalfa, a mistaken ornate dessert tray with diplomatic tension, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "sadreddin_basvezir"
+      - "lale_helvaci"
+      - "elci_mirel"
+    dialogue:
+      -
+        speakerId: "sadreddin_basvezir"
+        emotion: "alaycı"
+        text: "Sarayın duvarları konuşmaz; onları konuşturanlar vardır."
+      -
+        speakerId: "elci_mirel"
+        emotion: "zarif"
+        text: "Bizim ülkemizde böyle bir tatlı, sessiz bir evlilik nişanı sayılır."
+    choices:
+      -
+        choiceId: "smm_card_164_a"
+        text: "Geçidi kimseye belli etme"
+        resultText: "Saray Casusları: Mum Işığı kararında hesabı açık tutarsın. Başvezir Sadreddin bunu fark eder ve casus ağının ve mühür erişiminin dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_rasih_blackfile"
+          - "flag_secret_preserved"
+          - "flag_dessert_diplomacy_repaired"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 0
+          spy_network: 1
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 1
+        nextCardId: "smm_card_165"
+      -
+        choiceId: "smm_card_164_b"
+        text: "Geçide işaret kazı"
+        resultText: "Saray Casusları: Mum Işığı kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde casus ağının ve mühür erişiminin için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_secret_sold"
+          - "flag_document_forged"
+          - "flag_dessert_error_hidden"
+          - "flag_elci_ring_accepted"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 1
+          poison_knowledge: 0
+          spy_network: 1
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 1
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 2
+        nextCardId: "smm_card_166"
+  -
+    cardId: "smm_card_165"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "spy_network"
+    stage: "crisis"
+    routeFamily: "spy_network"
+    title: "Saray Casusları: Gece Nöbeti"
+    bodyText: "Arşiv odasında unutulmuş notlar, yaşayan vezirlerden daha tehlikelidir. Saray Casusları: Gece Nöbeti anında Miskal, geçitte attığın adımın iki fraksiyonca sayıldığını sezdirir. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, casus ağının ve mühür erişiminin üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_hizmetkar_koridoru"
+    focusImageId: "focus_smm_165_spy_network"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Saray Casusları: Gece Nöbeti scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Miskal, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "miskal_soytari"
+    dialogue:
+      -
+        speakerId: "miskal_soytari"
+        emotion: "sert"
+        text: "Sarayın duvarları konuşmaz; onları konuşturanlar vardır."
+    choices:
+      -
+        choiceId: "smm_card_165_a"
+        text: "Başvezire ölçülü bilgi ver"
+        resultText: "Saray Casusları: Gece Nöbeti kararında hesabı açık tutarsın. Miskal bunu fark eder ve casus ağının ve mühür erişiminin dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_rasih_blackfile"
+          - "flag_secret_preserved"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 0
+          spy_network: 1
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_166"
+      -
+        choiceId: "smm_card_165_b"
+        text: "Başveziri korkuyla zorla"
+        resultText: "Saray Casusları: Gece Nöbeti kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde casus ağının ve mühür erişiminin için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_secret_sold"
+          - "flag_document_forged"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 1
+          poison_knowledge: 0
+          spy_network: 1
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 1
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_168"
+  -
+    cardId: "smm_card_166"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "spy_network"
+    stage: "crisis"
+    routeFamily: "spy_network"
+    title: "Saray Casusları: Kilitli Raf"
+    bodyText: "Casus ağına giren biri, artık kendi suskunluğunun da hesabını verir. Saray Casusları: Kilitli Raf anında Kapıcı Boran, senden duyduğunu değil, duymamış gibi yaptığını hatırlamanı ister. Kehanet çorbası artık sarayda küçük bir şaka değil, varislerin kendi lehine çevirmek istediği ciddi bir alamettir. Seçeceğin yol, casus ağının ve mühür erişiminin üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_mutfak_cati_arasi"
+    focusImageId: "focus_smm_166_spy_network"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Saray Casusları: Kilitli Raf scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Kapıcı Boran, Müneccim Zerya, a bowl of omen soup with oil rings and three chickpeas, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "kapici_boran"
+      - "muneccim_zerya"
+    dialogue:
+      -
+        speakerId: "kapici_boran"
+        emotion: "düşünceli"
+        text: "Sarayın duvarları konuşmaz; onları konuşturanlar vardır."
+      -
+        speakerId: "muneccim_zerya"
+        emotion: "ürpermiş"
+        text: "Bu çorbanın yüzeyinde tesadüf değil, sarayın korkusu yüzüyor."
+    choices:
+      -
+        choiceId: "smm_card_166_a"
+        text: "Sırrı Rasih'e eksiksiz götür"
+        resultText: "Saray Casusları: Kilitli Raf kararında hesabı açık tutarsın. Kapıcı Boran bunu fark eder ve casus ağının ve mühür erişiminin dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_rasih_blackfile"
+          - "flag_secret_preserved"
+          - "flag_soup_omen_confirmed"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 0
+          spy_network: 1
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 1
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_167"
+      -
+        choiceId: "smm_card_166_b"
+        text: "Sırrı iki tarafa sat"
+        resultText: "Saray Casusları: Kilitli Raf kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde casus ağının ve mühür erişiminin için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_secret_sold"
+          - "flag_document_forged"
+          - "flag_soup_manipulated"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 1
+          poison_knowledge: 0
+          spy_network: 1
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 1
+          absurd_soup_omen_score: 2
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_168"
+  -
+    cardId: "smm_card_167"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "spy_network"
+    stage: "crisis"
+    routeFamily: "spy_network"
+    title: "Saray Casusları: Sarayın Kulağı"
+    bodyText: "Casus ağına giren biri, artık kendi suskunluğunun da hesabını verir. Saray Casusları: Sarayın Kulağı anında Rasih, bir söylentiyi kimin başlattığının çoğu zaman kimin bitirdiğinden önemli olduğunu söyler. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, casus ağının ve mühür erişiminin üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_sessiz_kutuphane"
+    focusImageId: "focus_smm_167_spy_network"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Saray Casusları: Sarayın Kulağı scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Rasih, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "rasih_casusbasi"
+    dialogue:
+      -
+        speakerId: "rasih_casusbasi"
+        emotion: "fısıltılı"
+        text: "Sarayın duvarları konuşmaz; onları konuşturanlar vardır."
+    choices:
+      -
+        choiceId: "smm_card_167_a"
+        text: "Arşiv notunu mühürle koru"
+        resultText: "Saray Casusları: Sarayın Kulağı kararında hesabı açık tutarsın. Rasih bunu fark eder ve casus ağının ve mühür erişiminin dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_rasih_blackfile"
+          - "flag_secret_preserved"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 0
+          spy_network: 1
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_168"
+      -
+        choiceId: "smm_card_167_b"
+        text: "Arşiv notunu değiştir"
+        resultText: "Saray Casusları: Sarayın Kulağı kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde casus ağının ve mühür erişiminin için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_secret_sold"
+          - "flag_document_forged"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 1
+          poison_knowledge: 0
+          spy_network: 1
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 1
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_169"
+  -
+    cardId: "smm_card_168"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "spy_network"
+    stage: "crisis"
+    routeFamily: "spy_network"
+    title: "Saray Casusları: Yağ Halkası"
+    bodyText: "Casus ağına giren biri, artık kendi suskunluğunun da hesabını verir. Saray Casusları: Yağ Halkası anında Başvezir Sadreddin, başvezirin gülüşünde mühür odasının kilidini aratır. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, casus ağının ve mühür erişiminin üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_saray_camasirhanesi"
+    focusImageId: "focus_smm_168_spy_network"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Saray Casusları: Yağ Halkası scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Başvezir Sadreddin, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "sadreddin_basvezir"
+    dialogue:
+      -
+        speakerId: "sadreddin_basvezir"
+        emotion: "temkinli"
+        text: "Sarayın duvarları konuşmaz; onları konuşturanlar vardır."
+    choices:
+      -
+        choiceId: "smm_card_168_a"
+        text: "Soytarının sözünü dikkatle tart"
+        resultText: "Saray Casusları: Yağ Halkası kararında hesabı açık tutarsın. Başvezir Sadreddin bunu fark eder ve casus ağının ve mühür erişiminin dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_rasih_blackfile"
+          - "flag_secret_preserved"
+          - "flag_major_branch_21"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: -1
+          poison_knowledge: 0
+          spy_network: 1
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_169"
+      -
+        choiceId: "smm_card_168_b"
+        text: "Soytarıyı sahte habere sür"
+        resultText: "Saray Casusları: Yağ Halkası kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde casus ağının ve mühür erişiminin için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_secret_sold"
+          - "flag_document_forged"
+          - "flag_major_branch_21"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 1
+          poison_knowledge: 0
+          spy_network: 1
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 1
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_170"
+  -
+    cardId: "smm_card_169"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "spy_network"
+    stage: "crisis"
+    routeFamily: "spy_network"
+    title: "Saray Casusları: Ak Gaga'nın Yolu"
+    bodyText: "Casus ağına giren biri, artık kendi suskunluğunun da hesabını verir. Saray Casusları: Ak Gaga'nın Yolu anında Miskal, Miskal'in şakasında saray haritası saklı olabileceğini gösterir. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, casus ağının ve mühür erişiminin üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_gizli_gecit_mumlu"
+    focusImageId: "focus_smm_169_spy_network"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Saray Casusları: Ak Gaga'nın Yolu scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Miskal, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "miskal_soytari"
+    dialogue:
+      -
+        speakerId: "miskal_soytari"
+        emotion: "yorgun"
+        text: "Sarayın duvarları konuşmaz; onları konuşturanlar vardır."
+    choices:
+      -
+        choiceId: "smm_card_169_a"
+        text: "Geçidi kimseye belli etme"
+        resultText: "Saray Casusları: Ak Gaga'nın Yolu kararında hesabı açık tutarsın. Miskal bunu fark eder ve casus ağının ve mühür erişiminin dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_rasih_blackfile"
+          - "flag_secret_preserved"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 0
+          spy_network: 1
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_170"
+      -
+        choiceId: "smm_card_169_b"
+        text: "Geçide işaret kazı"
+        resultText: "Saray Casusları: Ak Gaga'nın Yolu kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde casus ağının ve mühür erişiminin için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_secret_sold"
+          - "flag_document_forged"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 1
+          poison_knowledge: 0
+          spy_network: 1
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 1
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_171"
+  -
+    cardId: "smm_card_170"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "spy_network"
+    stage: "crisis"
+    routeFamily: "spy_network"
+    title: "Saray Casusları: Gümüş Kaşık"
+    bodyText: "Casus ağına giren biri, artık kendi suskunluğunun da hesabını verir. Saray Casusları: Gümüş Kaşık anında Kapıcı Boran, geçitte attığın adımın iki fraksiyonca sayıldığını sezdirir. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, casus ağının ve mühür erişiminin üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_eski_arsiv_odasi"
+    focusImageId: "focus_smm_170_spy_network"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Saray Casusları: Gümüş Kaşık scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Kapıcı Boran, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "kapici_boran"
+    dialogue:
+      -
+        speakerId: "kapici_boran"
+        emotion: "alaycı"
+        text: "Sarayın duvarları konuşmaz; onları konuşturanlar vardır."
+    choices:
+      -
+        choiceId: "smm_card_170_a"
+        text: "Başvezire ölçülü bilgi ver"
+        resultText: "Saray Casusları: Gümüş Kaşık kararında hesabı açık tutarsın. Kapıcı Boran bunu fark eder ve casus ağının ve mühür erişiminin dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_rasih_blackfile"
+          - "flag_secret_preserved"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 0
+          spy_network: 1
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_171"
+      -
+        choiceId: "smm_card_170_b"
+        text: "Başveziri korkuyla zorla"
+        resultText: "Saray Casusları: Gümüş Kaşık kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde casus ağının ve mühür erişiminin için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_secret_sold"
+          - "flag_document_forged"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 1
+          poison_knowledge: 0
+          spy_network: 1
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 1
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_173"
+  -
+    cardId: "smm_card_171"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "spy_network"
+    stage: "crisis"
+    routeFamily: "spy_network"
+    title: "Saray Casusları: Kayıp Ölçü"
+    bodyText: "Sırlar seni mühür odasına yaklaştırır ama gölgeni de uzatır. Saray Casusları: Kayıp Ölçü anında Rasih, senden duyduğunu değil, duymamış gibi yaptığını hatırlamanı ister. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, casus ağının ve mühür erişiminin üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_hizmetkar_koridoru"
+    focusImageId: "focus_smm_171_spy_network"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Saray Casusları: Kayıp Ölçü scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Rasih, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "rasih_casusbasi"
+    dialogue:
+      -
+        speakerId: "rasih_casusbasi"
+        emotion: "sert"
+        text: "Sarayın duvarları konuşmaz; onları konuşturanlar vardır."
+    choices:
+      -
+        choiceId: "smm_card_171_a"
+        text: "Sırrı Rasih'e eksiksiz götür"
+        resultText: "Saray Casusları: Kayıp Ölçü kararında hesabı açık tutarsın. Rasih bunu fark eder ve casus ağının ve mühür erişiminin dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_rasih_blackfile"
+          - "flag_secret_preserved"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 0
+          spy_network: 1
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_172"
+      -
+        choiceId: "smm_card_171_b"
+        text: "Sırrı iki tarafa sat"
+        resultText: "Saray Casusları: Kayıp Ölçü kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde casus ağının ve mühür erişiminin için daha keskin bir kayıt açılır."
+        healthDelta: -1
+        setFlags:
+          - "flag_secret_sold"
+          - "flag_document_forged"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 1
+          poison_knowledge: 0
+          spy_network: 1
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 1
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_173"
+  -
+    cardId: "smm_card_172"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "spy_network"
+    stage: "crisis"
+    routeFamily: "spy_network"
+    title: "Saray Casusları: Kuyrukta Ekmek"
+    bodyText: "Sırlar seni mühür odasına yaklaştırır ama gölgeni de uzatır. Saray Casusları: Kuyrukta Ekmek anında Başvezir Sadreddin, bir söylentiyi kimin başlattığının çoğu zaman kimin bitirdiğinden önemli olduğunu söyler. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, casus ağının ve mühür erişiminin üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_mutfak_cati_arasi"
+    focusImageId: "focus_smm_172_spy_network"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Saray Casusları: Kuyrukta Ekmek scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Başvezir Sadreddin, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "sadreddin_basvezir"
+    dialogue:
+      -
+        speakerId: "sadreddin_basvezir"
+        emotion: "düşünceli"
+        text: "Sarayın duvarları konuşmaz; onları konuşturanlar vardır."
+    choices:
+      -
+        choiceId: "smm_card_172_a"
+        text: "Arşiv notunu mühürle koru"
+        resultText: "Saray Casusları: Kuyrukta Ekmek kararında hesabı açık tutarsın. Başvezir Sadreddin bunu fark eder ve casus ağının ve mühür erişiminin dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_rasih_blackfile"
+          - "flag_secret_preserved"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 0
+          spy_network: 1
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_173"
+      -
+        choiceId: "smm_card_172_b"
+        text: "Arşiv notunu değiştir"
+        resultText: "Saray Casusları: Kuyrukta Ekmek kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde casus ağının ve mühür erişiminin için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_secret_sold"
+          - "flag_document_forged"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 1
+          poison_knowledge: 0
+          spy_network: 1
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 1
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_174"
+  -
+    cardId: "smm_card_173"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "spy_network"
+    stage: "crisis"
+    routeFamily: "spy_network"
+    title: "Saray Casusları: Keskin Koku"
+    bodyText: "Sırlar seni mühür odasına yaklaştırır ama gölgeni de uzatır. Saray Casusları: Keskin Koku anında Miskal, başvezirin gülüşünde mühür odasının kilidini aratır. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, casus ağının ve mühür erişiminin üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_sessiz_kutuphane"
+    focusImageId: "focus_smm_173_spy_network"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Saray Casusları: Keskin Koku scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Miskal, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "miskal_soytari"
+    dialogue:
+      -
+        speakerId: "miskal_soytari"
+        emotion: "fısıltılı"
+        text: "Sarayın duvarları konuşmaz; onları konuşturanlar vardır."
+    choices:
+      -
+        choiceId: "smm_card_173_a"
+        text: "Soytarının sözünü dikkatle tart"
+        resultText: "Saray Casusları: Keskin Koku kararında hesabı açık tutarsın. Miskal bunu fark eder ve casus ağının ve mühür erişiminin dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_rasih_blackfile"
+          - "flag_secret_preserved"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 0
+          spy_network: 1
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_174"
+      -
+        choiceId: "smm_card_173_b"
+        text: "Soytarıyı sahte habere sür"
+        resultText: "Saray Casusları: Keskin Koku kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde casus ağının ve mühür erişiminin için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_secret_sold"
+          - "flag_document_forged"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 1
+          poison_knowledge: 0
+          spy_network: 1
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 1
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_175"
+  -
+    cardId: "smm_card_174"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "spy_network"
+    stage: "crisis"
+    routeFamily: "spy_network"
+    title: "Saray Casusları: Mühre Giden İz"
+    bodyText: "Sırlar seni mühür odasına yaklaştırır ama gölgeni de uzatır. Saray Casusları: Mühre Giden İz anında Kapıcı Boran, Miskal'in şakasında saray haritası saklı olabileceğini gösterir. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, casus ağının ve mühür erişiminin üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_saray_camasirhanesi"
+    focusImageId: "focus_smm_174_spy_network"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Saray Casusları: Mühre Giden İz scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Kapıcı Boran, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "kapici_boran"
+    dialogue:
+      -
+        speakerId: "kapici_boran"
+        emotion: "temkinli"
+        text: "Sarayın duvarları konuşmaz; onları konuşturanlar vardır."
+    choices:
+      -
+        choiceId: "smm_card_174_a"
+        text: "Geçidi kimseye belli etme"
+        resultText: "Saray Casusları: Mühre Giden İz kararında hesabı açık tutarsın. Kapıcı Boran bunu fark eder ve casus ağının ve mühür erişiminin dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_rasih_blackfile"
+          - "flag_secret_preserved"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 0
+          spy_network: 1
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_175"
+      -
+        choiceId: "smm_card_174_b"
+        text: "Geçide işaret kazı"
+        resultText: "Saray Casusları: Mühre Giden İz kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde casus ağının ve mühür erişiminin için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_secret_sold"
+          - "flag_document_forged"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 1
+          poison_knowledge: 0
+          spy_network: 1
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 1
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_176"
+  -
+    cardId: "smm_card_175"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "spy_network"
+    stage: "crisis"
+    routeFamily: "spy_network"
+    title: "Saray Casusları: Dar Boğaz"
+    bodyText: "Sırlar seni mühür odasına yaklaştırır ama gölgeni de uzatır. Saray Casusları: Dar Boğaz anında Rasih, geçitte attığın adımın iki fraksiyonca sayıldığını sezdirir. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, casus ağının ve mühür erişiminin üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_gizli_gecit_mumlu"
+    focusImageId: "focus_smm_175_spy_network"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Saray Casusları: Dar Boğaz scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Rasih, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "rasih_casusbasi"
+    dialogue:
+      -
+        speakerId: "rasih_casusbasi"
+        emotion: "yorgun"
+        text: "Sarayın duvarları konuşmaz; onları konuşturanlar vardır."
+    choices:
+      -
+        choiceId: "smm_card_175_a"
+        text: "Başvezire ölçülü bilgi ver"
+        resultText: "Saray Casusları: Dar Boğaz kararında hesabı açık tutarsın. Rasih bunu fark eder ve casus ağının ve mühür erişiminin dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_rasih_blackfile"
+          - "flag_secret_preserved"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: -1
+          poison_knowledge: 0
+          spy_network: 1
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_176"
+      -
+        choiceId: "smm_card_175_b"
+        text: "Başveziri korkuyla zorla"
+        resultText: "Saray Casusları: Dar Boğaz kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde casus ağının ve mühür erişiminin için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_secret_sold"
+          - "flag_document_forged"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 1
+          poison_knowledge: 0
+          spy_network: 1
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 1
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_178"

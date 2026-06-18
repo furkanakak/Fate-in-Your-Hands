@@ -1,0 +1,989 @@
+props:
+  -
+    propId: "bakir_kazan"
+    name: "bakır kazan"
+    description: "Bakır kazan, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_001"
+      - "smm_card_003"
+      - "smm_card_005"
+    visualPromptNotes: "2D storybook prop detail, bakır kazan, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_truth_told"
+      - "flag_soup_mistake_seen"
+  -
+    propId: "yanik_tencere"
+    name: "yanık tencere"
+    description: "Yanık tencere, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_008"
+      - "smm_card_010"
+      - "smm_card_012"
+    visualPromptNotes: "2D storybook prop detail, yanık tencere, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_secret_kept"
+      - "flag_soup_omen_confirmed"
+  -
+    propId: "gumus_kasik"
+    name: "gümüş kaşık"
+    description: "Gümüş kaşık, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_015"
+      - "smm_card_017"
+      - "smm_card_019"
+    visualPromptNotes: "2D storybook prop detail, gümüş kaşık, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_bahir_trust"
+      - "flag_soup_manipulated"
+  -
+    propId: "zehir_sisesi"
+    name: "zehir şişesi"
+    description: "Zehir şişesi, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_022"
+      - "smm_card_024"
+      - "smm_card_026"
+    visualPromptNotes: "2D storybook prop detail, zehir şişesi, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_palace_shadow_seen"
+      - "flag_soup_rejected"
+  -
+    propId: "panzehir_kavanozu"
+    name: "panzehir kavanozu"
+    description: "Panzehir kavanozu, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_029"
+      - "smm_card_031"
+      - "smm_card_033"
+    visualPromptNotes: "2D storybook prop detail, panzehir kavanozu, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_kitchen_apprentice"
+      - "flag_ak_gaga_fed"
+  -
+    propId: "kehanet_corbasi"
+    name: "kehanet çorbası"
+    description: "Kehanet çorbası, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_036"
+      - "smm_card_038"
+      - "smm_card_040"
+    visualPromptNotes: "2D storybook prop detail, kehanet çorbası, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_hukumdar_tasted_meal"
+      - "flag_ak_gaga_protected"
+  -
+    propId: "uc_nohut_isareti"
+    name: "üç nohut işareti"
+    description: "Üç nohut işareti, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_043"
+      - "smm_card_045"
+      - "smm_card_047"
+    visualPromptNotes: "2D storybook prop detail, üç nohut işareti, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_soytari_rumor_blessing"
+      - "flag_goose_omen_interpreted"
+  -
+    propId: "saray_kazi_tuyu"
+    name: "saray kazı tüyü"
+    description: "Saray kazı tüyü, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_050"
+      - "smm_card_052"
+      - "smm_card_054"
+    visualPromptNotes: "2D storybook prop detail, saray kazı tüyü, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_lale_trust"
+      - "flag_goose_misled_divan"
+  -
+    propId: "kaz_yemi"
+    name: "kaz yemi"
+    description: "Kaz yemi, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_057"
+      - "smm_card_059"
+      - "smm_card_061"
+    visualPromptNotes: "2D storybook prop detail, kaz yemi, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_dessert_diplomacy_repaired"
+      - "flag_durna_goose_friend"
+  -
+    propId: "yanlis_tatli"
+    name: "yanlış tatlı"
+    description: "Yanlış tatlı, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_064"
+      - "smm_card_066"
+      - "smm_card_068"
+    visualPromptNotes: "2D storybook prop detail, yanlış tatlı, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_dessert_error_hidden"
+      - "flag_poison_sample_saved"
+  -
+    propId: "gul_serbeti"
+    name: "gül şerbeti"
+    description: "Gül şerbeti, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_071"
+      - "smm_card_073"
+      - "smm_card_075"
+    visualPromptNotes: "2D storybook prop detail, gül şerbeti, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_elci_ring_accepted"
+      - "flag_simin_notice"
+  -
+    propId: "bal_mumu"
+    name: "bal mumu"
+    description: "Bal mumu, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_078"
+      - "smm_card_080"
+      - "smm_card_082"
+    visualPromptNotes: "2D storybook prop detail, bal mumu, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_soup_mistake_seen"
+      - "flag_poison_used_as_leverage"
+  -
+    propId: "imparatorluk_muhru"
+    name: "imparatorluk mührü"
+    description: "Imparatorluk mührü, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_085"
+      - "smm_card_087"
+      - "smm_card_089"
+    visualPromptNotes: "2D storybook prop detail, imparatorluk mührü, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_soup_omen_confirmed"
+      - "flag_antidote_shared"
+  -
+    propId: "sahte_muhur"
+    name: "sahte mühür"
+    description: "Sahte mühür, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_092"
+      - "smm_card_094"
+      - "smm_card_096"
+    visualPromptNotes: "2D storybook prop detail, sahte mühür, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_soup_manipulated"
+      - "flag_bera_oath"
+  -
+    propId: "kiler_anahtari"
+    name: "kiler anahtarı"
+    description: "Kiler anahtarı, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_099"
+      - "smm_card_101"
+      - "smm_card_103"
+    visualPromptNotes: "2D storybook prop detail, kiler anahtarı, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_soup_rejected"
+      - "flag_meryem_rebel_signal"
+  -
+    propId: "ekmek_cuvali"
+    name: "ekmek çuvalı"
+    description: "Ekmek çuvalı, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_106"
+      - "smm_card_108"
+      - "smm_card_110"
+    visualPromptNotes: "2D storybook prop detail, ekmek çuvalı, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_ak_gaga_fed"
+      - "flag_rasih_blackfile"
+  -
+    propId: "ordu_tahil_defteri"
+    name: "ordu tahıl defteri"
+    description: "Ordu tahıl defteri, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_113"
+      - "smm_card_115"
+      - "smm_card_117"
+    visualPromptNotes: "2D storybook prop detail, ordu tahıl defteri, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_ak_gaga_protected"
+      - "flag_secret_preserved"
+  -
+    propId: "gizli_bildiri"
+    name: "gizli bildiri"
+    description: "Gizli bildiri, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_120"
+      - "smm_card_122"
+      - "smm_card_124"
+    visualPromptNotes: "2D storybook prop detail, gizli bildiri, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_goose_omen_interpreted"
+      - "flag_secret_sold"
+  -
+    propId: "isyan_haritasi"
+    name: "isyan haritası"
+    description: "Isyan haritası, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_127"
+      - "smm_card_129"
+      - "smm_card_131"
+    visualPromptNotes: "2D storybook prop detail, isyan haritası, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_goose_misled_divan"
+      - "flag_document_forged"
+  -
+    propId: "yabanci_elci_yuzugu"
+    name: "yabancı elçinin yüzüğü"
+    description: "Yabancı elçinin yüzüğü, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_134"
+      - "smm_card_136"
+      - "smm_card_138"
+    visualPromptNotes: "2D storybook prop detail, yabancı elçinin yüzüğü, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_durna_goose_friend"
+      - "flag_turgut_supply_trust"
+  -
+    propId: "kirik_tabak"
+    name: "kırık tabak"
+    description: "Kırık tabak, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_141"
+      - "smm_card_143"
+      - "smm_card_145"
+    visualPromptNotes: "2D storybook prop detail, kırık tabak, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_poison_sample_saved"
+      - "flag_food_to_army"
+  -
+    propId: "kor_masa"
+    name: "köz maşası"
+    description: "Köz maşası, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_148"
+      - "smm_card_150"
+      - "smm_card_152"
+    visualPromptNotes: "2D storybook prop detail, köz maşası, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_simin_notice"
+      - "flag_food_to_people"
+  -
+    propId: "tuz_tartisi"
+    name: "tuz tartısı"
+    description: "Tuz tartısı, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_155"
+      - "smm_card_157"
+      - "smm_card_159"
+    visualPromptNotes: "2D storybook prop detail, tuz tartısı, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_poison_used_as_leverage"
+      - "flag_black_market_debt_paid"
+  -
+    propId: "safran_kesesi"
+    name: "safran kesesi"
+    description: "Safran kesesi, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_162"
+      - "smm_card_164"
+      - "smm_card_166"
+    visualPromptNotes: "2D storybook prop detail, safran kesesi, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_antidote_shared"
+      - "flag_yusuf_debt_mark"
+  -
+    propId: "tarçin_cubugu"
+    name: "tarçın çubuğu"
+    description: "Tarçın çubuğu, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_169"
+      - "smm_card_171"
+      - "smm_card_173"
+    visualPromptNotes: "2D storybook prop detail, tarçın çubuğu, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_bera_oath"
+      - "flag_false_seal_planned"
+  -
+    propId: "nar_eksisi_sisesi"
+    name: "nar ekşisi şişesi"
+    description: "Nar ekşisi şişesi, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_176"
+      - "smm_card_178"
+      - "smm_card_180"
+    visualPromptNotes: "2D storybook prop detail, nar ekşisi şişesi, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_meryem_rebel_signal"
+      - "flag_rebellion_firebrand"
+  -
+    propId: "muhur_bicagi"
+    name: "mühür bıçağı"
+    description: "Mühür bıçağı, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_183"
+      - "smm_card_185"
+      - "smm_card_187"
+    visualPromptNotes: "2D storybook prop detail, mühür bıçağı, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_rasih_blackfile"
+      - "flag_heir_neutral_balancer"
+  -
+    propId: "kirmizi_mum_kalibi"
+    name: "kırmızı mum kalıbı"
+    description: "Kırmızı mum kalıbı, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_190"
+      - "smm_card_192"
+      - "smm_card_194"
+    visualPromptNotes: "2D storybook prop detail, kırmızı mum kalıbı, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_secret_preserved"
+      - "flag_sadreddin_watches"
+  -
+    propId: "gizli_gecit_mumu"
+    name: "gizli geçit mumu"
+    description: "Gizli geçit mumu, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_197"
+      - "smm_card_199"
+      - "smm_card_201"
+    visualPromptNotes: "2D storybook prop detail, gizli geçit mumu, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_secret_sold"
+      - "flag_seal_room_seen"
+  -
+    propId: "sifreli_pecete"
+    name: "şifreli peçete"
+    description: "Şifreli peçete, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_204"
+      - "smm_card_206"
+      - "smm_card_208"
+    visualPromptNotes: "2D storybook prop detail, şifreli peçete, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_document_forged"
+      - "flag_seal_access_granted"
+  -
+    propId: "elci_tatli_tepsisi"
+    name: "elçi tatlı tepsisi"
+    description: "Elçi tatlı tepsisi, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_211"
+      - "smm_card_213"
+      - "smm_card_215"
+    visualPromptNotes: "2D storybook prop detail, elçi tatlı tepsisi, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_turgut_supply_trust"
+      - "flag_muhur_final_key"
+  -
+    propId: "helva_spatulasi"
+    name: "helva spatulası"
+    description: "Helva spatulası, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_218"
+      - "smm_card_220"
+      - "smm_card_222"
+    visualPromptNotes: "2D storybook prop detail, helva spatulası, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_food_to_army"
+      - "flag_final_choice_burned"
+  -
+    propId: "limon_cicegi_kolyesi"
+    name: "limon çiçeği kolyesi"
+    description: "Limon çiçeği kolyesi, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_225"
+      - "smm_card_227"
+      - "smm_card_229"
+    visualPromptNotes: "2D storybook prop detail, limon çiçeği kolyesi, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_food_to_people"
+      - "flag_arslan_promised"
+  -
+    propId: "hukumdar_kadehi"
+    name: "hükümdar kadehi"
+    description: "Hükümdar kadehi, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_232"
+      - "smm_card_234"
+      - "smm_card_236"
+    visualPromptNotes: "2D storybook prop detail, hükümdar kadehi, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_black_market_debt_paid"
+      - "flag_safira_promised"
+  -
+    propId: "simin_tadim_kasigi"
+    name: "Simin'in tadım kaşığı"
+    description: "Simin'in tadım kaşığı, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_239"
+      - "smm_card_241"
+      - "smm_card_243"
+    visualPromptNotes: "2D storybook prop detail, Simin'in tadım kaşığı, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_yusuf_debt_mark"
+      - "flag_kemal_promised"
+  -
+    propId: "bera_ot_cantasi"
+    name: "Bera'nın ot çantası"
+    description: "Bera'nın ot çantası, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_246"
+      - "smm_card_248"
+      - "smm_card_250"
+    visualPromptNotes: "2D storybook prop detail, Bera'nın ot çantası, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_false_seal_planned"
+      - "flag_major_branch_01"
+  -
+    propId: "rasih_siyah_defteri"
+    name: "Rasih'in siyah defteri"
+    description: "Rasih'in siyah defteri, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_253"
+      - "smm_card_255"
+      - "smm_card_257"
+    visualPromptNotes: "2D storybook prop detail, Rasih'in siyah defteri, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_rebellion_firebrand"
+      - "flag_major_branch_02"
+  -
+    propId: "sadreddin_muhur_kilidi"
+    name: "Sadreddin'in mühür kilidi"
+    description: "Sadreddin'in mühür kilidi, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_260"
+      - "smm_card_262"
+      - "smm_card_264"
+    visualPromptNotes: "2D storybook prop detail, Sadreddin'in mühür kilidi, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_heir_neutral_balancer"
+      - "flag_major_branch_03"
+  -
+    propId: "durna_yem_kasesi"
+    name: "Durna'nın yem kasesi"
+    description: "Durna'nın yem kasesi, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_267"
+      - "smm_card_269"
+      - "smm_card_271"
+    visualPromptNotes: "2D storybook prop detail, Durna'nın yem kasesi, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_sadreddin_watches"
+      - "flag_major_branch_04"
+  -
+    propId: "miskal_cingiragi"
+    name: "Miskal'in çıngırağı"
+    description: "Miskal'in çıngırağı, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_274"
+      - "smm_card_276"
+      - "smm_card_278"
+    visualPromptNotes: "2D storybook prop detail, Miskal'in çıngırağı, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_seal_room_seen"
+      - "flag_major_branch_05"
+  -
+    propId: "arslan_kilic_kabzasi"
+    name: "Arslan'ın kılıç kabzası"
+    description: "Arslan'ın kılıç kabzası, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_281"
+      - "smm_card_283"
+      - "smm_card_285"
+    visualPromptNotes: "2D storybook prop detail, Arslan'ın kılıç kabzası, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_seal_access_granted"
+      - "flag_major_branch_06"
+  -
+    propId: "safira_inci_ignesi"
+    name: "Safira'nın inci iğnesi"
+    description: "Safira'nın inci iğnesi, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_288"
+      - "smm_card_290"
+      - "smm_card_292"
+    visualPromptNotes: "2D storybook prop detail, Safira'nın inci iğnesi, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_muhur_final_key"
+      - "flag_major_branch_07"
+  -
+    propId: "kemal_ekmek_bicagi"
+    name: "Kemal'in ekmek bıçağı"
+    description: "Kemal'in ekmek bıçağı, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_295"
+      - "smm_card_297"
+      - "smm_card_299"
+    visualPromptNotes: "2D storybook prop detail, Kemal'in ekmek bıçağı, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_final_choice_burned"
+      - "flag_major_branch_08"
+  -
+    propId: "karayusuf_borc_pulu"
+    name: "Kara Yusuf'un borç pulu"
+    description: "Kara yusuf'un borç pulu, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_006"
+      - "smm_card_008"
+      - "smm_card_010"
+    visualPromptNotes: "2D storybook prop detail, Kara Yusuf'un borç pulu, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_arslan_promised"
+      - "flag_major_branch_09"
+  -
+    propId: "turgut_tahil_muhru"
+    name: "Turgut'un tahıl mührü"
+    description: "Turgut'un tahıl mührü, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_013"
+      - "smm_card_015"
+      - "smm_card_017"
+    visualPromptNotes: "2D storybook prop detail, Turgut'un tahıl mührü, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_safira_promised"
+      - "flag_major_branch_10"
+  -
+    propId: "meryem_kirmizi_ipi"
+    name: "Meryem'in kırmızı ipi"
+    description: "Meryem'in kırmızı ipi, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_020"
+      - "smm_card_022"
+      - "smm_card_024"
+    visualPromptNotes: "2D storybook prop detail, Meryem'in kırmızı ipi, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_kemal_promised"
+      - "flag_major_branch_11"
+  -
+    propId: "zerya_yildiz_tasi"
+    name: "Zerya'nın yıldız taşı"
+    description: "Zerya'nın yıldız taşı, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_027"
+      - "smm_card_029"
+      - "smm_card_031"
+    visualPromptNotes: "2D storybook prop detail, Zerya'nın yıldız taşı, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_major_branch_01"
+      - "flag_major_branch_12"
+  -
+    propId: "boran_kapi_halkasi"
+    name: "Boran'ın kapı halkası"
+    description: "Boran'ın kapı halkası, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_034"
+      - "smm_card_036"
+      - "smm_card_038"
+    visualPromptNotes: "2D storybook prop detail, Boran'ın kapı halkası, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_major_branch_02"
+      - "flag_major_branch_13"
+  -
+    propId: "eski_sofra_bezi"
+    name: "eski sofra bezi"
+    description: "Eski sofra bezi, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_041"
+      - "smm_card_043"
+      - "smm_card_045"
+    visualPromptNotes: "2D storybook prop detail, eski sofra bezi, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_major_branch_03"
+      - "flag_major_branch_14"
+  -
+    propId: "kilitli_baharat_cekmesi"
+    name: "kilitli baharat çekmesi"
+    description: "Kilitli baharat çekmesi, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_048"
+      - "smm_card_050"
+      - "smm_card_052"
+    visualPromptNotes: "2D storybook prop detail, kilitli baharat çekmesi, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_major_branch_04"
+      - "flag_major_branch_15"
+  -
+    propId: "kaz_ayak_izi_kalibi"
+    name: "kaz ayak izi kalıbı"
+    description: "Kaz ayak izi kalıbı, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_055"
+      - "smm_card_057"
+      - "smm_card_059"
+    visualPromptNotes: "2D storybook prop detail, kaz ayak izi kalıbı, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_major_branch_05"
+      - "flag_major_branch_16"
+  -
+    propId: "yanmis_ferman_parcasi"
+    name: "yanmış ferman parçası"
+    description: "Yanmış ferman parçası, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_062"
+      - "smm_card_064"
+      - "smm_card_066"
+    visualPromptNotes: "2D storybook prop detail, yanmış ferman parçası, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_major_branch_06"
+      - "flag_major_branch_17"
+  -
+    propId: "yagli_corba_halkasi_cubugu"
+    name: "yağlı çorba halkası çubuğu"
+    description: "Yağlı çorba halkası çubuğu, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_069"
+      - "smm_card_071"
+      - "smm_card_073"
+    visualPromptNotes: "2D storybook prop detail, yağlı çorba halkası çubuğu, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_major_branch_07"
+      - "flag_major_branch_18"
+  -
+    propId: "bos_panzehir_sisesi"
+    name: "boş panzehir şişesi"
+    description: "Boş panzehir şişesi, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_076"
+      - "smm_card_078"
+      - "smm_card_080"
+    visualPromptNotes: "2D storybook prop detail, boş panzehir şişesi, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_major_branch_08"
+      - "flag_major_branch_19"
+  -
+    propId: "bakir_terazi"
+    name: "bakır terazi"
+    description: "Bakır terazi, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_083"
+      - "smm_card_085"
+      - "smm_card_087"
+    visualPromptNotes: "2D storybook prop detail, bakır terazi, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_major_branch_09"
+      - "flag_major_branch_20"
+  -
+    propId: "halk_somunu"
+    name: "halk somunu"
+    description: "Halk somunu, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_090"
+      - "smm_card_092"
+      - "smm_card_094"
+    visualPromptNotes: "2D storybook prop detail, halk somunu, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_major_branch_10"
+      - "flag_major_branch_21"
+  -
+    propId: "asker_tayin_kupu"
+    name: "asker tayın küpü"
+    description: "Asker tayın küpü, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_097"
+      - "smm_card_099"
+      - "smm_card_101"
+    visualPromptNotes: "2D storybook prop detail, asker tayın küpü, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_major_branch_11"
+      - "flag_major_branch_22"
+  -
+    propId: "ipek_elci_kurdelesi"
+    name: "ipek elçi kurdelesi"
+    description: "Ipek elçi kurdelesi, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_104"
+      - "smm_card_106"
+      - "smm_card_108"
+    visualPromptNotes: "2D storybook prop detail, ipek elçi kurdelesi, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_major_branch_12"
+      - "flag_major_branch_23"
+  -
+    propId: "soytari_notlari"
+    name: "soytarı notları"
+    description: "Soytarı notları, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_111"
+      - "smm_card_113"
+      - "smm_card_115"
+    visualPromptNotes: "2D storybook prop detail, soytarı notları, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_major_branch_13"
+      - "flag_major_branch_24"
+  -
+    propId: "gizli_arsiv_mandali"
+    name: "gizli arşiv mandalı"
+    description: "Gizli arşiv mandalı, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_118"
+      - "smm_card_120"
+      - "smm_card_122"
+    visualPromptNotes: "2D storybook prop detail, gizli arşiv mandalı, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_major_branch_14"
+      - "flag_major_branch_25"
+  -
+    propId: "sarnic_anahtari"
+    name: "sarnıç anahtarı"
+    description: "Sarnıç anahtarı, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_125"
+      - "smm_card_127"
+      - "smm_card_129"
+    visualPromptNotes: "2D storybook prop detail, sarnıç anahtarı, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_major_branch_15"
+      - "flag_major_branch_26"
+  -
+    propId: "kanli_sargı_bezi"
+    name: "kanlı sargı bezi"
+    description: "Kanlı sargı bezi, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_132"
+      - "smm_card_134"
+      - "smm_card_136"
+    visualPromptNotes: "2D storybook prop detail, kanlı sargı bezi, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_major_branch_16"
+      - "flag_major_branch_27"
+  -
+    propId: "liman_tahil_makbuzu"
+    name: "liman tahıl makbuzu"
+    description: "Liman tahıl makbuzu, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_139"
+      - "smm_card_141"
+      - "smm_card_143"
+    visualPromptNotes: "2D storybook prop detail, liman tahıl makbuzu, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_major_branch_17"
+      - "flag_major_branch_28"
+  -
+    propId: "camasir_ipi_mesaji"
+    name: "çamaşır ipi mesajı"
+    description: "Çamaşır ipi mesajı, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_146"
+      - "smm_card_148"
+      - "smm_card_150"
+    visualPromptNotes: "2D storybook prop detail, çamaşır ipi mesajı, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_major_branch_18"
+      - "flag_major_branch_29"
+  -
+    propId: "zehirli_biber_tanesi"
+    name: "zehirli biber tanesi"
+    description: "Zehirli biber tanesi, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_153"
+      - "smm_card_155"
+      - "smm_card_157"
+    visualPromptNotes: "2D storybook prop detail, zehirli biber tanesi, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_major_branch_19"
+      - "flag_major_branch_30"
+  -
+    propId: "kutsal_corba_kepcesi"
+    name: "kutsal çorba kepçesi"
+    description: "Kutsal çorba kepçesi, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_160"
+      - "smm_card_162"
+      - "smm_card_164"
+    visualPromptNotes: "2D storybook prop detail, kutsal çorba kepçesi, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_major_branch_20"
+      - "flag_major_branch_31"
+  -
+    propId: "ak_gaga_tasmasi"
+    name: "Ak Gaga tasması"
+    description: "Ak gaga tasması, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_167"
+      - "smm_card_169"
+      - "smm_card_171"
+    visualPromptNotes: "2D storybook prop detail, Ak Gaga tasması, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_major_branch_21"
+      - "flag_major_branch_32"
+  -
+    propId: "muhur_odasi_haritasi"
+    name: "mühür odası haritası"
+    description: "Mühür odası haritası, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_174"
+      - "smm_card_176"
+      - "smm_card_178"
+    visualPromptNotes: "2D storybook prop detail, mühür odası haritası, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_major_branch_22"
+      - "flag_major_branch_33"
+  -
+    propId: "uclusu_varis_mektubu"
+    name: "üçlü varis mektubu"
+    description: "Üçlü varis mektubu, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_181"
+      - "smm_card_183"
+      - "smm_card_185"
+    visualPromptNotes: "2D storybook prop detail, üçlü varis mektubu, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_major_branch_23"
+      - "flag_major_branch_34"
+  -
+    propId: "surgun_heybesi"
+    name: "sürgün heybesi"
+    description: "Sürgün heybesi, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_188"
+      - "smm_card_190"
+      - "smm_card_192"
+    visualPromptNotes: "2D storybook prop detail, sürgün heybesi, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_major_branch_24"
+      - "flag_major_branch_35"
+  -
+    propId: "han_tabelasi_taslahi"
+    name: "han tabelası taslağı"
+    description: "Han tabelası taslağı, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_195"
+      - "smm_card_197"
+      - "smm_card_199"
+    visualPromptNotes: "2D storybook prop detail, han tabelası taslağı, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_major_branch_25"
+      - "flag_major_branch_36"
+  -
+    propId: "idam_emri_mumu"
+    name: "idam emri mumu"
+    description: "Idam emri mumu, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_202"
+      - "smm_card_204"
+      - "smm_card_206"
+    visualPromptNotes: "2D storybook prop detail, idam emri mumu, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_major_branch_26"
+      - "flag_truth_told"
+  -
+    propId: "baris_serbeti_kupasi"
+    name: "barış şerbeti kupası"
+    description: "Barış şerbeti kupası, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_209"
+      - "smm_card_211"
+      - "smm_card_213"
+    visualPromptNotes: "2D storybook prop detail, barış şerbeti kupası, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_major_branch_27"
+      - "flag_secret_kept"
+  -
+    propId: "devrim_mutfak_bicagi"
+    name: "devrim mutfak bıçağı"
+    description: "Devrim mutfak bıçağı, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_216"
+      - "smm_card_218"
+      - "smm_card_220"
+    visualPromptNotes: "2D storybook prop detail, devrim mutfak bıçağı, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_major_branch_28"
+      - "flag_bahir_trust"
+  -
+    propId: "saray_kapi_izin_tasi"
+    name: "saray kapı izin taşı"
+    description: "Saray kapı izin taşı, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_223"
+      - "smm_card_225"
+      - "smm_card_227"
+    visualPromptNotes: "2D storybook prop detail, saray kapı izin taşı, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_major_branch_29"
+      - "flag_palace_shadow_seen"
+  -
+    propId: "muhur_golgesi_perdesi"
+    name: "mühür gölgesi perdesi"
+    description: "Mühür gölgesi perdesi, saray mutfağından mühür odasına uzanan karar zincirinde görülen elle tutulur bir hikaye nesnesidir."
+    storyFunction: "Seçimin somut izini sahnede görünür kılar ve sonraki kartlarda politik, pratik veya absürt payoff üretir."
+    usedByCardIds:
+      - "smm_card_230"
+      - "smm_card_232"
+      - "smm_card_234"
+    visualPromptNotes: "2D storybook prop detail, mühür gölgesi perdesi, warm muted colors, clear silhouette, no text or logo."
+    relatedFlags:
+      - "flag_major_branch_30"
+      - "flag_kitchen_apprentice"

@@ -1,0 +1,1891 @@
+cards:
+  -
+    cardId: "smm_card_226"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "rebellion"
+    stage: "crisis"
+    routeFamily: "rebellion"
+    title: "Halk Ayaklanması: İlk Eşik"
+    bodyText: "Halk ekmek kuyruğunda saray masallarına artık kimse tok karınla gülmez. Halk Ayaklanması: İlk Eşik anında Meryem, senden yalnız merhamet değil, sonuç hesabı da bekler. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, halk desteğinin ve saray kuşkusunun üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_halk_ekmek_kuyrugu"
+    focusImageId: "focus_smm_226_rebellion"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Halk Ayaklanması: İlk Eşik scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Meryem, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "meryem_isyanci"
+    dialogue:
+      -
+        speakerId: "meryem_isyanci"
+        emotion: "düşünceli"
+        text: "Aç insanın duası da öfkesi de kapı tanımaz."
+    choices:
+      -
+        choiceId: "smm_card_226_a"
+        text: "Ekmeği halka düzenli ulaştır"
+        resultText: "Halk Ayaklanması: İlk Eşik kararında hesabı açık tutarsın. Meryem bunu fark eder ve halk desteğinin ve saray kuşkusunun dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_food_to_people"
+          - "flag_meryem_rebel_signal"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 0
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 1
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_227"
+      -
+        choiceId: "smm_card_226_b"
+        text: "Ekmeği isyan silahı yap"
+        resultText: "Halk Ayaklanması: İlk Eşik kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde halk desteğinin ve saray kuşkusunun için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_rebellion_firebrand"
+          - "flag_secret_kept"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 2
+          poison_knowledge: 0
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 1
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_228"
+  -
+    cardId: "smm_card_227"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "rebellion"
+    stage: "crisis"
+    routeFamily: "rebellion"
+    title: "Halk Ayaklanması: Sıcak Bakır"
+    bodyText: "Halk ekmek kuyruğunda saray masallarına artık kimse tok karınla gülmez. Halk Ayaklanması: Sıcak Bakır anında Turgut Emin, bir bildirinin ekmek kadar hızlı yayılabileceğini gösterir. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, halk desteğinin ve saray kuşkusunun üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_sarap_mahzeni_isyan"
+    focusImageId: "focus_smm_227_rebellion"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Halk Ayaklanması: Sıcak Bakır scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Turgut Emin, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "turgut_iaseci"
+    dialogue:
+      -
+        speakerId: "turgut_iaseci"
+        emotion: "fısıltılı"
+        text: "Aç insanın duası da öfkesi de kapı tanımaz."
+    choices:
+      -
+        choiceId: "smm_card_227_a"
+        text: "Bildiriyi şiddetsiz çağrı yap"
+        resultText: "Halk Ayaklanması: Sıcak Bakır kararında hesabı açık tutarsın. Turgut Emin bunu fark eder ve halk desteğinin ve saray kuşkusunun dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_food_to_people"
+          - "flag_meryem_rebel_signal"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 0
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 1
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_228"
+      -
+        choiceId: "smm_card_227_b"
+        text: "Bildiriyi ateşli yaz"
+        resultText: "Halk Ayaklanması: Sıcak Bakır kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde halk desteğinin ve saray kuşkusunun için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_rebellion_firebrand"
+          - "flag_secret_kept"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 2
+          poison_knowledge: 0
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 1
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_229"
+  -
+    cardId: "smm_card_228"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "rebellion"
+    stage: "crisis"
+    routeFamily: "rebellion"
+    title: "Halk Ayaklanması: Sessiz Bakış"
+    bodyText: "Halk ekmek kuyruğunda saray masallarına artık kimse tok karınla gülmez. Halk Ayaklanması: Sessiz Bakış anında Şehzade Kemal, saraydan getirdiğin her bilginin can kurtarabileceğini veya can yakabileceğini söyler. Yanlış tatlı krizi, Safira'nın dış destek arayışında ya fırsat ya da utanç olarak yeniden açılır. Seçeceğin yol, halk desteğinin ve saray kuşkusunun üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_halk_meydani"
+    focusImageId: "focus_smm_228_rebellion"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Halk Ayaklanması: Sessiz Bakış scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Şehzade Kemal, Lale Kalfa, a mistaken ornate dessert tray with diplomatic tension, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "heir_kemal"
+      - "lale_helvaci"
+      - "elci_mirel"
+    dialogue:
+      -
+        speakerId: "heir_kemal"
+        emotion: "temkinli"
+        text: "Aç insanın duası da öfkesi de kapı tanımaz."
+      -
+        speakerId: "elci_mirel"
+        emotion: "zarif"
+        text: "Bizim ülkemizde böyle bir tatlı, sessiz bir evlilik nişanı sayılır."
+    choices:
+      -
+        choiceId: "smm_card_228_a"
+        text: "Meryem'e kaçış yolu çiz"
+        resultText: "Halk Ayaklanması: Sessiz Bakış kararında hesabı açık tutarsın. Şehzade Kemal bunu fark eder ve halk desteğinin ve saray kuşkusunun dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_food_to_people"
+          - "flag_meryem_rebel_signal"
+          - "flag_dessert_diplomacy_repaired"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 0
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 1
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 1
+        nextCardId: "smm_card_229"
+      -
+        choiceId: "smm_card_228_b"
+        text: "Meryem'i varise yaklaştır"
+        resultText: "Halk Ayaklanması: Sessiz Bakış kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde halk desteğinin ve saray kuşkusunun için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_rebellion_firebrand"
+          - "flag_secret_kept"
+          - "flag_dessert_error_hidden"
+          - "flag_elci_ring_accepted"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 2
+          poison_knowledge: 0
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 1
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 2
+        nextCardId: "smm_card_230"
+  -
+    cardId: "smm_card_229"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "rebellion"
+    stage: "crisis"
+    routeFamily: "rebellion"
+    title: "Halk Ayaklanması: İnce Hesap"
+    bodyText: "Halk ekmek kuyruğunda saray masallarına artık kimse tok karınla gülmez. Halk Ayaklanması: İnce Hesap anında Hekim Bera, Kemal'in halk dilini kullanmasının gerçek mi oyun mu olduğunu sordurur. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, halk desteğinin ve saray kuşkusunun üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_bahar_festivali_sokak"
+    focusImageId: "focus_smm_229_rebellion"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Halk Ayaklanması: İnce Hesap scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Hekim Bera, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "bera_hekim"
+    dialogue:
+      -
+        speakerId: "bera_hekim"
+        emotion: "yorgun"
+        text: "Aç insanın duası da öfkesi de kapı tanımaz."
+    choices:
+      -
+        choiceId: "smm_card_229_a"
+        text: "Kemal'den açık söz iste"
+        resultText: "Halk Ayaklanması: İnce Hesap kararında hesabı açık tutarsın. Hekim Bera bunu fark eder ve halk desteğinin ve saray kuşkusunun dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_food_to_people"
+          - "flag_meryem_rebel_signal"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 0
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 1
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_230"
+      -
+        choiceId: "smm_card_229_b"
+        text: "Kemal'in sözünü abart"
+        resultText: "Halk Ayaklanması: İnce Hesap kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde halk desteğinin ve saray kuşkusunun için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_rebellion_firebrand"
+          - "flag_secret_kept"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 2
+          poison_knowledge: 0
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 1
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_231"
+  -
+    cardId: "smm_card_230"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "rebellion"
+    stage: "crisis"
+    routeFamily: "rebellion"
+    title: "Halk Ayaklanması: Gizli Lekeler"
+    bodyText: "Halk ekmek kuyruğunda saray masallarına artık kimse tok karınla gülmez. Halk Ayaklanması: Gizli Lekeler anında Meryem, yaklaşan final sabahında hangi kapının içeriden açılacağını belirler. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, halk desteğinin ve saray kuşkusunun üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_yeralti_sarnici"
+    focusImageId: "focus_smm_230_rebellion"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Halk Ayaklanması: Gizli Lekeler scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Meryem, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "meryem_isyanci"
+    dialogue:
+      -
+        speakerId: "meryem_isyanci"
+        emotion: "alaycı"
+        text: "Aç insanın duası da öfkesi de kapı tanımaz."
+    choices:
+      -
+        choiceId: "smm_card_230_a"
+        text: "Mahzeni gizlice koru"
+        resultText: "Halk Ayaklanması: Gizli Lekeler kararında hesabı açık tutarsın. Meryem bunu fark eder ve halk desteğinin ve saray kuşkusunun dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_food_to_people"
+          - "flag_meryem_rebel_signal"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 0
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 1
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_231"
+      -
+        choiceId: "smm_card_230_b"
+        text: "Mahzeni saraya ihbar et"
+        resultText: "Halk Ayaklanması: Gizli Lekeler kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde halk desteğinin ve saray kuşkusunun için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_rebellion_firebrand"
+          - "flag_secret_kept"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 2
+          poison_knowledge: 0
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 1
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_233"
+  -
+    cardId: "smm_card_231"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "rebellion"
+    stage: "crisis"
+    routeFamily: "rebellion"
+    title: "Halk Ayaklanması: Kör Alev"
+    bodyText: "Meryem, isyanın önce fısıltıyla değil, paylaşılmayan somunla başladığını anlatır. Halk Ayaklanması: Kör Alev anında Turgut Emin, senden yalnız merhamet değil, sonuç hesabı da bekler. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, halk desteğinin ve saray kuşkusunun üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_halk_ekmek_kuyrugu"
+    focusImageId: "focus_smm_231_rebellion"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Halk Ayaklanması: Kör Alev scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Turgut Emin, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "turgut_iaseci"
+    dialogue:
+      -
+        speakerId: "turgut_iaseci"
+        emotion: "sert"
+        text: "Aç insanın duası da öfkesi de kapı tanımaz."
+    choices:
+      -
+        choiceId: "smm_card_231_a"
+        text: "Ekmeği halka düzenli ulaştır"
+        resultText: "Halk Ayaklanması: Kör Alev kararında hesabı açık tutarsın. Turgut Emin bunu fark eder ve halk desteğinin ve saray kuşkusunun dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_food_to_people"
+          - "flag_meryem_rebel_signal"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: -1
+          poison_knowledge: 0
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 1
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_232"
+      -
+        choiceId: "smm_card_231_b"
+        text: "Ekmeği isyan silahı yap"
+        resultText: "Halk Ayaklanması: Kör Alev kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde halk desteğinin ve saray kuşkusunun için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_rebellion_firebrand"
+          - "flag_secret_kept"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 2
+          poison_knowledge: 0
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 1
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_233"
+  -
+    cardId: "smm_card_232"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "rebellion"
+    stage: "crisis"
+    routeFamily: "rebellion"
+    title: "Halk Ayaklanması: Üç Nohut"
+    bodyText: "Meryem, isyanın önce fısıltıyla değil, paylaşılmayan somunla başladığını anlatır. Halk Ayaklanması: Üç Nohut anında Şehzade Kemal, bir bildirinin ekmek kadar hızlı yayılabileceğini gösterir. Ak Gaga'nın davranışı divanda bir devlet işareti gibi yorumlanır ve oyuncunun önceki yem tercihleri hatırlanır. Seçeceğin yol, halk desteğinin ve saray kuşkusunun üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_sarap_mahzeni_isyan"
+    focusImageId: "focus_smm_232_rebellion"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Halk Ayaklanması: Üç Nohut scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Şehzade Kemal, Durna, the dignified palace goose Ak Gaga nearby, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "heir_kemal"
+      - "durna_kazci"
+    dialogue:
+      -
+        speakerId: "heir_kemal"
+        emotion: "düşünceli"
+        text: "Aç insanın duası da öfkesi de kapı tanımaz."
+      -
+        speakerId: "durna_kazci"
+        emotion: "ciddi"
+        text: "Ak Gaga boş yere dönmez; asıl mesele kimin onu izlediğidir."
+    choices:
+      -
+        choiceId: "smm_card_232_a"
+        text: "Bildiriyi şiddetsiz çağrı yap"
+        resultText: "Halk Ayaklanması: Üç Nohut kararında hesabı açık tutarsın. Şehzade Kemal bunu fark eder ve halk desteğinin ve saray kuşkusunun dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_food_to_people"
+          - "flag_meryem_rebel_signal"
+          - "flag_major_branch_29"
+          - "flag_ak_gaga_protected"
+          - "flag_ak_gaga_fed"
+          - "flag_durna_goose_friend"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 0
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 1
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 1
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_233"
+      -
+        choiceId: "smm_card_232_b"
+        text: "Bildiriyi ateşli yaz"
+        resultText: "Halk Ayaklanması: Üç Nohut kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde halk desteğinin ve saray kuşkusunun için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_rebellion_firebrand"
+          - "flag_secret_kept"
+          - "flag_major_branch_29"
+          - "flag_goose_misled_divan"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 2
+          poison_knowledge: 0
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 1
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 2
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_234"
+  -
+    cardId: "smm_card_233"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "rebellion"
+    stage: "crisis"
+    routeFamily: "rebellion"
+    title: "Halk Ayaklanması: Kapıdaki Fısıltı"
+    bodyText: "Meryem, isyanın önce fısıltıyla değil, paylaşılmayan somunla başladığını anlatır. Halk Ayaklanması: Kapıdaki Fısıltı anında Hekim Bera, saraydan getirdiğin her bilginin can kurtarabileceğini veya can yakabileceğini söyler. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, halk desteğinin ve saray kuşkusunun üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_halk_meydani"
+    focusImageId: "focus_smm_233_rebellion"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Halk Ayaklanması: Kapıdaki Fısıltı scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Hekim Bera, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "bera_hekim"
+    dialogue:
+      -
+        speakerId: "bera_hekim"
+        emotion: "fısıltılı"
+        text: "Aç insanın duası da öfkesi de kapı tanımaz."
+    choices:
+      -
+        choiceId: "smm_card_233_a"
+        text: "Meryem'e kaçış yolu çiz"
+        resultText: "Halk Ayaklanması: Kapıdaki Fısıltı kararında hesabı açık tutarsın. Hekim Bera bunu fark eder ve halk desteğinin ve saray kuşkusunun dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_food_to_people"
+          - "flag_meryem_rebel_signal"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 0
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 1
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_234"
+      -
+        choiceId: "smm_card_233_b"
+        text: "Meryem'i varise yaklaştır"
+        resultText: "Halk Ayaklanması: Kapıdaki Fısıltı kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde halk desteğinin ve saray kuşkusunun için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_rebellion_firebrand"
+          - "flag_secret_kept"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 2
+          poison_knowledge: 0
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 1
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_235"
+  -
+    cardId: "smm_card_234"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "rebellion"
+    stage: "crisis"
+    routeFamily: "rebellion"
+    title: "Halk Ayaklanması: Aç Karnın Sözü"
+    bodyText: "Meryem, isyanın önce fısıltıyla değil, paylaşılmayan somunla başladığını anlatır. Halk Ayaklanması: Aç Karnın Sözü anında Meryem, Kemal'in halk dilini kullanmasının gerçek mi oyun mu olduğunu sordurur. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, halk desteğinin ve saray kuşkusunun üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_bahar_festivali_sokak"
+    focusImageId: "focus_smm_234_rebellion"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Halk Ayaklanması: Aç Karnın Sözü scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Meryem, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "meryem_isyanci"
+    dialogue:
+      -
+        speakerId: "meryem_isyanci"
+        emotion: "temkinli"
+        text: "Aç insanın duası da öfkesi de kapı tanımaz."
+    choices:
+      -
+        choiceId: "smm_card_234_a"
+        text: "Kemal'den açık söz iste"
+        resultText: "Halk Ayaklanması: Aç Karnın Sözü kararında hesabı açık tutarsın. Meryem bunu fark eder ve halk desteğinin ve saray kuşkusunun dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_food_to_people"
+          - "flag_meryem_rebel_signal"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 0
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 1
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_235"
+      -
+        choiceId: "smm_card_234_b"
+        text: "Kemal'in sözünü abart"
+        resultText: "Halk Ayaklanması: Aç Karnın Sözü kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde halk desteğinin ve saray kuşkusunun için daha keskin bir kayıt açılır."
+        healthDelta: -1
+        setFlags:
+          - "flag_rebellion_firebrand"
+          - "flag_secret_kept"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 2
+          poison_knowledge: 0
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 1
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_236"
+  -
+    cardId: "smm_card_235"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "rebellion"
+    stage: "crisis"
+    routeFamily: "rebellion"
+    title: "Halk Ayaklanması: Ustanın Sınavı"
+    bodyText: "Meryem, isyanın önce fısıltıyla değil, paylaşılmayan somunla başladığını anlatır. Halk Ayaklanması: Ustanın Sınavı anında Turgut Emin, yaklaşan final sabahında hangi kapının içeriden açılacağını belirler. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, halk desteğinin ve saray kuşkusunun üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_yeralti_sarnici"
+    focusImageId: "focus_smm_235_rebellion"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Halk Ayaklanması: Ustanın Sınavı scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Turgut Emin, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "turgut_iaseci"
+    dialogue:
+      -
+        speakerId: "turgut_iaseci"
+        emotion: "yorgun"
+        text: "Aç insanın duası da öfkesi de kapı tanımaz."
+    choices:
+      -
+        choiceId: "smm_card_235_a"
+        text: "Mahzeni gizlice koru"
+        resultText: "Halk Ayaklanması: Ustanın Sınavı kararında hesabı açık tutarsın. Turgut Emin bunu fark eder ve halk desteğinin ve saray kuşkusunun dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_food_to_people"
+          - "flag_meryem_rebel_signal"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 0
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 1
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_236"
+      -
+        choiceId: "smm_card_235_b"
+        text: "Mahzeni saraya ihbar et"
+        resultText: "Halk Ayaklanması: Ustanın Sınavı kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde halk desteğinin ve saray kuşkusunun için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_rebellion_firebrand"
+          - "flag_secret_kept"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 2
+          poison_knowledge: 0
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 1
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_238"
+  -
+    cardId: "smm_card_236"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "rebellion"
+    stage: "crisis"
+    routeFamily: "rebellion"
+    title: "Halk Ayaklanması: Kazanın Gölgesi"
+    bodyText: "Şarap mahzenindeki toplantılar, sarayın zemininin sandığından ince olduğunu gösterir. Halk Ayaklanması: Kazanın Gölgesi anında Şehzade Kemal, senden yalnız merhamet değil, sonuç hesabı da bekler. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, halk desteğinin ve saray kuşkusunun üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_halk_ekmek_kuyrugu"
+    focusImageId: "focus_smm_236_rebellion"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Halk Ayaklanması: Kazanın Gölgesi scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Şehzade Kemal, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "heir_kemal"
+    dialogue:
+      -
+        speakerId: "heir_kemal"
+        emotion: "alaycı"
+        text: "Aç insanın duası da öfkesi de kapı tanımaz."
+    choices:
+      -
+        choiceId: "smm_card_236_a"
+        text: "Ekmeği halka düzenli ulaştır"
+        resultText: "Halk Ayaklanması: Kazanın Gölgesi kararında hesabı açık tutarsın. Şehzade Kemal bunu fark eder ve halk desteğinin ve saray kuşkusunun dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_food_to_people"
+          - "flag_meryem_rebel_signal"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 0
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 1
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_237"
+      -
+        choiceId: "smm_card_236_b"
+        text: "Ekmeği isyan silahı yap"
+        resultText: "Halk Ayaklanması: Kazanın Gölgesi kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde halk desteğinin ve saray kuşkusunun için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_rebellion_firebrand"
+          - "flag_secret_kept"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 2
+          poison_knowledge: 0
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 1
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_238"
+  -
+    cardId: "smm_card_237"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "rebellion"
+    stage: "crisis"
+    routeFamily: "rebellion"
+    title: "Halk Ayaklanması: Tuz ve Yemin"
+    bodyText: "Şarap mahzenindeki toplantılar, sarayın zemininin sandığından ince olduğunu gösterir. Halk Ayaklanması: Tuz ve Yemin anında Hekim Bera, bir bildirinin ekmek kadar hızlı yayılabileceğini gösterir. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, halk desteğinin ve saray kuşkusunun üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_sarap_mahzeni_isyan"
+    focusImageId: "focus_smm_237_rebellion"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Halk Ayaklanması: Tuz ve Yemin scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Hekim Bera, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "bera_hekim"
+    dialogue:
+      -
+        speakerId: "bera_hekim"
+        emotion: "sert"
+        text: "Aç insanın duası da öfkesi de kapı tanımaz."
+    choices:
+      -
+        choiceId: "smm_card_237_a"
+        text: "Bildiriyi şiddetsiz çağrı yap"
+        resultText: "Halk Ayaklanması: Tuz ve Yemin kararında hesabı açık tutarsın. Hekim Bera bunu fark eder ve halk desteğinin ve saray kuşkusunun dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_food_to_people"
+          - "flag_meryem_rebel_signal"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 0
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 1
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_238"
+      -
+        choiceId: "smm_card_237_b"
+        text: "Bildiriyi ateşli yaz"
+        resultText: "Halk Ayaklanması: Tuz ve Yemin kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde halk desteğinin ve saray kuşkusunun için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_rebellion_firebrand"
+          - "flag_secret_kept"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 2
+          poison_knowledge: 0
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 1
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_239"
+  -
+    cardId: "smm_card_238"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "rebellion"
+    stage: "crisis"
+    routeFamily: "rebellion"
+    title: "Halk Ayaklanması: Kırık Tabak"
+    bodyText: "Şarap mahzenindeki toplantılar, sarayın zemininin sandığından ince olduğunu gösterir. Halk Ayaklanması: Kırık Tabak anında Meryem, saraydan getirdiğin her bilginin can kurtarabileceğini veya can yakabileceğini söyler. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, halk desteğinin ve saray kuşkusunun üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_halk_meydani"
+    focusImageId: "focus_smm_238_rebellion"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Halk Ayaklanması: Kırık Tabak scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Meryem, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "meryem_isyanci"
+    dialogue:
+      -
+        speakerId: "meryem_isyanci"
+        emotion: "düşünceli"
+        text: "Aç insanın duası da öfkesi de kapı tanımaz."
+    choices:
+      -
+        choiceId: "smm_card_238_a"
+        text: "Meryem'e kaçış yolu çiz"
+        resultText: "Halk Ayaklanması: Kırık Tabak kararında hesabı açık tutarsın. Meryem bunu fark eder ve halk desteğinin ve saray kuşkusunun dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_food_to_people"
+          - "flag_meryem_rebel_signal"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: -1
+          poison_knowledge: 0
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 1
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_239"
+      -
+        choiceId: "smm_card_238_b"
+        text: "Meryem'i varise yaklaştır"
+        resultText: "Halk Ayaklanması: Kırık Tabak kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde halk desteğinin ve saray kuşkusunun için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_rebellion_firebrand"
+          - "flag_secret_kept"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 2
+          poison_knowledge: 0
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 1
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_240"
+  -
+    cardId: "smm_card_239"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "rebellion"
+    stage: "crisis"
+    routeFamily: "rebellion"
+    title: "Halk Ayaklanması: Mum Işığı"
+    bodyText: "Şarap mahzenindeki toplantılar, sarayın zemininin sandığından ince olduğunu gösterir. Halk Ayaklanması: Mum Işığı anında Turgut Emin, Kemal'in halk dilini kullanmasının gerçek mi oyun mu olduğunu sordurur. Kehanet çorbası artık sarayda küçük bir şaka değil, varislerin kendi lehine çevirmek istediği ciddi bir alamettir. Seçeceğin yol, halk desteğinin ve saray kuşkusunun üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_bahar_festivali_sokak"
+    focusImageId: "focus_smm_239_rebellion"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Halk Ayaklanması: Mum Işığı scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Turgut Emin, Müneccim Zerya, a bowl of omen soup with oil rings and three chickpeas, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "turgut_iaseci"
+      - "muneccim_zerya"
+    dialogue:
+      -
+        speakerId: "turgut_iaseci"
+        emotion: "fısıltılı"
+        text: "Aç insanın duası da öfkesi de kapı tanımaz."
+      -
+        speakerId: "muneccim_zerya"
+        emotion: "ürpermiş"
+        text: "Bu çorbanın yüzeyinde tesadüf değil, sarayın korkusu yüzüyor."
+    choices:
+      -
+        choiceId: "smm_card_239_a"
+        text: "Kemal'den açık söz iste"
+        resultText: "Halk Ayaklanması: Mum Işığı kararında hesabı açık tutarsın. Turgut Emin bunu fark eder ve halk desteğinin ve saray kuşkusunun dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_food_to_people"
+          - "flag_meryem_rebel_signal"
+          - "flag_soup_omen_confirmed"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 0
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 1
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 1
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_240"
+      -
+        choiceId: "smm_card_239_b"
+        text: "Kemal'in sözünü abart"
+        resultText: "Halk Ayaklanması: Mum Işığı kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde halk desteğinin ve saray kuşkusunun için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_rebellion_firebrand"
+          - "flag_secret_kept"
+          - "flag_soup_manipulated"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 2
+          poison_knowledge: 0
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 1
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 2
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_241"
+  -
+    cardId: "smm_card_240"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "rebellion"
+    stage: "crisis"
+    routeFamily: "rebellion"
+    title: "Halk Ayaklanması: Gece Nöbeti"
+    bodyText: "Şarap mahzenindeki toplantılar, sarayın zemininin sandığından ince olduğunu gösterir. Halk Ayaklanması: Gece Nöbeti anında Şehzade Kemal, yaklaşan final sabahında hangi kapının içeriden açılacağını belirler. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, halk desteğinin ve saray kuşkusunun üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_yeralti_sarnici"
+    focusImageId: "focus_smm_240_rebellion"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Halk Ayaklanması: Gece Nöbeti scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Şehzade Kemal, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "heir_kemal"
+    dialogue:
+      -
+        speakerId: "heir_kemal"
+        emotion: "temkinli"
+        text: "Aç insanın duası da öfkesi de kapı tanımaz."
+    choices:
+      -
+        choiceId: "smm_card_240_a"
+        text: "Mahzeni gizlice koru"
+        resultText: "Halk Ayaklanması: Gece Nöbeti kararında hesabı açık tutarsın. Şehzade Kemal bunu fark eder ve halk desteğinin ve saray kuşkusunun dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_food_to_people"
+          - "flag_meryem_rebel_signal"
+          - "flag_major_branch_30"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 0
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 1
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_241"
+      -
+        choiceId: "smm_card_240_b"
+        text: "Mahzeni saraya ihbar et"
+        resultText: "Halk Ayaklanması: Gece Nöbeti kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde halk desteğinin ve saray kuşkusunun için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_rebellion_firebrand"
+          - "flag_secret_kept"
+          - "flag_major_branch_30"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 2
+          poison_knowledge: 0
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 1
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_243"
+  -
+    cardId: "smm_card_241"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "rebellion"
+    stage: "crisis"
+    routeFamily: "rebellion"
+    title: "Halk Ayaklanması: Kilitli Raf"
+    bodyText: "Kemal'in adalet sözleri, halkın öfkesiyle aynı tonda duyulmaya başlar. Halk Ayaklanması: Kilitli Raf anında Hekim Bera, senden yalnız merhamet değil, sonuç hesabı da bekler. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, halk desteğinin ve saray kuşkusunun üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_halk_ekmek_kuyrugu"
+    focusImageId: "focus_smm_241_rebellion"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Halk Ayaklanması: Kilitli Raf scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Hekim Bera, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "bera_hekim"
+    dialogue:
+      -
+        speakerId: "bera_hekim"
+        emotion: "yorgun"
+        text: "Aç insanın duası da öfkesi de kapı tanımaz."
+    choices:
+      -
+        choiceId: "smm_card_241_a"
+        text: "Ekmeği halka düzenli ulaştır"
+        resultText: "Halk Ayaklanması: Kilitli Raf kararında hesabı açık tutarsın. Hekim Bera bunu fark eder ve halk desteğinin ve saray kuşkusunun dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_food_to_people"
+          - "flag_meryem_rebel_signal"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 0
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 1
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_242"
+      -
+        choiceId: "smm_card_241_b"
+        text: "Ekmeği isyan silahı yap"
+        resultText: "Halk Ayaklanması: Kilitli Raf kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde halk desteğinin ve saray kuşkusunun için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_rebellion_firebrand"
+          - "flag_secret_kept"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 2
+          poison_knowledge: 0
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 1
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_243"
+  -
+    cardId: "smm_card_242"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "rebellion"
+    stage: "crisis"
+    routeFamily: "rebellion"
+    title: "Halk Ayaklanması: Sarayın Kulağı"
+    bodyText: "Kemal'in adalet sözleri, halkın öfkesiyle aynı tonda duyulmaya başlar. Halk Ayaklanması: Sarayın Kulağı anında Meryem, bir bildirinin ekmek kadar hızlı yayılabileceğini gösterir. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, halk desteğinin ve saray kuşkusunun üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_sarap_mahzeni_isyan"
+    focusImageId: "focus_smm_242_rebellion"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Halk Ayaklanması: Sarayın Kulağı scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Meryem, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "meryem_isyanci"
+    dialogue:
+      -
+        speakerId: "meryem_isyanci"
+        emotion: "alaycı"
+        text: "Aç insanın duası da öfkesi de kapı tanımaz."
+    choices:
+      -
+        choiceId: "smm_card_242_a"
+        text: "Bildiriyi şiddetsiz çağrı yap"
+        resultText: "Halk Ayaklanması: Sarayın Kulağı kararında hesabı açık tutarsın. Meryem bunu fark eder ve halk desteğinin ve saray kuşkusunun dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_food_to_people"
+          - "flag_meryem_rebel_signal"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 0
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 1
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_243"
+      -
+        choiceId: "smm_card_242_b"
+        text: "Bildiriyi ateşli yaz"
+        resultText: "Halk Ayaklanması: Sarayın Kulağı kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde halk desteğinin ve saray kuşkusunun için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_rebellion_firebrand"
+          - "flag_secret_kept"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 2
+          poison_knowledge: 0
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 1
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_244"
+  -
+    cardId: "smm_card_243"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "rebellion"
+    stage: "crisis"
+    routeFamily: "rebellion"
+    title: "Halk Ayaklanması: Yağ Halkası"
+    bodyText: "Kemal'in adalet sözleri, halkın öfkesiyle aynı tonda duyulmaya başlar. Halk Ayaklanması: Yağ Halkası anında Turgut Emin, saraydan getirdiğin her bilginin can kurtarabileceğini veya can yakabileceğini söyler. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, halk desteğinin ve saray kuşkusunun üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_halk_meydani"
+    focusImageId: "focus_smm_243_rebellion"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Halk Ayaklanması: Yağ Halkası scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Turgut Emin, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "turgut_iaseci"
+    dialogue:
+      -
+        speakerId: "turgut_iaseci"
+        emotion: "sert"
+        text: "Aç insanın duası da öfkesi de kapı tanımaz."
+    choices:
+      -
+        choiceId: "smm_card_243_a"
+        text: "Meryem'e kaçış yolu çiz"
+        resultText: "Halk Ayaklanması: Yağ Halkası kararında hesabı açık tutarsın. Turgut Emin bunu fark eder ve halk desteğinin ve saray kuşkusunun dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_food_to_people"
+          - "flag_meryem_rebel_signal"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 0
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 1
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_244"
+      -
+        choiceId: "smm_card_243_b"
+        text: "Meryem'i varise yaklaştır"
+        resultText: "Halk Ayaklanması: Yağ Halkası kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde halk desteğinin ve saray kuşkusunun için daha keskin bir kayıt açılır."
+        healthDelta: -1
+        setFlags:
+          - "flag_rebellion_firebrand"
+          - "flag_secret_kept"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 2
+          poison_knowledge: 0
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 1
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_245"
+  -
+    cardId: "smm_card_244"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "rebellion"
+    stage: "crisis"
+    routeFamily: "rebellion"
+    title: "Halk Ayaklanması: Ak Gaga'nın Yolu"
+    bodyText: "Kemal'in adalet sözleri, halkın öfkesiyle aynı tonda duyulmaya başlar. Halk Ayaklanması: Ak Gaga'nın Yolu anında Şehzade Kemal, Kemal'in halk dilini kullanmasının gerçek mi oyun mu olduğunu sordurur. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, halk desteğinin ve saray kuşkusunun üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_bahar_festivali_sokak"
+    focusImageId: "focus_smm_244_rebellion"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Halk Ayaklanması: Ak Gaga'nın Yolu scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Şehzade Kemal, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "heir_kemal"
+    dialogue:
+      -
+        speakerId: "heir_kemal"
+        emotion: "düşünceli"
+        text: "Aç insanın duası da öfkesi de kapı tanımaz."
+    choices:
+      -
+        choiceId: "smm_card_244_a"
+        text: "Kemal'den açık söz iste"
+        resultText: "Halk Ayaklanması: Ak Gaga'nın Yolu kararında hesabı açık tutarsın. Şehzade Kemal bunu fark eder ve halk desteğinin ve saray kuşkusunun dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_food_to_people"
+          - "flag_meryem_rebel_signal"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 0
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 1
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_245"
+      -
+        choiceId: "smm_card_244_b"
+        text: "Kemal'in sözünü abart"
+        resultText: "Halk Ayaklanması: Ak Gaga'nın Yolu kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde halk desteğinin ve saray kuşkusunun için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_rebellion_firebrand"
+          - "flag_secret_kept"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 2
+          poison_knowledge: 0
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 1
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_246"
+  -
+    cardId: "smm_card_245"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "rebellion"
+    stage: "crisis"
+    routeFamily: "rebellion"
+    title: "Halk Ayaklanması: Gümüş Kaşık"
+    bodyText: "Kemal'in adalet sözleri, halkın öfkesiyle aynı tonda duyulmaya başlar. Halk Ayaklanması: Gümüş Kaşık anında Hekim Bera, yaklaşan final sabahında hangi kapının içeriden açılacağını belirler. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, halk desteğinin ve saray kuşkusunun üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_yeralti_sarnici"
+    focusImageId: "focus_smm_245_rebellion"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Halk Ayaklanması: Gümüş Kaşık scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Hekim Bera, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "bera_hekim"
+    dialogue:
+      -
+        speakerId: "bera_hekim"
+        emotion: "fısıltılı"
+        text: "Aç insanın duası da öfkesi de kapı tanımaz."
+    choices:
+      -
+        choiceId: "smm_card_245_a"
+        text: "Mahzeni gizlice koru"
+        resultText: "Halk Ayaklanması: Gümüş Kaşık kararında hesabı açık tutarsın. Hekim Bera bunu fark eder ve halk desteğinin ve saray kuşkusunun dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_food_to_people"
+          - "flag_meryem_rebel_signal"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: -1
+          poison_knowledge: 0
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 1
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_246"
+      -
+        choiceId: "smm_card_245_b"
+        text: "Mahzeni saraya ihbar et"
+        resultText: "Halk Ayaklanması: Gümüş Kaşık kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde halk desteğinin ve saray kuşkusunun için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_rebellion_firebrand"
+          - "flag_secret_kept"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 2
+          poison_knowledge: 0
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 1
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_248"
+  -
+    cardId: "smm_card_246"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "rebellion"
+    stage: "crisis"
+    routeFamily: "rebellion"
+    title: "Halk Ayaklanması: Kayıp Ölçü"
+    bodyText: "İsyana yardım etmek ile katliamı önlemek arasındaki çizgi giderek daralır. Halk Ayaklanması: Kayıp Ölçü anında Meryem, senden yalnız merhamet değil, sonuç hesabı da bekler. Ak Gaga'nın davranışı divanda bir devlet işareti gibi yorumlanır ve oyuncunun önceki yem tercihleri hatırlanır. Seçeceğin yol, halk desteğinin ve saray kuşkusunun üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_halk_ekmek_kuyrugu"
+    focusImageId: "focus_smm_246_rebellion"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Halk Ayaklanması: Kayıp Ölçü scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Meryem, Durna, the dignified palace goose Ak Gaga nearby, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "meryem_isyanci"
+      - "durna_kazci"
+    dialogue:
+      -
+        speakerId: "meryem_isyanci"
+        emotion: "temkinli"
+        text: "Aç insanın duası da öfkesi de kapı tanımaz."
+      -
+        speakerId: "durna_kazci"
+        emotion: "ciddi"
+        text: "Ak Gaga boş yere dönmez; asıl mesele kimin onu izlediğidir."
+    choices:
+      -
+        choiceId: "smm_card_246_a"
+        text: "Ekmeği halka düzenli ulaştır"
+        resultText: "Halk Ayaklanması: Kayıp Ölçü kararında hesabı açık tutarsın. Meryem bunu fark eder ve halk desteğinin ve saray kuşkusunun dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_food_to_people"
+          - "flag_meryem_rebel_signal"
+          - "flag_ak_gaga_protected"
+          - "flag_ak_gaga_fed"
+          - "flag_durna_goose_friend"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 0
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 1
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 1
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_247"
+      -
+        choiceId: "smm_card_246_b"
+        text: "Ekmeği isyan silahı yap"
+        resultText: "Halk Ayaklanması: Kayıp Ölçü kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde halk desteğinin ve saray kuşkusunun için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_rebellion_firebrand"
+          - "flag_secret_kept"
+          - "flag_goose_misled_divan"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 2
+          poison_knowledge: 0
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 1
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 2
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_248"
+  -
+    cardId: "smm_card_247"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "rebellion"
+    stage: "crisis"
+    routeFamily: "rebellion"
+    title: "Halk Ayaklanması: Kuyrukta Ekmek"
+    bodyText: "İsyana yardım etmek ile katliamı önlemek arasındaki çizgi giderek daralır. Halk Ayaklanması: Kuyrukta Ekmek anında Turgut Emin, bir bildirinin ekmek kadar hızlı yayılabileceğini gösterir. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, halk desteğinin ve saray kuşkusunun üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_sarap_mahzeni_isyan"
+    focusImageId: "focus_smm_247_rebellion"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Halk Ayaklanması: Kuyrukta Ekmek scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Turgut Emin, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "turgut_iaseci"
+    dialogue:
+      -
+        speakerId: "turgut_iaseci"
+        emotion: "yorgun"
+        text: "Aç insanın duası da öfkesi de kapı tanımaz."
+    choices:
+      -
+        choiceId: "smm_card_247_a"
+        text: "Bildiriyi şiddetsiz çağrı yap"
+        resultText: "Halk Ayaklanması: Kuyrukta Ekmek kararında hesabı açık tutarsın. Turgut Emin bunu fark eder ve halk desteğinin ve saray kuşkusunun dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_food_to_people"
+          - "flag_meryem_rebel_signal"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 0
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 1
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_248"
+      -
+        choiceId: "smm_card_247_b"
+        text: "Bildiriyi ateşli yaz"
+        resultText: "Halk Ayaklanması: Kuyrukta Ekmek kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde halk desteğinin ve saray kuşkusunun için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_rebellion_firebrand"
+          - "flag_secret_kept"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 2
+          poison_knowledge: 0
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 1
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_249"
+  -
+    cardId: "smm_card_248"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "rebellion"
+    stage: "crisis"
+    routeFamily: "rebellion"
+    title: "Halk Ayaklanması: Keskin Koku"
+    bodyText: "İsyana yardım etmek ile katliamı önlemek arasındaki çizgi giderek daralır. Halk Ayaklanması: Keskin Koku anında Şehzade Kemal, saraydan getirdiğin her bilginin can kurtarabileceğini veya can yakabileceğini söyler. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, halk desteğinin ve saray kuşkusunun üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_halk_meydani"
+    focusImageId: "focus_smm_248_rebellion"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Halk Ayaklanması: Keskin Koku scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Şehzade Kemal, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "heir_kemal"
+    dialogue:
+      -
+        speakerId: "heir_kemal"
+        emotion: "alaycı"
+        text: "Aç insanın duası da öfkesi de kapı tanımaz."
+    choices:
+      -
+        choiceId: "smm_card_248_a"
+        text: "Meryem'e kaçış yolu çiz"
+        resultText: "Halk Ayaklanması: Keskin Koku kararında hesabı açık tutarsın. Şehzade Kemal bunu fark eder ve halk desteğinin ve saray kuşkusunun dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_food_to_people"
+          - "flag_meryem_rebel_signal"
+          - "flag_major_branch_31"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 0
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 1
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_249"
+      -
+        choiceId: "smm_card_248_b"
+        text: "Meryem'i varise yaklaştır"
+        resultText: "Halk Ayaklanması: Keskin Koku kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde halk desteğinin ve saray kuşkusunun için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_rebellion_firebrand"
+          - "flag_secret_kept"
+          - "flag_major_branch_31"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 2
+          poison_knowledge: 0
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 1
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_250"
+  -
+    cardId: "smm_card_249"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "rebellion"
+    stage: "crisis"
+    routeFamily: "rebellion"
+    title: "Halk Ayaklanması: Mühre Giden İz"
+    bodyText: "İsyana yardım etmek ile katliamı önlemek arasındaki çizgi giderek daralır. Halk Ayaklanması: Mühre Giden İz anında Hekim Bera, Kemal'in halk dilini kullanmasının gerçek mi oyun mu olduğunu sordurur. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, halk desteğinin ve saray kuşkusunun üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_bahar_festivali_sokak"
+    focusImageId: "focus_smm_249_rebellion"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Halk Ayaklanması: Mühre Giden İz scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Hekim Bera, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "bera_hekim"
+    dialogue:
+      -
+        speakerId: "bera_hekim"
+        emotion: "sert"
+        text: "Aç insanın duası da öfkesi de kapı tanımaz."
+    choices:
+      -
+        choiceId: "smm_card_249_a"
+        text: "Kemal'den açık söz iste"
+        resultText: "Halk Ayaklanması: Mühre Giden İz kararında hesabı açık tutarsın. Hekim Bera bunu fark eder ve halk desteğinin ve saray kuşkusunun dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_food_to_people"
+          - "flag_meryem_rebel_signal"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 0
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 1
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_250"
+      -
+        choiceId: "smm_card_249_b"
+        text: "Kemal'in sözünü abart"
+        resultText: "Halk Ayaklanması: Mühre Giden İz kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde halk desteğinin ve saray kuşkusunun için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_rebellion_firebrand"
+          - "flag_secret_kept"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 2
+          poison_knowledge: 0
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 1
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_251"
+  -
+    cardId: "smm_card_250"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "rebellion"
+    stage: "crisis"
+    routeFamily: "rebellion"
+    title: "Halk Ayaklanması: Dar Boğaz"
+    bodyText: "İsyana yardım etmek ile katliamı önlemek arasındaki çizgi giderek daralır. Halk Ayaklanması: Dar Boğaz anında Meryem, yaklaşan final sabahında hangi kapının içeriden açılacağını belirler. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, halk desteğinin ve saray kuşkusunun üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_yeralti_sarnici"
+    focusImageId: "focus_smm_250_rebellion"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Halk Ayaklanması: Dar Boğaz scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Meryem, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "meryem_isyanci"
+    dialogue:
+      -
+        speakerId: "meryem_isyanci"
+        emotion: "düşünceli"
+        text: "Aç insanın duası da öfkesi de kapı tanımaz."
+    choices:
+      -
+        choiceId: "smm_card_250_a"
+        text: "Mahzeni gizlice koru"
+        resultText: "Halk Ayaklanması: Dar Boğaz kararında hesabı açık tutarsın. Meryem bunu fark eder ve halk desteğinin ve saray kuşkusunun dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_food_to_people"
+          - "flag_meryem_rebel_signal"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 0
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 1
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_251"
+      -
+        choiceId: "smm_card_250_b"
+        text: "Mahzeni saraya ihbar et"
+        resultText: "Halk Ayaklanması: Dar Boğaz kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde halk desteğinin ve saray kuşkusunun için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_rebellion_firebrand"
+          - "flag_secret_kept"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 2
+          poison_knowledge: 0
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 1
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_253"

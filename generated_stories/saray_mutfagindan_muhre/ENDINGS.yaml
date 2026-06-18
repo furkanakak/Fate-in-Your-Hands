@@ -1,0 +1,732 @@
+endings:
+  -
+    endingId: "ending_basvezir_gercek_yonetici"
+    title: "Başvezir ve İmparatorluğun Gerçek Yöneticisi"
+    endingType: "power"
+    fullEndingText: "Başvezir ve İmparatorluğun Gerçek Yöneticisi sonunda, saray mutfağından başlayan yolun imparatorluk mührüne kadar uzandığı açıkça görülür. seal_and_finals rotasında biriktirdiğin güvenler, borçlar ve alametler tek bir siyasi sonuca bağlanır. Kehanet çorbası, Ak Gaga ve yanlış tatlı gibi tuhaf olaylar artık komik anılar değil, iktidarın nasıl kurulduğunu gösteren kanıtlar olur. Başkent senin adını ya korkuyla, ya şükranla, ya da fısıltıyla hatırlar."
+    requiredFlags:
+      - "flag_seal_access_granted"
+      - "flag_heir_neutral_balancer"
+    forbiddenFlags:
+      - "flag_final_choice_burned"
+    requiredHiddenCounters:
+      -
+        counterId: "seal_access"
+        min: 8
+      -
+        counterId: "spy_network"
+        min: 5
+    forbiddenHiddenCounters: []
+    typicalRoute: "seal_and_finals"
+    importantPastChoices:
+      - "smm_card_010_a"
+      - "smm_card_019_a"
+      - "smm_card_028_a"
+    whyThisEndingHappens: "Bu son, oyuncunun görünür bir meslek yolundan çok gizli sayaçların ve kalıcı bayrakların toplamıyla şekillenir."
+    payoffExplanation: "Kurulan absürt olaylar finalde siyasi delil, halk söylentisi veya mühür gerekçesi olarak geri döner; önceki seçimler sona yalnız renk değil neden verir."
+    endingImageId: "ending_smm_basvezir_gercek_yonetici"
+    endingImagePrompt: "2D illustrated storybook style, hand-drawn painterly warm muted colors, cinematic ending scene for Başvezir ve İmparatorluğun Gerçek Yöneticisi, imperial palace aftermath, readable silhouettes, no photorealism, no 3D render look, no text, no watermark, no logo"
+  -
+    endingId: "ending_en_guvenilen_saray_ascisi"
+    title: "Hükümdarın En Güvendiği Saray Aşçısı"
+    endingType: "craft"
+    fullEndingText: "Hükümdarın En Güvendiği Saray Aşçısı sonunda, saray mutfağından başlayan yolun imparatorluk mührüne kadar uzandığı açıkça görülür. kitchen_rise rotasında biriktirdiğin güvenler, borçlar ve alametler tek bir siyasi sonuca bağlanır. Kehanet çorbası, Ak Gaga ve yanlış tatlı gibi tuhaf olaylar artık komik anılar değil, iktidarın nasıl kurulduğunu gösteren kanıtlar olur. Başkent senin adını ya korkuyla, ya şükranla, ya da fısıltıyla hatırlar."
+    requiredFlags:
+      - "flag_kitchen_apprentice"
+      - "flag_hukumdar_tasted_meal"
+    forbiddenFlags:
+      - "flag_final_choice_burned"
+    requiredHiddenCounters:
+      -
+        counterId: "kitchen_favor"
+        min: 8
+    forbiddenHiddenCounters:
+      -
+        counterId: "black_market_debt"
+        max: 7
+    typicalRoute: "kitchen_rise"
+    importantPastChoices:
+      - "smm_card_010_a"
+      - "smm_card_019_a"
+      - "smm_card_028_a"
+    whyThisEndingHappens: "Bu son, oyuncunun görünür bir meslek yolundan çok gizli sayaçların ve kalıcı bayrakların toplamıyla şekillenir."
+    payoffExplanation: "Kurulan absürt olaylar finalde siyasi delil, halk söylentisi veya mühür gerekçesi olarak geri döner; önceki seçimler sona yalnız renk değil neden verir."
+    endingImageId: "ending_smm_en_guvenilen_saray_ascisi"
+    endingImagePrompt: "2D illustrated storybook style, hand-drawn painterly warm muted colors, cinematic ending scene for Hükümdarın En Güvendiği Saray Aşçısı, imperial palace aftermath, readable silhouettes, no photorealism, no 3D render look, no text, no watermark, no logo"
+  -
+    endingId: "ending_casus_orgutu_basi"
+    title: "Gizli İstihbarat Örgütünün Başı"
+    endingType: "shadow_power"
+    fullEndingText: "Gizli İstihbarat Örgütünün Başı sonunda, saray mutfağından başlayan yolun imparatorluk mührüne kadar uzandığı açıkça görülür. spy_network rotasında biriktirdiğin güvenler, borçlar ve alametler tek bir siyasi sonuca bağlanır. Kehanet çorbası, Ak Gaga ve yanlış tatlı gibi tuhaf olaylar artık komik anılar değil, iktidarın nasıl kurulduğunu gösteren kanıtlar olur. Başkent senin adını ya korkuyla, ya şükranla, ya da fısıltıyla hatırlar."
+    requiredFlags:
+      - "flag_rasih_blackfile"
+      - "flag_secret_preserved"
+    forbiddenFlags:
+      - "flag_final_choice_burned"
+    requiredHiddenCounters:
+      -
+        counterId: "spy_network"
+        min: 8
+    forbiddenHiddenCounters: []
+    typicalRoute: "spy_network"
+    importantPastChoices:
+      - "smm_card_010_a"
+      - "smm_card_019_a"
+      - "smm_card_028_a"
+    whyThisEndingHappens: "Bu son, oyuncunun görünür bir meslek yolundan çok gizli sayaçların ve kalıcı bayrakların toplamıyla şekillenir."
+    payoffExplanation: "Kurulan absürt olaylar finalde siyasi delil, halk söylentisi veya mühür gerekçesi olarak geri döner; önceki seçimler sona yalnız renk değil neden verir."
+    endingImageId: "ending_smm_casus_orgutu_basi"
+    endingImagePrompt: "2D illustrated storybook style, hand-drawn painterly warm muted colors, cinematic ending scene for Gizli İstihbarat Örgütünün Başı, imperial palace aftermath, readable silhouettes, no photorealism, no 3D render look, no text, no watermark, no logo"
+  -
+    endingId: "ending_halk_devriminin_lideri"
+    title: "Halk Devriminin Lideri"
+    endingType: "rebellion"
+    fullEndingText: "Halk Devriminin Lideri sonunda, saray mutfağından başlayan yolun imparatorluk mührüne kadar uzandığı açıkça görülür. rebellion rotasında biriktirdiğin güvenler, borçlar ve alametler tek bir siyasi sonuca bağlanır. Kehanet çorbası, Ak Gaga ve yanlış tatlı gibi tuhaf olaylar artık komik anılar değil, iktidarın nasıl kurulduğunu gösteren kanıtlar olur. Başkent senin adını ya korkuyla, ya şükranla, ya da fısıltıyla hatırlar."
+    requiredFlags:
+      - "flag_food_to_people"
+      - "flag_meryem_rebel_signal"
+    forbiddenFlags:
+      - "flag_final_choice_burned"
+    requiredHiddenCounters:
+      -
+        counterId: "rebellion_sympathy"
+        min: 8
+    forbiddenHiddenCounters: []
+    typicalRoute: "rebellion"
+    importantPastChoices:
+      - "smm_card_010_a"
+      - "smm_card_019_a"
+      - "smm_card_028_a"
+    whyThisEndingHappens: "Bu son, oyuncunun görünür bir meslek yolundan çok gizli sayaçların ve kalıcı bayrakların toplamıyla şekillenir."
+    payoffExplanation: "Kurulan absürt olaylar finalde siyasi delil, halk söylentisi veya mühür gerekçesi olarak geri döner; önceki seçimler sona yalnız renk değil neden verir."
+    endingImageId: "ending_smm_halk_devriminin_lideri"
+    endingImagePrompt: "2D illustrated storybook style, hand-drawn painterly warm muted colors, cinematic ending scene for Halk Devriminin Lideri, imperial palace aftermath, readable silhouettes, no photorealism, no 3D render look, no text, no watermark, no logo"
+  -
+    endingId: "ending_yeni_hukumdari_tahta_cikaran"
+    title: "Yeni Hükümdarı Tahta Çıkaran Kişi"
+    endingType: "kingmaker"
+    fullEndingText: "Yeni Hükümdarı Tahta Çıkaran Kişi sonunda, saray mutfağından başlayan yolun imparatorluk mührüne kadar uzandığı açıkça görülür. heirs_and_factions rotasında biriktirdiğin güvenler, borçlar ve alametler tek bir siyasi sonuca bağlanır. Kehanet çorbası, Ak Gaga ve yanlış tatlı gibi tuhaf olaylar artık komik anılar değil, iktidarın nasıl kurulduğunu gösteren kanıtlar olur. Başkent senin adını ya korkuyla, ya şükranla, ya da fısıltıyla hatırlar."
+    requiredFlags:
+      - "flag_muhur_final_key"
+      - "flag_seal_access_granted"
+    forbiddenFlags:
+      - "flag_final_choice_burned"
+    requiredHiddenCounters:
+      -
+        counterId: "seal_access"
+        min: 7
+    forbiddenHiddenCounters: []
+    typicalRoute: "heirs_and_factions"
+    importantPastChoices:
+      - "smm_card_010_a"
+      - "smm_card_019_a"
+      - "smm_card_028_a"
+    whyThisEndingHappens: "Bu son, oyuncunun görünür bir meslek yolundan çok gizli sayaçların ve kalıcı bayrakların toplamıyla şekillenir."
+    payoffExplanation: "Kurulan absürt olaylar finalde siyasi delil, halk söylentisi veya mühür gerekçesi olarak geri döner; önceki seçimler sona yalnız renk değil neden verir."
+    endingImageId: "ending_smm_yeni_hukumdari_tahta_cikaran"
+    endingImagePrompt: "2D illustrated storybook style, hand-drawn painterly warm muted colors, cinematic ending scene for Yeni Hükümdarı Tahta Çıkaran Kişi, imperial palace aftermath, readable silhouettes, no photorealism, no 3D render look, no text, no watermark, no logo"
+  -
+    endingId: "ending_baskentten_kacip_han_acan"
+    title: "Başkentten Kaçıp Kendi Hanını Açmak"
+    endingType: "escape"
+    fullEndingText: "Başkentten Kaçıp Kendi Hanını Açmak sonunda, saray mutfağından başlayan yolun imparatorluk mührüne kadar uzandığı açıkça görülür. black_market rotasında biriktirdiğin güvenler, borçlar ve alametler tek bir siyasi sonuca bağlanır. Kehanet çorbası, Ak Gaga ve yanlış tatlı gibi tuhaf olaylar artık komik anılar değil, iktidarın nasıl kurulduğunu gösteren kanıtlar olur. Başkent senin adını ya korkuyla, ya şükranla, ya da fısıltıyla hatırlar."
+    requiredFlags:
+      - "flag_black_market_debt_paid"
+      - "flag_secret_preserved"
+    forbiddenFlags:
+      - "flag_final_choice_burned"
+    requiredHiddenCounters:
+      -
+        counterId: "kitchen_favor"
+        min: 4
+    forbiddenHiddenCounters: []
+    typicalRoute: "black_market"
+    importantPastChoices:
+      - "smm_card_010_a"
+      - "smm_card_019_a"
+      - "smm_card_028_a"
+    whyThisEndingHappens: "Bu son, oyuncunun görünür bir meslek yolundan çok gizli sayaçların ve kalıcı bayrakların toplamıyla şekillenir."
+    payoffExplanation: "Kurulan absürt olaylar finalde siyasi delil, halk söylentisi veya mühür gerekçesi olarak geri döner; önceki seçimler sona yalnız renk değil neden verir."
+    endingImageId: "ending_smm_baskentten_kacip_han_acan"
+    endingImagePrompt: "2D illustrated storybook style, hand-drawn painterly warm muted colors, cinematic ending scene for Başkentten Kaçıp Kendi Hanını Açmak, imperial palace aftermath, readable silhouettes, no photorealism, no 3D render look, no text, no watermark, no logo"
+  -
+    endingId: "ending_zehirlenerek_dusen"
+    title: "Zehirlenmek"
+    endingType: "death"
+    fullEndingText: "Zehirlenmek sonunda, saray mutfağından başlayan yolun imparatorluk mührüne kadar uzandığı açıkça görülür. poison_taster rotasında biriktirdiğin güvenler, borçlar ve alametler tek bir siyasi sonuca bağlanır. Kehanet çorbası, Ak Gaga ve yanlış tatlı gibi tuhaf olaylar artık komik anılar değil, iktidarın nasıl kurulduğunu gösteren kanıtlar olur. Başkent senin adını ya korkuyla, ya şükranla, ya da fısıltıyla hatırlar."
+    requiredFlags:
+      - "flag_poison_used_as_leverage"
+    forbiddenFlags: []
+    requiredHiddenCounters:
+      -
+        counterId: "poison_knowledge"
+        min: 3
+      -
+        counterId: "palace_suspicion"
+        min: 7
+    forbiddenHiddenCounters: []
+    typicalRoute: "poison_taster"
+    importantPastChoices:
+      - "smm_card_010_a"
+      - "smm_card_019_a"
+      - "smm_card_028_a"
+    whyThisEndingHappens: "Bu son, oyuncunun görünür bir meslek yolundan çok gizli sayaçların ve kalıcı bayrakların toplamıyla şekillenir."
+    payoffExplanation: "Kurulan absürt olaylar finalde siyasi delil, halk söylentisi veya mühür gerekçesi olarak geri döner; önceki seçimler sona yalnız renk değil neden verir."
+    endingImageId: "ending_smm_zehirlenerek_dusen"
+    endingImagePrompt: "2D illustrated storybook style, hand-drawn painterly warm muted colors, cinematic ending scene for Zehirlenmek, imperial palace aftermath, readable silhouettes, no photorealism, no 3D render look, no text, no watermark, no logo"
+  -
+    endingId: "ending_yanlis_varis_idami"
+    title: "Yanlış Varisi Desteklediğin İçin İdam Edilmek"
+    endingType: "death"
+    fullEndingText: "Yanlış Varisi Desteklediğin İçin İdam Edilmek sonunda, saray mutfağından başlayan yolun imparatorluk mührüne kadar uzandığı açıkça görülür. heirs_and_factions rotasında biriktirdiğin güvenler, borçlar ve alametler tek bir siyasi sonuca bağlanır. Kehanet çorbası, Ak Gaga ve yanlış tatlı gibi tuhaf olaylar artık komik anılar değil, iktidarın nasıl kurulduğunu gösteren kanıtlar olur. Başkent senin adını ya korkuyla, ya şükranla, ya da fısıltıyla hatırlar."
+    requiredFlags:
+      - "flag_secret_kept"
+    forbiddenFlags: []
+    requiredHiddenCounters:
+      -
+        counterId: "palace_suspicion"
+        min: 8
+    forbiddenHiddenCounters: []
+    typicalRoute: "heirs_and_factions"
+    importantPastChoices:
+      - "smm_card_010_a"
+      - "smm_card_019_a"
+      - "smm_card_028_a"
+    whyThisEndingHappens: "Bu son, oyuncunun görünür bir meslek yolundan çok gizli sayaçların ve kalıcı bayrakların toplamıyla şekillenir."
+    payoffExplanation: "Kurulan absürt olaylar finalde siyasi delil, halk söylentisi veya mühür gerekçesi olarak geri döner; önceki seçimler sona yalnız renk değil neden verir."
+    endingImageId: "ending_smm_yanlis_varis_idami"
+    endingImagePrompt: "2D illustrated storybook style, hand-drawn painterly warm muted colors, cinematic ending scene for Yanlış Varisi Desteklediğin İçin İdam Edilmek, imperial palace aftermath, readable silhouettes, no photorealism, no 3D render look, no text, no watermark, no logo"
+  -
+    endingId: "ending_saray_kazinin_yorumcusu"
+    title: "Saray Kazının Yorumcusu"
+    endingType: "absurd_power"
+    fullEndingText: "Saray Kazının Yorumcusu sonunda, saray mutfağından başlayan yolun imparatorluk mührüne kadar uzandığı açıkça görülür. soup_goose rotasında biriktirdiğin güvenler, borçlar ve alametler tek bir siyasi sonuca bağlanır. Kehanet çorbası, Ak Gaga ve yanlış tatlı gibi tuhaf olaylar artık komik anılar değil, iktidarın nasıl kurulduğunu gösteren kanıtlar olur. Başkent senin adını ya korkuyla, ya şükranla, ya da fısıltıyla hatırlar."
+    requiredFlags:
+      - "flag_ak_gaga_protected"
+      - "flag_goose_omen_interpreted"
+    forbiddenFlags:
+      - "flag_final_choice_burned"
+    requiredHiddenCounters:
+      -
+        counterId: "absurd_goose_omen_score"
+        min: 8
+    forbiddenHiddenCounters: []
+    typicalRoute: "soup_goose"
+    importantPastChoices:
+      - "smm_card_010_a"
+      - "smm_card_019_a"
+      - "smm_card_028_a"
+    whyThisEndingHappens: "Bu son, oyuncunun görünür bir meslek yolundan çok gizli sayaçların ve kalıcı bayrakların toplamıyla şekillenir."
+    payoffExplanation: "Kurulan absürt olaylar finalde siyasi delil, halk söylentisi veya mühür gerekçesi olarak geri döner; önceki seçimler sona yalnız renk değil neden verir."
+    endingImageId: "ending_smm_saray_kazinin_yorumcusu"
+    endingImagePrompt: "2D illustrated storybook style, hand-drawn painterly warm muted colors, cinematic ending scene for Saray Kazının Yorumcusu, imperial palace aftermath, readable silhouettes, no photorealism, no 3D render look, no text, no watermark, no logo"
+  -
+    endingId: "ending_kehanet_corbasinin_velisi"
+    title: "Kehanet Çorbasının Kutsal Figürüne Dönüşmek"
+    endingType: "absurd_mystic"
+    fullEndingText: "Kehanet Çorbasının Kutsal Figürüne Dönüşmek sonunda, saray mutfağından başlayan yolun imparatorluk mührüne kadar uzandığı açıkça görülür. soup_goose rotasında biriktirdiğin güvenler, borçlar ve alametler tek bir siyasi sonuca bağlanır. Kehanet çorbası, Ak Gaga ve yanlış tatlı gibi tuhaf olaylar artık komik anılar değil, iktidarın nasıl kurulduğunu gösteren kanıtlar olur. Başkent senin adını ya korkuyla, ya şükranla, ya da fısıltıyla hatırlar."
+    requiredFlags:
+      - "flag_soup_omen_confirmed"
+      - "flag_soup_manipulated"
+    forbiddenFlags:
+      - "flag_final_choice_burned"
+    requiredHiddenCounters:
+      -
+        counterId: "absurd_soup_omen_score"
+        min: 8
+    forbiddenHiddenCounters: []
+    typicalRoute: "soup_goose"
+    importantPastChoices:
+      - "smm_card_010_a"
+      - "smm_card_019_a"
+      - "smm_card_028_a"
+    whyThisEndingHappens: "Bu son, oyuncunun görünür bir meslek yolundan çok gizli sayaçların ve kalıcı bayrakların toplamıyla şekillenir."
+    payoffExplanation: "Kurulan absürt olaylar finalde siyasi delil, halk söylentisi veya mühür gerekçesi olarak geri döner; önceki seçimler sona yalnız renk değil neden verir."
+    endingImageId: "ending_smm_kehanet_corbasinin_velisi"
+    endingImagePrompt: "2D illustrated storybook style, hand-drawn painterly warm muted colors, cinematic ending scene for Kehanet Çorbasının Kutsal Figürüne Dönüşmek, imperial palace aftermath, readable silhouettes, no photorealism, no 3D render look, no text, no watermark, no logo"
+  -
+    endingId: "ending_tatli_diplomatik_evlilik"
+    title: "Yanlış Tatlı Yüzünden Diplomatik Evlilik İttifakı"
+    endingType: "diplomacy"
+    fullEndingText: "Yanlış Tatlı Yüzünden Diplomatik Evlilik İttifakı sonunda, saray mutfağından başlayan yolun imparatorluk mührüne kadar uzandığı açıkça görülür. pantry_pastry rotasında biriktirdiğin güvenler, borçlar ve alametler tek bir siyasi sonuca bağlanır. Kehanet çorbası, Ak Gaga ve yanlış tatlı gibi tuhaf olaylar artık komik anılar değil, iktidarın nasıl kurulduğunu gösteren kanıtlar olur. Başkent senin adını ya korkuyla, ya şükranla, ya da fısıltıyla hatırlar."
+    requiredFlags:
+      - "flag_elci_ring_accepted"
+      - "flag_dessert_diplomacy_repaired"
+    forbiddenFlags:
+      - "flag_final_choice_burned"
+    requiredHiddenCounters:
+      -
+        counterId: "absurd_dessert_diplomacy_score"
+        min: 8
+      -
+        counterId: "heir_safira_support"
+        min: 3
+    forbiddenHiddenCounters: []
+    typicalRoute: "pantry_pastry"
+    importantPastChoices:
+      - "smm_card_010_a"
+      - "smm_card_019_a"
+      - "smm_card_028_a"
+    whyThisEndingHappens: "Bu son, oyuncunun görünür bir meslek yolundan çok gizli sayaçların ve kalıcı bayrakların toplamıyla şekillenir."
+    payoffExplanation: "Kurulan absürt olaylar finalde siyasi delil, halk söylentisi veya mühür gerekçesi olarak geri döner; önceki seçimler sona yalnız renk değil neden verir."
+    endingImageId: "ending_smm_tatli_diplomatik_evlilik"
+    endingImagePrompt: "2D illustrated storybook style, hand-drawn painterly warm muted colors, cinematic ending scene for Yanlış Tatlı Yüzünden Diplomatik Evlilik İttifakı, imperial palace aftermath, readable silhouettes, no photorealism, no 3D render look, no text, no watermark, no logo"
+  -
+    endingId: "ending_ordu_iase_basi"
+    title: "Ordu İaşesinin Başına Geçmek"
+    endingType: "logistics"
+    fullEndingText: "Ordu İaşesinin Başına Geçmek sonunda, saray mutfağından başlayan yolun imparatorluk mührüne kadar uzandığı açıkça görülür. army_supply rotasında biriktirdiğin güvenler, borçlar ve alametler tek bir siyasi sonuca bağlanır. Kehanet çorbası, Ak Gaga ve yanlış tatlı gibi tuhaf olaylar artık komik anılar değil, iktidarın nasıl kurulduğunu gösteren kanıtlar olur. Başkent senin adını ya korkuyla, ya şükranla, ya da fısıltıyla hatırlar."
+    requiredFlags:
+      - "flag_turgut_supply_trust"
+      - "flag_food_to_army"
+    forbiddenFlags:
+      - "flag_final_choice_burned"
+    requiredHiddenCounters:
+      -
+        counterId: "logistics_mastery"
+        min: 8
+    forbiddenHiddenCounters: []
+    typicalRoute: "army_supply"
+    importantPastChoices:
+      - "smm_card_010_a"
+      - "smm_card_019_a"
+      - "smm_card_028_a"
+    whyThisEndingHappens: "Bu son, oyuncunun görünür bir meslek yolundan çok gizli sayaçların ve kalıcı bayrakların toplamıyla şekillenir."
+    payoffExplanation: "Kurulan absürt olaylar finalde siyasi delil, halk söylentisi veya mühür gerekçesi olarak geri döner; önceki seçimler sona yalnız renk değil neden verir."
+    endingImageId: "ending_smm_ordu_iase_basi"
+    endingImagePrompt: "2D illustrated storybook style, hand-drawn painterly warm muted colors, cinematic ending scene for Ordu İaşesinin Başına Geçmek, imperial palace aftermath, readable silhouettes, no photorealism, no 3D render look, no text, no watermark, no logo"
+  -
+    endingId: "ending_karaborsa_efendisi"
+    title: "Saray Sırlarını Satarak Karaborsa Efendisi Olmak"
+    endingType: "crime_power"
+    fullEndingText: "Saray Sırlarını Satarak Karaborsa Efendisi Olmak sonunda, saray mutfağından başlayan yolun imparatorluk mührüne kadar uzandığı açıkça görülür. black_market rotasında biriktirdiğin güvenler, borçlar ve alametler tek bir siyasi sonuca bağlanır. Kehanet çorbası, Ak Gaga ve yanlış tatlı gibi tuhaf olaylar artık komik anılar değil, iktidarın nasıl kurulduğunu gösteren kanıtlar olur. Başkent senin adını ya korkuyla, ya şükranla, ya da fısıltıyla hatırlar."
+    requiredFlags:
+      - "flag_yusuf_debt_mark"
+      - "flag_secret_sold"
+    forbiddenFlags:
+      - "flag_final_choice_burned"
+    requiredHiddenCounters:
+      -
+        counterId: "black_market_debt"
+        min: 8
+      -
+        counterId: "spy_network"
+        min: 4
+    forbiddenHiddenCounters: []
+    typicalRoute: "black_market"
+    importantPastChoices:
+      - "smm_card_010_a"
+      - "smm_card_019_a"
+      - "smm_card_028_a"
+    whyThisEndingHappens: "Bu son, oyuncunun görünür bir meslek yolundan çok gizli sayaçların ve kalıcı bayrakların toplamıyla şekillenir."
+    payoffExplanation: "Kurulan absürt olaylar finalde siyasi delil, halk söylentisi veya mühür gerekçesi olarak geri döner; önceki seçimler sona yalnız renk değil neden verir."
+    endingImageId: "ending_smm_karaborsa_efendisi"
+    endingImagePrompt: "2D illustrated storybook style, hand-drawn painterly warm muted colors, cinematic ending scene for Saray Sırlarını Satarak Karaborsa Efendisi Olmak, imperial palace aftermath, readable silhouettes, no photorealism, no 3D render look, no text, no watermark, no logo"
+  -
+    endingId: "ending_surgun_sifaci"
+    title: "Hekimlerin Yanında Sürgün Şifacı Olmak"
+    endingType: "exile"
+    fullEndingText: "Hekimlerin Yanında Sürgün Şifacı Olmak sonunda, saray mutfağından başlayan yolun imparatorluk mührüne kadar uzandığı açıkça görülür. healer_path rotasında biriktirdiğin güvenler, borçlar ve alametler tek bir siyasi sonuca bağlanır. Kehanet çorbası, Ak Gaga ve yanlış tatlı gibi tuhaf olaylar artık komik anılar değil, iktidarın nasıl kurulduğunu gösteren kanıtlar olur. Başkent senin adını ya korkuyla, ya şükranla, ya da fısıltıyla hatırlar."
+    requiredFlags:
+      - "flag_bera_oath"
+      - "flag_antidote_shared"
+    forbiddenFlags:
+      - "flag_final_choice_burned"
+    requiredHiddenCounters:
+      -
+        counterId: "healer_trust"
+        min: 7
+    forbiddenHiddenCounters: []
+    typicalRoute: "healer_path"
+    importantPastChoices:
+      - "smm_card_010_a"
+      - "smm_card_019_a"
+      - "smm_card_028_a"
+    whyThisEndingHappens: "Bu son, oyuncunun görünür bir meslek yolundan çok gizli sayaçların ve kalıcı bayrakların toplamıyla şekillenir."
+    payoffExplanation: "Kurulan absürt olaylar finalde siyasi delil, halk söylentisi veya mühür gerekçesi olarak geri döner; önceki seçimler sona yalnız renk değil neden verir."
+    endingImageId: "ending_smm_surgun_sifaci"
+    endingImagePrompt: "2D illustrated storybook style, hand-drawn painterly warm muted colors, cinematic ending scene for Hekimlerin Yanında Sürgün Şifacı Olmak, imperial palace aftermath, readable silhouettes, no photorealism, no 3D render look, no text, no watermark, no logo"
+  -
+    endingId: "ending_sahte_muhur_duzenbazi"
+    title: "Sahte Mühür Düzenbazı Olmak"
+    endingType: "fraud"
+    fullEndingText: "Sahte Mühür Düzenbazı Olmak sonunda, saray mutfağından başlayan yolun imparatorluk mührüne kadar uzandığı açıkça görülür. black_market rotasında biriktirdiğin güvenler, borçlar ve alametler tek bir siyasi sonuca bağlanır. Kehanet çorbası, Ak Gaga ve yanlış tatlı gibi tuhaf olaylar artık komik anılar değil, iktidarın nasıl kurulduğunu gösteren kanıtlar olur. Başkent senin adını ya korkuyla, ya şükranla, ya da fısıltıyla hatırlar."
+    requiredFlags:
+      - "flag_false_seal_planned"
+      - "flag_document_forged"
+    forbiddenFlags:
+      - "flag_final_choice_burned"
+    requiredHiddenCounters:
+      -
+        counterId: "black_market_debt"
+        min: 5
+      -
+        counterId: "seal_access"
+        min: 4
+    forbiddenHiddenCounters: []
+    typicalRoute: "black_market"
+    importantPastChoices:
+      - "smm_card_010_a"
+      - "smm_card_019_a"
+      - "smm_card_028_a"
+    whyThisEndingHappens: "Bu son, oyuncunun görünür bir meslek yolundan çok gizli sayaçların ve kalıcı bayrakların toplamıyla şekillenir."
+    payoffExplanation: "Kurulan absürt olaylar finalde siyasi delil, halk söylentisi veya mühür gerekçesi olarak geri döner; önceki seçimler sona yalnız renk değil neden verir."
+    endingImageId: "ending_smm_sahte_muhur_duzenbazi"
+    endingImagePrompt: "2D illustrated storybook style, hand-drawn painterly warm muted colors, cinematic ending scene for Sahte Mühür Düzenbazı Olmak, imperial palace aftermath, readable silhouettes, no photorealism, no 3D render look, no text, no watermark, no logo"
+  -
+    endingId: "ending_isimsiz_mezar"
+    title: "İsimsiz Mezar"
+    endingType: "death"
+    fullEndingText: "İsimsiz Mezar sonunda, saray mutfağından başlayan yolun imparatorluk mührüne kadar uzandığı açıkça görülür. poison_taster rotasında biriktirdiğin güvenler, borçlar ve alametler tek bir siyasi sonuca bağlanır. Kehanet çorbası, Ak Gaga ve yanlış tatlı gibi tuhaf olaylar artık komik anılar değil, iktidarın nasıl kurulduğunu gösteren kanıtlar olur. Başkent senin adını ya korkuyla, ya şükranla, ya da fısıltıyla hatırlar."
+    requiredFlags:
+      - "flag_final_choice_burned"
+    forbiddenFlags: []
+    requiredHiddenCounters:
+      -
+        counterId: "palace_suspicion"
+        min: 9
+    forbiddenHiddenCounters: []
+    typicalRoute: "poison_taster"
+    importantPastChoices:
+      - "smm_card_010_a"
+      - "smm_card_019_a"
+      - "smm_card_028_a"
+    whyThisEndingHappens: "Bu son, oyuncunun görünür bir meslek yolundan çok gizli sayaçların ve kalıcı bayrakların toplamıyla şekillenir."
+    payoffExplanation: "Kurulan absürt olaylar finalde siyasi delil, halk söylentisi veya mühür gerekçesi olarak geri döner; önceki seçimler sona yalnız renk değil neden verir."
+    endingImageId: "ending_smm_isimsiz_mezar"
+    endingImagePrompt: "2D illustrated storybook style, hand-drawn painterly warm muted colors, cinematic ending scene for İsimsiz Mezar, imperial palace aftermath, readable silhouettes, no photorealism, no 3D render look, no text, no watermark, no logo"
+  -
+    endingId: "ending_arslanin_golgesi"
+    title: "Arslan'ın Gölgesinde Demir Mühür"
+    endingType: "heir_victory"
+    fullEndingText: "Arslan'ın Gölgesinde Demir Mühür sonunda, saray mutfağından başlayan yolun imparatorluk mührüne kadar uzandığı açıkça görülür. army_supply rotasında biriktirdiğin güvenler, borçlar ve alametler tek bir siyasi sonuca bağlanır. Kehanet çorbası, Ak Gaga ve yanlış tatlı gibi tuhaf olaylar artık komik anılar değil, iktidarın nasıl kurulduğunu gösteren kanıtlar olur. Başkent senin adını ya korkuyla, ya şükranla, ya da fısıltıyla hatırlar."
+    requiredFlags:
+      - "flag_arslan_promised"
+      - "flag_food_to_army"
+    forbiddenFlags:
+      - "flag_final_choice_burned"
+    requiredHiddenCounters:
+      -
+        counterId: "heir_arslan_support"
+        min: 6
+      -
+        counterId: "logistics_mastery"
+        min: 5
+    forbiddenHiddenCounters: []
+    typicalRoute: "army_supply"
+    importantPastChoices:
+      - "smm_card_010_a"
+      - "smm_card_019_a"
+      - "smm_card_028_a"
+    whyThisEndingHappens: "Bu son, oyuncunun görünür bir meslek yolundan çok gizli sayaçların ve kalıcı bayrakların toplamıyla şekillenir."
+    payoffExplanation: "Kurulan absürt olaylar finalde siyasi delil, halk söylentisi veya mühür gerekçesi olarak geri döner; önceki seçimler sona yalnız renk değil neden verir."
+    endingImageId: "ending_smm_arslanin_golgesi"
+    endingImagePrompt: "2D illustrated storybook style, hand-drawn painterly warm muted colors, cinematic ending scene for Arslan'ın Gölgesinde Demir Mühür, imperial palace aftermath, readable silhouettes, no photorealism, no 3D render look, no text, no watermark, no logo"
+  -
+    endingId: "ending_safiranin_muhur_naziri"
+    title: "Safira'nın Mühür Nazırı"
+    endingType: "heir_victory"
+    fullEndingText: "Safira'nın Mühür Nazırı sonunda, saray mutfağından başlayan yolun imparatorluk mührüne kadar uzandığı açıkça görülür. pantry_pastry rotasında biriktirdiğin güvenler, borçlar ve alametler tek bir siyasi sonuca bağlanır. Kehanet çorbası, Ak Gaga ve yanlış tatlı gibi tuhaf olaylar artık komik anılar değil, iktidarın nasıl kurulduğunu gösteren kanıtlar olur. Başkent senin adını ya korkuyla, ya şükranla, ya da fısıltıyla hatırlar."
+    requiredFlags:
+      - "flag_safira_promised"
+      - "flag_elci_ring_accepted"
+    forbiddenFlags:
+      - "flag_final_choice_burned"
+    requiredHiddenCounters:
+      -
+        counterId: "heir_safira_support"
+        min: 6
+      -
+        counterId: "absurd_dessert_diplomacy_score"
+        min: 5
+    forbiddenHiddenCounters: []
+    typicalRoute: "pantry_pastry"
+    importantPastChoices:
+      - "smm_card_010_a"
+      - "smm_card_019_a"
+      - "smm_card_028_a"
+    whyThisEndingHappens: "Bu son, oyuncunun görünür bir meslek yolundan çok gizli sayaçların ve kalıcı bayrakların toplamıyla şekillenir."
+    payoffExplanation: "Kurulan absürt olaylar finalde siyasi delil, halk söylentisi veya mühür gerekçesi olarak geri döner; önceki seçimler sona yalnız renk değil neden verir."
+    endingImageId: "ending_smm_safiranin_muhur_naziri"
+    endingImagePrompt: "2D illustrated storybook style, hand-drawn painterly warm muted colors, cinematic ending scene for Safira'nın Mühür Nazırı, imperial palace aftermath, readable silhouettes, no photorealism, no 3D render look, no text, no watermark, no logo"
+  -
+    endingId: "ending_kemalin_ekmek_kanunu"
+    title: "Kemal'in Ekmek Kanunu"
+    endingType: "reform"
+    fullEndingText: "Kemal'in Ekmek Kanunu sonunda, saray mutfağından başlayan yolun imparatorluk mührüne kadar uzandığı açıkça görülür. rebellion rotasında biriktirdiğin güvenler, borçlar ve alametler tek bir siyasi sonuca bağlanır. Kehanet çorbası, Ak Gaga ve yanlış tatlı gibi tuhaf olaylar artık komik anılar değil, iktidarın nasıl kurulduğunu gösteren kanıtlar olur. Başkent senin adını ya korkuyla, ya şükranla, ya da fısıltıyla hatırlar."
+    requiredFlags:
+      - "flag_kemal_promised"
+      - "flag_food_to_people"
+    forbiddenFlags:
+      - "flag_final_choice_burned"
+    requiredHiddenCounters:
+      -
+        counterId: "heir_kemal_support"
+        min: 6
+      -
+        counterId: "rebellion_sympathy"
+        min: 6
+    forbiddenHiddenCounters: []
+    typicalRoute: "rebellion"
+    importantPastChoices:
+      - "smm_card_010_a"
+      - "smm_card_019_a"
+      - "smm_card_028_a"
+    whyThisEndingHappens: "Bu son, oyuncunun görünür bir meslek yolundan çok gizli sayaçların ve kalıcı bayrakların toplamıyla şekillenir."
+    payoffExplanation: "Kurulan absürt olaylar finalde siyasi delil, halk söylentisi veya mühür gerekçesi olarak geri döner; önceki seçimler sona yalnız renk değil neden verir."
+    endingImageId: "ending_smm_kemalin_ekmek_kanunu"
+    endingImagePrompt: "2D illustrated storybook style, hand-drawn painterly warm muted colors, cinematic ending scene for Kemal'in Ekmek Kanunu, imperial palace aftermath, readable silhouettes, no photorealism, no 3D render look, no text, no watermark, no logo"
+  -
+    endingId: "ending_ak_gaganin_korudugu_muhur"
+    title: "Ak Gaga'nın Koruduğu Mühür"
+    endingType: "absurd_guardian"
+    fullEndingText: "Ak Gaga'nın Koruduğu Mühür sonunda, saray mutfağından başlayan yolun imparatorluk mührüne kadar uzandığı açıkça görülür. soup_goose rotasında biriktirdiğin güvenler, borçlar ve alametler tek bir siyasi sonuca bağlanır. Kehanet çorbası, Ak Gaga ve yanlış tatlı gibi tuhaf olaylar artık komik anılar değil, iktidarın nasıl kurulduğunu gösteren kanıtlar olur. Başkent senin adını ya korkuyla, ya şükranla, ya da fısıltıyla hatırlar."
+    requiredFlags:
+      - "flag_ak_gaga_fed"
+      - "flag_durna_goose_friend"
+    forbiddenFlags:
+      - "flag_final_choice_burned"
+    requiredHiddenCounters:
+      -
+        counterId: "absurd_goose_omen_score"
+        min: 7
+      -
+        counterId: "seal_access"
+        min: 5
+    forbiddenHiddenCounters: []
+    typicalRoute: "soup_goose"
+    importantPastChoices:
+      - "smm_card_010_a"
+      - "smm_card_019_a"
+      - "smm_card_028_a"
+    whyThisEndingHappens: "Bu son, oyuncunun görünür bir meslek yolundan çok gizli sayaçların ve kalıcı bayrakların toplamıyla şekillenir."
+    payoffExplanation: "Kurulan absürt olaylar finalde siyasi delil, halk söylentisi veya mühür gerekçesi olarak geri döner; önceki seçimler sona yalnız renk değil neden verir."
+    endingImageId: "ending_smm_ak_gaganin_korudugu_muhur"
+    endingImagePrompt: "2D illustrated storybook style, hand-drawn painterly warm muted colors, cinematic ending scene for Ak Gaga'nın Koruduğu Mühür, imperial palace aftermath, readable silhouettes, no photorealism, no 3D render look, no text, no watermark, no logo"
+  -
+    endingId: "ending_corba_ve_kazin_cifte_alameti"
+    title: "Çorba ve Kazın Çifte Alameti"
+    endingType: "absurd_kingmaker"
+    fullEndingText: "Çorba ve Kazın Çifte Alameti sonunda, saray mutfağından başlayan yolun imparatorluk mührüne kadar uzandığı açıkça görülür. soup_goose rotasında biriktirdiğin güvenler, borçlar ve alametler tek bir siyasi sonuca bağlanır. Kehanet çorbası, Ak Gaga ve yanlış tatlı gibi tuhaf olaylar artık komik anılar değil, iktidarın nasıl kurulduğunu gösteren kanıtlar olur. Başkent senin adını ya korkuyla, ya şükranla, ya da fısıltıyla hatırlar."
+    requiredFlags:
+      - "flag_soup_omen_confirmed"
+      - "flag_goose_omen_interpreted"
+    forbiddenFlags:
+      - "flag_final_choice_burned"
+    requiredHiddenCounters:
+      -
+        counterId: "absurd_soup_omen_score"
+        min: 7
+      -
+        counterId: "absurd_goose_omen_score"
+        min: 7
+    forbiddenHiddenCounters: []
+    typicalRoute: "soup_goose"
+    importantPastChoices:
+      - "smm_card_010_a"
+      - "smm_card_019_a"
+      - "smm_card_028_a"
+    whyThisEndingHappens: "Bu son, oyuncunun görünür bir meslek yolundan çok gizli sayaçların ve kalıcı bayrakların toplamıyla şekillenir."
+    payoffExplanation: "Kurulan absürt olaylar finalde siyasi delil, halk söylentisi veya mühür gerekçesi olarak geri döner; önceki seçimler sona yalnız renk değil neden verir."
+    endingImageId: "ending_smm_corba_ve_kazin_cifte_alameti"
+    endingImagePrompt: "2D illustrated storybook style, hand-drawn painterly warm muted colors, cinematic ending scene for Çorba ve Kazın Çifte Alameti, imperial palace aftermath, readable silhouettes, no photorealism, no 3D render look, no text, no watermark, no logo"
+  -
+    endingId: "ending_elciyle_kirik_ittifak_savasi_onledi"
+    title: "Kırık İttifak Savaşı Önledi"
+    endingType: "diplomacy"
+    fullEndingText: "Kırık İttifak Savaşı Önledi sonunda, saray mutfağından başlayan yolun imparatorluk mührüne kadar uzandığı açıkça görülür. pantry_pastry rotasında biriktirdiğin güvenler, borçlar ve alametler tek bir siyasi sonuca bağlanır. Kehanet çorbası, Ak Gaga ve yanlış tatlı gibi tuhaf olaylar artık komik anılar değil, iktidarın nasıl kurulduğunu gösteren kanıtlar olur. Başkent senin adını ya korkuyla, ya şükranla, ya da fısıltıyla hatırlar."
+    requiredFlags:
+      - "flag_dessert_diplomacy_repaired"
+      - "flag_safira_promised"
+    forbiddenFlags:
+      - "flag_final_choice_burned"
+    requiredHiddenCounters:
+      -
+        counterId: "absurd_dessert_diplomacy_score"
+        min: 6
+      -
+        counterId: "seal_access"
+        min: 4
+    forbiddenHiddenCounters: []
+    typicalRoute: "pantry_pastry"
+    importantPastChoices:
+      - "smm_card_010_a"
+      - "smm_card_019_a"
+      - "smm_card_028_a"
+    whyThisEndingHappens: "Bu son, oyuncunun görünür bir meslek yolundan çok gizli sayaçların ve kalıcı bayrakların toplamıyla şekillenir."
+    payoffExplanation: "Kurulan absürt olaylar finalde siyasi delil, halk söylentisi veya mühür gerekçesi olarak geri döner; önceki seçimler sona yalnız renk değil neden verir."
+    endingImageId: "ending_smm_elciyle_kirik_ittifak_savasi_onledi"
+    endingImagePrompt: "2D illustrated storybook style, hand-drawn painterly warm muted colors, cinematic ending scene for Kırık İttifak Savaşı Önledi, imperial palace aftermath, readable silhouettes, no photorealism, no 3D render look, no text, no watermark, no logo"
+  -
+    endingId: "ending_kilerden_gelen_adalet"
+    title: "Kilerden Gelen Adalet"
+    endingType: "justice"
+    fullEndingText: "Kilerden Gelen Adalet sonunda, saray mutfağından başlayan yolun imparatorluk mührüne kadar uzandığı açıkça görülür. intro rotasında biriktirdiğin güvenler, borçlar ve alametler tek bir siyasi sonuca bağlanır. Kehanet çorbası, Ak Gaga ve yanlış tatlı gibi tuhaf olaylar artık komik anılar değil, iktidarın nasıl kurulduğunu gösteren kanıtlar olur. Başkent senin adını ya korkuyla, ya şükranla, ya da fısıltıyla hatırlar."
+    requiredFlags:
+      - "flag_truth_told"
+      - "flag_food_to_people"
+    forbiddenFlags:
+      - "flag_final_choice_burned"
+    requiredHiddenCounters:
+      -
+        counterId: "kitchen_favor"
+        min: 5
+      -
+        counterId: "rebellion_sympathy"
+        min: 5
+    forbiddenHiddenCounters: []
+    typicalRoute: "intro"
+    importantPastChoices:
+      - "smm_card_010_a"
+      - "smm_card_019_a"
+      - "smm_card_028_a"
+    whyThisEndingHappens: "Bu son, oyuncunun görünür bir meslek yolundan çok gizli sayaçların ve kalıcı bayrakların toplamıyla şekillenir."
+    payoffExplanation: "Kurulan absürt olaylar finalde siyasi delil, halk söylentisi veya mühür gerekçesi olarak geri döner; önceki seçimler sona yalnız renk değil neden verir."
+    endingImageId: "ending_smm_kilerden_gelen_adalet"
+    endingImagePrompt: "2D illustrated storybook style, hand-drawn painterly warm muted colors, cinematic ending scene for Kilerden Gelen Adalet, imperial palace aftermath, readable silhouettes, no photorealism, no 3D render look, no text, no watermark, no logo"
+  -
+    endingId: "ending_zehir_tadicisi_reformcu"
+    title: "Zehir Tadıcısı Reformcu"
+    endingType: "reform"
+    fullEndingText: "Zehir Tadıcısı Reformcu sonunda, saray mutfağından başlayan yolun imparatorluk mührüne kadar uzandığı açıkça görülür. poison_taster rotasında biriktirdiğin güvenler, borçlar ve alametler tek bir siyasi sonuca bağlanır. Kehanet çorbası, Ak Gaga ve yanlış tatlı gibi tuhaf olaylar artık komik anılar değil, iktidarın nasıl kurulduğunu gösteren kanıtlar olur. Başkent senin adını ya korkuyla, ya şükranla, ya da fısıltıyla hatırlar."
+    requiredFlags:
+      - "flag_poison_sample_saved"
+      - "flag_antidote_shared"
+    forbiddenFlags:
+      - "flag_final_choice_burned"
+    requiredHiddenCounters:
+      -
+        counterId: "poison_knowledge"
+        min: 8
+      -
+        counterId: "healer_trust"
+        min: 5
+    forbiddenHiddenCounters: []
+    typicalRoute: "poison_taster"
+    importantPastChoices:
+      - "smm_card_010_a"
+      - "smm_card_019_a"
+      - "smm_card_028_a"
+    whyThisEndingHappens: "Bu son, oyuncunun görünür bir meslek yolundan çok gizli sayaçların ve kalıcı bayrakların toplamıyla şekillenir."
+    payoffExplanation: "Kurulan absürt olaylar finalde siyasi delil, halk söylentisi veya mühür gerekçesi olarak geri döner; önceki seçimler sona yalnız renk değil neden verir."
+    endingImageId: "ending_smm_zehir_tadicisi_reformcu"
+    endingImagePrompt: "2D illustrated storybook style, hand-drawn painterly warm muted colors, cinematic ending scene for Zehir Tadıcısı Reformcu, imperial palace aftermath, readable silhouettes, no photorealism, no 3D render look, no text, no watermark, no logo"
+  -
+    endingId: "ending_sirlarin_yandigi_gece"
+    title: "Sırların Yandığı Gece"
+    endingType: "purge"
+    fullEndingText: "Sırların Yandığı Gece sonunda, saray mutfağından başlayan yolun imparatorluk mührüne kadar uzandığı açıkça görülür. spy_network rotasında biriktirdiğin güvenler, borçlar ve alametler tek bir siyasi sonuca bağlanır. Kehanet çorbası, Ak Gaga ve yanlış tatlı gibi tuhaf olaylar artık komik anılar değil, iktidarın nasıl kurulduğunu gösteren kanıtlar olur. Başkent senin adını ya korkuyla, ya şükranla, ya da fısıltıyla hatırlar."
+    requiredFlags:
+      - "flag_secret_sold"
+      - "flag_final_choice_burned"
+    forbiddenFlags: []
+    requiredHiddenCounters:
+      -
+        counterId: "spy_network"
+        min: 7
+      -
+        counterId: "palace_suspicion"
+        min: 7
+    forbiddenHiddenCounters: []
+    typicalRoute: "spy_network"
+    importantPastChoices:
+      - "smm_card_010_a"
+      - "smm_card_019_a"
+      - "smm_card_028_a"
+    whyThisEndingHappens: "Bu son, oyuncunun görünür bir meslek yolundan çok gizli sayaçların ve kalıcı bayrakların toplamıyla şekillenir."
+    payoffExplanation: "Kurulan absürt olaylar finalde siyasi delil, halk söylentisi veya mühür gerekçesi olarak geri döner; önceki seçimler sona yalnız renk değil neden verir."
+    endingImageId: "ending_smm_sirlarin_yandigi_gece"
+    endingImagePrompt: "2D illustrated storybook style, hand-drawn painterly warm muted colors, cinematic ending scene for Sırların Yandığı Gece, imperial palace aftermath, readable silhouettes, no photorealism, no 3D render look, no text, no watermark, no logo"
+  -
+    endingId: "ending_halkla_saray_arasi_kopru"
+    title: "Halkla Saray Arasında Köprü"
+    endingType: "reconciliation"
+    fullEndingText: "Halkla Saray Arasında Köprü sonunda, saray mutfağından başlayan yolun imparatorluk mührüne kadar uzandığı açıkça görülür. rebellion rotasında biriktirdiğin güvenler, borçlar ve alametler tek bir siyasi sonuca bağlanır. Kehanet çorbası, Ak Gaga ve yanlış tatlı gibi tuhaf olaylar artık komik anılar değil, iktidarın nasıl kurulduğunu gösteren kanıtlar olur. Başkent senin adını ya korkuyla, ya şükranla, ya da fısıltıyla hatırlar."
+    requiredFlags:
+      - "flag_meryem_rebel_signal"
+      - "flag_heir_neutral_balancer"
+    forbiddenFlags:
+      - "flag_final_choice_burned"
+    requiredHiddenCounters:
+      -
+        counterId: "rebellion_sympathy"
+        min: 6
+      -
+        counterId: "seal_access"
+        min: 5
+    forbiddenHiddenCounters:
+      -
+        counterId: "black_market_debt"
+        max: 7
+    typicalRoute: "rebellion"
+    importantPastChoices:
+      - "smm_card_010_a"
+      - "smm_card_019_a"
+      - "smm_card_028_a"
+    whyThisEndingHappens: "Bu son, oyuncunun görünür bir meslek yolundan çok gizli sayaçların ve kalıcı bayrakların toplamıyla şekillenir."
+    payoffExplanation: "Kurulan absürt olaylar finalde siyasi delil, halk söylentisi veya mühür gerekçesi olarak geri döner; önceki seçimler sona yalnız renk değil neden verir."
+    endingImageId: "ending_smm_halkla_saray_arasi_kopru"
+    endingImagePrompt: "2D illustrated storybook style, hand-drawn painterly warm muted colors, cinematic ending scene for Halkla Saray Arasında Köprü, imperial palace aftermath, readable silhouettes, no photorealism, no 3D render look, no text, no watermark, no logo"
+  -
+    endingId: "ending_muhur_odasinda_sessiz_surgun"
+    title: "Mühür Odasında Sessiz Sürgün"
+    endingType: "exile"
+    fullEndingText: "Mühür Odasında Sessiz Sürgün sonunda, saray mutfağından başlayan yolun imparatorluk mührüne kadar uzandığı açıkça görülür. seal_and_finals rotasında biriktirdiğin güvenler, borçlar ve alametler tek bir siyasi sonuca bağlanır. Kehanet çorbası, Ak Gaga ve yanlış tatlı gibi tuhaf olaylar artık komik anılar değil, iktidarın nasıl kurulduğunu gösteren kanıtlar olur. Başkent senin adını ya korkuyla, ya şükranla, ya da fısıltıyla hatırlar."
+    requiredFlags:
+      - "flag_sadreddin_watches"
+      - "flag_truth_told"
+    forbiddenFlags:
+      - "flag_final_choice_burned"
+    requiredHiddenCounters:
+      -
+        counterId: "seal_access"
+        min: 5
+      -
+        counterId: "palace_suspicion"
+        min: 5
+    forbiddenHiddenCounters: []
+    typicalRoute: "seal_and_finals"
+    importantPastChoices:
+      - "smm_card_010_a"
+      - "smm_card_019_a"
+      - "smm_card_028_a"
+    whyThisEndingHappens: "Bu son, oyuncunun görünür bir meslek yolundan çok gizli sayaçların ve kalıcı bayrakların toplamıyla şekillenir."
+    payoffExplanation: "Kurulan absürt olaylar finalde siyasi delil, halk söylentisi veya mühür gerekçesi olarak geri döner; önceki seçimler sona yalnız renk değil neden verir."
+    endingImageId: "ending_smm_muhur_odasinda_sessiz_surgun"
+    endingImagePrompt: "2D illustrated storybook style, hand-drawn painterly warm muted colors, cinematic ending scene for Mühür Odasında Sessiz Sürgün, imperial palace aftermath, readable silhouettes, no photorealism, no 3D render look, no text, no watermark, no logo"
+  -
+    endingId: "ending_uclu_varis_meclisi"
+    title: "Üçlü Varis Meclisi"
+    endingType: "balance"
+    fullEndingText: "Üçlü Varis Meclisi sonunda, saray mutfağından başlayan yolun imparatorluk mührüne kadar uzandığı açıkça görülür. heirs_and_factions rotasında biriktirdiğin güvenler, borçlar ve alametler tek bir siyasi sonuca bağlanır. Kehanet çorbası, Ak Gaga ve yanlış tatlı gibi tuhaf olaylar artık komik anılar değil, iktidarın nasıl kurulduğunu gösteren kanıtlar olur. Başkent senin adını ya korkuyla, ya şükranla, ya da fısıltıyla hatırlar."
+    requiredFlags:
+      - "flag_heir_neutral_balancer"
+      - "flag_muhur_final_key"
+    forbiddenFlags:
+      - "flag_final_choice_burned"
+    requiredHiddenCounters:
+      -
+        counterId: "seal_access"
+        min: 7
+      -
+        counterId: "heir_arslan_support"
+        min: 3
+      -
+        counterId: "heir_safira_support"
+        min: 3
+      -
+        counterId: "heir_kemal_support"
+        min: 3
+    forbiddenHiddenCounters:
+      -
+        counterId: "black_market_debt"
+        max: 7
+    typicalRoute: "heirs_and_factions"
+    importantPastChoices:
+      - "smm_card_010_a"
+      - "smm_card_019_a"
+      - "smm_card_028_a"
+    whyThisEndingHappens: "Bu son, oyuncunun görünür bir meslek yolundan çok gizli sayaçların ve kalıcı bayrakların toplamıyla şekillenir."
+    payoffExplanation: "Kurulan absürt olaylar finalde siyasi delil, halk söylentisi veya mühür gerekçesi olarak geri döner; önceki seçimler sona yalnız renk değil neden verir."
+    endingImageId: "ending_smm_uclu_varis_meclisi"
+    endingImagePrompt: "2D illustrated storybook style, hand-drawn painterly warm muted colors, cinematic ending scene for Üçlü Varis Meclisi, imperial palace aftermath, readable silhouettes, no photorealism, no 3D render look, no text, no watermark, no logo"

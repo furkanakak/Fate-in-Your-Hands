@@ -1,0 +1,1889 @@
+cards:
+  -
+    cardId: "smm_card_126"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "healer_path"
+    stage: "growth"
+    routeFamily: "healer_path"
+    title: "Şifahane Yolu: İlk Eşik"
+    bodyText: "Şifahane, sarayın gösterişli salonlarından daha sessiz ama daha doğru bir arşivdir. Şifahane Yolu: İlk Eşik anında Hekim Bera, senden yarayı değil, yaranın neden saklandığını görmeni ister. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, şifacı güveninin ve zehir bilgisinin üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_sifahane_avlusu"
+    focusImageId: "focus_smm_126_healer_path"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Şifahane Yolu: İlk Eşik scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Hekim Bera, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "bera_hekim"
+    dialogue:
+      -
+        speakerId: "bera_hekim"
+        emotion: "temkinli"
+        text: "İyileşen beden, bazen konuşan tanıktır."
+    choices:
+      -
+        choiceId: "smm_card_126_a"
+        text: "Yaralıyı kayda geçirerek tedavi et"
+        resultText: "Şifahane Yolu: İlk Eşik kararında hesabı açık tutarsın. Hekim Bera bunu fark eder ve şifacı güveninin ve zehir bilgisinin dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_antidote_shared"
+          - "flag_bera_oath"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: -1
+          poison_knowledge: 1
+          spy_network: 0
+          healer_trust: 1
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_127"
+      -
+        choiceId: "smm_card_126_b"
+        text: "Yarayı siyasi sır yap"
+        resultText: "Şifahane Yolu: İlk Eşik kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde şifacı güveninin ve zehir bilgisinin için daha keskin bir kayıt açılır."
+        healthDelta: -1
+        setFlags:
+          - "flag_secret_kept"
+          - "flag_meryem_rebel_signal"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 1
+          poison_knowledge: 3
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_128"
+  -
+    cardId: "smm_card_127"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "healer_path"
+    stage: "growth"
+    routeFamily: "healer_path"
+    title: "Şifahane Yolu: Sıcak Bakır"
+    bodyText: "Şifahane, sarayın gösterişli salonlarından daha sessiz ama daha doğru bir arşivdir. Şifahane Yolu: Sıcak Bakır anında Simin, her panzehirin bir siyasi bedeli olduğunu hatırlatır. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, şifacı güveninin ve zehir bilgisinin üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_sifahane_ic_odasi"
+    focusImageId: "focus_smm_127_healer_path"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Şifahane Yolu: Sıcak Bakır scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Simin, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "simin_tadimci"
+    dialogue:
+      -
+        speakerId: "simin_tadimci"
+        emotion: "yorgun"
+        text: "İyileşen beden, bazen konuşan tanıktır."
+    choices:
+      -
+        choiceId: "smm_card_127_a"
+        text: "Panzehiri halka açık hazırla"
+        resultText: "Şifahane Yolu: Sıcak Bakır kararında hesabı açık tutarsın. Simin bunu fark eder ve şifacı güveninin ve zehir bilgisinin dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_antidote_shared"
+          - "flag_bera_oath"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 1
+          spy_network: 0
+          healer_trust: 1
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_128"
+      -
+        choiceId: "smm_card_127_b"
+        text: "Panzehiri yalnız varise ayır"
+        resultText: "Şifahane Yolu: Sıcak Bakır kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde şifacı güveninin ve zehir bilgisinin için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_secret_kept"
+          - "flag_meryem_rebel_signal"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 1
+          poison_knowledge: 3
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_129"
+  -
+    cardId: "smm_card_128"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "healer_path"
+    stage: "growth"
+    routeFamily: "healer_path"
+    title: "Şifahane Yolu: Sessiz Bakış"
+    bodyText: "Şifahane, sarayın gösterişli salonlarından daha sessiz ama daha doğru bir arşivdir. Şifahane Yolu: Sessiz Bakış anında Meryem, halkın hastalığının yalnız ateşten değil açlıktan geldiğini gösterir. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, şifacı güveninin ve zehir bilgisinin üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_yarali_asker_cadiri"
+    focusImageId: "focus_smm_128_healer_path"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Şifahane Yolu: Sessiz Bakış scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Meryem, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "meryem_isyanci"
+    dialogue:
+      -
+        speakerId: "meryem_isyanci"
+        emotion: "alaycı"
+        text: "İyileşen beden, bazen konuşan tanıktır."
+    choices:
+      -
+        choiceId: "smm_card_128_a"
+        text: "Bera'nın yeminini koru"
+        resultText: "Şifahane Yolu: Sessiz Bakış kararında hesabı açık tutarsın. Meryem bunu fark eder ve şifacı güveninin ve zehir bilgisinin dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_antidote_shared"
+          - "flag_bera_oath"
+          - "flag_major_branch_16"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 1
+          spy_network: 0
+          healer_trust: 1
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_129"
+      -
+        choiceId: "smm_card_128_b"
+        text: "Bera'nın defterini kopyala"
+        resultText: "Şifahane Yolu: Sessiz Bakış kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde şifacı güveninin ve zehir bilgisinin için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_secret_kept"
+          - "flag_meryem_rebel_signal"
+          - "flag_major_branch_16"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 1
+          poison_knowledge: 3
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_130"
+  -
+    cardId: "smm_card_129"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "healer_path"
+    stage: "growth"
+    routeFamily: "healer_path"
+    title: "Şifahane Yolu: İnce Hesap"
+    bodyText: "Şifahane, sarayın gösterişli salonlarından daha sessiz ama daha doğru bir arşivdir. Şifahane Yolu: İnce Hesap anında Hükümdar Azem, Simin'in bilgisiyle Bera'nın yemini arasında köprü kurmanı bekler. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, şifacı güveninin ve zehir bilgisinin üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_yeralti_sarnici"
+    focusImageId: "focus_smm_129_healer_path"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Şifahane Yolu: İnce Hesap scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Hükümdar Azem, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "hukumdar_azem"
+    dialogue:
+      -
+        speakerId: "hukumdar_azem"
+        emotion: "sert"
+        text: "İyileşen beden, bazen konuşan tanıktır."
+    choices:
+      -
+        choiceId: "smm_card_129_a"
+        text: "Otları doğru dozda karıştır"
+        resultText: "Şifahane Yolu: İnce Hesap kararında hesabı açık tutarsın. Hükümdar Azem bunu fark eder ve şifacı güveninin ve zehir bilgisinin dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_antidote_shared"
+          - "flag_bera_oath"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 1
+          spy_network: 0
+          healer_trust: 1
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_130"
+      -
+        choiceId: "smm_card_129_b"
+        text: "Dozu cesurca artır"
+        resultText: "Şifahane Yolu: İnce Hesap kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde şifacı güveninin ve zehir bilgisinin için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_secret_kept"
+          - "flag_meryem_rebel_signal"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 1
+          poison_knowledge: 3
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_131"
+  -
+    cardId: "smm_card_130"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "healer_path"
+    stage: "growth"
+    routeFamily: "healer_path"
+    title: "Şifahane Yolu: Gizli Lekeler"
+    bodyText: "Şifahane, sarayın gösterişli salonlarından daha sessiz ama daha doğru bir arşivdir. Şifahane Yolu: Gizli Lekeler anında Hekim Bera, iyileştirilen kişinin ileride kimi koruyacağını hesaplatır. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, şifacı güveninin ve zehir bilgisinin üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_halk_ekmek_kuyrugu"
+    focusImageId: "focus_smm_130_healer_path"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Şifahane Yolu: Gizli Lekeler scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Hekim Bera, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "bera_hekim"
+    dialogue:
+      -
+        speakerId: "bera_hekim"
+        emotion: "düşünceli"
+        text: "İyileşen beden, bazen konuşan tanıktır."
+    choices:
+      -
+        choiceId: "smm_card_130_a"
+        text: "Hastayı saraydan sakince çıkar"
+        resultText: "Şifahane Yolu: Gizli Lekeler kararında hesabı açık tutarsın. Hekim Bera bunu fark eder ve şifacı güveninin ve zehir bilgisinin dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_antidote_shared"
+          - "flag_bera_oath"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 1
+          spy_network: 0
+          healer_trust: 1
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_131"
+      -
+        choiceId: "smm_card_130_b"
+        text: "Hastayı isyancılara yönlendir"
+        resultText: "Şifahane Yolu: Gizli Lekeler kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde şifacı güveninin ve zehir bilgisinin için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_secret_kept"
+          - "flag_meryem_rebel_signal"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 1
+          poison_knowledge: 3
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_133"
+  -
+    cardId: "smm_card_131"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "healer_path"
+    stage: "growth"
+    routeFamily: "healer_path"
+    title: "Şifahane Yolu: Kör Alev"
+    bodyText: "Hekim Bera, iyileştirmenin kime hizmet ettiğini sormadan ilaç vermenin masum olmadığını bilir. Şifahane Yolu: Kör Alev anında Simin, senden yarayı değil, yaranın neden saklandığını görmeni ister. Ak Gaga'nın davranışı divanda bir devlet işareti gibi yorumlanır ve oyuncunun önceki yem tercihleri hatırlanır. Seçeceğin yol, şifacı güveninin ve zehir bilgisinin üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_sifahane_avlusu"
+    focusImageId: "focus_smm_131_healer_path"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Şifahane Yolu: Kör Alev scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Simin, Durna, the dignified palace goose Ak Gaga nearby, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "simin_tadimci"
+      - "durna_kazci"
+    dialogue:
+      -
+        speakerId: "simin_tadimci"
+        emotion: "fısıltılı"
+        text: "İyileşen beden, bazen konuşan tanıktır."
+      -
+        speakerId: "durna_kazci"
+        emotion: "ciddi"
+        text: "Ak Gaga boş yere dönmez; asıl mesele kimin onu izlediğidir."
+    choices:
+      -
+        choiceId: "smm_card_131_a"
+        text: "Yaralıyı kayda geçirerek tedavi et"
+        resultText: "Şifahane Yolu: Kör Alev kararında hesabı açık tutarsın. Simin bunu fark eder ve şifacı güveninin ve zehir bilgisinin dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_antidote_shared"
+          - "flag_bera_oath"
+          - "flag_ak_gaga_protected"
+          - "flag_ak_gaga_fed"
+          - "flag_durna_goose_friend"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 1
+          spy_network: 0
+          healer_trust: 1
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 1
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_132"
+      -
+        choiceId: "smm_card_131_b"
+        text: "Yarayı siyasi sır yap"
+        resultText: "Şifahane Yolu: Kör Alev kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde şifacı güveninin ve zehir bilgisinin için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_secret_kept"
+          - "flag_meryem_rebel_signal"
+          - "flag_goose_misled_divan"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 1
+          poison_knowledge: 3
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 2
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_133"
+  -
+    cardId: "smm_card_132"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "healer_path"
+    stage: "growth"
+    routeFamily: "healer_path"
+    title: "Şifahane Yolu: Üç Nohut"
+    bodyText: "Hekim Bera, iyileştirmenin kime hizmet ettiğini sormadan ilaç vermenin masum olmadığını bilir. Şifahane Yolu: Üç Nohut anında Meryem, her panzehirin bir siyasi bedeli olduğunu hatırlatır. Kehanet çorbası artık sarayda küçük bir şaka değil, varislerin kendi lehine çevirmek istediği ciddi bir alamettir. Seçeceğin yol, şifacı güveninin ve zehir bilgisinin üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_sifahane_ic_odasi"
+    focusImageId: "focus_smm_132_healer_path"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Şifahane Yolu: Üç Nohut scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Meryem, Müneccim Zerya, a bowl of omen soup with oil rings and three chickpeas, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "meryem_isyanci"
+      - "muneccim_zerya"
+    dialogue:
+      -
+        speakerId: "meryem_isyanci"
+        emotion: "temkinli"
+        text: "İyileşen beden, bazen konuşan tanıktır."
+      -
+        speakerId: "muneccim_zerya"
+        emotion: "ürpermiş"
+        text: "Bu çorbanın yüzeyinde tesadüf değil, sarayın korkusu yüzüyor."
+    choices:
+      -
+        choiceId: "smm_card_132_a"
+        text: "Panzehiri halka açık hazırla"
+        resultText: "Şifahane Yolu: Üç Nohut kararında hesabı açık tutarsın. Meryem bunu fark eder ve şifacı güveninin ve zehir bilgisinin dengesi senin lehine bir çizik alır."
+        healthDelta: 1
+        setFlags:
+          - "flag_antidote_shared"
+          - "flag_bera_oath"
+          - "flag_soup_omen_confirmed"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 1
+          spy_network: 0
+          healer_trust: 1
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 1
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_133"
+      -
+        choiceId: "smm_card_132_b"
+        text: "Panzehiri yalnız varise ayır"
+        resultText: "Şifahane Yolu: Üç Nohut kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde şifacı güveninin ve zehir bilgisinin için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_secret_kept"
+          - "flag_meryem_rebel_signal"
+          - "flag_soup_manipulated"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 1
+          poison_knowledge: 3
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 2
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_134"
+  -
+    cardId: "smm_card_133"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "healer_path"
+    stage: "growth"
+    routeFamily: "healer_path"
+    title: "Şifahane Yolu: Kapıdaki Fısıltı"
+    bodyText: "Hekim Bera, iyileştirmenin kime hizmet ettiğini sormadan ilaç vermenin masum olmadığını bilir. Şifahane Yolu: Kapıdaki Fısıltı anında Hükümdar Azem, halkın hastalığının yalnız ateşten değil açlıktan geldiğini gösterir. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, şifacı güveninin ve zehir bilgisinin üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_yarali_asker_cadiri"
+    focusImageId: "focus_smm_133_healer_path"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Şifahane Yolu: Kapıdaki Fısıltı scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Hükümdar Azem, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "hukumdar_azem"
+    dialogue:
+      -
+        speakerId: "hukumdar_azem"
+        emotion: "yorgun"
+        text: "İyileşen beden, bazen konuşan tanıktır."
+    choices:
+      -
+        choiceId: "smm_card_133_a"
+        text: "Bera'nın yeminini koru"
+        resultText: "Şifahane Yolu: Kapıdaki Fısıltı kararında hesabı açık tutarsın. Hükümdar Azem bunu fark eder ve şifacı güveninin ve zehir bilgisinin dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_antidote_shared"
+          - "flag_bera_oath"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: -1
+          poison_knowledge: 1
+          spy_network: 0
+          healer_trust: 1
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_134"
+      -
+        choiceId: "smm_card_133_b"
+        text: "Bera'nın defterini kopyala"
+        resultText: "Şifahane Yolu: Kapıdaki Fısıltı kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde şifacı güveninin ve zehir bilgisinin için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_secret_kept"
+          - "flag_meryem_rebel_signal"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 1
+          poison_knowledge: 3
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_135"
+  -
+    cardId: "smm_card_134"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "healer_path"
+    stage: "growth"
+    routeFamily: "healer_path"
+    title: "Şifahane Yolu: Aç Karnın Sözü"
+    bodyText: "Hekim Bera, iyileştirmenin kime hizmet ettiğini sormadan ilaç vermenin masum olmadığını bilir. Şifahane Yolu: Aç Karnın Sözü anında Hekim Bera, Simin'in bilgisiyle Bera'nın yemini arasında köprü kurmanı bekler. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, şifacı güveninin ve zehir bilgisinin üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_yeralti_sarnici"
+    focusImageId: "focus_smm_134_healer_path"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Şifahane Yolu: Aç Karnın Sözü scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Hekim Bera, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "bera_hekim"
+    dialogue:
+      -
+        speakerId: "bera_hekim"
+        emotion: "alaycı"
+        text: "İyileşen beden, bazen konuşan tanıktır."
+    choices:
+      -
+        choiceId: "smm_card_134_a"
+        text: "Otları doğru dozda karıştır"
+        resultText: "Şifahane Yolu: Aç Karnın Sözü kararında hesabı açık tutarsın. Hekim Bera bunu fark eder ve şifacı güveninin ve zehir bilgisinin dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_antidote_shared"
+          - "flag_bera_oath"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 1
+          spy_network: 0
+          healer_trust: 1
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_135"
+      -
+        choiceId: "smm_card_134_b"
+        text: "Dozu cesurca artır"
+        resultText: "Şifahane Yolu: Aç Karnın Sözü kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde şifacı güveninin ve zehir bilgisinin için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_secret_kept"
+          - "flag_meryem_rebel_signal"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 1
+          poison_knowledge: 3
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_136"
+  -
+    cardId: "smm_card_135"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "healer_path"
+    stage: "growth"
+    routeFamily: "healer_path"
+    title: "Şifahane Yolu: Ustanın Sınavı"
+    bodyText: "Hekim Bera, iyileştirmenin kime hizmet ettiğini sormadan ilaç vermenin masum olmadığını bilir. Şifahane Yolu: Ustanın Sınavı anında Simin, iyileştirilen kişinin ileride kimi koruyacağını hesaplatır. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, şifacı güveninin ve zehir bilgisinin üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_halk_ekmek_kuyrugu"
+    focusImageId: "focus_smm_135_healer_path"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Şifahane Yolu: Ustanın Sınavı scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Simin, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "simin_tadimci"
+    dialogue:
+      -
+        speakerId: "simin_tadimci"
+        emotion: "sert"
+        text: "İyileşen beden, bazen konuşan tanıktır."
+    choices:
+      -
+        choiceId: "smm_card_135_a"
+        text: "Hastayı saraydan sakince çıkar"
+        resultText: "Şifahane Yolu: Ustanın Sınavı kararında hesabı açık tutarsın. Simin bunu fark eder ve şifacı güveninin ve zehir bilgisinin dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_antidote_shared"
+          - "flag_bera_oath"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 1
+          spy_network: 0
+          healer_trust: 1
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_136"
+      -
+        choiceId: "smm_card_135_b"
+        text: "Hastayı isyancılara yönlendir"
+        resultText: "Şifahane Yolu: Ustanın Sınavı kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde şifacı güveninin ve zehir bilgisinin için daha keskin bir kayıt açılır."
+        healthDelta: -1
+        setFlags:
+          - "flag_secret_kept"
+          - "flag_meryem_rebel_signal"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 1
+          poison_knowledge: 3
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_138"
+  -
+    cardId: "smm_card_136"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "healer_path"
+    stage: "growth"
+    routeFamily: "healer_path"
+    title: "Şifahane Yolu: Kazanın Gölgesi"
+    bodyText: "Yaralı askerler ve aç çocuklar aynı sedirde beklerken imparatorluğun çatlağı görünür. Şifahane Yolu: Kazanın Gölgesi anında Meryem, senden yarayı değil, yaranın neden saklandığını görmeni ister. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, şifacı güveninin ve zehir bilgisinin üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_sifahane_avlusu"
+    focusImageId: "focus_smm_136_healer_path"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Şifahane Yolu: Kazanın Gölgesi scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Meryem, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "meryem_isyanci"
+    dialogue:
+      -
+        speakerId: "meryem_isyanci"
+        emotion: "düşünceli"
+        text: "İyileşen beden, bazen konuşan tanıktır."
+    choices:
+      -
+        choiceId: "smm_card_136_a"
+        text: "Yaralıyı kayda geçirerek tedavi et"
+        resultText: "Şifahane Yolu: Kazanın Gölgesi kararında hesabı açık tutarsın. Meryem bunu fark eder ve şifacı güveninin ve zehir bilgisinin dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_antidote_shared"
+          - "flag_bera_oath"
+          - "flag_major_branch_17"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 1
+          spy_network: 0
+          healer_trust: 1
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_137"
+      -
+        choiceId: "smm_card_136_b"
+        text: "Yarayı siyasi sır yap"
+        resultText: "Şifahane Yolu: Kazanın Gölgesi kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde şifacı güveninin ve zehir bilgisinin için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_secret_kept"
+          - "flag_meryem_rebel_signal"
+          - "flag_major_branch_17"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 1
+          poison_knowledge: 3
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_138"
+  -
+    cardId: "smm_card_137"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "healer_path"
+    stage: "growth"
+    routeFamily: "healer_path"
+    title: "Şifahane Yolu: Tuz ve Yemin"
+    bodyText: "Yaralı askerler ve aç çocuklar aynı sedirde beklerken imparatorluğun çatlağı görünür. Şifahane Yolu: Tuz ve Yemin anında Hükümdar Azem, her panzehirin bir siyasi bedeli olduğunu hatırlatır. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, şifacı güveninin ve zehir bilgisinin üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_sifahane_ic_odasi"
+    focusImageId: "focus_smm_137_healer_path"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Şifahane Yolu: Tuz ve Yemin scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Hükümdar Azem, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "hukumdar_azem"
+    dialogue:
+      -
+        speakerId: "hukumdar_azem"
+        emotion: "fısıltılı"
+        text: "İyileşen beden, bazen konuşan tanıktır."
+    choices:
+      -
+        choiceId: "smm_card_137_a"
+        text: "Panzehiri halka açık hazırla"
+        resultText: "Şifahane Yolu: Tuz ve Yemin kararında hesabı açık tutarsın. Hükümdar Azem bunu fark eder ve şifacı güveninin ve zehir bilgisinin dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_antidote_shared"
+          - "flag_bera_oath"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 1
+          spy_network: 0
+          healer_trust: 1
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_138"
+      -
+        choiceId: "smm_card_137_b"
+        text: "Panzehiri yalnız varise ayır"
+        resultText: "Şifahane Yolu: Tuz ve Yemin kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde şifacı güveninin ve zehir bilgisinin için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_secret_kept"
+          - "flag_meryem_rebel_signal"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 1
+          poison_knowledge: 3
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_139"
+  -
+    cardId: "smm_card_138"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "healer_path"
+    stage: "growth"
+    routeFamily: "healer_path"
+    title: "Şifahane Yolu: Kırık Tabak"
+    bodyText: "Yaralı askerler ve aç çocuklar aynı sedirde beklerken imparatorluğun çatlağı görünür. Şifahane Yolu: Kırık Tabak anında Hekim Bera, halkın hastalığının yalnız ateşten değil açlıktan geldiğini gösterir. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, şifacı güveninin ve zehir bilgisinin üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_yarali_asker_cadiri"
+    focusImageId: "focus_smm_138_healer_path"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Şifahane Yolu: Kırık Tabak scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Hekim Bera, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "bera_hekim"
+    dialogue:
+      -
+        speakerId: "bera_hekim"
+        emotion: "temkinli"
+        text: "İyileşen beden, bazen konuşan tanıktır."
+    choices:
+      -
+        choiceId: "smm_card_138_a"
+        text: "Bera'nın yeminini koru"
+        resultText: "Şifahane Yolu: Kırık Tabak kararında hesabı açık tutarsın. Hekim Bera bunu fark eder ve şifacı güveninin ve zehir bilgisinin dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_antidote_shared"
+          - "flag_bera_oath"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 1
+          spy_network: 0
+          healer_trust: 1
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_139"
+      -
+        choiceId: "smm_card_138_b"
+        text: "Bera'nın defterini kopyala"
+        resultText: "Şifahane Yolu: Kırık Tabak kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde şifacı güveninin ve zehir bilgisinin için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_secret_kept"
+          - "flag_meryem_rebel_signal"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 1
+          poison_knowledge: 3
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_140"
+  -
+    cardId: "smm_card_139"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "healer_path"
+    stage: "growth"
+    routeFamily: "healer_path"
+    title: "Şifahane Yolu: Mum Işığı"
+    bodyText: "Yaralı askerler ve aç çocuklar aynı sedirde beklerken imparatorluğun çatlağı görünür. Şifahane Yolu: Mum Işığı anında Simin, Simin'in bilgisiyle Bera'nın yemini arasında köprü kurmanı bekler. Yanlış tatlı krizi, Safira'nın dış destek arayışında ya fırsat ya da utanç olarak yeniden açılır. Seçeceğin yol, şifacı güveninin ve zehir bilgisinin üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_yeralti_sarnici"
+    focusImageId: "focus_smm_139_healer_path"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Şifahane Yolu: Mum Işığı scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Simin, Lale Kalfa, a mistaken ornate dessert tray with diplomatic tension, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "simin_tadimci"
+      - "lale_helvaci"
+      - "elci_mirel"
+    dialogue:
+      -
+        speakerId: "simin_tadimci"
+        emotion: "yorgun"
+        text: "İyileşen beden, bazen konuşan tanıktır."
+      -
+        speakerId: "elci_mirel"
+        emotion: "zarif"
+        text: "Bizim ülkemizde böyle bir tatlı, sessiz bir evlilik nişanı sayılır."
+    choices:
+      -
+        choiceId: "smm_card_139_a"
+        text: "Otları doğru dozda karıştır"
+        resultText: "Şifahane Yolu: Mum Işığı kararında hesabı açık tutarsın. Simin bunu fark eder ve şifacı güveninin ve zehir bilgisinin dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_antidote_shared"
+          - "flag_bera_oath"
+          - "flag_dessert_diplomacy_repaired"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 1
+          spy_network: 0
+          healer_trust: 1
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 1
+        nextCardId: "smm_card_140"
+      -
+        choiceId: "smm_card_139_b"
+        text: "Dozu cesurca artır"
+        resultText: "Şifahane Yolu: Mum Işığı kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde şifacı güveninin ve zehir bilgisinin için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_secret_kept"
+          - "flag_meryem_rebel_signal"
+          - "flag_dessert_error_hidden"
+          - "flag_elci_ring_accepted"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 1
+          poison_knowledge: 3
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 2
+        nextCardId: "smm_card_141"
+  -
+    cardId: "smm_card_140"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "healer_path"
+    stage: "growth"
+    routeFamily: "healer_path"
+    title: "Şifahane Yolu: Gece Nöbeti"
+    bodyText: "Yaralı askerler ve aç çocuklar aynı sedirde beklerken imparatorluğun çatlağı görünür. Şifahane Yolu: Gece Nöbeti anında Meryem, iyileştirilen kişinin ileride kimi koruyacağını hesaplatır. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, şifacı güveninin ve zehir bilgisinin üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_halk_ekmek_kuyrugu"
+    focusImageId: "focus_smm_140_healer_path"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Şifahane Yolu: Gece Nöbeti scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Meryem, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "meryem_isyanci"
+    dialogue:
+      -
+        speakerId: "meryem_isyanci"
+        emotion: "alaycı"
+        text: "İyileşen beden, bazen konuşan tanıktır."
+    choices:
+      -
+        choiceId: "smm_card_140_a"
+        text: "Hastayı saraydan sakince çıkar"
+        resultText: "Şifahane Yolu: Gece Nöbeti kararında hesabı açık tutarsın. Meryem bunu fark eder ve şifacı güveninin ve zehir bilgisinin dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_antidote_shared"
+          - "flag_bera_oath"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: -1
+          poison_knowledge: 1
+          spy_network: 0
+          healer_trust: 1
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_141"
+      -
+        choiceId: "smm_card_140_b"
+        text: "Hastayı isyancılara yönlendir"
+        resultText: "Şifahane Yolu: Gece Nöbeti kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde şifacı güveninin ve zehir bilgisinin için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_secret_kept"
+          - "flag_meryem_rebel_signal"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 1
+          poison_knowledge: 3
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_143"
+  -
+    cardId: "smm_card_141"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "healer_path"
+    stage: "growth"
+    routeFamily: "healer_path"
+    title: "Şifahane Yolu: Kilitli Raf"
+    bodyText: "Otların kokusu, zehir odasındaki korkuyu dengeleyen tek şey olur. Şifahane Yolu: Kilitli Raf anında Hükümdar Azem, senden yarayı değil, yaranın neden saklandığını görmeni ister. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, şifacı güveninin ve zehir bilgisinin üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_sifahane_avlusu"
+    focusImageId: "focus_smm_141_healer_path"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Şifahane Yolu: Kilitli Raf scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Hükümdar Azem, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "hukumdar_azem"
+    dialogue:
+      -
+        speakerId: "hukumdar_azem"
+        emotion: "sert"
+        text: "İyileşen beden, bazen konuşan tanıktır."
+    choices:
+      -
+        choiceId: "smm_card_141_a"
+        text: "Yaralıyı kayda geçirerek tedavi et"
+        resultText: "Şifahane Yolu: Kilitli Raf kararında hesabı açık tutarsın. Hükümdar Azem bunu fark eder ve şifacı güveninin ve zehir bilgisinin dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_antidote_shared"
+          - "flag_bera_oath"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 1
+          spy_network: 0
+          healer_trust: 1
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_142"
+      -
+        choiceId: "smm_card_141_b"
+        text: "Yarayı siyasi sır yap"
+        resultText: "Şifahane Yolu: Kilitli Raf kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde şifacı güveninin ve zehir bilgisinin için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_secret_kept"
+          - "flag_meryem_rebel_signal"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 1
+          poison_knowledge: 3
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_143"
+  -
+    cardId: "smm_card_142"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "healer_path"
+    stage: "growth"
+    routeFamily: "healer_path"
+    title: "Şifahane Yolu: Sarayın Kulağı"
+    bodyText: "Otların kokusu, zehir odasındaki korkuyu dengeleyen tek şey olur. Şifahane Yolu: Sarayın Kulağı anında Hekim Bera, her panzehirin bir siyasi bedeli olduğunu hatırlatır. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, şifacı güveninin ve zehir bilgisinin üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_sifahane_ic_odasi"
+    focusImageId: "focus_smm_142_healer_path"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Şifahane Yolu: Sarayın Kulağı scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Hekim Bera, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "bera_hekim"
+    dialogue:
+      -
+        speakerId: "bera_hekim"
+        emotion: "düşünceli"
+        text: "İyileşen beden, bazen konuşan tanıktır."
+    choices:
+      -
+        choiceId: "smm_card_142_a"
+        text: "Panzehiri halka açık hazırla"
+        resultText: "Şifahane Yolu: Sarayın Kulağı kararında hesabı açık tutarsın. Hekim Bera bunu fark eder ve şifacı güveninin ve zehir bilgisinin dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_antidote_shared"
+          - "flag_bera_oath"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 1
+          spy_network: 0
+          healer_trust: 1
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_143"
+      -
+        choiceId: "smm_card_142_b"
+        text: "Panzehiri yalnız varise ayır"
+        resultText: "Şifahane Yolu: Sarayın Kulağı kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde şifacı güveninin ve zehir bilgisinin için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_secret_kept"
+          - "flag_meryem_rebel_signal"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 1
+          poison_knowledge: 3
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_144"
+  -
+    cardId: "smm_card_143"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "healer_path"
+    stage: "growth"
+    routeFamily: "healer_path"
+    title: "Şifahane Yolu: Yağ Halkası"
+    bodyText: "Otların kokusu, zehir odasındaki korkuyu dengeleyen tek şey olur. Şifahane Yolu: Yağ Halkası anında Simin, halkın hastalığının yalnız ateşten değil açlıktan geldiğini gösterir. Kehanet çorbası artık sarayda küçük bir şaka değil, varislerin kendi lehine çevirmek istediği ciddi bir alamettir. Seçeceğin yol, şifacı güveninin ve zehir bilgisinin üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_yarali_asker_cadiri"
+    focusImageId: "focus_smm_143_healer_path"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Şifahane Yolu: Yağ Halkası scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Simin, Müneccim Zerya, a bowl of omen soup with oil rings and three chickpeas, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "simin_tadimci"
+      - "muneccim_zerya"
+    dialogue:
+      -
+        speakerId: "simin_tadimci"
+        emotion: "fısıltılı"
+        text: "İyileşen beden, bazen konuşan tanıktır."
+      -
+        speakerId: "muneccim_zerya"
+        emotion: "ürpermiş"
+        text: "Bu çorbanın yüzeyinde tesadüf değil, sarayın korkusu yüzüyor."
+    choices:
+      -
+        choiceId: "smm_card_143_a"
+        text: "Bera'nın yeminini koru"
+        resultText: "Şifahane Yolu: Yağ Halkası kararında hesabı açık tutarsın. Simin bunu fark eder ve şifacı güveninin ve zehir bilgisinin dengesi senin lehine bir çizik alır."
+        healthDelta: 1
+        setFlags:
+          - "flag_antidote_shared"
+          - "flag_bera_oath"
+          - "flag_soup_omen_confirmed"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 1
+          spy_network: 0
+          healer_trust: 1
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 1
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_144"
+      -
+        choiceId: "smm_card_143_b"
+        text: "Bera'nın defterini kopyala"
+        resultText: "Şifahane Yolu: Yağ Halkası kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde şifacı güveninin ve zehir bilgisinin için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_secret_kept"
+          - "flag_meryem_rebel_signal"
+          - "flag_soup_manipulated"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 1
+          poison_knowledge: 3
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 2
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_145"
+  -
+    cardId: "smm_card_144"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "healer_path"
+    stage: "growth"
+    routeFamily: "healer_path"
+    title: "Şifahane Yolu: Ak Gaga'nın Yolu"
+    bodyText: "Otların kokusu, zehir odasındaki korkuyu dengeleyen tek şey olur. Şifahane Yolu: Ak Gaga'nın Yolu anında Meryem, Simin'in bilgisiyle Bera'nın yemini arasında köprü kurmanı bekler. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, şifacı güveninin ve zehir bilgisinin üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_yeralti_sarnici"
+    focusImageId: "focus_smm_144_healer_path"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Şifahane Yolu: Ak Gaga'nın Yolu scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Meryem, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "meryem_isyanci"
+    dialogue:
+      -
+        speakerId: "meryem_isyanci"
+        emotion: "temkinli"
+        text: "İyileşen beden, bazen konuşan tanıktır."
+    choices:
+      -
+        choiceId: "smm_card_144_a"
+        text: "Otları doğru dozda karıştır"
+        resultText: "Şifahane Yolu: Ak Gaga'nın Yolu kararında hesabı açık tutarsın. Meryem bunu fark eder ve şifacı güveninin ve zehir bilgisinin dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_antidote_shared"
+          - "flag_bera_oath"
+          - "flag_major_branch_18"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 1
+          spy_network: 0
+          healer_trust: 1
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_145"
+      -
+        choiceId: "smm_card_144_b"
+        text: "Dozu cesurca artır"
+        resultText: "Şifahane Yolu: Ak Gaga'nın Yolu kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde şifacı güveninin ve zehir bilgisinin için daha keskin bir kayıt açılır."
+        healthDelta: -1
+        setFlags:
+          - "flag_secret_kept"
+          - "flag_meryem_rebel_signal"
+          - "flag_major_branch_18"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 1
+          poison_knowledge: 3
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_146"
+  -
+    cardId: "smm_card_145"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "healer_path"
+    stage: "growth"
+    routeFamily: "healer_path"
+    title: "Şifahane Yolu: Gümüş Kaşık"
+    bodyText: "Otların kokusu, zehir odasındaki korkuyu dengeleyen tek şey olur. Şifahane Yolu: Gümüş Kaşık anında Hükümdar Azem, iyileştirilen kişinin ileride kimi koruyacağını hesaplatır. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, şifacı güveninin ve zehir bilgisinin üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_halk_ekmek_kuyrugu"
+    focusImageId: "focus_smm_145_healer_path"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Şifahane Yolu: Gümüş Kaşık scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Hükümdar Azem, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "hukumdar_azem"
+    dialogue:
+      -
+        speakerId: "hukumdar_azem"
+        emotion: "yorgun"
+        text: "İyileşen beden, bazen konuşan tanıktır."
+    choices:
+      -
+        choiceId: "smm_card_145_a"
+        text: "Hastayı saraydan sakince çıkar"
+        resultText: "Şifahane Yolu: Gümüş Kaşık kararında hesabı açık tutarsın. Hükümdar Azem bunu fark eder ve şifacı güveninin ve zehir bilgisinin dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_antidote_shared"
+          - "flag_bera_oath"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 1
+          spy_network: 0
+          healer_trust: 1
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_146"
+      -
+        choiceId: "smm_card_145_b"
+        text: "Hastayı isyancılara yönlendir"
+        resultText: "Şifahane Yolu: Gümüş Kaşık kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde şifacı güveninin ve zehir bilgisinin için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_secret_kept"
+          - "flag_meryem_rebel_signal"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 1
+          poison_knowledge: 3
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_148"
+  -
+    cardId: "smm_card_146"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "healer_path"
+    stage: "growth"
+    routeFamily: "healer_path"
+    title: "Şifahane Yolu: Kayıp Ölçü"
+    bodyText: "Şifa yolu seni merhamet ile devlet sırrı arasında bırakır. Şifahane Yolu: Kayıp Ölçü anında Hekim Bera, senden yarayı değil, yaranın neden saklandığını görmeni ister. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, şifacı güveninin ve zehir bilgisinin üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_sifahane_avlusu"
+    focusImageId: "focus_smm_146_healer_path"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Şifahane Yolu: Kayıp Ölçü scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Hekim Bera, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "bera_hekim"
+    dialogue:
+      -
+        speakerId: "bera_hekim"
+        emotion: "alaycı"
+        text: "İyileşen beden, bazen konuşan tanıktır."
+    choices:
+      -
+        choiceId: "smm_card_146_a"
+        text: "Yaralıyı kayda geçirerek tedavi et"
+        resultText: "Şifahane Yolu: Kayıp Ölçü kararında hesabı açık tutarsın. Hekim Bera bunu fark eder ve şifacı güveninin ve zehir bilgisinin dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_antidote_shared"
+          - "flag_bera_oath"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 1
+          spy_network: 0
+          healer_trust: 1
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_147"
+      -
+        choiceId: "smm_card_146_b"
+        text: "Yarayı siyasi sır yap"
+        resultText: "Şifahane Yolu: Kayıp Ölçü kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde şifacı güveninin ve zehir bilgisinin için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_secret_kept"
+          - "flag_meryem_rebel_signal"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 1
+          poison_knowledge: 3
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_148"
+  -
+    cardId: "smm_card_147"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "healer_path"
+    stage: "growth"
+    routeFamily: "healer_path"
+    title: "Şifahane Yolu: Kuyrukta Ekmek"
+    bodyText: "Şifa yolu seni merhamet ile devlet sırrı arasında bırakır. Şifahane Yolu: Kuyrukta Ekmek anında Simin, her panzehirin bir siyasi bedeli olduğunu hatırlatır. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, şifacı güveninin ve zehir bilgisinin üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_sifahane_ic_odasi"
+    focusImageId: "focus_smm_147_healer_path"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Şifahane Yolu: Kuyrukta Ekmek scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Simin, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "simin_tadimci"
+    dialogue:
+      -
+        speakerId: "simin_tadimci"
+        emotion: "sert"
+        text: "İyileşen beden, bazen konuşan tanıktır."
+    choices:
+      -
+        choiceId: "smm_card_147_a"
+        text: "Panzehiri halka açık hazırla"
+        resultText: "Şifahane Yolu: Kuyrukta Ekmek kararında hesabı açık tutarsın. Simin bunu fark eder ve şifacı güveninin ve zehir bilgisinin dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_antidote_shared"
+          - "flag_bera_oath"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: -1
+          poison_knowledge: 1
+          spy_network: 0
+          healer_trust: 1
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_148"
+      -
+        choiceId: "smm_card_147_b"
+        text: "Panzehiri yalnız varise ayır"
+        resultText: "Şifahane Yolu: Kuyrukta Ekmek kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde şifacı güveninin ve zehir bilgisinin için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_secret_kept"
+          - "flag_meryem_rebel_signal"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 1
+          poison_knowledge: 3
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_149"
+  -
+    cardId: "smm_card_148"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "healer_path"
+    stage: "growth"
+    routeFamily: "healer_path"
+    title: "Şifahane Yolu: Keskin Koku"
+    bodyText: "Şifa yolu seni merhamet ile devlet sırrı arasında bırakır. Şifahane Yolu: Keskin Koku anında Meryem, halkın hastalığının yalnız ateşten değil açlıktan geldiğini gösterir. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, şifacı güveninin ve zehir bilgisinin üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_yarali_asker_cadiri"
+    focusImageId: "focus_smm_148_healer_path"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Şifahane Yolu: Keskin Koku scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Meryem, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "meryem_isyanci"
+    dialogue:
+      -
+        speakerId: "meryem_isyanci"
+        emotion: "düşünceli"
+        text: "İyileşen beden, bazen konuşan tanıktır."
+    choices:
+      -
+        choiceId: "smm_card_148_a"
+        text: "Bera'nın yeminini koru"
+        resultText: "Şifahane Yolu: Keskin Koku kararında hesabı açık tutarsın. Meryem bunu fark eder ve şifacı güveninin ve zehir bilgisinin dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_antidote_shared"
+          - "flag_bera_oath"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 1
+          spy_network: 0
+          healer_trust: 1
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_149"
+      -
+        choiceId: "smm_card_148_b"
+        text: "Bera'nın defterini kopyala"
+        resultText: "Şifahane Yolu: Keskin Koku kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde şifacı güveninin ve zehir bilgisinin için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_secret_kept"
+          - "flag_meryem_rebel_signal"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 1
+          poison_knowledge: 3
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_150"
+  -
+    cardId: "smm_card_149"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "healer_path"
+    stage: "growth"
+    routeFamily: "healer_path"
+    title: "Şifahane Yolu: Mühre Giden İz"
+    bodyText: "Şifa yolu seni merhamet ile devlet sırrı arasında bırakır. Şifahane Yolu: Mühre Giden İz anında Hükümdar Azem, Simin'in bilgisiyle Bera'nın yemini arasında köprü kurmanı bekler. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, şifacı güveninin ve zehir bilgisinin üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_yeralti_sarnici"
+    focusImageId: "focus_smm_149_healer_path"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Şifahane Yolu: Mühre Giden İz scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Hükümdar Azem, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "hukumdar_azem"
+    dialogue:
+      -
+        speakerId: "hukumdar_azem"
+        emotion: "fısıltılı"
+        text: "İyileşen beden, bazen konuşan tanıktır."
+    choices:
+      -
+        choiceId: "smm_card_149_a"
+        text: "Otları doğru dozda karıştır"
+        resultText: "Şifahane Yolu: Mühre Giden İz kararında hesabı açık tutarsın. Hükümdar Azem bunu fark eder ve şifacı güveninin ve zehir bilgisinin dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_antidote_shared"
+          - "flag_bera_oath"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 1
+          spy_network: 0
+          healer_trust: 1
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_150"
+      -
+        choiceId: "smm_card_149_b"
+        text: "Dozu cesurca artır"
+        resultText: "Şifahane Yolu: Mühre Giden İz kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde şifacı güveninin ve zehir bilgisinin için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_secret_kept"
+          - "flag_meryem_rebel_signal"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 1
+          poison_knowledge: 3
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_151"
+  -
+    cardId: "smm_card_150"
+    storyId: "saray_mutfagindan_muhre"
+    chapterId: "healer_path"
+    stage: "growth"
+    routeFamily: "healer_path"
+    title: "Şifahane Yolu: Dar Boğaz"
+    bodyText: "Şifa yolu seni merhamet ile devlet sırrı arasında bırakır. Şifahane Yolu: Dar Boğaz anında Hekim Bera, iyileştirilen kişinin ileride kimi koruyacağını hesaplatır. Bulaşık kokusu, balmumu ve aç başkent sesi aynı anda üstüne gelir. Seçeceğin yol, şifacı güveninin ve zehir bilgisinin üzerinde kalıcı bir iz bırakacak."
+    backgroundId: "bg_halk_ekmek_kuyrugu"
+    focusImageId: "focus_smm_150_healer_path"
+    focusImagePrompt: "2D illustrated storybook style, hand-drawn painterly feeling, warm muted colors, readable silhouettes, Şifahane Yolu: Dar Boğaz scene for Saray Mutfağından Mühre, showing Yetim bulaşıkçı, Hekim Bera, a tense choice moment tied to palace service, no photorealism, no 3D render look, no text, no watermark, no logo"
+    presentCharacters:
+      - "player_yetim"
+      - "bera_hekim"
+    dialogue:
+      -
+        speakerId: "bera_hekim"
+        emotion: "temkinli"
+        text: "İyileşen beden, bazen konuşan tanıktır."
+    choices:
+      -
+        choiceId: "smm_card_150_a"
+        text: "Hastayı saraydan sakince çıkar"
+        resultText: "Şifahane Yolu: Dar Boğaz kararında hesabı açık tutarsın. Hekim Bera bunu fark eder ve şifacı güveninin ve zehir bilgisinin dengesi senin lehine bir çizik alır."
+        healthDelta: 0
+        setFlags:
+          - "flag_antidote_shared"
+          - "flag_bera_oath"
+        clearFlags:
+          - "flag_secret_kept"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 0
+          poison_knowledge: 1
+          spy_network: 0
+          healer_trust: 1
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_151"
+      -
+        choiceId: "smm_card_150_b"
+        text: "Hastayı isyancılara yönlendir"
+        resultText: "Şifahane Yolu: Dar Boğaz kararında kısa yolu seçersin. İş hızlanır, fakat saray defterlerinde şifacı güveninin ve zehir bilgisinin için daha keskin bir kayıt açılır."
+        healthDelta: 0
+        setFlags:
+          - "flag_secret_kept"
+          - "flag_meryem_rebel_signal"
+        clearFlags:
+          - "flag_truth_told"
+        hiddenCounterDeltas:
+          kitchen_favor: 0
+          palace_suspicion: 1
+          poison_knowledge: 3
+          spy_network: 0
+          healer_trust: 0
+          logistics_mastery: 0
+          rebellion_sympathy: 0
+          black_market_debt: 0
+          heir_arslan_support: 0
+          heir_safira_support: 0
+          heir_kemal_support: 0
+          seal_access: 0
+          absurd_soup_omen_score: 0
+          absurd_goose_omen_score: 0
+          absurd_dessert_diplomacy_score: 0
+        nextCardId: "smm_card_153"

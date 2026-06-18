@@ -1,0 +1,623 @@
+npcs:
+  -
+    npcId: "player_yetim"
+    name: "Adsız Yetim"
+    title: "Yetim bulaşıkçı"
+    role: "Oyuncu karakteri"
+    routeFunction: "Tüm rotaların taşıyıcısı"
+    firstAppearanceCardId: "smm_card_001"
+    personality: "dayanıklı, açlığı unutamayan, gözlemci"
+    speechStyle: "Oyuncu seçimlerine göre sert, merhametli veya hesapçı"
+    relationshipToPlayer: "Oyuncunun kendisi"
+    wants: "Hayatta kalıp mührü taşıyacak konuma yükselmek"
+    fears: "Sıradan bir hizmetkâr gibi ezilip unutulmak"
+    secrets: "Hafızası sarayın en büyük arşividir"
+    canHelpPlayerBy: "Her sınıftan insanla konuşabilir"
+    canHurtPlayerBy: "Yanlış tarafı seçerse bütün birikimini kaybedebilir"
+    importantFlags:
+      - "flag_muhur_final_key"
+    importantCards:
+      - "smm_card_001"
+      - "smm_card_076"
+      - "smm_card_151"
+      - "smm_card_276"
+    possibleFinalStates:
+      - "ending_basvezir_gercek_yonetici"
+      - "ending_isimsiz_mezar"
+    sampleDialogueLines:
+      -
+        emotion: "sakin"
+        text: "Adsız Yetim: Bu sarayda küçük görünen şeyler bile bir gün mühür kadar ağırlaşır."
+      -
+        emotion: "gergin"
+        text: "Adsız Yetim: Seçimini yaparken yalnız bugünü değil, kapının ardındaki kalabalığı da düşün."
+  -
+    npcId: "bahir_usta"
+    name: "Bahir Usta"
+    title: "Baş aşçı"
+    role: "Mentor"
+    routeFunction: "Mutfak ve aşçı yolu"
+    firstAppearanceCardId: "smm_card_002"
+    personality: "sert ama adil"
+    speechStyle: "Kısa, buyurgan, meslek atasözleriyle konuşur"
+    relationshipToPlayer: "Oyuncuyu önce yamak sonra halef adayı görür"
+    wants: "Mutfağın haysiyetini korumak"
+    fears: "Sarayın mutfağı siyaset uğruna kirletmesi"
+    secrets: "Gençliğinde bir varisin zehirlenmesini önlemiştir"
+    canHelpPlayerBy: "Usta bilgisi ve güven sağlar"
+    canHurtPlayerBy: "Oyuncuyu mutfaktan attırabilir"
+    importantFlags:
+      - "flag_bahir_trust"
+    importantCards:
+      - "smm_card_002"
+      - "smm_card_031"
+      - "smm_card_049"
+      - "smm_card_088"
+    possibleFinalStates:
+      - "ending_en_guvenilen_saray_ascisi"
+    sampleDialogueLines:
+      -
+        emotion: "sakin"
+        text: "Bahir Usta: Bu sarayda küçük görünen şeyler bile bir gün mühür kadar ağırlaşır."
+      -
+        emotion: "gergin"
+        text: "Bahir Usta: Seçimini yaparken yalnız bugünü değil, kapının ardındaki kalabalığı da düşün."
+  -
+    npcId: "lale_helvaci"
+    name: "Lale Kalfa"
+    title: "Helvahane kalfası"
+    role: "Tatlı ve diplomasi uzmanı"
+    routeFunction: "Yanlış tatlı zinciri"
+    firstAppearanceCardId: "smm_card_051"
+    personality: "yaratıcı, kırılgan gururlu"
+    speechStyle: "Tatlı benzetmeleri ve ince iğnelemeler kullanır"
+    relationshipToPlayer: "Oyuncuya hem rakip hem sırdaş olabilir"
+    wants: "Helvahanenin ciddiye alınması"
+    fears: "Bir tatlı hatasıyla idam edilmek"
+    secrets: "Elçilik usullerini gizlice öğrenmiştir"
+    canHelpPlayerBy: "Diplomatik tatlı krizlerini çözebilir"
+    canHurtPlayerBy: "Suçu oyuncuya yıkabilir"
+    importantFlags:
+      - "flag_lale_trust"
+    importantCards:
+      - "smm_card_053"
+      - "smm_card_060"
+      - "smm_card_075"
+      - "smm_card_281"
+    possibleFinalStates:
+      - "ending_tatli_diplomatik_evlilik"
+    sampleDialogueLines:
+      -
+        emotion: "sakin"
+        text: "Lale Kalfa: Bu sarayda küçük görünen şeyler bile bir gün mühür kadar ağırlaşır."
+      -
+        emotion: "gergin"
+        text: "Lale Kalfa: Seçimini yaparken yalnız bugünü değil, kapının ardındaki kalabalığı da düşün."
+  -
+    npcId: "nimet_kilerci"
+    name: "Nimet Ana"
+    title: "Kiler sorumlusu"
+    role: "Anahtar ve erzak bekçisi"
+    routeFunction: "Kiler, açlık, erzak"
+    firstAppearanceCardId: "smm_card_006"
+    personality: "kuşkucu, anaç, hafızası güçlü"
+    speechStyle: "Alçak sesle, isimleri tartarak konuşur"
+    relationshipToPlayer: "Oyuncunun açlığını anlar ama hırsızlığa tahammül etmez"
+    wants: "Kiler düzenini ve yoksul çocukları korumak"
+    fears: "Kiler açığının üstüne kalması"
+    secrets: "Bir varisin gizli erzak hattını bilir"
+    canHelpPlayerBy: "Anahtar ve erzak bilgisi verir"
+    canHurtPlayerBy: "Oyuncuyu hırsız diye damgalayabilir"
+    importantFlags:
+      - "flag_food_to_people"
+    importantCards:
+      - "smm_card_006"
+      - "smm_card_055"
+      - "smm_card_176"
+      - "smm_card_223"
+    possibleFinalStates:
+      - "ending_kilerden_gelen_adalet"
+    sampleDialogueLines:
+      -
+        emotion: "sakin"
+        text: "Nimet Ana: Bu sarayda küçük görünen şeyler bile bir gün mühür kadar ağırlaşır."
+      -
+        emotion: "gergin"
+        text: "Nimet Ana: Seçimini yaparken yalnız bugünü değil, kapının ardındaki kalabalığı da düşün."
+  -
+    npcId: "simin_tadimci"
+    name: "Simin"
+    title: "Zehir tadıcısı"
+    role: "Zehir bilgisi kapısı"
+    routeFunction: "Zehir tadıcılığı"
+    firstAppearanceCardId: "smm_card_101"
+    personality: "soğukkanlı, ironik, ölümle barışık"
+    speechStyle: "Yumuşak ama keskin cümleler kurar"
+    relationshipToPlayer: "Oyuncuyu dilinin ucundaki cesaretle ölçer"
+    wants: "Hükümdarı ve kendini hayatta tutmak"
+    fears: "Bir gün bilerek kurban seçilmek"
+    secrets: "Bazı panzehir tariflerini deftere yazmamıştır"
+    canHelpPlayerBy: "Zehir ve panzehir öğretir"
+    canHurtPlayerBy: "Oyuncuyu şüpheli gösterebilir"
+    importantFlags:
+      - "flag_simin_notice"
+    importantCards:
+      - "smm_card_101"
+      - "smm_card_111"
+      - "smm_card_124"
+      - "smm_card_143"
+    possibleFinalStates:
+      - "ending_zehir_tadicisi_reformcu"
+      - "ending_zehirlenerek_dusen"
+    sampleDialogueLines:
+      -
+        emotion: "sakin"
+        text: "Simin: Bu sarayda küçük görünen şeyler bile bir gün mühür kadar ağırlaşır."
+      -
+        emotion: "gergin"
+        text: "Simin: Seçimini yaparken yalnız bugünü değil, kapının ardındaki kalabalığı da düşün."
+  -
+    npcId: "bera_hekim"
+    name: "Hekim Bera"
+    title: "Saray hekimi"
+    role: "Şifa ve etik mentor"
+    routeFunction: "Şifahane yolu"
+    firstAppearanceCardId: "smm_card_126"
+    personality: "merhametli, ilkeli, yorgun"
+    speechStyle: "Hastalık ve adalet arasında sakin bağ kurar"
+    relationshipToPlayer: "Oyuncuyu önce yardımcı sonra vicdan ortağı sayar"
+    wants: "Hekimlik yeminini iktidardan korumak"
+    fears: "Şifahanenin casusluk aracına dönüşmesi"
+    secrets: "Hükümdarın hastalığının gerçek seyrini bilir"
+    canHelpPlayerBy: "Tedavi, panzehir, sığınak sağlar"
+    canHurtPlayerBy: "Oyuncuyu sürgüne gönderecek rapor yazabilir"
+    importantFlags:
+      - "flag_bera_oath"
+    importantCards:
+      - "smm_card_126"
+      - "smm_card_139"
+      - "smm_card_150"
+      - "smm_card_244"
+    possibleFinalStates:
+      - "ending_surgun_sifaci"
+    sampleDialogueLines:
+      -
+        emotion: "sakin"
+        text: "Hekim Bera: Bu sarayda küçük görünen şeyler bile bir gün mühür kadar ağırlaşır."
+      -
+        emotion: "gergin"
+        text: "Hekim Bera: Seçimini yaparken yalnız bugünü değil, kapının ardındaki kalabalığı da düşün."
+  -
+    npcId: "rasih_casusbasi"
+    name: "Rasih"
+    title: "Casusbaşı"
+    role: "Gizli ağ yöneticisi"
+    routeFunction: "Casus rotası"
+    firstAppearanceCardId: "smm_card_151"
+    personality: "nazik, tehlikeli, sabırlı"
+    speechStyle: "Her şeyi rica gibi söyler"
+    relationshipToPlayer: "Oyuncuyu kullanılabilir ama dikkat çekici bulur"
+    wants: "Sarayın çökmeden kontrol altında kalması"
+    fears: "Kendi ağının karaborsaya sızması"
+    secrets: "Başvezire ait eski bir ihanet dosyası tutar"
+    canHelpPlayerBy: "Bilgi, geçit ve kimlik sağlar"
+    canHurtPlayerBy: "Oyuncuyu görünmez biçimde yok edebilir"
+    importantFlags:
+      - "flag_rasih_blackfile"
+    importantCards:
+      - "smm_card_151"
+      - "smm_card_166"
+      - "smm_card_175"
+      - "smm_card_286"
+    possibleFinalStates:
+      - "ending_casus_orgutu_basi"
+    sampleDialogueLines:
+      -
+        emotion: "sakin"
+        text: "Rasih: Bu sarayda küçük görünen şeyler bile bir gün mühür kadar ağırlaşır."
+      -
+        emotion: "gergin"
+        text: "Rasih: Seçimini yaparken yalnız bugünü değil, kapının ardındaki kalabalığı da düşün."
+  -
+    npcId: "turgut_iaseci"
+    name: "Turgut Emin"
+    title: "Ordu iaşe görevlisi"
+    role: "Lojistik kapısı"
+    routeFunction: "Ordu iaşesi"
+    firstAppearanceCardId: "smm_card_176"
+    personality: "düzenli, kaygılı, hesapçı"
+    speechStyle: "Rakamlarla ve kısa hükümlerle konuşur"
+    relationshipToPlayer: "Oyuncunun mutfak bilgisine saygı duyar"
+    wants: "Orduyu aç bırakmadan halkı yakmamak"
+    fears: "Defter açığının ihanete sayılması"
+    secrets: "Tahıl kaybının bir kısmı saray içindedir"
+    canHelpPlayerBy: "Lojistik yetki ve defter erişimi sağlar"
+    canHurtPlayerBy: "Oyuncuyu zimmetle suçlayabilir"
+    importantFlags:
+      - "flag_turgut_supply_trust"
+    importantCards:
+      - "smm_card_176"
+      - "smm_card_188"
+      - "smm_card_200"
+      - "smm_card_273"
+    possibleFinalStates:
+      - "ending_ordu_iase_basi"
+    sampleDialogueLines:
+      -
+        emotion: "sakin"
+        text: "Turgut Emin: Bu sarayda küçük görünen şeyler bile bir gün mühür kadar ağırlaşır."
+      -
+        emotion: "gergin"
+        text: "Turgut Emin: Seçimini yaparken yalnız bugünü değil, kapının ardındaki kalabalığı da düşün."
+  -
+    npcId: "meryem_isyanci"
+    name: "Meryem"
+    title: "Halk isyanı bağlantısı"
+    role: "İsyan sesi"
+    routeFunction: "Halk ve devrim"
+    firstAppearanceCardId: "smm_card_226"
+    personality: "öfkeli, merhametli, stratejik"
+    speechStyle: "Sokak diliyle ama keskin politik akılla konuşur"
+    relationshipToPlayer: "Oyuncuyu sarayın içinden gelen riskli umut sayar"
+    wants: "Açlığı görünür kılmak"
+    fears: "İsyanın halka değil liderlere hizmet etmesi"
+    secrets: "Sarayda kayıp bir kardeşi vardır"
+    canHelpPlayerBy: "Halk desteği ve kaçış ağı sağlar"
+    canHurtPlayerBy: "Oyuncuyu ihanetle damgalayabilir"
+    importantFlags:
+      - "flag_meryem_rebel_signal"
+    importantCards:
+      - "smm_card_226"
+      - "smm_card_239"
+      - "smm_card_250"
+      - "smm_card_282"
+    possibleFinalStates:
+      - "ending_halk_devriminin_lideri"
+    sampleDialogueLines:
+      -
+        emotion: "sakin"
+        text: "Meryem: Bu sarayda küçük görünen şeyler bile bir gün mühür kadar ağırlaşır."
+      -
+        emotion: "gergin"
+        text: "Meryem: Seçimini yaparken yalnız bugünü değil, kapının ardındaki kalabalığı da düşün."
+  -
+    npcId: "kara_yusuf"
+    name: "Kara Yusuf"
+    title: "Karaborsa sır satıcısı"
+    role: "Sır ve borç satıcısı"
+    routeFunction: "Karaborsa yolu"
+    firstAppearanceCardId: "smm_card_201"
+    personality: "çekici, acımasız, borç hafızalı"
+    speechStyle: "Pazarlık, lakap ve yarım tehditlerle konuşur"
+    relationshipToPlayer: "Oyuncuda büyük değerli bir sır kokusu alır"
+    wants: "Saray sırlarından kalıcı pazar kurmak"
+    fears: "Rasih'in ağına düşmek"
+    secrets: "Sahte mühür atölyesini finanse eder"
+    canHelpPlayerBy: "Para, sahte belge, sokak kapısı sağlar"
+    canHurtPlayerBy: "Borcu canla tahsil edebilir"
+    importantFlags:
+      - "flag_yusuf_debt_mark"
+    importantCards:
+      - "smm_card_201"
+      - "smm_card_214"
+      - "smm_card_225"
+      - "smm_card_291"
+    possibleFinalStates:
+      - "ending_karaborsa_efendisi"
+    sampleDialogueLines:
+      -
+        emotion: "sakin"
+        text: "Kara Yusuf: Bu sarayda küçük görünen şeyler bile bir gün mühür kadar ağırlaşır."
+      -
+        emotion: "gergin"
+        text: "Kara Yusuf: Seçimini yaparken yalnız bugünü değil, kapının ardındaki kalabalığı da düşün."
+  -
+    npcId: "hukumdar_azem"
+    name: "Hükümdar Azem"
+    title: "Yaşlanan hükümdar"
+    role: "Kriz kaynağı"
+    routeFunction: "Varis krizi ve kaz kararları"
+    firstAppearanceCardId: "smm_card_087"
+    personality: "yorgun, batıl inançlı, beklenmedikçe keskin"
+    speechStyle: "Yavaş, törenli, bazen çocukça sorular sorar"
+    relationshipToPlayer: "Oyuncuyu önce mutfak eli sonra kader tanığı görür"
+    wants: "Tahtı savaşsız devretmek"
+    fears: "Varislerinin imparatorluğu parçalaması"
+    secrets: "Ak Gaga kararlarını bilerek abartmıştır"
+    canHelpPlayerBy: "Ferman ve güven verebilir"
+    canHurtPlayerBy: "Bir sözle oyuncuyu ölüme gönderebilir"
+    importantFlags:
+      - "flag_hukumdar_tasted_meal"
+    importantCards:
+      - "smm_card_087"
+      - "smm_card_111"
+      - "smm_card_258"
+      - "smm_card_276"
+    possibleFinalStates:
+      - "ending_en_guvenilen_saray_ascisi"
+    sampleDialogueLines:
+      -
+        emotion: "sakin"
+        text: "Hükümdar Azem: Bu sarayda küçük görünen şeyler bile bir gün mühür kadar ağırlaşır."
+      -
+        emotion: "gergin"
+        text: "Hükümdar Azem: Seçimini yaparken yalnız bugünü değil, kapının ardındaki kalabalığı da düşün."
+  -
+    npcId: "heir_arslan"
+    name: "Şehzade Arslan"
+    title: "Askeri varis"
+    role: "Varis"
+    routeFunction: "Ordu ve düzen yolu"
+    firstAppearanceCardId: "smm_card_251"
+    personality: "cesur, sert, şeref takıntılı"
+    speechStyle: "Kılıç ve düzen metaforlarıyla konuşur"
+    relationshipToPlayer: "Oyuncuyu erzak ve alamet kontrolü için ister"
+    wants: "Tahtı ordu desteğiyle almak"
+    fears: "Halk isyanıyla zayıf görünmek"
+    secrets: "Bir iaşe açığını saklamıştır"
+    canHelpPlayerBy: "Askeri koruma sağlar"
+    canHurtPlayerBy: "Yanlış zamanda desteklenirse idama sürükler"
+    importantFlags:
+      - "flag_arslan_promised"
+    importantCards:
+      - "smm_card_251"
+      - "smm_card_267"
+      - "smm_card_276"
+      - "smm_card_289"
+    possibleFinalStates:
+      - "ending_arslanin_golgesi"
+    sampleDialogueLines:
+      -
+        emotion: "sakin"
+        text: "Şehzade Arslan: Bu sarayda küçük görünen şeyler bile bir gün mühür kadar ağırlaşır."
+      -
+        emotion: "gergin"
+        text: "Şehzade Arslan: Seçimini yaparken yalnız bugünü değil, kapının ardındaki kalabalığı da düşün."
+  -
+    npcId: "heir_safira"
+    name: "Sultan Safira"
+    title: "Diplomatik varis"
+    role: "Varis"
+    routeFunction: "Elçilik ve tatlı diplomasi"
+    firstAppearanceCardId: "smm_card_252"
+    personality: "zarif, sabırlı, keskin zekalı"
+    speechStyle: "İnce nezaketin arkasından emir verir"
+    relationshipToPlayer: "Oyuncuyu helvahane hatası yüzünden ciddiye alır"
+    wants: "Dış ittifakla tahta yürümek"
+    fears: "Kendi ülkesinde yabancı kukla sayılmak"
+    secrets: "Elçi Mirel'le gizli anlaşması vardır"
+    canHelpPlayerBy: "Dış destek ve mühür protokolü sağlar"
+    canHurtPlayerBy: "Oyuncuyu diplomatik kurban yapabilir"
+    importantFlags:
+      - "flag_safira_promised"
+    importantCards:
+      - "smm_card_252"
+      - "smm_card_259"
+      - "smm_card_281"
+      - "smm_card_294"
+    possibleFinalStates:
+      - "ending_safiranin_muhur_naziri"
+    sampleDialogueLines:
+      -
+        emotion: "sakin"
+        text: "Sultan Safira: Bu sarayda küçük görünen şeyler bile bir gün mühür kadar ağırlaşır."
+      -
+        emotion: "gergin"
+        text: "Sultan Safira: Seçimini yaparken yalnız bugünü değil, kapının ardındaki kalabalığı da düşün."
+  -
+    npcId: "heir_kemal"
+    name: "Şehzade Kemal"
+    title: "Halkçı varis"
+    role: "Varis"
+    routeFunction: "Halk ve reform yolu"
+    firstAppearanceCardId: "smm_card_253"
+    personality: "idealci, sabırsız, ikna edici"
+    speechStyle: "Açık ve ateşli konuşur"
+    relationshipToPlayer: "Oyuncuyu halk ile saray arasında tanık sayar"
+    wants: "Ekmek kanunuyla meşruiyet kazanmak"
+    fears: "İsyanın kontrolünden çıkması"
+    secrets: "Meryem'le dolaylı haberleşir"
+    canHelpPlayerBy: "Halk desteği ve reform fermanı sağlar"
+    canHurtPlayerBy: "Oyuncuyu isyan suçuna ortak edebilir"
+    importantFlags:
+      - "flag_kemal_promised"
+    importantCards:
+      - "smm_card_253"
+      - "smm_card_266"
+      - "smm_card_282"
+      - "smm_card_300"
+    possibleFinalStates:
+      - "ending_kemalin_ekmek_kanunu"
+    sampleDialogueLines:
+      -
+        emotion: "sakin"
+        text: "Şehzade Kemal: Bu sarayda küçük görünen şeyler bile bir gün mühür kadar ağırlaşır."
+      -
+        emotion: "gergin"
+        text: "Şehzade Kemal: Seçimini yaparken yalnız bugünü değil, kapının ardındaki kalabalığı da düşün."
+  -
+    npcId: "durna_kazci"
+    name: "Durna"
+    title: "Saray kazı bakıcısı"
+    role: "Ak Gaga'nın koruyucusu"
+    routeFunction: "Saray kazı zinciri"
+    firstAppearanceCardId: "smm_card_012"
+    personality: "aşırı ciddi, sadık, pratik"
+    speechStyle: "Kaz davranışlarını devlet dili gibi yorumlar"
+    relationshipToPlayer: "Oyuncuyu Ak Gaga'ya yaklaşabilen nadir kişi sayar"
+    wants: "Ak Gaga'nın zarar görmemesi"
+    fears: "Kazın siyasete kurban edilmesi"
+    secrets: "Kaz yemlerinin kararları etkilediğini bilir"
+    canHelpPlayerBy: "Kazın davranışını açıklayabilir"
+    canHurtPlayerBy: "Oyuncuyu kaz düşmanı ilan edebilir"
+    importantFlags:
+      - "flag_durna_goose_friend"
+    importantCards:
+      - "smm_card_012"
+      - "smm_card_076"
+      - "smm_card_100"
+      - "smm_card_279"
+    possibleFinalStates:
+      - "ending_saray_kazinin_yorumcusu"
+    sampleDialogueLines:
+      -
+        emotion: "sakin"
+        text: "Durna: Bu sarayda küçük görünen şeyler bile bir gün mühür kadar ağırlaşır."
+      -
+        emotion: "gergin"
+        text: "Durna: Seçimini yaparken yalnız bugünü değil, kapının ardındaki kalabalığı da düşün."
+  -
+    npcId: "elci_mirel"
+    name: "Elçi Mirel"
+    title: "Yabancı elçi"
+    role: "Diplomatik kriz figürü"
+    routeFunction: "Yanlış tatlı zinciri"
+    firstAppearanceCardId: "smm_card_060"
+    personality: "zarif, teatral, gururlu"
+    speechStyle: "Tören dili ve romantik tehditlerle konuşur"
+    relationshipToPlayer: "Oyuncuyu yanlış tatlı niyetinin sahibi sanabilir"
+    wants: "Ülkesine onurlu ittifak götürmek"
+    fears: "Kültürünün alaya alınması"
+    secrets: "Tatlı teklifinin esnek yorumlanabileceğini bilir"
+    canHelpPlayerBy: "Dış destek ve yüzük sağlar"
+    canHurtPlayerBy: "Diplomatik skandal çıkarabilir"
+    importantFlags:
+      - "flag_elci_ring_accepted"
+    importantCards:
+      - "smm_card_060"
+      - "smm_card_075"
+      - "smm_card_259"
+      - "smm_card_294"
+    possibleFinalStates:
+      - "ending_tatli_diplomatik_evlilik"
+    sampleDialogueLines:
+      -
+        emotion: "sakin"
+        text: "Elçi Mirel: Bu sarayda küçük görünen şeyler bile bir gün mühür kadar ağırlaşır."
+      -
+        emotion: "gergin"
+        text: "Elçi Mirel: Seçimini yaparken yalnız bugünü değil, kapının ardındaki kalabalığı da düşün."
+  -
+    npcId: "sadreddin_basvezir"
+    name: "Başvezir Sadreddin"
+    title: "Başvezir ve mühür odası yetkilisi"
+    role: "Mühür kapısı"
+    routeFunction: "Final ve devlet yönetimi"
+    firstAppearanceCardId: "smm_card_254"
+    personality: "soğuk, ölçülü, uzun hafızalı"
+    speechStyle: "Hukuk ve tehdit arasında dengeli konuşur"
+    relationshipToPlayer: "Oyuncuyu tehlikeli ama gerekli bir araç görür"
+    wants: "Mührü hanedanı yakmadan devretmek"
+    fears: "Mührün komedi alametlerine teslim olması"
+    secrets: "Hükümdarın son fermanını saklar"
+    canHelpPlayerBy: "Mühür erişimi sağlar"
+    canHurtPlayerBy: "Oyuncuyu sürgün veya idama gönderebilir"
+    importantFlags:
+      - "flag_sadreddin_watches"
+    importantCards:
+      - "smm_card_254"
+      - "smm_card_276"
+      - "smm_card_287"
+      - "smm_card_300"
+    possibleFinalStates:
+      - "ending_basvezir_gercek_yonetici"
+    sampleDialogueLines:
+      -
+        emotion: "sakin"
+        text: "Başvezir Sadreddin: Bu sarayda küçük görünen şeyler bile bir gün mühür kadar ağırlaşır."
+      -
+        emotion: "gergin"
+        text: "Başvezir Sadreddin: Seçimini yaparken yalnız bugünü değil, kapının ardındaki kalabalığı da düşün."
+  -
+    npcId: "miskal_soytari"
+    name: "Miskal"
+    title: "Saray soytarısı"
+    role: "Söylenti taşıyıcı"
+    routeFunction: "Dedikodu ve mizahi bilgi"
+    firstAppearanceCardId: "smm_card_017"
+    personality: "neşeli görünen karanlık gözlemci"
+    speechStyle: "Şaka içinde gerçek söyler"
+    relationshipToPlayer: "Oyuncuyu dinleyen biri olduğu için sever"
+    wants: "Hayatta kalacak kadar komik kalmak"
+    fears: "Bir şakasının gerçek suç sayılması"
+    secrets: "Birçok varisin çocukluk sırrını bilir"
+    canHelpPlayerBy: "Söylenti yayabilir"
+    canHurtPlayerBy: "Oyuncuyu alay konusu yapabilir"
+    importantFlags:
+      - "flag_soytari_rumor_blessing"
+    importantCards:
+      - "smm_card_017"
+      - "smm_card_041"
+      - "smm_card_164"
+      - "smm_card_251"
+    possibleFinalStates:
+      - "ending_sirlarin_yandigi_gece"
+    sampleDialogueLines:
+      -
+        emotion: "sakin"
+        text: "Miskal: Bu sarayda küçük görünen şeyler bile bir gün mühür kadar ağırlaşır."
+      -
+        emotion: "gergin"
+        text: "Miskal: Seçimini yaparken yalnız bugünü değil, kapının ardındaki kalabalığı da düşün."
+  -
+    npcId: "muneccim_zerya"
+    name: "Müneccim Zerya"
+    title: "Saray müneccimi"
+    role: "Çorba alameti yorumcusu"
+    routeFunction: "Kehanet çorbası zinciri"
+    firstAppearanceCardId: "smm_card_079"
+    personality: "coşkulu, korkak, sembol avcısı"
+    speechStyle: "Yıldız, yağ halkası ve kader diliyle konuşur"
+    relationshipToPlayer: "Oyuncuyu alameti pişiren el olarak görür"
+    wants: "Kehanetinin sarayda kabul edilmesi"
+    fears: "Yanlış alametin kendisine dönmesi"
+    secrets: "İlk çorba kehanetinin tesadüf olduğunu bilir"
+    canHelpPlayerBy: "Alametleri siyasi dile çevirebilir"
+    canHurtPlayerBy: "Oyuncuyu sahte kutsallıkla yakabilir"
+    importantFlags:
+      - "flag_soup_omen_confirmed"
+    importantCards:
+      - "smm_card_079"
+      - "smm_card_088"
+      - "smm_card_253"
+      - "smm_card_290"
+    possibleFinalStates:
+      - "ending_kehanet_corbasinin_velisi"
+    sampleDialogueLines:
+      -
+        emotion: "sakin"
+        text: "Müneccim Zerya: Bu sarayda küçük görünen şeyler bile bir gün mühür kadar ağırlaşır."
+      -
+        emotion: "gergin"
+        text: "Müneccim Zerya: Seçimini yaparken yalnız bugünü değil, kapının ardındaki kalabalığı da düşün."
+  -
+    npcId: "kapici_boran"
+    name: "Kapıcı Boran"
+    title: "Saray kapıcısı"
+    role: "Eşik ve güvenlik figürü"
+    routeFunction: "Geçiş kontrolü"
+    firstAppearanceCardId: "smm_card_014"
+    personality: "kuralcı, yumuşamaya açık"
+    speechStyle: "Kısa emirler ve eski kapı deyimleri kullanır"
+    relationshipToPlayer: "Oyuncuyu önce yük, sonra geçiş izni sayar"
+    wants: "Kapıların hesabını temiz tutmak"
+    fears: "Casusların onu kullanması"
+    secrets: "Bazı gizli geçitleri bilerek görmezden gelir"
+    canHelpPlayerBy: "Kapı açabilir"
+    canHurtPlayerBy: "Oyuncuyu kapıda tutuklatabilir"
+    importantFlags:
+      - "flag_palace_shadow_seen"
+    importantCards:
+      - "smm_card_014"
+      - "smm_card_151"
+      - "smm_card_226"
+      - "smm_card_276"
+    possibleFinalStates:
+      - "ending_muhur_odasinda_sessiz_surgun"
+    sampleDialogueLines:
+      -
+        emotion: "sakin"
+        text: "Kapıcı Boran: Bu sarayda küçük görünen şeyler bile bir gün mühür kadar ağırlaşır."
+      -
+        emotion: "gergin"
+        text: "Kapıcı Boran: Seçimini yaparken yalnız bugünü değil, kapının ardındaki kalabalığı da düşün."

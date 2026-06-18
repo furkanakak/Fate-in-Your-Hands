@@ -1,0 +1,81 @@
+storyId: "saray_mutfagindan_muhre"
+title: "Saray Mutfağından Mühre"
+packageStatus: "complete"
+validationStatus: "PASS"
+totalCards: 300
+totalChoices: 600
+totalEndings: 28
+parts:
+  - partFile: "CARDS_PART_01_INTRO.yaml"
+    chapterId: "intro"
+    status: "complete"
+    expectedCardRange: "smm_card_001-smm_card_025"
+    cardCount: 25
+  - partFile: "CARDS_PART_02_KITCHEN_RISE.yaml"
+    chapterId: "kitchen_rise"
+    status: "complete"
+    expectedCardRange: "smm_card_026-smm_card_050"
+    cardCount: 25
+  - partFile: "CARDS_PART_03_PANTRY_AND_PASTRY.yaml"
+    chapterId: "pantry_and_pastry"
+    status: "complete"
+    expectedCardRange: "smm_card_051-smm_card_075"
+    cardCount: 25
+  - partFile: "CARDS_PART_04_SOUP_OMEN_AND_GOOSE.yaml"
+    chapterId: "soup_omen_and_goose"
+    status: "complete"
+    expectedCardRange: "smm_card_076-smm_card_100"
+    cardCount: 25
+  - partFile: "CARDS_PART_05_POISON_TASTER.yaml"
+    chapterId: "poison_taster"
+    status: "complete"
+    expectedCardRange: "smm_card_101-smm_card_125"
+    cardCount: 25
+  - partFile: "CARDS_PART_06_HEALER_PATH.yaml"
+    chapterId: "healer_path"
+    status: "complete"
+    expectedCardRange: "smm_card_126-smm_card_150"
+    cardCount: 25
+  - partFile: "CARDS_PART_07_SPY_NETWORK.yaml"
+    chapterId: "spy_network"
+    status: "complete"
+    expectedCardRange: "smm_card_151-smm_card_175"
+    cardCount: 25
+  - partFile: "CARDS_PART_08_ARMY_SUPPLY.yaml"
+    chapterId: "army_supply"
+    status: "complete"
+    expectedCardRange: "smm_card_176-smm_card_200"
+    cardCount: 25
+  - partFile: "CARDS_PART_09_BLACK_MARKET.yaml"
+    chapterId: "black_market"
+    status: "complete"
+    expectedCardRange: "smm_card_201-smm_card_225"
+    cardCount: 25
+  - partFile: "CARDS_PART_10_REBELLION.yaml"
+    chapterId: "rebellion"
+    status: "complete"
+    expectedCardRange: "smm_card_226-smm_card_250"
+    cardCount: 25
+  - partFile: "CARDS_PART_11_HEIRS_AND_FACTIONS.yaml"
+    chapterId: "heirs_and_factions"
+    status: "complete"
+    expectedCardRange: "smm_card_251-smm_card_275"
+    cardCount: 25
+  - partFile: "CARDS_PART_12_SEAL_AND_FINALS.yaml"
+    chapterId: "seal_and_finals"
+    status: "complete"
+    expectedCardRange: "smm_card_276-smm_card_300"
+    cardCount: 25
+requiredChains:
+  soupOmen:
+    status: "complete"
+    validationCount: 44
+  palaceGooseAkGaga:
+    status: "complete"
+    validationCount: 25
+  wrongDessertDiplomacy:
+    status: "complete"
+    validationCount: 25
+notes:
+  - "Unity kodu, C# script, scene, prefab veya UI entegrasyonu üretilmedi."
+  - "Bu dosya paket part durumunu izlemek için sonradan eklenmiş scaffold manifestidir."
