@@ -10,7 +10,8 @@
 
 - Hikaye dugumu sistemi
 - Secim butonlari
-- Basit stat sistemi
+- Basit can sistemi
+- Olum kartlari
 - Ornek prolog bolumu
 
 ## 0.3 - Presentation
@@ -24,4 +25,3 @@
 - 10-15 dakikalik demo akisi
 - En az 3 farkli final
 - Kaydetme/yukleme sistemi
-
