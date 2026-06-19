@@ -1,0 +1,2146 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-furkan" at "2026-06-19T18:21:05.7607421Z"
+Built from '6000.4/staging' branch; Version is '6000.4.8f1 (f8b72d3d7343) revision 16299821'; Using compiler version '194234433'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26200) Core' Language: 'tr' Physical Memory: 16128 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-06-19T18:21:05Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.4.8f1\Editor\Unity.exe
+-batchmode
+-projectPath
+C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0
+-executeMethod
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner.Run
+-logFile
+C:\Users\furkan\Desktop\Fate-in-Your-Hands\unity_ui_variation_a_component_redesign.log
+Successfully changed project path to: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0
+C:/Users/furkan/AppData/Local/Temp/fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [28636]  Target information:
+
+Player connection [28636]  * "[IP] 192.168.1.103 [Port] 55505 [Flags] 2 [Guid] 1083539098 [EditorId] 1083539098 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-N4VT7D7) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [28636] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [28636] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-33496" after 1.0 seconds.
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-furkan"
+[Licensing::IpcConnector] LicenseClient-furkan channel disconnected successfully.
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-furkan-6000.4.8" at "2026-06-19T18:21:12.3403297Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 3776, path: "C:/Program Files/Unity/Hub/Editor/6000.4.8f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              3f41caa6bb72465d86506193e1cdd188
+  Correlation Id:          2b115c2a39cab20bb8ec267882bee02e
+  External correlation Id: 2314189239609311078
+  Machine Id:              /XNuhqw6gP8cqNxjGHuIXUZruMo=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-furkan-6000.4.8" (connect: 0.00s, validation: 0.00s, handshake: 0.02s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-furkan-6000.4.8-notifications" at "2026-06-19T18:21:12.3663052Z"
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18968439407913-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.00
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 6.62s
+[Licensing::Module] Licensing is initialized (took 4.98s).
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.4.8f1 (f8b72d3d7343)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.4.8f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/furkan/AppData/Local/Temp/fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:          NVIDIA
+    VRAM:            3977 MB
+    App VRAM Budget: 3380 MB
+    Driver:          31.0.15.3734
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.4.8f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.4.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.4.8f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56496
+CodeReloadManager initialized
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+Using cacheserver namespaces - metadata:defaultmetadata, artifacts:defaultartifacts
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.8f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.4.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006954 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.358 seconds
+Domain Reload Profiling: 2808ms
+	BeginReloadAssembly (254ms)
+		CreateAndSetChildDomain (11ms)
+	RebuildCommonClasses (200ms)
+	RebuildNativeTypeToScriptingClass (91ms)
+	initialDomainReloadingComplete (240ms)
+	LoadAllAssembliesAndSetupDomain (659ms)
+		LoadAssemblies (238ms)
+		AnalyzeDomain (626ms)
+			TypeCache.Refresh (619ms)
+				TypeCache.ScanAssembly (579ms)
+	FinalizeReload (1365ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (189ms)
+			BeforeProcessingInitializeOnLoad (322ms)
+			ProcessInitializeOnLoadAttributes (350ms)
+			ProcessInitializeOnLoadMethodAttributes (255ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 65 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.2d.animation@14.0.4 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.2d.animation@011d329ac58b)
+    com.unity.2d.aseprite@4.0.2 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.2d.aseprite@ccedfadacc51)
+    com.unity.2d.psdimporter@13.0.3 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.2d.psdimporter@e58d0a2c1d48)
+    com.unity.2d.spriteshape@14.0.1 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.2d.spriteshape@da3647ffbbd7)
+    com.unity.2d.tilemap.extras@7.0.1 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.2d.tilemap.extras@66df903b3633)
+    com.unity.2d.tooling@2.0.2 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.2d.tooling@9d6aff712598)
+    com.unity.collab-proxy@2.12.4 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.collab-proxy@0b1559bcd34e)
+    com.unity.ide.rider@3.0.40 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.ide.rider@e4950c6d131b)
+    com.unity.ide.visualstudio@2.0.27 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.ide.visualstudio@dc1ddd4f09b6)
+    com.unity.inputsystem@1.19.0 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.inputsystem@21a28c3a6c83)
+    com.unity.timeline@1.8.12 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.timeline@8cd8509afae5)
+    com.unity.visualscripting@1.9.11 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.visualscripting@8bed5ad90189)
+    com.unity.2d.common@13.0.2 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.2d.common@edfe77495b67)
+    com.unity.mathematics@1.3.3 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.mathematics@19a9377c4ffa)
+    com.unity.searcher@4.9.4 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.searcher@d45a78918735)
+    com.unity.burst@1.8.29 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.burst@6bb9aca3ef38)
+    com.unity.nuget.mono-cecil@1.11.6 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.nuget.mono-cecil@ecb9724e46ff)
+    com.unity.test-framework.performance@3.4.0 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.test-framework.performance@aa81a99c4a75)
+  Built-in packages:
+    com.unity.2d.sprite@1.0.0 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.2d.sprite@b95cc7beb645)
+    com.unity.2d.tilemap@1.0.0 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.2d.tilemap@191c90975efd)
+    com.unity.multiplayer.center@1.0.1 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.multiplayer.center@f01f4ba8d00a)
+    com.unity.render-pipelines.universal@17.4.0 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.render-pipelines.universal@13e5115b98bf)
+    com.unity.test-framework@1.6.0 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.test-framework@76560ee600cb)
+    com.unity.ugui@2.0.0 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.ugui@a9ea81766fbd)
+    com.unity.modules.accessibility@1.0.0 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.vr@1.0.0 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.modules.vr)
+    com.unity.modules.wind@1.0.0 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.modules.hierarchycore)
+    com.unity.ext.nunit@2.0.5 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.ext.nunit@d8c07649098d)
+    com.unity.render-pipelines.core@17.4.0 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.render-pipelines.core@6f62546dd936)
+    com.unity.shadergraph@17.4.0 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.shadergraph@33f3b0a71b9a)
+    com.unity.render-pipelines.universal-config@17.4.0 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.render-pipelines.universal-config@0db4263b9e6b)
+    com.unity.collections@6.4.0 (location: C:\Users\furkan\AppData\Local\Temp\fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0\Library\PackageCache\com.unity.collections@5b6ebd78ccc0)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.10 seconds
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+Starting: C:\Program Files\Unity\Hub\Editor\6000.4.8f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/furkan/AppData/Local/Temp/fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0
+DisplayProgressbar: Compiling Scripts
+ExitCode: 0 Duration: 8s877ms
+[ 853/1102  0s] ILPP-Configuration Library/ilpp-configuration.nevergeneratedoutput
+[1094/1102  4s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll (+2 others)
+Assets\Scripts\Story\SmmChoiceCardView.cs(283,36): warning CS0618: 'Object.GetInstanceID()' is obsolete: 'GetInstanceID is deprecated. Use GetEntityId instead. This will be removed in a future version.'
+[1096/1102  3s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/Assembly-CSharp-Editor.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll, with 137 defines and 359 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[1097/1102  3s] ILPostProcess Library/Bee/artifacts/1900b0aE.dag/post-processed/Assembly-CSharp.dll (+pdb)
+Processing assembly Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp.dll, with 139 defines and 336 references
+
+processors: Unity.Jobs.CodeGen.JobsILPostProcessor, zzzUnity.Burst.CodeGen.BurstILPostProcessor
+
+running Unity.Jobs.CodeGen.JobsILPostProcessor
+
+running zzzUnity.Burst.CodeGen.BurstILPostProcessor
+[1100/1102  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.dll
+[1101/1102  0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp.pdb
+*** Tundra build success (8.77 seconds), 6 items updated, 1102 evaluated
+Assets\Scripts\Story\SmmChoiceCardView.cs(283,36): warning CS0618: 'Object.GetInstanceID()' is obsolete: 'GetInstanceID is deprecated. Use GetEntityId instead. This will be removed in a future version.'
+AssetDatabase: script compilation time: 10.058865s
+Begin MonoManager ReloadAssembly
+Assembly Assembly-CSharp-Editor-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-Editor-firstpass.dll not valid. Loading of assembly skipped.
+Assembly Assembly-CSharp-firstpass.dll at Library/ScriptAssemblies/Assembly-CSharp-firstpass.dll not valid. Loading of assembly skipped.
+Assembly DocCodeExamples.dll at Library/ScriptAssemblies/DocCodeExamples.dll not valid. Loading of assembly skipped.
+Assembly TestNewCustomAssembly.dll at Library/ScriptAssemblies/TestNewCustomAssembly.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Animation.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Animation.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Aseprite.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Aseprite.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Common.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Common.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Psdimporter.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Psdimporter.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Sprite.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Sprite.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.SpriteShape.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.SpriteShape.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.2D.Tilemap.Package.EditorTests.dll at Library/ScriptAssemblies/Unity.2D.Tilemap.Package.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.BurstCompatibilityGen.dll at Library/ScriptAssemblies/Unity.Collections.BurstCompatibilityGen.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.DocCodeSamples.dll at Library/ScriptAssemblies/Unity.Collections.DocCodeSamples.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.PerformanceTests.dll at Library/ScriptAssemblies/Unity.Collections.PerformanceTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.dll at Library/ScriptAssemblies/Unity.Collections.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Collections.Tests.Playmode.dll at Library/ScriptAssemblies/Unity.Collections.Tests.Playmode.dll not valid. Loading of assembly skipped.
+Assembly Unity.InputSystem.IntegrationTests.dll at Library/ScriptAssemblies/Unity.InputSystem.IntegrationTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Mathematics.Tests.dll at Library/ScriptAssemblies/Unity.Mathematics.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Editor.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Multiplayer.Center.Tests.dll at Library/ScriptAssemblies/Unity.Multiplayer.Center.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Nuget.Mono-Cecil.dll at Library/ScriptAssemblies/Unity.Nuget.Mono-Cecil.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.PathTracing.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.PathTracing.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Core.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Core.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Config.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Config.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Editor.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.RenderPipelines.Universal.Runtime.Tests.dll at Library/ScriptAssemblies/Unity.RenderPipelines.Universal.Runtime.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.Searcher.EditorTests.dll at Library/ScriptAssemblies/Unity.Searcher.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly Unity.ShaderGraph.Editor.Tests.dll at Library/ScriptAssemblies/Unity.ShaderGraph.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Editor.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.TextMeshPro.Tests.dll at Library/ScriptAssemblies/Unity.TextMeshPro.Tests.dll not valid. Loading of assembly skipped.
+Assembly Unity.UnifiedRayTracing.Editor.Tests.dll at Library/ScriptAssemblies/Unity.UnifiedRayTracing.Editor.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.Common.Tests.dll at Library/ScriptAssemblies/UnityEditor.UI.Common.Tests.dll not valid. Loading of assembly skipped.
+Assembly UnityEditor.UI.EditorTests.dll at Library/ScriptAssemblies/UnityEditor.UI.EditorTests.dll not valid. Loading of assembly skipped.
+Assembly UnityEngine.UI.Tests.dll at Library/ScriptAssemblies/UnityEngine.UI.Tests.dll not valid. Loading of assembly skipped.
+Refreshing native plugins compatible for Editor in 14.72 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 11.14 ms, found 5 plugins.
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 16.274 seconds
+Domain Reload Profiling: 21667ms
+	BeginReloadAssembly (1134ms)
+		DisableScriptedObjects (113ms)
+		CreateAndSetChildDomain (251ms)
+	RebuildCommonClasses (197ms)
+	RebuildNativeTypeToScriptingClass (72ms)
+	initialDomainReloadingComplete (306ms)
+	LoadAllAssembliesAndSetupDomain (3682ms)
+		LoadAssemblies (2179ms)
+		AnalyzeDomain (1972ms)
+			TypeCache.Refresh (1348ms)
+				TypeCache.ScanAssembly (1287ms)
+			BuildScriptInfoCaches (555ms)
+			ResolveRequiredComponents (64ms)
+	FinalizeReload (16276ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (137ms)
+			BeforeProcessingInitializeOnLoad (896ms)
+			ProcessInitializeOnLoadAttributes (12663ms)
+			ProcessInitializeOnLoadMethodAttributes (1135ms)
+			AfterProcessingInitializeOnLoad (20ms)
+		AwakeInstancesAfterBackupRestoration (85ms)
+Refreshing native plugins compatible for Editor in 8.55 ms, found 5 plugins.
+(Values over 0.050ms)
+Asset Pipeline Refresh (id=63d1e9a38a6882b419a87b619ce4add1): Total: 35.644 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=18801 ms
+		Asset DB Callback time: managed=994 ms, native=142 ms
+		Scripting: domain reloads=1, domain reload time=5414 ms, compile time=10065 ms, other=221 ms
+		Project Asset Count: scripts=1554, non-scripts=3848
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 114.885ms
+	ApplyChangesToAssetFolders: 2.673ms
+	Scan: 788.855ms
+	OnSourceAssetsModified: 3.030ms
+	CategorizeScriptCompilationAssets: 294.768ms
+	ProcessAssetsWithTransientArtifactChanges: 453.685ms
+	CategorizeAssets: 292.039ms
+	CompileScripts: 10065.194ms
+	ImportOutOfDateAssets: 16343.747ms (16332.704ms without children)
+		ReloadNativeAssets: 0.096ms
+		UnloadImportedAssets: 4.921ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 3.788ms
+		OnDemandSchedulerStart: 2.225ms
+	PostProcessAllAssets: 1001.444ms
+		VCAutoAddAssetPostprocess 5.228ms
+		XRBuildSystem.XRAssetImported 2.455ms
+		PostProcessCallbackCreateDeferredMaterials 0.123ms
+		ShaderAssetModifiedCallback 0.068ms
+		AssemblyValidation.PostprocessAllAssets 0.051ms
+		MonoPostProcessAllAssets: 991.454ms
+			AssetPostprocessor.OnPostprocessAllAssets 693.632ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 76.786ms
+			UniversalRenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 47.882ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 33.519ms
+			SyncVS.PostprocessSyncProject 9.898ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 8.108ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 6.638ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 5.571ms
+			AssetChangedListener.OnPostprocessAllAssets 4.716ms
+			ShaderGraphAssetPostProcessor.OnPostprocessAllAssets 4.597ms
+			MaterialPostprocessor.OnPostprocessAllAssets 3.188ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 2.717ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 2.474ms
+			SpriteEditorTexturePostprocessor.OnPostprocessAllAssets 2.215ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 2.143ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 2.098ms
+			UVCSAssetPostprocessor.OnPostprocessAllAssets 2.008ms
+			AssetProcessor.OnPostprocessAllAssets 1.894ms
+			SpriteShapeAssetPostProcessor.OnPostprocessAllAssets 1.635ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 1.440ms
+			AssetEvents.OnPostprocessAllAssets 1.437ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 1.100ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 1.062ms
+			SpriteLibraryAssetPostprocessor.OnPostprocessAllAssets 0.997ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.937ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.918ms
+			PostProcessor.OnPostprocessAllAssets 0.900ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.813ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.753ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.647ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.643ms
+			SamplePostprocessor.OnPostprocessAllAssets 0.617ms
+			PSDImportPostProcessor.OnPostprocessAllAssets 0.609ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.589ms
+			PSDImporterAssetPostProcessor.OnPostprocessAllAssets 0.359ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.238ms
+	PostAssetChangesProfiler: 22.452ms
+	UnloadStreamsBegin: 6.168ms
+	PersistCurrentRevisions: 0.740ms
+	GenerateScriptTypeHashes: 13.785ms
+	GenerateScriptTypeSerializationHashes: 23.183ms
+	Untracked: 6235.667ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Scanning for USB devices : 1.849ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-Fate-in-Your-Hands
+Unloading 75 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7343 unused Assets / (13.5 MB). Loaded Objects now: 8112.
+Memory consumption went from 232.8 MB to 219.3 MB.
+Total: 68.056200 ms (FindLiveObjects: 2.251600 ms CreateObjectMapping: 2.601800 ms MarkObjects: 35.735300 ms  DeleteObjects: 27.452000 ms)
+
+Opening scene 'Assets/Scenes/SampleScene.unity'
+Unloading 2 Unused Serialized files (Serialized files now loaded: 0)
+Loaded scene 'Assets/Scenes/SampleScene.unity'
+	Deserialize:            12.982 ms
+	Integration:            1139.644 ms
+	Integration of assets:  0.011 ms
+	Thread Wait Time:       0.035 ms
+	Total Operation Time:   1152.672 ms
+Unloading 4 unused Assets / (5.6 KB). Loaded Objects now: 8120.
+Memory consumption went from 197.0 MB to 197.0 MB.
+Total: 28.071300 ms (FindLiveObjects: 1.153700 ms CreateObjectMapping: 1.012100 ms MarkObjects: 25.745100 ms  DeleteObjects: 0.156700 ms)
+
+SmmStoryUiMasterValidationRunner started.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Run () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:56)
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 56)
+
+[Project] Loading completed in 49.904 seconds
+	Project init time: 				47.305 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		5.974 seconds
+		Asset Database init time: 		0.447 seconds
+		Global illumination init time: 	0.004 seconds
+		Assemblies load time: 			2.898 seconds
+		Unity extensions init time: 	0.027 seconds
+		Asset Database refresh time: 	35.647 seconds
+	Scene opening time: 			1.906 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1781893315633,"processId":33496,"projectLoad":49.9039271,"projectInit":47.3054401,"templateInit":0.0,"packageManagerInit":5.9735081,"assetDatabaseInit":0.4466722,"globalIlluminationInit":0.0038669,"assembliesLoad":2.8982847,"unityExtensionsInit":0.0273552,"assetDatabaseRefresh":35.6465159,"sceneOpening":1.9061187}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1781893315633,"processId":33496,"editorVersion":"6000.4.8f1 (f8b72d3d7343)","branch":"6000.4/staging","buildType":"Release","platform":"Windows"}
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Client] Successfully resolved entitlement details
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+SpriteAtlasPacking completed in 0.021494 sec
+Entering Playmode with Reload Domain disabled.
+If you experience any issues, please disable "Enter Play Mode Options" in Editor Settings
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            4.993 ms
+	Integration:            1034.940 ms
+	Integration of assets:  0.015 ms
+	Thread Wait Time:       0.066 ms
+	Total Operation Time:   1040.014 ms
+Invalid texture used for cursor - check importer settings or texture creation. Texture must be RGBA32, readable, have alphaIsTransparency enabled and have no mip chain.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Cursor:SetCursor (UnityEngine.Texture2D,UnityEngine.Vector2,UnityEngine.CursorMode)
+FateInYourHands.Story.SmmCursorManager:ApplyCursor (bool) (at Assets/Scripts/Story/SmmCursorManager.cs:296)
+FateInYourHands.Story.SmmCursorManager:Awake () (at Assets/Scripts/Story/SmmCursorManager.cs:144)
+UnityEngine.GameObject:Internal_AddComponentWithType (System.Type)
+UnityEngine.GameObject:AddComponent (System.Type)
+UnityEngine.GameObject:AddComponent<FateInYourHands.Story.SmmCursorManager> ()
+FateInYourHands.Story.SmmCursorManager:Ensure () (at Assets/Scripts/Story/SmmCursorManager.cs:68)
+FateInYourHands.Story.SmmStoryGameController:BuildUi () (at Assets/Scripts/Story/SmmStoryGameController.cs:831)
+FateInYourHands.Story.SmmStoryGameController:Initialize () (at Assets/Scripts/Story/SmmStoryGameController.cs:226)
+FateInYourHands.Story.SmmStoryGameController:Start () (at Assets/Scripts/Story/SmmStoryGameController.cs:203)
+
+[Assets/Scripts/Story/SmmCursorManager.cs line 68]
+
+Invalid texture used for cursor - check importer settings or texture creation. Texture must be RGBA32, readable, have alphaIsTransparency enabled and have no mip chain.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Cursor:SetCursor (UnityEngine.Texture2D,UnityEngine.Vector2,UnityEngine.CursorMode)
+FateInYourHands.Story.SmmCursorManager:ApplyCursor (bool) (at Assets/Scripts/Story/SmmCursorManager.cs:296)
+FateInYourHands.Story.SmmCursorManager:OnEnable () (at Assets/Scripts/Story/SmmCursorManager.cs:150)
+UnityEngine.GameObject:Internal_AddComponentWithType (System.Type)
+UnityEngine.GameObject:AddComponent (System.Type)
+UnityEngine.GameObject:AddComponent<FateInYourHands.Story.SmmCursorManager> ()
+FateInYourHands.Story.SmmCursorManager:Ensure () (at Assets/Scripts/Story/SmmCursorManager.cs:68)
+FateInYourHands.Story.SmmStoryGameController:BuildUi () (at Assets/Scripts/Story/SmmStoryGameController.cs:831)
+FateInYourHands.Story.SmmStoryGameController:Initialize () (at Assets/Scripts/Story/SmmStoryGameController.cs:226)
+FateInYourHands.Story.SmmStoryGameController:Start () (at Assets/Scripts/Story/SmmStoryGameController.cs:203)
+
+[Assets/Scripts/Story/SmmCursorManager.cs line 68]
+
+Created GICache directory at C:/Users/furkan/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.156s, timestamps: [49.930 - 50.085]
+Starting new worker id: 0 with log in C:/Users/furkan/AppData/Local/Temp/fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0/Logs/AssetImportWorker0.log
+Starting new worker id: 1 with log in C:/Users/furkan/AppData/Local/Temp/fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0/Logs/AssetImportWorker1.log
+Starting new worker id: 2 with log in C:/Users/furkan/AppData/Local/Temp/fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0/Logs/AssetImportWorker2.log
+Starting new worker id: 3 with log in C:/Users/furkan/AppData/Local/Temp/fiyh_variation_a_test_dcee6a6c6015422e87d9ff07977787d0/Logs/AssetImportWorker3.log
+PASS: story controller exists in Play Mode
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:111)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: vertical slice opens smm_card_001
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:121)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: gameplay hides story title, chapter kicker and card title
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:122)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: smm_card_001 visible Turkish text has no replacement characters
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:123)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: health uses sprite Image hearts
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:124)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: half health uses a distinct filled-half heart sprite
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:125)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: HUD does not render glyph hearts
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:126)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: card animation layer exists
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:127)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: UI layers render above background
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:128)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: choice A art is loaded
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:129)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: choice B art is loaded
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:130)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: choice front has no result modal
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:131)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: visible production UI hides ids and debug state
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:132)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: card animation code uses unscaled delta time
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:133)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: custom cursor asset files exist
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:134)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: custom cursor textures load from Resources
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:135)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: production UI does not fall back to the default OS cursor
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:136)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: cursor hotspot matches the pointing fingertip
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:137)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: background uses the default custom cursor
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:138)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+Invalid texture used for cursor - check importer settings or texture creation. Texture must be RGBA32, readable, have alphaIsTransparency enabled and have no mip chain.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Cursor:SetCursor (UnityEngine.Texture2D,UnityEngine.Vector2,UnityEngine.CursorMode)
+FateInYourHands.Story.SmmCursorManager:ApplyCursor (bool) (at Assets/Scripts/Story/SmmCursorManager.cs:296)
+FateInYourHands.Story.SmmCursorManager:SetSourceState (UnityEngine.Object,bool,bool,bool) (at Assets/Scripts/Story/SmmCursorManager.cs:224)
+FateInYourHands.Story.SmmCursorManager:SetTargetState (UnityEngine.Object,bool,bool,bool) (at Assets/Scripts/Story/SmmCursorManager.cs:78)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:140)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs line 140]
+
+PASS: settings button uses the hover cursor
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:142)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+Invalid texture used for cursor - check importer settings or texture creation. Texture must be RGBA32, readable, have alphaIsTransparency enabled and have no mip chain.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Cursor:SetCursor (UnityEngine.Texture2D,UnityEngine.Vector2,UnityEngine.CursorMode)
+FateInYourHands.Story.SmmCursorManager:ApplyCursor (bool) (at Assets/Scripts/Story/SmmCursorManager.cs:296)
+FateInYourHands.Story.SmmCursorManager:ClearSourceState (UnityEngine.Object) (at Assets/Scripts/Story/SmmCursorManager.cs:232)
+FateInYourHands.Story.SmmCursorManager:ClearSource (UnityEngine.Object) (at Assets/Scripts/Story/SmmCursorManager.cs:88)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:143)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs line 143]
+
+PASS: keyboard/gamepad focus moves to choice B
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:147)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: keyboard/gamepad focus moves to choice A
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:150)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: screenshot exists: 01_reference_notes.png
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<Capture>d__27:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:504)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: screenshot size 01_reference_notes.png is 1920x1080
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<Capture>d__27:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:512)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: screenshot is non-empty: 01_reference_notes.png
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<Capture>d__27:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:513)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: screenshot exists: 02_static_front_1920.png
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<Capture>d__27:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:504)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: screenshot size 02_static_front_1920.png is 1920x1080
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<Capture>d__27:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:512)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: screenshot is non-empty: 02_static_front_1920.png
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<Capture>d__27:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:513)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: screenshot exists: 03_front_1366.png
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<Capture>d__27:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:504)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: screenshot size 03_front_1366.png is 1366x768
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<Capture>d__27:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:512)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: screenshot is non-empty: 03_front_1366.png
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<Capture>d__27:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:513)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: screenshot exists: 03b_front_1280.png
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<Capture>d__27:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:504)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: screenshot size 03b_front_1280.png is 1280x720
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<Capture>d__27:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:512)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: screenshot is non-empty: 03b_front_1280.png
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<Capture>d__27:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:513)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+Invalid texture used for cursor - check importer settings or texture creation. Texture must be RGBA32, readable, have alphaIsTransparency enabled and have no mip chain.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Cursor:SetCursor (UnityEngine.Texture2D,UnityEngine.Vector2,UnityEngine.CursorMode)
+FateInYourHands.Story.SmmCursorManager:ApplyCursor (bool) (at Assets/Scripts/Story/SmmCursorManager.cs:296)
+FateInYourHands.Story.SmmCursorManager:SetSourceState (UnityEngine.Object,bool,bool,bool) (at Assets/Scripts/Story/SmmCursorManager.cs:224)
+FateInYourHands.Story.SmmCursorManager:SetTargetState (UnityEngine.Object,bool,bool,bool) (at Assets/Scripts/Story/SmmCursorManager.cs:78)
+FateInYourHands.Story.SmmChoiceCardView:RefreshCursorState (bool) (at Assets/Scripts/Story/SmmChoiceCardView.cs:974)
+FateInYourHands.Story.SmmChoiceCardView:SetHoverPreview (bool) (at Assets/Scripts/Story/SmmChoiceCardView.cs:407)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:159)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/Scripts/Story/SmmChoiceCardView.cs line 974]
+
+PASS: choice card hover uses the hover cursor
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:161)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+Invalid texture used for cursor - check importer settings or texture creation. Texture must be RGBA32, readable, have alphaIsTransparency enabled and have no mip chain.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Cursor:SetCursor (UnityEngine.Texture2D,UnityEngine.Vector2,UnityEngine.CursorMode)
+FateInYourHands.Story.SmmCursorManager:ApplyCursor (bool) (at Assets/Scripts/Story/SmmCursorManager.cs:296)
+FateInYourHands.Story.SmmCursorManager:SetSourceState (UnityEngine.Object,bool,bool,bool) (at Assets/Scripts/Story/SmmCursorManager.cs:224)
+FateInYourHands.Story.SmmCursorManager:SetTargetState (UnityEngine.Object,bool,bool,bool) (at Assets/Scripts/Story/SmmCursorManager.cs:78)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:162)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs line 162]
+
+PASS: choice card click uses the pressed cursor
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:164)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+Invalid texture used for cursor - check importer settings or texture creation. Texture must be RGBA32, readable, have alphaIsTransparency enabled and have no mip chain.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Cursor:SetCursor (UnityEngine.Texture2D,UnityEngine.Vector2,UnityEngine.CursorMode)
+FateInYourHands.Story.SmmCursorManager:ApplyCursor (bool) (at Assets/Scripts/Story/SmmCursorManager.cs:296)
+FateInYourHands.Story.SmmCursorManager:ClearSourceState (UnityEngine.Object) (at Assets/Scripts/Story/SmmCursorManager.cs:232)
+FateInYourHands.Story.SmmCursorManager:ClearSource (UnityEngine.Object) (at Assets/Scripts/Story/SmmCursorManager.cs:88)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:165)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs line 165]
+
+PASS: screenshot exists: 04_choice_hover.png
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<Capture>d__27:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:504)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: screenshot size 04_choice_hover.png is 1920x1080
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<Capture>d__27:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:512)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: screenshot is non-empty: 04_choice_hover.png
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<Capture>d__27:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:513)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: choice A has normalized YAML resultText
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:171)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+Invalid texture used for cursor - check importer settings or texture creation. Texture must be RGBA32, readable, have alphaIsTransparency enabled and have no mip chain.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Cursor:SetCursor (UnityEngine.Texture2D,UnityEngine.Vector2,UnityEngine.CursorMode)
+FateInYourHands.Story.SmmCursorManager:ApplyCursor (bool) (at Assets/Scripts/Story/SmmCursorManager.cs:296)
+FateInYourHands.Story.SmmCursorManager:SetGlobalInputLocked (bool) (at Assets/Scripts/Story/SmmCursorManager.cs:104)
+FateInYourHands.Story.SmmStoryGameController:OnChoiceSelected (FateInYourHands.Story.SmmChoiceData) (at Assets/Scripts/Story/SmmStoryGameController.cs:385)
+FateInYourHands.Story.SmmChoiceCardView:SelectWithAnimation () (at Assets/Scripts/Story/SmmChoiceCardView.cs:598)
+FateInYourHands.Story.SmmChoiceCardView:ClickForTest () (at Assets/Scripts/Story/SmmChoiceCardView.cs:424)
+FateInYourHands.Story.SmmStoryGameController:TriggerChoiceForTest (int) (at Assets/Scripts/Story/SmmStoryGameController.cs:293)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:173)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/Scripts/Story/SmmCursorManager.cs line 296]
+
+PASS: rapid double-click is locked
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:176)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: choice A starts center-and-flip animation
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:177)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: input-locked card animation uses the disabled cursor
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:178)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: screenshot exists: 05_choice_selected.png
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<Capture>d__27:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:504)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: screenshot size 05_choice_selected.png is 1920x1080
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<Capture>d__27:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:512)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: screenshot is non-empty: 05_choice_selected.png
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<Capture>d__27:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:513)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: non-selected card exits fully
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:182)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: screenshot exists: 06_nonselected_exit.png
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<Capture>d__27:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:504)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: screenshot size 06_nonselected_exit.png is 1920x1080
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<Capture>d__27:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:512)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: screenshot is non-empty: 06_nonselected_exit.png
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<Capture>d__27:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:513)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: selected card reaches centered result position
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:186)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: screenshot exists: 07_card_centered.png
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<Capture>d__27:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:504)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: screenshot size 07_card_centered.png is 1920x1080
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<Capture>d__27:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:512)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: screenshot is non-empty: 07_card_centered.png
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<Capture>d__27:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:513)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+Invalid texture used for cursor - check importer settings or texture creation. Texture must be RGBA32, readable, have alphaIsTransparency enabled and have no mip chain.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Cursor:SetCursor (UnityEngine.Texture2D,UnityEngine.Vector2,UnityEngine.CursorMode)
+FateInYourHands.Story.SmmCursorManager:ApplyCursor (bool) (at Assets/Scripts/Story/SmmCursorManager.cs:296)
+FateInYourHands.Story.SmmCursorManager:SetGlobalInputLocked (bool) (at Assets/Scripts/Story/SmmCursorManager.cs:104)
+FateInYourHands.Story.SmmChoiceCardView/<FlipToBackRoutine>d__109:MoveNext () (at Assets/Scripts/Story/SmmChoiceCardView.cs:744)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Assets/Scripts/Story/SmmCursorManager.cs line 296]
+
+PASS: screenshot exists: 08_mid_flip.png
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<Capture>d__27:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:504)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: screenshot size 08_mid_flip.png is 1920x1080
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<Capture>d__27:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:512)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: screenshot is non-empty: 08_mid_flip.png
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<Capture>d__27:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:513)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: choice result is shown on selected card back
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:192)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: central result modal remains hidden after choice
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:193)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: back face shows normalized YAML resultText for choice A
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:194)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: result back Turkish text has no replacement characters
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:195)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: result back has no Sonuc heading or Devam Et button
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:196)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: result card unlocks whole-card continue input
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:198)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+Invalid texture used for cursor - check importer settings or texture creation. Texture must be RGBA32, readable, have alphaIsTransparency enabled and have no mip chain.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Cursor:SetCursor (UnityEngine.Texture2D,UnityEngine.Vector2,UnityEngine.CursorMode)
+FateInYourHands.Story.SmmCursorManager:ApplyCursor (bool) (at Assets/Scripts/Story/SmmCursorManager.cs:296)
+FateInYourHands.Story.SmmCursorManager:SetSourceState (UnityEngine.Object,bool,bool,bool) (at Assets/Scripts/Story/SmmCursorManager.cs:224)
+FateInYourHands.Story.SmmCursorManager:SetTargetState (UnityEngine.Object,bool,bool,bool) (at Assets/Scripts/Story/SmmCursorManager.cs:78)
+FateInYourHands.Story.SmmChoiceCardView:RefreshCursorState (bool) (at Assets/Scripts/Story/SmmChoiceCardView.cs:974)
+FateInYourHands.Story.SmmChoiceCardView:SetHoverPreview (bool) (at Assets/Scripts/Story/SmmChoiceCardView.cs:407)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:199)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/Scripts/Story/SmmChoiceCardView.cs line 974]
+
+PASS: result card back face uses the hover cursor
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:201)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+Invalid texture used for cursor - check importer settings or texture creation. Texture must be RGBA32, readable, have alphaIsTransparency enabled and have no mip chain.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Cursor:SetCursor (UnityEngine.Texture2D,UnityEngine.Vector2,UnityEngine.CursorMode)
+FateInYourHands.Story.SmmCursorManager:ApplyCursor (bool) (at Assets/Scripts/Story/SmmCursorManager.cs:296)
+FateInYourHands.Story.SmmCursorManager:ClearSourceState (UnityEngine.Object) (at Assets/Scripts/Story/SmmCursorManager.cs:232)
+FateInYourHands.Story.SmmCursorManager:ClearSource (UnityEngine.Object) (at Assets/Scripts/Story/SmmCursorManager.cs:88)
+FateInYourHands.Story.SmmChoiceCardView:RefreshCursorState (bool) (at Assets/Scripts/Story/SmmChoiceCardView.cs:968)
+FateInYourHands.Story.SmmChoiceCardView:SetHoverPreview (bool) (at Assets/Scripts/Story/SmmChoiceCardView.cs:407)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:202)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/Scripts/Story/SmmChoiceCardView.cs line 968]
+
+PASS: screenshot exists: 09_result_back.png
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<Capture>d__27:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:504)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: screenshot size 09_result_back.png is 1920x1080
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<Capture>d__27:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:512)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: screenshot is non-empty: 09_result_back.png
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<Capture>d__27:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:513)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+Invalid texture used for cursor - check importer settings or texture creation. Texture must be RGBA32, readable, have alphaIsTransparency enabled and have no mip chain.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Cursor:SetCursor (UnityEngine.Texture2D,UnityEngine.Vector2,UnityEngine.CursorMode)
+FateInYourHands.Story.SmmCursorManager:ApplyCursor (bool) (at Assets/Scripts/Story/SmmCursorManager.cs:296)
+FateInYourHands.Story.SmmCursorManager:SetGlobalInputLocked (bool) (at Assets/Scripts/Story/SmmCursorManager.cs:104)
+FateInYourHands.Story.SmmStoryGameController/<ContinueChoiceResultRoutine>d__161:MoveNext () (at Assets/Scripts/Story/SmmStoryGameController.cs:413)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+UnityEngine.MonoBehaviour:StartCoroutineManaged2 (System.Collections.IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine (System.Collections.IEnumerator)
+FateInYourHands.Story.SmmStoryGameController:ContinueChoiceResult () (at Assets/Scripts/Story/SmmStoryGameController.cs:407)
+FateInYourHands.Story.SmmStoryGameController:ContinueForTest () (at Assets/Scripts/Story/SmmStoryGameController.cs:310)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:205)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/Scripts/Story/SmmStoryGameController.cs line 407]
+
+Invalid texture used for cursor - check importer settings or texture creation. Texture must be RGBA32, readable, have alphaIsTransparency enabled and have no mip chain.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Cursor:SetCursor (UnityEngine.Texture2D,UnityEngine.Vector2,UnityEngine.CursorMode)
+FateInYourHands.Story.SmmCursorManager:ApplyCursor (bool) (at Assets/Scripts/Story/SmmCursorManager.cs:296)
+FateInYourHands.Story.SmmCursorManager:ResetForStoryScreen () (at Assets/Scripts/Story/SmmCursorManager.cs:130)
+FateInYourHands.Story.SmmStoryGameController:ShowCard (string) (at Assets/Scripts/Story/SmmStoryGameController.cs:512)
+FateInYourHands.Story.SmmStoryGameController:ResolvePendingChoice () (at Assets/Scripts/Story/SmmStoryGameController.cs:493)
+FateInYourHands.Story.SmmStoryGameController/<ContinueChoiceResultRoutine>d__161:MoveNext () (at Assets/Scripts/Story/SmmStoryGameController.cs:415)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Assets/Scripts/Story/SmmCursorManager.cs line 296]
+
+PASS: choice A continue routes to smm_card_002
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:207)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: smm_card_002 visible Turkish text has no replacement characters
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:208)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: choice A counter delta applies after continue
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:209)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: choice A flag applies after continue
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:210)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: autosave exists after continue
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:211)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: screenshot exists: 10_next_card.png
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<Capture>d__27:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:504)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: screenshot size 10_next_card.png is 1920x1080
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<Capture>d__27:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:512)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: screenshot is non-empty: 10_next_card.png
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<Capture>d__27:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:513)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+Invalid texture used for cursor - check importer settings or texture creation. Texture must be RGBA32, readable, have alphaIsTransparency enabled and have no mip chain.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Cursor:SetCursor (UnityEngine.Texture2D,UnityEngine.Vector2,UnityEngine.CursorMode)
+FateInYourHands.Story.SmmCursorManager:ApplyCursor (bool) (at Assets/Scripts/Story/SmmCursorManager.cs:296)
+FateInYourHands.Story.SmmCursorManager:SetGlobalInputLocked (bool) (at Assets/Scripts/Story/SmmCursorManager.cs:104)
+FateInYourHands.Story.SmmStoryGameController:OnChoiceSelected (FateInYourHands.Story.SmmChoiceData) (at Assets/Scripts/Story/SmmStoryGameController.cs:385)
+FateInYourHands.Story.SmmChoiceCardView:SelectWithAnimation () (at Assets/Scripts/Story/SmmChoiceCardView.cs:598)
+FateInYourHands.Story.SmmChoiceCardView:ClickForTest () (at Assets/Scripts/Story/SmmChoiceCardView.cs:424)
+FateInYourHands.Story.SmmStoryGameController:TriggerChoiceForTest (int) (at Assets/Scripts/Story/SmmStoryGameController.cs:297)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:214)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/Scripts/Story/SmmCursorManager.cs line 296]
+
+Invalid texture used for cursor - check importer settings or texture creation. Texture must be RGBA32, readable, have alphaIsTransparency enabled and have no mip chain.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Cursor:SetCursor (UnityEngine.Texture2D,UnityEngine.Vector2,UnityEngine.CursorMode)
+FateInYourHands.Story.SmmCursorManager:ApplyCursor (bool) (at Assets/Scripts/Story/SmmCursorManager.cs:296)
+FateInYourHands.Story.SmmCursorManager:ResetForStoryScreen () (at Assets/Scripts/Story/SmmCursorManager.cs:130)
+FateInYourHands.Story.SmmStoryGameController:ShowCard (string) (at Assets/Scripts/Story/SmmStoryGameController.cs:512)
+FateInYourHands.Story.SmmStoryGameController:ResolvePendingChoice () (at Assets/Scripts/Story/SmmStoryGameController.cs:493)
+FateInYourHands.Story.SmmStoryGameController/<ContinueChoiceResultRoutine>d__161:MoveNext () (at Assets/Scripts/Story/SmmStoryGameController.cs:415)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Assets/Scripts/Story/SmmCursorManager.cs line 296]
+
+PASS: smm_card_002 choice B routes to smm_card_004
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:218)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: smm_card_004 visible Turkish text has no replacement characters
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:219)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: new story resets to first card before choice B route
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:224)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+Invalid texture used for cursor - check importer settings or texture creation. Texture must be RGBA32, readable, have alphaIsTransparency enabled and have no mip chain.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Cursor:SetCursor (UnityEngine.Texture2D,UnityEngine.Vector2,UnityEngine.CursorMode)
+FateInYourHands.Story.SmmCursorManager:ApplyCursor (bool) (at Assets/Scripts/Story/SmmCursorManager.cs:296)
+FateInYourHands.Story.SmmCursorManager:SetGlobalInputLocked (bool) (at Assets/Scripts/Story/SmmCursorManager.cs:104)
+FateInYourHands.Story.SmmStoryGameController:OnChoiceSelected (FateInYourHands.Story.SmmChoiceData) (at Assets/Scripts/Story/SmmStoryGameController.cs:385)
+FateInYourHands.Story.SmmChoiceCardView:SelectWithAnimation () (at Assets/Scripts/Story/SmmChoiceCardView.cs:598)
+FateInYourHands.Story.SmmChoiceCardView:ClickForTest () (at Assets/Scripts/Story/SmmChoiceCardView.cs:424)
+FateInYourHands.Story.SmmStoryGameController:TriggerChoiceForTest (int) (at Assets/Scripts/Story/SmmStoryGameController.cs:297)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:225)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/Scripts/Story/SmmCursorManager.cs line 296]
+
+Invalid texture used for cursor - check importer settings or texture creation. Texture must be RGBA32, readable, have alphaIsTransparency enabled and have no mip chain.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Cursor:SetCursor (UnityEngine.Texture2D,UnityEngine.Vector2,UnityEngine.CursorMode)
+FateInYourHands.Story.SmmCursorManager:ApplyCursor (bool) (at Assets/Scripts/Story/SmmCursorManager.cs:296)
+FateInYourHands.Story.SmmCursorManager:ResetForStoryScreen () (at Assets/Scripts/Story/SmmCursorManager.cs:130)
+FateInYourHands.Story.SmmStoryGameController:ShowCard (string) (at Assets/Scripts/Story/SmmStoryGameController.cs:512)
+FateInYourHands.Story.SmmStoryGameController:ResolvePendingChoice () (at Assets/Scripts/Story/SmmStoryGameController.cs:493)
+FateInYourHands.Story.SmmStoryGameController/<ContinueChoiceResultRoutine>d__161:MoveNext () (at Assets/Scripts/Story/SmmStoryGameController.cs:415)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Assets/Scripts/Story/SmmCursorManager.cs line 296]
+
+PASS: choice B continue routes to smm_card_003
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:229)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: smm_card_003 visible Turkish text has no replacement characters
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:230)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: choice B counter delta applies after continue
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:231)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: fourth vertical-slice card is loadable
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:235)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: fourth vertical-slice card visible Turkish text stays clean
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:236)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: fourth card choice art is loaded
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:237)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: prompt target narrative line is visible
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:241)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: prompt target choice A is visible
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:242)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: prompt target choice B is visible
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:243)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: screenshot exists: 10b_prompt_target_front.png
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<Capture>d__27:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:504)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: screenshot size 10b_prompt_target_front.png is 1920x1080
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<Capture>d__27:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:512)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: screenshot is non-empty: 10b_prompt_target_front.png
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<Capture>d__27:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:513)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: screenshot exists: 11_mobile_front.png
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<Capture>d__27:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:504)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: screenshot size 11_mobile_front.png is 390x844
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<Capture>d__27:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:512)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: screenshot is non-empty: 11_mobile_front.png
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<Capture>d__27:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:513)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: mobile layout stacks choice cards vertically
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:248)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: mobile/touch viewport hides the cursor
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:249)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+Invalid texture used for cursor - check importer settings or texture creation. Texture must be RGBA32, readable, have alphaIsTransparency enabled and have no mip chain.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Cursor:SetCursor (UnityEngine.Texture2D,UnityEngine.Vector2,UnityEngine.CursorMode)
+FateInYourHands.Story.SmmCursorManager:ApplyCursor (bool) (at Assets/Scripts/Story/SmmCursorManager.cs:296)
+FateInYourHands.Story.SmmCursorManager:SetGlobalInputLocked (bool) (at Assets/Scripts/Story/SmmCursorManager.cs:104)
+FateInYourHands.Story.SmmStoryGameController:OnChoiceSelected (FateInYourHands.Story.SmmChoiceData) (at Assets/Scripts/Story/SmmStoryGameController.cs:385)
+FateInYourHands.Story.SmmChoiceCardView:SelectWithAnimation () (at Assets/Scripts/Story/SmmChoiceCardView.cs:598)
+FateInYourHands.Story.SmmChoiceCardView:ClickForTest () (at Assets/Scripts/Story/SmmChoiceCardView.cs:424)
+FateInYourHands.Story.SmmStoryGameController:TriggerChoiceForTest (int) (at Assets/Scripts/Story/SmmStoryGameController.cs:293)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:250)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+[Assets/Scripts/Story/SmmCursorManager.cs line 296]
+
+PASS: mobile result has no modal-style result chrome
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:252)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+Invalid texture used for cursor - check importer settings or texture creation. Texture must be RGBA32, readable, have alphaIsTransparency enabled and have no mip chain.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Cursor:SetCursor (UnityEngine.Texture2D,UnityEngine.Vector2,UnityEngine.CursorMode)
+FateInYourHands.Story.SmmCursorManager:ApplyCursor (bool) (at Assets/Scripts/Story/SmmCursorManager.cs:296)
+FateInYourHands.Story.SmmCursorManager:SetGlobalInputLocked (bool) (at Assets/Scripts/Story/SmmCursorManager.cs:104)
+FateInYourHands.Story.SmmChoiceCardView/<FlipToBackRoutine>d__109:MoveNext () (at Assets/Scripts/Story/SmmChoiceCardView.cs:744)
+UnityEngine.SetupCoroutine:InvokeMoveNext (System.Collections.IEnumerator,intptr)
+
+[Assets/Scripts/Story/SmmCursorManager.cs line 296]
+
+PASS: mobile result card completes reveal before screenshot
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<RunRoutine>d__16:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:254)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: screenshot exists: 12_mobile_result.png
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<Capture>d__27:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:504)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: screenshot size 12_mobile_result.png is 390x844
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<Capture>d__27:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:512)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+PASS: screenshot is non-empty: 12_mobile_result.png
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Require (bool,string) (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:628)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner/<Capture>d__27:MoveNext () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:513)
+FateInYourHands.Story.Editor.SmmStoryUiMasterValidationRunner:Pump () (at Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs:644)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: Assets/Scripts/Story/Editor/SmmStoryUiMasterValidationRunner.cs Line: 628)
+
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-furkan-6000.4.8-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-furkan-6000.4.8 channel disconnected successfully.
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+21:22:30.475 |V| RiderPlugin                    | :1                             | AppDomain.CurrentDomain.DomainUnload lifetimeDefinition.Terminate
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1781893352584,"processId":33496,"allocatedMemory":16492880,"memoryLabels":[{"Default":191748},{"Permanent":15276},{"NewDelete":66059},{"Thread":4237512},{"Manager":820941},{"VertexData":8},{"Geometry":816},{"Texture":24},{"Shader":853214},{"Material":24},{"GfxDevice":57480},{"Animation":392},{"Audio":3008},{"FreeType":8},{"FontEngine":736},{"Physics":2090},{"Physics2D":16},{"Serialization":952},{"Input":9880},{"JobScheduler":33024},{"TextLib":216},{"Mono":32},{"MonoCode":64},{"ScriptingNativeRuntime":155052},{"BaseObject":1657488},{"Resource":1184},{"Renderer":3008},{"Transform":4685},{"File":4013},{"WebCam":616},{"Culling":32},{"Terrain":11394},{"Wind":24},{"STL":40},{"String":20005},{"StaticString":6718},{"Utility":2673318},{"Curl":2559},{"PoolAlloc":2264},{"AI":80},{"TypeTree":13637},{"ScriptManager":448},{"RuntimeInitializeOnLoadManager":64},{"SpriteAtlas":120},{"GI":7792},{"Director":8320},{"CloudService":9728},{"WebRequest":808},{"VR":48050},{"SceneManager":504},{"Video":208},{"LazyScriptCache":32},{"Camera":17},{"Secure":2377},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":472},{"Hierarchy":608},{"CoreStats":13032},{"Identifiers":12960},{"Gui":128},{"EditorUtility":110390},{"VersionControl":4},{"Undo":931},{"AssetDatabase":5023509},{"EditorGi":328},{"UnityConnect":37777},{"Upm":1912},{"UpmDiagnostics":8},{"AssetCompliance":64},{"DrivenProperties":72},{"LocalIPC":212},{"ProfilerEditor":9746},{"CoreBusinessMetrics":2894},{"Windowing":456},{"Licensing":664},{"AssetReference":32},{"IPCStream":32}]}

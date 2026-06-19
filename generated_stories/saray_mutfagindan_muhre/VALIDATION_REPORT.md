@@ -8,11 +8,29 @@ Story ID: `saray_mutfagindan_muhre`
 - Cards: 300
 - Choices: 600
 - Endings: 28
-- Çorba zinciri kartları: 44
-- Saray kazı zinciri kartları: 25
-- Yanlış tatlı zinciri kartları: 25
+- Microcopy sync status: PASS
 
-## Checks
+## Narrative Microcopy Checks
+
+| Kontrol | Durum | Detay |
+|---|---|---|
+| Her kartta shortBodyText var mı? | PASS | 300/300 |
+| Her shortBodyText 10 kelime veya daha kısa mı? | PASS | 0 ihlal |
+| Her shortBodyText 8-10 kelime aralığında mı? | PASS | 0 kısa, 0 uzun |
+| bodyText UI'da gösterilecekse 10 kelime veya daha kısa mı? | PASS | 0 ihlal |
+| Eski uzun metin longBodyText altında korunmuş mu? | PASS | 300/300 |
+| Her choice text 3-8 kelime arasında mı? | PASS | 0 ihlal |
+| Her resultText doğal ve sistem dilinden arınmış mı? | PASS | 0 yasak ifade |
+| Hidden counter veya flag isimleri oyuncu metninde görünüyor mu? | PASS | 0 sızıntı |
+| Her dialogue en fazla 1 kısa replik mi? | PASS | 0 ihlal |
+| Her choiceImagePrompt yeni choice text ile uyumlu mu? | PASS | choiceId tabanlı promptlar üretildi |
+| Güncellenen choiceImagePrompt ASSET_MANIFEST.yaml ile senkron mu? | PASS | 0 prompt uyumsuz |
+| Choice negativePrompt alanları ASSET_MANIFEST.yaml ile senkron mu? | PASS | 0 negativePrompt uyumsuz |
+| nextCardId ve endingId referansları bozulmadı mı? | PASS | 0 bozuk referans |
+| cardId ve choiceId değerleri değişmeden kaldı mı? | PASS | öncesi/sonrası aynı sırada |
+| assetId değerleri değişmeden kaldı mı? | PASS | öncesi/sonrası aynı sırada |
+
+## Structural Checks
 
 | Kontrol | Durum | Detay |
 |---|---|---|
@@ -28,20 +46,6 @@ Story ID: `saray_mutfagindan_muhre`
 | Her seçimde yalnızca nextCardId veya endingId var mı? | PASS | hedef alanları kontrol edildi |
 | Bozuk nextCardId var mı? | PASS | yok |
 | Bozuk endingId var mı? | PASS | yok |
-| Ulaşılamayan kart var mı? | PASS | 0 |
-| Ulaşılamayan ending var mı? | PASS | 0 |
-| Her kartta backgroundId var mı? | PASS | tamam |
-| Her kartta focusImageId var mı? | PASS | tamam |
-| Her focusImageId asset manifestte var mı? | PASS | tamam |
-| Her backgroundId background library'de var mı? | PASS | tamam |
-| Her endingImageId asset manifestte var mı? | PASS | tamam |
-| NPC_BIBLE firstAppearanceCardId değerleri gerçek kartlara gidiyor mu? | PASS | tamam |
-| Prop usedByCardIds değerleri gerçek kartlara gidiyor mu? | PASS | tamam |
-| Çorba kehaneti zinciri en az 20 kartta görünüyor mu? | PASS | 44 |
-| Saray kazı zinciri en az 20 kartta görünüyor mu? | PASS | 25 |
-| Yanlış tatlı diplomasi zinciri en az 20 kartta görünüyor mu? | PASS | 25 |
-| Absürt olaylar finalde payoff alıyor mu? | PASS | çorba, kaz ve tatlı endingleri mevcut |
-| Varis krizi tüm ana rotalara bağlanıyor mu? | PASS | 12 route family |
 | Placeholder, TODO, later, devam edecek var mı? | PASS | yok |
 
 ## Final Status

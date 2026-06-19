@@ -310,11 +310,12 @@ Do not generate:
 - choices with empty result text
 
 Choice text rules:
-- 3 to 10 words
-- specific
-- active
-- emotionally readable
+- 2 to 8 words
+- a complete direct action sentence
+- specific, active, and emotionally readable
+- ends with normal sentence punctuation
 - not generic
+- never uses meta framing such as "Şu yolu seçersin", "Bu yolu seçersin", or "Bu seçimi yaparsan"
 
 Good examples:
 - Balığın ağzındaki anahtarı çek
@@ -339,21 +340,31 @@ Every choice must have resultText.
 Result text must describe the immediate consequence of the selected choice.
 
 Result text must:
-- be 1 to 3 sentences
+- preferably be 1 sentence, and never more than 2 short sentences
+- target roughly 6 to 18 words
 - reflect the tone of the story
-- explain what changed
-- connect clearly to the choice
-- optionally foreshadow future consequences
+- describe the concrete event that happened after the choice
+- connect clearly to the choice without repeating the choice text
+- end with normal sentence punctuation
+
+Result text must not:
+- use "Şu yolu seçersin", "Bu yolu seçersin", "Bu seçimi yaparsan", "Seçimin sonucunda", "Bu hamle", or similar meta explanation
+- explain stat math, analysis, likelihoods, lessons, or branch mechanics
+- repeat the choice before describing the consequence
+- become a long recap
 
 Good result text:
 - Ekmek çıktı ama fırıncı artık yüzünü hatırlıyor.
 - Kurbağa seni öpmedi; yalnızca vergi defterini yuttu.
 - Kutu hafifledi, ama içinden gelen ağlama sesi kesildi.
+- Kapıyı fark edilmeden açtın ve karanlık koridora girdin.
 
 Bad result text:
 - Devam ettin.
 - Bir şey oldu.
 - Sonraki karta geçtin.
+- Şu yolu seçersin: kapıyı sessizce açmak.
+- Bu hamle saray kuşkusunu belirgin biçimde yükseltir.
 
 ## Background and Visual Layer Model
 

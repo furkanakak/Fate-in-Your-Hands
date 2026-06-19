@@ -1,0 +1,134 @@
+﻿# UI Master Validation Report
+
+Status: PASS
+
+## Checks
+- PASS: story controller exists in Play Mode
+- PASS: vertical slice opens smm_card_001
+- PASS: gameplay hides story title, chapter kicker and card title
+- PASS: smm_card_001 visible Turkish text has no replacement characters
+- PASS: health uses sprite Image hearts
+- PASS: half health uses a distinct filled-half heart sprite
+- PASS: HUD does not render glyph hearts
+- PASS: card animation layer exists
+- PASS: UI layers render above background
+- PASS: choice A art is loaded
+- PASS: choice B art is loaded
+- PASS: choice front has no result modal
+- PASS: visible production UI hides ids and debug state
+- PASS: card animation code uses unscaled delta time
+- PASS: custom cursor asset files exist
+- PASS: custom cursor textures load from Resources
+- PASS: production UI does not fall back to the default OS cursor
+- PASS: cursor hotspot matches the pointing fingertip
+- PASS: background uses the default custom cursor
+- PASS: settings button uses the hover cursor
+- PASS: keyboard/gamepad focus moves to choice B
+- PASS: keyboard/gamepad focus moves to choice A
+- PASS: screenshot exists: 01_reference_notes.png
+- PASS: screenshot size 01_reference_notes.png is 1920x1080
+- PASS: screenshot is non-empty: 01_reference_notes.png
+- PASS: screenshot exists: 02_static_front_1920.png
+- PASS: screenshot size 02_static_front_1920.png is 1920x1080
+- PASS: screenshot is non-empty: 02_static_front_1920.png
+- PASS: screenshot exists: 03_front_1366.png
+- PASS: screenshot size 03_front_1366.png is 1366x768
+- PASS: screenshot is non-empty: 03_front_1366.png
+- PASS: screenshot exists: 03b_front_1280.png
+- PASS: screenshot size 03b_front_1280.png is 1280x720
+- PASS: screenshot is non-empty: 03b_front_1280.png
+- PASS: screenshot exists: 03c_mobile_landscape_front.png
+- PASS: screenshot size 03c_mobile_landscape_front.png is 844x390
+- PASS: screenshot is non-empty: 03c_mobile_landscape_front.png
+- PASS: choice card hover uses the hover cursor
+- PASS: choice card click uses the pressed cursor
+- PASS: screenshot exists: 04_choice_hover.png
+- PASS: screenshot size 04_choice_hover.png is 1920x1080
+- PASS: screenshot is non-empty: 04_choice_hover.png
+- PASS: choice A has normalized YAML resultText
+- PASS: rapid double-click is locked
+- PASS: choice A starts center-and-flip animation
+- PASS: input-locked card animation uses the disabled cursor
+- PASS: screenshot exists: 05_choice_selected.png
+- PASS: screenshot size 05_choice_selected.png is 1920x1080
+- PASS: screenshot is non-empty: 05_choice_selected.png
+- PASS: non-selected card exits fully
+- PASS: screenshot exists: 06_nonselected_exit.png
+- PASS: screenshot size 06_nonselected_exit.png is 1920x1080
+- PASS: screenshot is non-empty: 06_nonselected_exit.png
+- PASS: selected card reaches centered result position
+- PASS: screenshot exists: 07_card_centered.png
+- PASS: screenshot size 07_card_centered.png is 1920x1080
+- PASS: screenshot is non-empty: 07_card_centered.png
+- PASS: screenshot exists: 08_mid_flip.png
+- PASS: screenshot size 08_mid_flip.png is 1920x1080
+- PASS: screenshot is non-empty: 08_mid_flip.png
+- PASS: choice result is shown on selected card back
+- PASS: central result modal remains hidden after choice
+- PASS: back face shows normalized YAML resultText for choice A
+- PASS: result back Turkish text has no replacement characters
+- PASS: result back has no Devam Et button or debug chrome
+- PASS: result card unlocks whole-card continue input
+- PASS: result card back face uses the hover cursor
+- PASS: screenshot exists: 09_result_back.png
+- PASS: screenshot size 09_result_back.png is 1920x1080
+- PASS: screenshot is non-empty: 09_result_back.png
+- PASS: choice A continue routes to smm_card_002
+- PASS: smm_card_002 visible Turkish text has no replacement characters
+- SKIP: choice A counter delta applies after continue (current story data has no kitchen_favor counter)
+- SKIP: choice A flag applies after continue (current story data has no flag_truth_told state flag)
+- PASS: autosave exists after continue
+- PASS: screenshot exists: 10_next_card.png
+- PASS: screenshot size 10_next_card.png is 1920x1080
+- PASS: screenshot is non-empty: 10_next_card.png
+- PASS: smm_card_002 choice B routes to smm_card_004
+- PASS: smm_card_004 visible Turkish text has no replacement characters
+- PASS: new story resets to first card before choice B route
+- PASS: choice B continue routes to smm_card_003
+- PASS: smm_card_003 visible Turkish text has no replacement characters
+- SKIP: choice B counter delta applies after continue (current story data has no palace_suspicion counter)
+- PASS: fourth vertical-slice card is loadable
+- PASS: fourth vertical-slice card visible Turkish text stays clean
+- PASS: fourth card choice art is loaded
+- PASS: prompt target card visible Turkish text stays clean
+- PASS: screenshot exists: 10b_prompt_target_front.png
+- PASS: screenshot size 10b_prompt_target_front.png is 1920x1080
+- PASS: screenshot is non-empty: 10b_prompt_target_front.png
+- PASS: screenshot exists: 11_mobile_front.png
+- PASS: screenshot size 11_mobile_front.png is 390x844
+- PASS: screenshot is non-empty: 11_mobile_front.png
+- PASS: mobile layout stacks choice cards vertically
+- PASS: mobile/touch viewport hides the cursor
+- PASS: mobile result has no modal-style result chrome
+- PASS: mobile result card completes reveal before screenshot
+- PASS: screenshot exists: 12_mobile_result.png
+- PASS: screenshot size 12_mobile_result.png is 390x844
+- PASS: screenshot is non-empty: 12_mobile_result.png
+
+## Cursor Validation
+- Asset style: original hand-drawn pointing hand, warm parchment-pink fill, dark-brown uneven outline, minimal shading, transparent PNG background.
+- Cursor assets:
+  - Assets/Resources/UI/Cursors/ui_cursor_default.png
+  - Assets/Resources/UI/Cursors/ui_cursor_hover.png
+  - Assets/Resources/UI/Cursors/ui_cursor_pressed.png
+  - Assets/Resources/UI/Cursors/ui_cursor_disabled.png
+- Runtime hotspot: (14, 33), aligned to the index fingertip.
+- Active screens: story background/default, choice card hover/pressed, settings button hover, input-locked animation disabled state, result card back-face hover/full-card continue, mobile/touch hidden.
+- Screenshot note: Unity render-camera screenshots do not include the OS hardware cursor; cursor verification is recorded through runtime state checks and asset inspection.
+
+## Screenshots
+- C:\Users\furkan\Desktop\Saray_UI_Master_Redesign\01_reference_notes.png
+- C:\Users\furkan\Desktop\Saray_UI_Master_Redesign\02_static_front_1920.png
+- C:\Users\furkan\Desktop\Saray_UI_Master_Redesign\03_front_1366.png
+- C:\Users\furkan\Desktop\Saray_UI_Master_Redesign\03b_front_1280.png
+- C:\Users\furkan\Desktop\Saray_UI_Master_Redesign\03c_mobile_landscape_front.png
+- C:\Users\furkan\Desktop\Saray_UI_Master_Redesign\04_choice_hover.png
+- C:\Users\furkan\Desktop\Saray_UI_Master_Redesign\05_choice_selected.png
+- C:\Users\furkan\Desktop\Saray_UI_Master_Redesign\06_nonselected_exit.png
+- C:\Users\furkan\Desktop\Saray_UI_Master_Redesign\07_card_centered.png
+- C:\Users\furkan\Desktop\Saray_UI_Master_Redesign\08_mid_flip.png
+- C:\Users\furkan\Desktop\Saray_UI_Master_Redesign\09_result_back.png
+- C:\Users\furkan\Desktop\Saray_UI_Master_Redesign\10_next_card.png
+- C:\Users\furkan\Desktop\Saray_UI_Master_Redesign\10b_prompt_target_front.png
+- C:\Users\furkan\Desktop\Saray_UI_Master_Redesign\11_mobile_front.png
+- C:\Users\furkan\Desktop\Saray_UI_Master_Redesign\12_mobile_result.png

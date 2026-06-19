@@ -1,0 +1,445 @@
+# Saray Mutfağından Mühre - Integration Report
+
+## Status
+
+- Overall validation: **FAIL**
+- Integration is not considered complete while validation is FAIL.
+
+## Added/Changed Files
+
+- `Fate-in-Your-Hands/Assets/Resources/Stories/saray_mutfagindan_muhre/story_data.json`
+- `Fate-in-Your-Hands/Assets/Stories/saray_mutfagindan_muhre/story_data.json`
+- `Fate-in-Your-Hands/Assets/Stories/saray_mutfagindan_muhre/smoke_test_routes.json`
+- `Fate-in-Your-Hands/Assets/Scripts/Story/*.cs`
+- `generated_stories/saray_mutfagindan_muhre/INTEGRATION_REPORT.md`
+- `generated_stories/saray_mutfagindan_muhre/INTEGRATION_VALIDATION_REPORT.md`
+- `generated_stories/saray_mutfagindan_muhre/tools/build_unity_integration.py`
+
+## Imported Counts
+
+- Cards: 300
+- Choices: 600
+- Endings: 28
+- Referenced backgrounds: 48
+- Referenced choice images: 600
+- Referenced ending images: 28
+- Manifest assets present: 650 / 979
+- Missing assets: 329
+
+## Missing Asset Summary
+
+- cover: 1
+- ending: 28
+- focus: 300
+
+## Missing Asset List
+
+- `cover_saray_mutfagindan_muhre` (cover) -> `Assets/Stories/saray_mutfagindan_muhre/Cover/cover_saray_mutfagindan_muhre.png`
+- `focus_smm_001_intro` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_001_intro.png`
+- `focus_smm_002_intro` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_002_intro.png`
+- `focus_smm_003_intro` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_003_intro.png`
+- `focus_smm_004_intro` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_004_intro.png`
+- `focus_smm_005_intro` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_005_intro.png`
+- `focus_smm_006_intro` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_006_intro.png`
+- `focus_smm_007_intro` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_007_intro.png`
+- `focus_smm_008_intro` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_008_intro.png`
+- `focus_smm_009_intro` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_009_intro.png`
+- `focus_smm_010_intro` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_010_intro.png`
+- `focus_smm_011_intro` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_011_intro.png`
+- `focus_smm_012_intro` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_012_intro.png`
+- `focus_smm_013_intro` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_013_intro.png`
+- `focus_smm_014_intro` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_014_intro.png`
+- `focus_smm_015_intro` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_015_intro.png`
+- `focus_smm_016_intro` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_016_intro.png`
+- `focus_smm_017_intro` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_017_intro.png`
+- `focus_smm_018_intro` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_018_intro.png`
+- `focus_smm_019_intro` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_019_intro.png`
+- `focus_smm_020_intro` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_020_intro.png`
+- `focus_smm_021_intro` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_021_intro.png`
+- `focus_smm_022_intro` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_022_intro.png`
+- `focus_smm_023_intro` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_023_intro.png`
+- `focus_smm_024_intro` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_024_intro.png`
+- `focus_smm_025_intro` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_025_intro.png`
+- `focus_smm_026_kitchen_rise` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_026_kitchen_rise.png`
+- `focus_smm_027_kitchen_rise` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_027_kitchen_rise.png`
+- `focus_smm_028_kitchen_rise` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_028_kitchen_rise.png`
+- `focus_smm_029_kitchen_rise` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_029_kitchen_rise.png`
+- `focus_smm_030_kitchen_rise` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_030_kitchen_rise.png`
+- `focus_smm_031_kitchen_rise` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_031_kitchen_rise.png`
+- `focus_smm_032_kitchen_rise` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_032_kitchen_rise.png`
+- `focus_smm_033_kitchen_rise` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_033_kitchen_rise.png`
+- `focus_smm_034_kitchen_rise` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_034_kitchen_rise.png`
+- `focus_smm_035_kitchen_rise` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_035_kitchen_rise.png`
+- `focus_smm_036_kitchen_rise` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_036_kitchen_rise.png`
+- `focus_smm_037_kitchen_rise` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_037_kitchen_rise.png`
+- `focus_smm_038_kitchen_rise` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_038_kitchen_rise.png`
+- `focus_smm_039_kitchen_rise` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_039_kitchen_rise.png`
+- `focus_smm_040_kitchen_rise` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_040_kitchen_rise.png`
+- `focus_smm_041_kitchen_rise` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_041_kitchen_rise.png`
+- `focus_smm_042_kitchen_rise` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_042_kitchen_rise.png`
+- `focus_smm_043_kitchen_rise` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_043_kitchen_rise.png`
+- `focus_smm_044_kitchen_rise` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_044_kitchen_rise.png`
+- `focus_smm_045_kitchen_rise` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_045_kitchen_rise.png`
+- `focus_smm_046_kitchen_rise` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_046_kitchen_rise.png`
+- `focus_smm_047_kitchen_rise` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_047_kitchen_rise.png`
+- `focus_smm_048_kitchen_rise` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_048_kitchen_rise.png`
+- `focus_smm_049_kitchen_rise` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_049_kitchen_rise.png`
+- `focus_smm_050_kitchen_rise` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_050_kitchen_rise.png`
+- `focus_smm_051_pantry_pastry` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_051_pantry_pastry.png`
+- `focus_smm_052_pantry_pastry` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_052_pantry_pastry.png`
+- `focus_smm_053_pantry_pastry` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_053_pantry_pastry.png`
+- `focus_smm_054_pantry_pastry` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_054_pantry_pastry.png`
+- `focus_smm_055_pantry_pastry` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_055_pantry_pastry.png`
+- `focus_smm_056_pantry_pastry` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_056_pantry_pastry.png`
+- `focus_smm_057_pantry_pastry` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_057_pantry_pastry.png`
+- `focus_smm_058_pantry_pastry` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_058_pantry_pastry.png`
+- `focus_smm_059_pantry_pastry` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_059_pantry_pastry.png`
+- `focus_smm_060_pantry_pastry` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_060_pantry_pastry.png`
+- `focus_smm_061_pantry_pastry` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_061_pantry_pastry.png`
+- `focus_smm_062_pantry_pastry` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_062_pantry_pastry.png`
+- `focus_smm_063_pantry_pastry` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_063_pantry_pastry.png`
+- `focus_smm_064_pantry_pastry` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_064_pantry_pastry.png`
+- `focus_smm_065_pantry_pastry` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_065_pantry_pastry.png`
+- `focus_smm_066_pantry_pastry` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_066_pantry_pastry.png`
+- `focus_smm_067_pantry_pastry` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_067_pantry_pastry.png`
+- `focus_smm_068_pantry_pastry` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_068_pantry_pastry.png`
+- `focus_smm_069_pantry_pastry` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_069_pantry_pastry.png`
+- `focus_smm_070_pantry_pastry` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_070_pantry_pastry.png`
+- `focus_smm_071_pantry_pastry` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_071_pantry_pastry.png`
+- `focus_smm_072_pantry_pastry` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_072_pantry_pastry.png`
+- `focus_smm_073_pantry_pastry` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_073_pantry_pastry.png`
+- `focus_smm_074_pantry_pastry` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_074_pantry_pastry.png`
+- `focus_smm_075_pantry_pastry` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_075_pantry_pastry.png`
+- `focus_smm_076_soup_goose` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_076_soup_goose.png`
+- `focus_smm_077_soup_goose` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_077_soup_goose.png`
+- `focus_smm_078_soup_goose` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_078_soup_goose.png`
+- `focus_smm_079_soup_goose` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_079_soup_goose.png`
+- `focus_smm_080_soup_goose` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_080_soup_goose.png`
+- `focus_smm_081_soup_goose` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_081_soup_goose.png`
+- `focus_smm_082_soup_goose` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_082_soup_goose.png`
+- `focus_smm_083_soup_goose` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_083_soup_goose.png`
+- `focus_smm_084_soup_goose` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_084_soup_goose.png`
+- `focus_smm_085_soup_goose` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_085_soup_goose.png`
+- `focus_smm_086_soup_goose` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_086_soup_goose.png`
+- `focus_smm_087_soup_goose` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_087_soup_goose.png`
+- `focus_smm_088_soup_goose` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_088_soup_goose.png`
+- `focus_smm_089_soup_goose` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_089_soup_goose.png`
+- `focus_smm_090_soup_goose` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_090_soup_goose.png`
+- `focus_smm_091_soup_goose` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_091_soup_goose.png`
+- `focus_smm_092_soup_goose` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_092_soup_goose.png`
+- `focus_smm_093_soup_goose` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_093_soup_goose.png`
+- `focus_smm_094_soup_goose` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_094_soup_goose.png`
+- `focus_smm_095_soup_goose` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_095_soup_goose.png`
+- `focus_smm_096_soup_goose` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_096_soup_goose.png`
+- `focus_smm_097_soup_goose` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_097_soup_goose.png`
+- `focus_smm_098_soup_goose` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_098_soup_goose.png`
+- `focus_smm_099_soup_goose` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_099_soup_goose.png`
+- `focus_smm_100_soup_goose` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_100_soup_goose.png`
+- `focus_smm_101_poison_taster` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_101_poison_taster.png`
+- `focus_smm_102_poison_taster` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_102_poison_taster.png`
+- `focus_smm_103_poison_taster` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_103_poison_taster.png`
+- `focus_smm_104_poison_taster` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_104_poison_taster.png`
+- `focus_smm_105_poison_taster` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_105_poison_taster.png`
+- `focus_smm_106_poison_taster` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_106_poison_taster.png`
+- `focus_smm_107_poison_taster` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_107_poison_taster.png`
+- `focus_smm_108_poison_taster` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_108_poison_taster.png`
+- `focus_smm_109_poison_taster` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_109_poison_taster.png`
+- `focus_smm_110_poison_taster` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_110_poison_taster.png`
+- `focus_smm_111_poison_taster` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_111_poison_taster.png`
+- `focus_smm_112_poison_taster` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_112_poison_taster.png`
+- `focus_smm_113_poison_taster` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_113_poison_taster.png`
+- `focus_smm_114_poison_taster` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_114_poison_taster.png`
+- `focus_smm_115_poison_taster` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_115_poison_taster.png`
+- `focus_smm_116_poison_taster` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_116_poison_taster.png`
+- `focus_smm_117_poison_taster` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_117_poison_taster.png`
+- `focus_smm_118_poison_taster` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_118_poison_taster.png`
+- `focus_smm_119_poison_taster` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_119_poison_taster.png`
+- `focus_smm_120_poison_taster` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_120_poison_taster.png`
+- `focus_smm_121_poison_taster` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_121_poison_taster.png`
+- `focus_smm_122_poison_taster` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_122_poison_taster.png`
+- `focus_smm_123_poison_taster` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_123_poison_taster.png`
+- `focus_smm_124_poison_taster` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_124_poison_taster.png`
+- `focus_smm_125_poison_taster` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_125_poison_taster.png`
+- `focus_smm_126_healer_path` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_126_healer_path.png`
+- `focus_smm_127_healer_path` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_127_healer_path.png`
+- `focus_smm_128_healer_path` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_128_healer_path.png`
+- `focus_smm_129_healer_path` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_129_healer_path.png`
+- `focus_smm_130_healer_path` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_130_healer_path.png`
+- `focus_smm_131_healer_path` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_131_healer_path.png`
+- `focus_smm_132_healer_path` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_132_healer_path.png`
+- `focus_smm_133_healer_path` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_133_healer_path.png`
+- `focus_smm_134_healer_path` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_134_healer_path.png`
+- `focus_smm_135_healer_path` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_135_healer_path.png`
+- `focus_smm_136_healer_path` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_136_healer_path.png`
+- `focus_smm_137_healer_path` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_137_healer_path.png`
+- `focus_smm_138_healer_path` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_138_healer_path.png`
+- `focus_smm_139_healer_path` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_139_healer_path.png`
+- `focus_smm_140_healer_path` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_140_healer_path.png`
+- `focus_smm_141_healer_path` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_141_healer_path.png`
+- `focus_smm_142_healer_path` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_142_healer_path.png`
+- `focus_smm_143_healer_path` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_143_healer_path.png`
+- `focus_smm_144_healer_path` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_144_healer_path.png`
+- `focus_smm_145_healer_path` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_145_healer_path.png`
+- `focus_smm_146_healer_path` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_146_healer_path.png`
+- `focus_smm_147_healer_path` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_147_healer_path.png`
+- `focus_smm_148_healer_path` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_148_healer_path.png`
+- `focus_smm_149_healer_path` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_149_healer_path.png`
+- `focus_smm_150_healer_path` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_150_healer_path.png`
+- `focus_smm_151_spy_network` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_151_spy_network.png`
+- `focus_smm_152_spy_network` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_152_spy_network.png`
+- `focus_smm_153_spy_network` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_153_spy_network.png`
+- `focus_smm_154_spy_network` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_154_spy_network.png`
+- `focus_smm_155_spy_network` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_155_spy_network.png`
+- `focus_smm_156_spy_network` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_156_spy_network.png`
+- `focus_smm_157_spy_network` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_157_spy_network.png`
+- `focus_smm_158_spy_network` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_158_spy_network.png`
+- `focus_smm_159_spy_network` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_159_spy_network.png`
+- `focus_smm_160_spy_network` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_160_spy_network.png`
+- `focus_smm_161_spy_network` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_161_spy_network.png`
+- `focus_smm_162_spy_network` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_162_spy_network.png`
+- `focus_smm_163_spy_network` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_163_spy_network.png`
+- `focus_smm_164_spy_network` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_164_spy_network.png`
+- `focus_smm_165_spy_network` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_165_spy_network.png`
+- `focus_smm_166_spy_network` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_166_spy_network.png`
+- `focus_smm_167_spy_network` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_167_spy_network.png`
+- `focus_smm_168_spy_network` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_168_spy_network.png`
+- `focus_smm_169_spy_network` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_169_spy_network.png`
+- `focus_smm_170_spy_network` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_170_spy_network.png`
+- `focus_smm_171_spy_network` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_171_spy_network.png`
+- `focus_smm_172_spy_network` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_172_spy_network.png`
+- `focus_smm_173_spy_network` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_173_spy_network.png`
+- `focus_smm_174_spy_network` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_174_spy_network.png`
+- `focus_smm_175_spy_network` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_175_spy_network.png`
+- `focus_smm_176_army_supply` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_176_army_supply.png`
+- `focus_smm_177_army_supply` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_177_army_supply.png`
+- `focus_smm_178_army_supply` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_178_army_supply.png`
+- `focus_smm_179_army_supply` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_179_army_supply.png`
+- `focus_smm_180_army_supply` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_180_army_supply.png`
+- `focus_smm_181_army_supply` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_181_army_supply.png`
+- `focus_smm_182_army_supply` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_182_army_supply.png`
+- `focus_smm_183_army_supply` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_183_army_supply.png`
+- `focus_smm_184_army_supply` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_184_army_supply.png`
+- `focus_smm_185_army_supply` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_185_army_supply.png`
+- `focus_smm_186_army_supply` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_186_army_supply.png`
+- `focus_smm_187_army_supply` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_187_army_supply.png`
+- `focus_smm_188_army_supply` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_188_army_supply.png`
+- `focus_smm_189_army_supply` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_189_army_supply.png`
+- `focus_smm_190_army_supply` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_190_army_supply.png`
+- `focus_smm_191_army_supply` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_191_army_supply.png`
+- `focus_smm_192_army_supply` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_192_army_supply.png`
+- `focus_smm_193_army_supply` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_193_army_supply.png`
+- `focus_smm_194_army_supply` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_194_army_supply.png`
+- `focus_smm_195_army_supply` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_195_army_supply.png`
+- `focus_smm_196_army_supply` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_196_army_supply.png`
+- `focus_smm_197_army_supply` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_197_army_supply.png`
+- `focus_smm_198_army_supply` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_198_army_supply.png`
+- `focus_smm_199_army_supply` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_199_army_supply.png`
+- `focus_smm_200_army_supply` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_200_army_supply.png`
+- `focus_smm_201_black_market` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_201_black_market.png`
+- `focus_smm_202_black_market` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_202_black_market.png`
+- `focus_smm_203_black_market` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_203_black_market.png`
+- `focus_smm_204_black_market` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_204_black_market.png`
+- `focus_smm_205_black_market` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_205_black_market.png`
+- `focus_smm_206_black_market` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_206_black_market.png`
+- `focus_smm_207_black_market` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_207_black_market.png`
+- `focus_smm_208_black_market` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_208_black_market.png`
+- `focus_smm_209_black_market` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_209_black_market.png`
+- `focus_smm_210_black_market` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_210_black_market.png`
+- `focus_smm_211_black_market` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_211_black_market.png`
+- `focus_smm_212_black_market` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_212_black_market.png`
+- `focus_smm_213_black_market` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_213_black_market.png`
+- `focus_smm_214_black_market` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_214_black_market.png`
+- `focus_smm_215_black_market` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_215_black_market.png`
+- `focus_smm_216_black_market` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_216_black_market.png`
+- `focus_smm_217_black_market` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_217_black_market.png`
+- `focus_smm_218_black_market` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_218_black_market.png`
+- `focus_smm_219_black_market` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_219_black_market.png`
+- `focus_smm_220_black_market` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_220_black_market.png`
+- `focus_smm_221_black_market` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_221_black_market.png`
+- `focus_smm_222_black_market` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_222_black_market.png`
+- `focus_smm_223_black_market` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_223_black_market.png`
+- `focus_smm_224_black_market` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_224_black_market.png`
+- `focus_smm_225_black_market` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_225_black_market.png`
+- `focus_smm_226_rebellion` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_226_rebellion.png`
+- `focus_smm_227_rebellion` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_227_rebellion.png`
+- `focus_smm_228_rebellion` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_228_rebellion.png`
+- `focus_smm_229_rebellion` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_229_rebellion.png`
+- `focus_smm_230_rebellion` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_230_rebellion.png`
+- `focus_smm_231_rebellion` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_231_rebellion.png`
+- `focus_smm_232_rebellion` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_232_rebellion.png`
+- `focus_smm_233_rebellion` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_233_rebellion.png`
+- `focus_smm_234_rebellion` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_234_rebellion.png`
+- `focus_smm_235_rebellion` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_235_rebellion.png`
+- `focus_smm_236_rebellion` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_236_rebellion.png`
+- `focus_smm_237_rebellion` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_237_rebellion.png`
+- `focus_smm_238_rebellion` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_238_rebellion.png`
+- `focus_smm_239_rebellion` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_239_rebellion.png`
+- `focus_smm_240_rebellion` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_240_rebellion.png`
+- `focus_smm_241_rebellion` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_241_rebellion.png`
+- `focus_smm_242_rebellion` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_242_rebellion.png`
+- `focus_smm_243_rebellion` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_243_rebellion.png`
+- `focus_smm_244_rebellion` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_244_rebellion.png`
+- `focus_smm_245_rebellion` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_245_rebellion.png`
+- `focus_smm_246_rebellion` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_246_rebellion.png`
+- `focus_smm_247_rebellion` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_247_rebellion.png`
+- `focus_smm_248_rebellion` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_248_rebellion.png`
+- `focus_smm_249_rebellion` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_249_rebellion.png`
+- `focus_smm_250_rebellion` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_250_rebellion.png`
+- `focus_smm_251_heirs_and_factions` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_251_heirs_and_factions.png`
+- `focus_smm_252_heirs_and_factions` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_252_heirs_and_factions.png`
+- `focus_smm_253_heirs_and_factions` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_253_heirs_and_factions.png`
+- `focus_smm_254_heirs_and_factions` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_254_heirs_and_factions.png`
+- `focus_smm_255_heirs_and_factions` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_255_heirs_and_factions.png`
+- `focus_smm_256_heirs_and_factions` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_256_heirs_and_factions.png`
+- `focus_smm_257_heirs_and_factions` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_257_heirs_and_factions.png`
+- `focus_smm_258_heirs_and_factions` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_258_heirs_and_factions.png`
+- `focus_smm_259_heirs_and_factions` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_259_heirs_and_factions.png`
+- `focus_smm_260_heirs_and_factions` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_260_heirs_and_factions.png`
+- `focus_smm_261_heirs_and_factions` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_261_heirs_and_factions.png`
+- `focus_smm_262_heirs_and_factions` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_262_heirs_and_factions.png`
+- `focus_smm_263_heirs_and_factions` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_263_heirs_and_factions.png`
+- `focus_smm_264_heirs_and_factions` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_264_heirs_and_factions.png`
+- `focus_smm_265_heirs_and_factions` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_265_heirs_and_factions.png`
+- `focus_smm_266_heirs_and_factions` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_266_heirs_and_factions.png`
+- `focus_smm_267_heirs_and_factions` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_267_heirs_and_factions.png`
+- `focus_smm_268_heirs_and_factions` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_268_heirs_and_factions.png`
+- `focus_smm_269_heirs_and_factions` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_269_heirs_and_factions.png`
+- `focus_smm_270_heirs_and_factions` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_270_heirs_and_factions.png`
+- `focus_smm_271_heirs_and_factions` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_271_heirs_and_factions.png`
+- `focus_smm_272_heirs_and_factions` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_272_heirs_and_factions.png`
+- `focus_smm_273_heirs_and_factions` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_273_heirs_and_factions.png`
+- `focus_smm_274_heirs_and_factions` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_274_heirs_and_factions.png`
+- `focus_smm_275_heirs_and_factions` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_275_heirs_and_factions.png`
+- `focus_smm_276_seal_and_finals` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_276_seal_and_finals.png`
+- `focus_smm_277_seal_and_finals` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_277_seal_and_finals.png`
+- `focus_smm_278_seal_and_finals` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_278_seal_and_finals.png`
+- `focus_smm_279_seal_and_finals` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_279_seal_and_finals.png`
+- `focus_smm_280_seal_and_finals` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_280_seal_and_finals.png`
+- `focus_smm_281_seal_and_finals` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_281_seal_and_finals.png`
+- `focus_smm_282_seal_and_finals` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_282_seal_and_finals.png`
+- `focus_smm_283_seal_and_finals` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_283_seal_and_finals.png`
+- `focus_smm_284_seal_and_finals` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_284_seal_and_finals.png`
+- `focus_smm_285_seal_and_finals` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_285_seal_and_finals.png`
+- `focus_smm_286_seal_and_finals` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_286_seal_and_finals.png`
+- `focus_smm_287_seal_and_finals` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_287_seal_and_finals.png`
+- `focus_smm_288_seal_and_finals` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_288_seal_and_finals.png`
+- `focus_smm_289_seal_and_finals` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_289_seal_and_finals.png`
+- `focus_smm_290_seal_and_finals` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_290_seal_and_finals.png`
+- `focus_smm_291_seal_and_finals` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_291_seal_and_finals.png`
+- `focus_smm_292_seal_and_finals` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_292_seal_and_finals.png`
+- `focus_smm_293_seal_and_finals` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_293_seal_and_finals.png`
+- `focus_smm_294_seal_and_finals` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_294_seal_and_finals.png`
+- `focus_smm_295_seal_and_finals` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_295_seal_and_finals.png`
+- `focus_smm_296_seal_and_finals` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_296_seal_and_finals.png`
+- `focus_smm_297_seal_and_finals` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_297_seal_and_finals.png`
+- `focus_smm_298_seal_and_finals` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_298_seal_and_finals.png`
+- `focus_smm_299_seal_and_finals` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_299_seal_and_finals.png`
+- `focus_smm_300_seal_and_finals` (focus) -> `Assets/Stories/saray_mutfagindan_muhre/Focus/focus_smm_300_seal_and_finals.png`
+- `ending_smm_basvezir_gercek_yonetici` (ending) -> `Assets/Stories/saray_mutfagindan_muhre/Endings/ending_smm_basvezir_gercek_yonetici.png`
+- `ending_smm_en_guvenilen_saray_ascisi` (ending) -> `Assets/Stories/saray_mutfagindan_muhre/Endings/ending_smm_en_guvenilen_saray_ascisi.png`
+- `ending_smm_casus_orgutu_basi` (ending) -> `Assets/Stories/saray_mutfagindan_muhre/Endings/ending_smm_casus_orgutu_basi.png`
+- `ending_smm_halk_devriminin_lideri` (ending) -> `Assets/Stories/saray_mutfagindan_muhre/Endings/ending_smm_halk_devriminin_lideri.png`
+- `ending_smm_yeni_hukumdari_tahta_cikaran` (ending) -> `Assets/Stories/saray_mutfagindan_muhre/Endings/ending_smm_yeni_hukumdari_tahta_cikaran.png`
+- `ending_smm_baskentten_kacip_han_acan` (ending) -> `Assets/Stories/saray_mutfagindan_muhre/Endings/ending_smm_baskentten_kacip_han_acan.png`
+- `ending_smm_zehirlenerek_dusen` (ending) -> `Assets/Stories/saray_mutfagindan_muhre/Endings/ending_smm_zehirlenerek_dusen.png`
+- `ending_smm_yanlis_varis_idami` (ending) -> `Assets/Stories/saray_mutfagindan_muhre/Endings/ending_smm_yanlis_varis_idami.png`
+- `ending_smm_saray_kazinin_yorumcusu` (ending) -> `Assets/Stories/saray_mutfagindan_muhre/Endings/ending_smm_saray_kazinin_yorumcusu.png`
+- `ending_smm_kehanet_corbasinin_velisi` (ending) -> `Assets/Stories/saray_mutfagindan_muhre/Endings/ending_smm_kehanet_corbasinin_velisi.png`
+- `ending_smm_tatli_diplomatik_evlilik` (ending) -> `Assets/Stories/saray_mutfagindan_muhre/Endings/ending_smm_tatli_diplomatik_evlilik.png`
+- `ending_smm_ordu_iase_basi` (ending) -> `Assets/Stories/saray_mutfagindan_muhre/Endings/ending_smm_ordu_iase_basi.png`
+- `ending_smm_karaborsa_efendisi` (ending) -> `Assets/Stories/saray_mutfagindan_muhre/Endings/ending_smm_karaborsa_efendisi.png`
+- `ending_smm_surgun_sifaci` (ending) -> `Assets/Stories/saray_mutfagindan_muhre/Endings/ending_smm_surgun_sifaci.png`
+- `ending_smm_sahte_muhur_duzenbazi` (ending) -> `Assets/Stories/saray_mutfagindan_muhre/Endings/ending_smm_sahte_muhur_duzenbazi.png`
+- `ending_smm_isimsiz_mezar` (ending) -> `Assets/Stories/saray_mutfagindan_muhre/Endings/ending_smm_isimsiz_mezar.png`
+- `ending_smm_arslanin_golgesi` (ending) -> `Assets/Stories/saray_mutfagindan_muhre/Endings/ending_smm_arslanin_golgesi.png`
+- `ending_smm_safiranin_muhur_naziri` (ending) -> `Assets/Stories/saray_mutfagindan_muhre/Endings/ending_smm_safiranin_muhur_naziri.png`
+- `ending_smm_kemalin_ekmek_kanunu` (ending) -> `Assets/Stories/saray_mutfagindan_muhre/Endings/ending_smm_kemalin_ekmek_kanunu.png`
+- `ending_smm_ak_gaganin_korudugu_muhur` (ending) -> `Assets/Stories/saray_mutfagindan_muhre/Endings/ending_smm_ak_gaganin_korudugu_muhur.png`
+- `ending_smm_corba_ve_kazin_cifte_alameti` (ending) -> `Assets/Stories/saray_mutfagindan_muhre/Endings/ending_smm_corba_ve_kazin_cifte_alameti.png`
+- `ending_smm_elciyle_kirik_ittifak_savasi_onledi` (ending) -> `Assets/Stories/saray_mutfagindan_muhre/Endings/ending_smm_elciyle_kirik_ittifak_savasi_onledi.png`
+- `ending_smm_kilerden_gelen_adalet` (ending) -> `Assets/Stories/saray_mutfagindan_muhre/Endings/ending_smm_kilerden_gelen_adalet.png`
+- `ending_smm_zehir_tadicisi_reformcu` (ending) -> `Assets/Stories/saray_mutfagindan_muhre/Endings/ending_smm_zehir_tadicisi_reformcu.png`
+- `ending_smm_sirlarin_yandigi_gece` (ending) -> `Assets/Stories/saray_mutfagindan_muhre/Endings/ending_smm_sirlarin_yandigi_gece.png`
+- `ending_smm_halkla_saray_arasi_kopru` (ending) -> `Assets/Stories/saray_mutfagindan_muhre/Endings/ending_smm_halkla_saray_arasi_kopru.png`
+- `ending_smm_muhur_odasinda_sessiz_surgun` (ending) -> `Assets/Stories/saray_mutfagindan_muhre/Endings/ending_smm_muhur_odasinda_sessiz_surgun.png`
+- `ending_smm_uclu_varis_meclisi` (ending) -> `Assets/Stories/saray_mutfagindan_muhre/Endings/ending_smm_uclu_varis_meclisi.png`
+
+## Broken Reference List
+
+- Bad nextCardId refs: 0
+- Bad endingId refs: 0
+- Missing background refs: 0
+- Missing choice image refs: 0
+- Missing ending image refs: 28
+- Missing cover image refs: 1
+- Duplicate target paths: 0
+- Wrong aspect assets: 0
+- Choice text failures: 0
+- Result text failures: 0
+- Identical pair results: 0
+
+## Tests Run
+
+- Parsed all YAML files with PyYAML.
+- Read all Markdown files and recorded SHA-256 hashes.
+- Validated card, choice, ending uniqueness.
+- Validated graph references and reachability.
+- Validated choice/result copy quality, forbidden meta phrases, punctuation, and fallback normalization.
+- Validated manifest targetPath existence.
+- Validated PNG aspect ratios from PNG IHDR headers.
+- Generated and checked 10 smoke test routes.
+
+## Smoke Test Result
+
+- mutfak_asci_rotasi -> ending_en_guvenilen_saray_ascisi: PASS (111 choices)
+- zehir_tadicisi_rotasi -> ending_zehir_tadicisi_reformcu: PASS (133 choices)
+- casus_rotasi -> ending_casus_orgutu_basi: PASS (112 choices)
+- halk_isyani_rotasi -> ending_halk_devriminin_lideri: PASS (113 choices)
+- safira_varis_rotasi -> ending_safiranin_muhur_naziri: PASS (127 choices)
+- arslan_varis_rotasi -> ending_arslanin_golgesi: PASS (126 choices)
+- kemal_varis_rotasi -> ending_kemalin_ekmek_kanunu: PASS (128 choices)
+- corba_kehaneti_absurt_rotasi -> ending_kehanet_corbasinin_velisi: PASS (119 choices)
+- saray_kazi_absurt_rotasi -> ending_saray_kazinin_yorumcusu: PASS (118 choices)
+- yanlis_tatli_diplomasi_rotasi -> ending_tatli_diplomatik_evlilik: PASS (120 choices)
+
+## Remaining Risks
+
+- Cover image is missing, so the story catalog/start cover falls back to a plain UI state.
+- Ending images are missing, so ending screens fall back to text-only rendering until assets are supplied.
+- Focus images are missing in the manifest; current runtime uses background + choice images only.
+- Unity Editor import was not run by this script, so .meta files may be generated by Unity on first open.
+
+## Source Files Read
+
+- `ASSET_MANIFEST.yaml` (1401379 bytes, sha256 `b601aefd0542`)
+- `BACKGROUND_LIBRARY.yaml` (88795 bytes, sha256 `0329ab77d0a9`)
+- `CARDS_PART_01_INTRO.yaml` (163464 bytes, sha256 `aed03a9b2639`)
+- `CARDS_PART_02_KITCHEN_RISE.yaml` (165315 bytes, sha256 `7c4d3bdde538`)
+- `CARDS_PART_03_PANTRY_AND_PASTRY.yaml` (163669 bytes, sha256 `bdf5158b241e`)
+- `CARDS_PART_04_SOUP_OMEN_AND_GOOSE.yaml` (168511 bytes, sha256 `2fdaa49368d3`)
+- `CARDS_PART_05_POISON_TASTER.yaml` (162559 bytes, sha256 `4206d4cf3114`)
+- `CARDS_PART_06_HEALER_PATH.yaml` (162266 bytes, sha256 `8f2932ed5b83`)
+- `CARDS_PART_07_SPY_NETWORK.yaml` (163086 bytes, sha256 `9823bf69aada`)
+- `CARDS_PART_08_ARMY_SUPPLY.yaml` (161739 bytes, sha256 `4c8bd5604cbb`)
+- `CARDS_PART_09_BLACK_MARKET.yaml` (162524 bytes, sha256 `6ef3bfb5dce2`)
+- `CARDS_PART_10_REBELLION.yaml` (162506 bytes, sha256 `19a6435d1593`)
+- `CARDS_PART_11_HEIRS_AND_FACTIONS.yaml` (169070 bytes, sha256 `5b66d39374b3`)
+- `CARDS_PART_12_SEAL_AND_FINALS.yaml` (168836 bytes, sha256 `b02e70303753`)
+- `CHOICE_REVIEW_TABLE.md` (105825 bytes, sha256 `5abeda8b947c`)
+- `ENDINGS.yaml` (79592 bytes, sha256 `05a55655f0a5`)
+- `IMAGE_BATCH_00_STYLE_TEST.yaml` (5933 bytes, sha256 `76fc027a7110`)
+- `IMAGE_BINDING_INDEX.md` (113489 bytes, sha256 `180a6665eb70`)
+- `IMAGE_GENERATION_REPORT.md` (8889 bytes, sha256 `26c197d0a3ed`)
+- `INTEGRATION_REPORT.md` (45337 bytes, sha256 `4a1f8a7f9f45`)
+- `INTEGRATION_VALIDATION_REPORT.md` (2421 bytes, sha256 `08607d283193`)
+- `NARRATIVE_MICROCOPY_SYNC_REPORT.md` (2551 bytes, sha256 `0fc5cb98039c`)
+- `NPC_BIBLE.yaml` (25066 bytes, sha256 `a1749a42a4fd`)
+- `PART_STATUS.yaml` (2628 bytes, sha256 `69124f73a5d2`)
+- `PROP_CATALOG.yaml` (62337 bytes, sha256 `fa30362bae43`)
+- `README_STORY_PACKAGE.md` (2372 bytes, sha256 `5c561053dd9a`)
+- `STATE_MODEL.yaml` (86096 bytes, sha256 `768d02a5251f`)
+- `STORY_BIBLE.md` (4006 bytes, sha256 `0034b16ed10a`)
+- `STORY_FLOW.md` (10420 bytes, sha256 `454c751cb1a9`)
+- `STORY_OVERVIEW.md` (3214 bytes, sha256 `3e125a60ae02`)
+- `VALIDATION_REPORT.md` (2385 bytes, sha256 `9f220661cfc8`)
+- `VISUAL_STYLE_GUIDE.md` (3701 bytes, sha256 `ca76961a36c9`)

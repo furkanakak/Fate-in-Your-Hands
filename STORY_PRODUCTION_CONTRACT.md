@@ -93,6 +93,10 @@ Kısa bir hikâye fikrinden implementation-ready hikâye paketi üret.
 - Her seçimde resultText
 - Her seçimde healthDelta
 - Her seçimde nextCardId veya endingId
+- Seçim metni kısa, tamamlanmış, noktalı ve doğrudan eylem cümlesi olmalı
+- Sonuç metni seçim açıklamasını tekrar etmeden doğrudan gerçekleşen olayı anlatmalı
+- `Şu yolu seçersin`, `Bu yolu seçersin`, `Bu seçimi yaparsan`, `Seçimin sonucunda`, `Bu hamle` gibi meta kalıplar yasak
+- Sonuç metni tercihen tek cümle, en fazla iki kısa cümle olmalı
 
 ## Dallanma Kuralları
 - En az 2 büyük branch
@@ -257,7 +261,7 @@ endings:
     imageId: ""
 ```
 
-Bu noktada birkaç kural katı olmalıdır. Her kartta **tam iki seçim** olmalıdır. Her seçimde **yalnızca bir** sonuç hedefi bulunmalıdır; yani ya `nextCardId` ya `endingId`. Aynı seçimde ikisi birden yasaktır. Her seçimde `healthDelta` açık biçimde yazılmalıdır; “değişmiyorsa yazma” yaklaşımı yasak olmalıdır. Bu, parser ve validator’ların eksiksiz çalışmasını sağlar.
+Bu noktada birkaç kural katı olmalıdır. Her kartta **tam iki seçim** olmalıdır. Her seçimde **yalnızca bir** sonuç hedefi bulunmalıdır; yani ya `nextCardId` ya `endingId`. Aynı seçimde ikisi birden yasaktır. Her seçimde `healthDelta` açık biçimde yazılmalıdır; “değişmiyorsa yazma” yaklaşımı yasak olmalıdır. Seçim metni yalnızca oyuncunun kısa eylemini, `resultText` ise bu eylemden sonra gerçekleşen kısa ve somut olayı anlatmalıdır; sonuç metni seçim metnini veya stat/branch açıklamasını tekrar etmemelidir. Bu, parser ve validator’ların eksiksiz çalışmasını sağlar.
 
 ### Görsel profil şeması
 
