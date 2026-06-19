@@ -1,6 +1,54 @@
 # IMAGE GENERATION REPORT
 
 Story package: `saray_mutfagindan_muhre`
+
+## Batch: `BACKGROUND_AND_CHOICE_FULL_01`
+
+Status: `complete`
+Generation mode: built-in `image_gen`
+Target project folder: `C:\Users\furkan\Desktop\Fate-in-Your-Hands\Fate-in-Your-Hands\Assets\Stories\saray_mutfagindan_muhre`
+
+### Completed Output
+
+- Background images: `50 / 50`
+- Choice action images: `600 / 600`
+- Total generated project PNGs: `650 / 650`
+- Background size: `1920x1080`
+- Choice size: `1024x1280`
+- Format: `PNG`
+
+### Project Paths
+
+- Backgrounds: `Assets/Stories/saray_mutfagindan_muhre/Backgrounds/<backgroundId>.png`
+- Choices: `Assets/Stories/saray_mutfagindan_muhre/Choices/choice_smm_card_###_a.png`
+- Choices: `Assets/Stories/saray_mutfagindan_muhre/Choices/choice_smm_card_###_b.png`
+- Unity binding index: `Assets/Stories/saray_mutfagindan_muhre/image_bindings.json`
+- Story package binding index: `generated_stories/saray_mutfagindan_muhre/IMAGE_BINDING_INDEX.json`
+- Story package binding table: `generated_stories/saray_mutfagindan_muhre/IMAGE_BINDING_INDEX.csv`
+- Human-readable binding table: `generated_stories/saray_mutfagindan_muhre/IMAGE_BINDING_INDEX.md`
+
+### Naming and Binding Rule
+
+Names are intentionally ID-based so card binding is unambiguous.
+
+- Background filename is the background asset id, for example `bg_saray_bulasikhanesi_sabah.png`.
+- Choice filename is the choice image asset id, for example `choice_smm_card_001_a.png`.
+- `choice_smm_card_001_a.png` binds to card `smm_card_001`, choice `A`.
+- `choice_smm_card_001_b.png` binds to card `smm_card_001`, choice `B`.
+
+### Verification
+
+- Manifest target check: `650` background/choice manifest targets found on disk.
+- Dimension and PNG check: `50` backgrounds at `1920x1080`, `600` choices at `1024x1280`, `0` invalid PNGs.
+- Binding index check: `300` cards and `600` choice image references.
+- Unity `.meta` files were not generated manually; Unity import should create them.
+
+### Notes
+
+The generated choice images follow the simplified action-icon direction: one close-up action motif on a warm beige panel, without card UI, text, logo, watermark, full character scenes, or room backgrounds. `choice_smm_card_001_a` was regenerated after the full batch to remove unwanted side bands.
+
+---
+
 Batch: `STYLE_TEST_00`
 Output folder: `C:\Users\furkan\Desktop\SarayMutfagi_ImageTest`
 

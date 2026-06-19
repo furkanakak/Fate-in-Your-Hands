@@ -7,7 +7,9 @@ param(
 
   [string]$SessionsRoot = "$env:USERPROFILE\.codex\sessions",
 
-  [switch]$Overwrite
+  [switch]$Overwrite,
+
+  [switch]$Quiet
 )
 
 $ErrorActionPreference = "Stop"
@@ -154,14 +156,18 @@ foreach ($record in $records) {
   }
 
   if (-not $latestByAsset.ContainsKey($record.assetId)) {
-    Write-Output "MISSING`t$($record.index)`t$($record.assetId)`t$target"
+    if (-not $Quiet) {
+      Write-Output "MISSING`t$($record.index)`t$($record.assetId)`t$target"
+    }
     $missing += 1
     continue
   }
 
   $bytes = [Convert]::FromBase64String($latestByAsset[$record.assetId])
   Save-NormalizedPng -Bytes $bytes -TargetPath $target -TargetWidth ([int]$record.width) -TargetHeight ([int]$record.height)
-  Write-Output "WROTE`t$($record.index)`t$($record.assetId)`t$target"
+  if (-not $Quiet) {
+    Write-Output "WROTE`t$($record.index)`t$($record.assetId)`t$target"
+  }
   $written += 1
 }
 
