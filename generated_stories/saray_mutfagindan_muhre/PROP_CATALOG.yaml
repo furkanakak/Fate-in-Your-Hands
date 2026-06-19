@@ -8,7 +8,7 @@ props:
       - "smm_card_001"
       - "smm_card_003"
       - "smm_card_005"
-    visualPromptNotes: "2D storybook prop detail, bakır kazan, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, bakır kazan, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_truth_told"
       - "flag_soup_mistake_seen"
@@ -21,7 +21,7 @@ props:
       - "smm_card_008"
       - "smm_card_010"
       - "smm_card_012"
-    visualPromptNotes: "2D storybook prop detail, yanık tencere, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, yanık tencere, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_secret_kept"
       - "flag_soup_omen_confirmed"
@@ -34,7 +34,7 @@ props:
       - "smm_card_015"
       - "smm_card_017"
       - "smm_card_019"
-    visualPromptNotes: "2D storybook prop detail, gümüş kaşık, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, gümüş kaşık, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_bahir_trust"
       - "flag_soup_manipulated"
@@ -47,7 +47,7 @@ props:
       - "smm_card_022"
       - "smm_card_024"
       - "smm_card_026"
-    visualPromptNotes: "2D storybook prop detail, zehir şişesi, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, zehir şişesi, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_palace_shadow_seen"
       - "flag_soup_rejected"
@@ -60,7 +60,7 @@ props:
       - "smm_card_029"
       - "smm_card_031"
       - "smm_card_033"
-    visualPromptNotes: "2D storybook prop detail, panzehir kavanozu, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, panzehir kavanozu, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_kitchen_apprentice"
       - "flag_ak_gaga_fed"
@@ -73,7 +73,7 @@ props:
       - "smm_card_036"
       - "smm_card_038"
       - "smm_card_040"
-    visualPromptNotes: "2D storybook prop detail, kehanet çorbası, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, kehanet çorbası, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_hukumdar_tasted_meal"
       - "flag_ak_gaga_protected"
@@ -86,7 +86,7 @@ props:
       - "smm_card_043"
       - "smm_card_045"
       - "smm_card_047"
-    visualPromptNotes: "2D storybook prop detail, üç nohut işareti, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, üç nohut işareti, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_soytari_rumor_blessing"
       - "flag_goose_omen_interpreted"
@@ -99,7 +99,7 @@ props:
       - "smm_card_050"
       - "smm_card_052"
       - "smm_card_054"
-    visualPromptNotes: "2D storybook prop detail, saray kazı tüyü, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, saray kazı tüyü, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_lale_trust"
       - "flag_goose_misled_divan"
@@ -112,7 +112,7 @@ props:
       - "smm_card_057"
       - "smm_card_059"
       - "smm_card_061"
-    visualPromptNotes: "2D storybook prop detail, kaz yemi, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, kaz yemi, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_dessert_diplomacy_repaired"
       - "flag_durna_goose_friend"
@@ -125,7 +125,7 @@ props:
       - "smm_card_064"
       - "smm_card_066"
       - "smm_card_068"
-    visualPromptNotes: "2D storybook prop detail, yanlış tatlı, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, yanlış tatlı, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_dessert_error_hidden"
       - "flag_poison_sample_saved"
@@ -138,7 +138,7 @@ props:
       - "smm_card_071"
       - "smm_card_073"
       - "smm_card_075"
-    visualPromptNotes: "2D storybook prop detail, gül şerbeti, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, gül şerbeti, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_elci_ring_accepted"
       - "flag_simin_notice"
@@ -151,7 +151,7 @@ props:
       - "smm_card_078"
       - "smm_card_080"
       - "smm_card_082"
-    visualPromptNotes: "2D storybook prop detail, bal mumu, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, bal mumu, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_soup_mistake_seen"
       - "flag_poison_used_as_leverage"
@@ -164,7 +164,7 @@ props:
       - "smm_card_085"
       - "smm_card_087"
       - "smm_card_089"
-    visualPromptNotes: "2D storybook prop detail, imparatorluk mührü, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, imparatorluk mührü, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_soup_omen_confirmed"
       - "flag_antidote_shared"
@@ -177,7 +177,7 @@ props:
       - "smm_card_092"
       - "smm_card_094"
       - "smm_card_096"
-    visualPromptNotes: "2D storybook prop detail, sahte mühür, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, sahte mühür, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_soup_manipulated"
       - "flag_bera_oath"
@@ -190,7 +190,7 @@ props:
       - "smm_card_099"
       - "smm_card_101"
       - "smm_card_103"
-    visualPromptNotes: "2D storybook prop detail, kiler anahtarı, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, kiler anahtarı, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_soup_rejected"
       - "flag_meryem_rebel_signal"
@@ -203,7 +203,7 @@ props:
       - "smm_card_106"
       - "smm_card_108"
       - "smm_card_110"
-    visualPromptNotes: "2D storybook prop detail, ekmek çuvalı, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, ekmek çuvalı, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_ak_gaga_fed"
       - "flag_rasih_blackfile"
@@ -216,7 +216,7 @@ props:
       - "smm_card_113"
       - "smm_card_115"
       - "smm_card_117"
-    visualPromptNotes: "2D storybook prop detail, ordu tahıl defteri, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, ordu tahıl defteri, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_ak_gaga_protected"
       - "flag_secret_preserved"
@@ -229,7 +229,7 @@ props:
       - "smm_card_120"
       - "smm_card_122"
       - "smm_card_124"
-    visualPromptNotes: "2D storybook prop detail, gizli bildiri, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, gizli bildiri, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_goose_omen_interpreted"
       - "flag_secret_sold"
@@ -242,7 +242,7 @@ props:
       - "smm_card_127"
       - "smm_card_129"
       - "smm_card_131"
-    visualPromptNotes: "2D storybook prop detail, isyan haritası, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, isyan haritası, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_goose_misled_divan"
       - "flag_document_forged"
@@ -255,7 +255,7 @@ props:
       - "smm_card_134"
       - "smm_card_136"
       - "smm_card_138"
-    visualPromptNotes: "2D storybook prop detail, yabancı elçinin yüzüğü, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, yabancı elçinin yüzüğü, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_durna_goose_friend"
       - "flag_turgut_supply_trust"
@@ -268,7 +268,7 @@ props:
       - "smm_card_141"
       - "smm_card_143"
       - "smm_card_145"
-    visualPromptNotes: "2D storybook prop detail, kırık tabak, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, kırık tabak, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_poison_sample_saved"
       - "flag_food_to_army"
@@ -281,7 +281,7 @@ props:
       - "smm_card_148"
       - "smm_card_150"
       - "smm_card_152"
-    visualPromptNotes: "2D storybook prop detail, köz maşası, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, köz maşası, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_simin_notice"
       - "flag_food_to_people"
@@ -294,7 +294,7 @@ props:
       - "smm_card_155"
       - "smm_card_157"
       - "smm_card_159"
-    visualPromptNotes: "2D storybook prop detail, tuz tartısı, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, tuz tartısı, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_poison_used_as_leverage"
       - "flag_black_market_debt_paid"
@@ -307,7 +307,7 @@ props:
       - "smm_card_162"
       - "smm_card_164"
       - "smm_card_166"
-    visualPromptNotes: "2D storybook prop detail, safran kesesi, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, safran kesesi, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_antidote_shared"
       - "flag_yusuf_debt_mark"
@@ -320,7 +320,7 @@ props:
       - "smm_card_169"
       - "smm_card_171"
       - "smm_card_173"
-    visualPromptNotes: "2D storybook prop detail, tarçın çubuğu, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, tarçın çubuğu, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_bera_oath"
       - "flag_false_seal_planned"
@@ -333,7 +333,7 @@ props:
       - "smm_card_176"
       - "smm_card_178"
       - "smm_card_180"
-    visualPromptNotes: "2D storybook prop detail, nar ekşisi şişesi, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, nar ekşisi şişesi, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_meryem_rebel_signal"
       - "flag_rebellion_firebrand"
@@ -346,7 +346,7 @@ props:
       - "smm_card_183"
       - "smm_card_185"
       - "smm_card_187"
-    visualPromptNotes: "2D storybook prop detail, mühür bıçağı, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, mühür bıçağı, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_rasih_blackfile"
       - "flag_heir_neutral_balancer"
@@ -359,7 +359,7 @@ props:
       - "smm_card_190"
       - "smm_card_192"
       - "smm_card_194"
-    visualPromptNotes: "2D storybook prop detail, kırmızı mum kalıbı, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, kırmızı mum kalıbı, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_secret_preserved"
       - "flag_sadreddin_watches"
@@ -372,7 +372,7 @@ props:
       - "smm_card_197"
       - "smm_card_199"
       - "smm_card_201"
-    visualPromptNotes: "2D storybook prop detail, gizli geçit mumu, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, gizli geçit mumu, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_secret_sold"
       - "flag_seal_room_seen"
@@ -385,7 +385,7 @@ props:
       - "smm_card_204"
       - "smm_card_206"
       - "smm_card_208"
-    visualPromptNotes: "2D storybook prop detail, şifreli peçete, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, şifreli peçete, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_document_forged"
       - "flag_seal_access_granted"
@@ -398,7 +398,7 @@ props:
       - "smm_card_211"
       - "smm_card_213"
       - "smm_card_215"
-    visualPromptNotes: "2D storybook prop detail, elçi tatlı tepsisi, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, elçi tatlı tepsisi, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_turgut_supply_trust"
       - "flag_muhur_final_key"
@@ -411,7 +411,7 @@ props:
       - "smm_card_218"
       - "smm_card_220"
       - "smm_card_222"
-    visualPromptNotes: "2D storybook prop detail, helva spatulası, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, helva spatulası, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_food_to_army"
       - "flag_final_choice_burned"
@@ -424,7 +424,7 @@ props:
       - "smm_card_225"
       - "smm_card_227"
       - "smm_card_229"
-    visualPromptNotes: "2D storybook prop detail, limon çiçeği kolyesi, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, limon çiçeği kolyesi, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_food_to_people"
       - "flag_arslan_promised"
@@ -437,7 +437,7 @@ props:
       - "smm_card_232"
       - "smm_card_234"
       - "smm_card_236"
-    visualPromptNotes: "2D storybook prop detail, hükümdar kadehi, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, hükümdar kadehi, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_black_market_debt_paid"
       - "flag_safira_promised"
@@ -450,7 +450,7 @@ props:
       - "smm_card_239"
       - "smm_card_241"
       - "smm_card_243"
-    visualPromptNotes: "2D storybook prop detail, Simin'in tadım kaşığı, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, Simin'in tadım kaşığı, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_yusuf_debt_mark"
       - "flag_kemal_promised"
@@ -463,7 +463,7 @@ props:
       - "smm_card_246"
       - "smm_card_248"
       - "smm_card_250"
-    visualPromptNotes: "2D storybook prop detail, Bera'nın ot çantası, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, Bera'nın ot çantası, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_false_seal_planned"
       - "flag_major_branch_01"
@@ -476,7 +476,7 @@ props:
       - "smm_card_253"
       - "smm_card_255"
       - "smm_card_257"
-    visualPromptNotes: "2D storybook prop detail, Rasih'in siyah defteri, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, Rasih'in siyah defteri, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_rebellion_firebrand"
       - "flag_major_branch_02"
@@ -489,7 +489,7 @@ props:
       - "smm_card_260"
       - "smm_card_262"
       - "smm_card_264"
-    visualPromptNotes: "2D storybook prop detail, Sadreddin'in mühür kilidi, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, Sadreddin'in mühür kilidi, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_heir_neutral_balancer"
       - "flag_major_branch_03"
@@ -502,7 +502,7 @@ props:
       - "smm_card_267"
       - "smm_card_269"
       - "smm_card_271"
-    visualPromptNotes: "2D storybook prop detail, Durna'nın yem kasesi, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, Durna'nın yem kasesi, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_sadreddin_watches"
       - "flag_major_branch_04"
@@ -515,7 +515,7 @@ props:
       - "smm_card_274"
       - "smm_card_276"
       - "smm_card_278"
-    visualPromptNotes: "2D storybook prop detail, Miskal'in çıngırağı, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, Miskal'in çıngırağı, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_seal_room_seen"
       - "flag_major_branch_05"
@@ -528,7 +528,7 @@ props:
       - "smm_card_281"
       - "smm_card_283"
       - "smm_card_285"
-    visualPromptNotes: "2D storybook prop detail, Arslan'ın kılıç kabzası, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, Arslan'ın kılıç kabzası, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_seal_access_granted"
       - "flag_major_branch_06"
@@ -541,7 +541,7 @@ props:
       - "smm_card_288"
       - "smm_card_290"
       - "smm_card_292"
-    visualPromptNotes: "2D storybook prop detail, Safira'nın inci iğnesi, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, Safira'nın inci iğnesi, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_muhur_final_key"
       - "flag_major_branch_07"
@@ -554,7 +554,7 @@ props:
       - "smm_card_295"
       - "smm_card_297"
       - "smm_card_299"
-    visualPromptNotes: "2D storybook prop detail, Kemal'in ekmek bıçağı, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, Kemal'in ekmek bıçağı, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_final_choice_burned"
       - "flag_major_branch_08"
@@ -567,7 +567,7 @@ props:
       - "smm_card_006"
       - "smm_card_008"
       - "smm_card_010"
-    visualPromptNotes: "2D storybook prop detail, Kara Yusuf'un borç pulu, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, Kara Yusuf'un borç pulu, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_arslan_promised"
       - "flag_major_branch_09"
@@ -580,7 +580,7 @@ props:
       - "smm_card_013"
       - "smm_card_015"
       - "smm_card_017"
-    visualPromptNotes: "2D storybook prop detail, Turgut'un tahıl mührü, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, Turgut'un tahıl mührü, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_safira_promised"
       - "flag_major_branch_10"
@@ -593,7 +593,7 @@ props:
       - "smm_card_020"
       - "smm_card_022"
       - "smm_card_024"
-    visualPromptNotes: "2D storybook prop detail, Meryem'in kırmızı ipi, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, Meryem'in kırmızı ipi, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_kemal_promised"
       - "flag_major_branch_11"
@@ -606,7 +606,7 @@ props:
       - "smm_card_027"
       - "smm_card_029"
       - "smm_card_031"
-    visualPromptNotes: "2D storybook prop detail, Zerya'nın yıldız taşı, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, Zerya'nın yıldız taşı, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_major_branch_01"
       - "flag_major_branch_12"
@@ -619,7 +619,7 @@ props:
       - "smm_card_034"
       - "smm_card_036"
       - "smm_card_038"
-    visualPromptNotes: "2D storybook prop detail, Boran'ın kapı halkası, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, Boran'ın kapı halkası, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_major_branch_02"
       - "flag_major_branch_13"
@@ -632,7 +632,7 @@ props:
       - "smm_card_041"
       - "smm_card_043"
       - "smm_card_045"
-    visualPromptNotes: "2D storybook prop detail, eski sofra bezi, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, eski sofra bezi, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_major_branch_03"
       - "flag_major_branch_14"
@@ -645,7 +645,7 @@ props:
       - "smm_card_048"
       - "smm_card_050"
       - "smm_card_052"
-    visualPromptNotes: "2D storybook prop detail, kilitli baharat çekmesi, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, kilitli baharat çekmesi, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_major_branch_04"
       - "flag_major_branch_15"
@@ -658,7 +658,7 @@ props:
       - "smm_card_055"
       - "smm_card_057"
       - "smm_card_059"
-    visualPromptNotes: "2D storybook prop detail, kaz ayak izi kalıbı, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, kaz ayak izi kalıbı, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_major_branch_05"
       - "flag_major_branch_16"
@@ -671,7 +671,7 @@ props:
       - "smm_card_062"
       - "smm_card_064"
       - "smm_card_066"
-    visualPromptNotes: "2D storybook prop detail, yanmış ferman parçası, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, yanmış ferman parçası, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_major_branch_06"
       - "flag_major_branch_17"
@@ -684,7 +684,7 @@ props:
       - "smm_card_069"
       - "smm_card_071"
       - "smm_card_073"
-    visualPromptNotes: "2D storybook prop detail, yağlı çorba halkası çubuğu, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, yağlı çorba halkası çubuğu, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_major_branch_07"
       - "flag_major_branch_18"
@@ -697,7 +697,7 @@ props:
       - "smm_card_076"
       - "smm_card_078"
       - "smm_card_080"
-    visualPromptNotes: "2D storybook prop detail, boş panzehir şişesi, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, boş panzehir şişesi, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_major_branch_08"
       - "flag_major_branch_19"
@@ -710,7 +710,7 @@ props:
       - "smm_card_083"
       - "smm_card_085"
       - "smm_card_087"
-    visualPromptNotes: "2D storybook prop detail, bakır terazi, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, bakır terazi, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_major_branch_09"
       - "flag_major_branch_20"
@@ -723,7 +723,7 @@ props:
       - "smm_card_090"
       - "smm_card_092"
       - "smm_card_094"
-    visualPromptNotes: "2D storybook prop detail, halk somunu, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, halk somunu, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_major_branch_10"
       - "flag_major_branch_21"
@@ -736,7 +736,7 @@ props:
       - "smm_card_097"
       - "smm_card_099"
       - "smm_card_101"
-    visualPromptNotes: "2D storybook prop detail, asker tayın küpü, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, asker tayın küpü, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_major_branch_11"
       - "flag_major_branch_22"
@@ -749,7 +749,7 @@ props:
       - "smm_card_104"
       - "smm_card_106"
       - "smm_card_108"
-    visualPromptNotes: "2D storybook prop detail, ipek elçi kurdelesi, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, ipek elçi kurdelesi, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_major_branch_12"
       - "flag_major_branch_23"
@@ -762,7 +762,7 @@ props:
       - "smm_card_111"
       - "smm_card_113"
       - "smm_card_115"
-    visualPromptNotes: "2D storybook prop detail, soytarı notları, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, soytarı notları, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_major_branch_13"
       - "flag_major_branch_24"
@@ -775,7 +775,7 @@ props:
       - "smm_card_118"
       - "smm_card_120"
       - "smm_card_122"
-    visualPromptNotes: "2D storybook prop detail, gizli arşiv mandalı, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, gizli arşiv mandalı, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_major_branch_14"
       - "flag_major_branch_25"
@@ -788,7 +788,7 @@ props:
       - "smm_card_125"
       - "smm_card_127"
       - "smm_card_129"
-    visualPromptNotes: "2D storybook prop detail, sarnıç anahtarı, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, sarnıç anahtarı, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_major_branch_15"
       - "flag_major_branch_26"
@@ -801,7 +801,7 @@ props:
       - "smm_card_132"
       - "smm_card_134"
       - "smm_card_136"
-    visualPromptNotes: "2D storybook prop detail, kanlı sargı bezi, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, kanlı sargı bezi, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_major_branch_16"
       - "flag_major_branch_27"
@@ -814,7 +814,7 @@ props:
       - "smm_card_139"
       - "smm_card_141"
       - "smm_card_143"
-    visualPromptNotes: "2D storybook prop detail, liman tahıl makbuzu, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, liman tahıl makbuzu, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_major_branch_17"
       - "flag_major_branch_28"
@@ -827,7 +827,7 @@ props:
       - "smm_card_146"
       - "smm_card_148"
       - "smm_card_150"
-    visualPromptNotes: "2D storybook prop detail, çamaşır ipi mesajı, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, çamaşır ipi mesajı, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_major_branch_18"
       - "flag_major_branch_29"
@@ -840,7 +840,7 @@ props:
       - "smm_card_153"
       - "smm_card_155"
       - "smm_card_157"
-    visualPromptNotes: "2D storybook prop detail, zehirli biber tanesi, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, zehirli biber tanesi, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_major_branch_19"
       - "flag_major_branch_30"
@@ -853,7 +853,7 @@ props:
       - "smm_card_160"
       - "smm_card_162"
       - "smm_card_164"
-    visualPromptNotes: "2D storybook prop detail, kutsal çorba kepçesi, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, kutsal çorba kepçesi, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_major_branch_20"
       - "flag_major_branch_31"
@@ -866,7 +866,7 @@ props:
       - "smm_card_167"
       - "smm_card_169"
       - "smm_card_171"
-    visualPromptNotes: "2D storybook prop detail, Ak Gaga tasması, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, Ak Gaga tasması, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_major_branch_21"
       - "flag_major_branch_32"
@@ -879,7 +879,7 @@ props:
       - "smm_card_174"
       - "smm_card_176"
       - "smm_card_178"
-    visualPromptNotes: "2D storybook prop detail, mühür odası haritası, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, mühür odası haritası, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_major_branch_22"
       - "flag_major_branch_33"
@@ -892,7 +892,7 @@ props:
       - "smm_card_181"
       - "smm_card_183"
       - "smm_card_185"
-    visualPromptNotes: "2D storybook prop detail, üçlü varis mektubu, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, üçlü varis mektubu, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_major_branch_23"
       - "flag_major_branch_34"
@@ -905,7 +905,7 @@ props:
       - "smm_card_188"
       - "smm_card_190"
       - "smm_card_192"
-    visualPromptNotes: "2D storybook prop detail, sürgün heybesi, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, sürgün heybesi, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_major_branch_24"
       - "flag_major_branch_35"
@@ -918,7 +918,7 @@ props:
       - "smm_card_195"
       - "smm_card_197"
       - "smm_card_199"
-    visualPromptNotes: "2D storybook prop detail, han tabelası taslağı, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, han tabelası taslağı, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_major_branch_25"
       - "flag_major_branch_36"
@@ -931,7 +931,7 @@ props:
       - "smm_card_202"
       - "smm_card_204"
       - "smm_card_206"
-    visualPromptNotes: "2D storybook prop detail, idam emri mumu, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, idam emri mumu, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_major_branch_26"
       - "flag_truth_told"
@@ -944,7 +944,7 @@ props:
       - "smm_card_209"
       - "smm_card_211"
       - "smm_card_213"
-    visualPromptNotes: "2D storybook prop detail, barış şerbeti kupası, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, barış şerbeti kupası, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_major_branch_27"
       - "flag_secret_kept"
@@ -957,7 +957,7 @@ props:
       - "smm_card_216"
       - "smm_card_218"
       - "smm_card_220"
-    visualPromptNotes: "2D storybook prop detail, devrim mutfak bıçağı, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, devrim mutfak bıçağı, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_major_branch_28"
       - "flag_bahir_trust"
@@ -970,7 +970,7 @@ props:
       - "smm_card_223"
       - "smm_card_225"
       - "smm_card_227"
-    visualPromptNotes: "2D storybook prop detail, saray kapı izin taşı, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, saray kapı izin taşı, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_major_branch_29"
       - "flag_palace_shadow_seen"
@@ -983,7 +983,7 @@ props:
       - "smm_card_230"
       - "smm_card_232"
       - "smm_card_234"
-    visualPromptNotes: "2D storybook prop detail, mühür gölgesi perdesi, warm muted colors, clear silhouette, no text or logo."
+    visualPromptNotes: "Minimal choice-card prop icon, mühür gölgesi perdesi, one large centered object on a plain warm beige panel, thick rough dark outline, flat muted colors, almost no shadow, no scene, no room, no floor, no wall, no texture, no tiny decorative detail, no text or logo."
     relatedFlags:
       - "flag_major_branch_30"
       - "flag_kitchen_apprentice"

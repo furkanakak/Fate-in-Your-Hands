@@ -2,7 +2,7 @@
 
 ## Genel Sanat Stili
 
-Zorunlu stil: 2D illustrated storybook style, hand-drawn or painterly feeling, warm muted colors, readable silhouettes, no photorealism, no 3D render look, no text in image, no watermark, no logo.
+Zorunlu stil: basit elde çizilmiş 2D oyun kartı dili, koyu ve hafif pürüzlü konturlar, düz sıcak renkler, az gölge, az detay, net silüetler, küçük kart boyutunda hemen okunan biçimler. Choice panel görselleri düz bej/ten rengi zemin üstünde tek yakın plan motif gibi okunur. Görseller tarihî konsept çizimi, sinematik sahne, gerçekçi/painterly illüstrasyon veya 3D render gibi görünmemelidir. Görselde yazı, logo ve watermark bulunmaz.
 
 ## Renk Paleti
 
@@ -42,11 +42,11 @@ Fotogerçekçilik, 3D render görünümü, yazı, logo, watermark, modern nesnel
 
 ## Choice Card Kompozisyon Kuralları
 
-Her choice card odağında 1-3 karakter ve karar nesnesi bulunur. Arka plan bilgisi okunur ama ana risk nesnesi silueti ezmez.
+Choice görseli mevcut durum sahnesi değil, seçimin yaptığı eylemin görsel işaretidir. Tam karakterli karşılıklı sahne kurma; eylemi büyük bir prop, kırpılmış el/ayak/kol, ağız, göz, ayak, para, anahtar, kılıç, kaşık, tabak, çanta, hareket çizgisi, darbe izi, dökülme, kırılma, alışveriş veya saklama jesti ile göster. İkincil NPC çizilmez. Karar nesnesi ve eylem kartın çoğunu kaplar; arka plan düz bej/ten rengi panel olarak kalır. Choice görsellerinde oda, mekan ipucu, perspektif zemin, duvar, taş/fayans grid'i, kalabalık dekor veya sahne atmosferi çizilmez.
 
 ## Background Kompozisyon Kuralları
 
-Background promptları yalnız ortam anlatır; karta özel eylem, karakter hareketi veya sonuç içermez. UI metin kutusuna yer bırakacak sakin alan bulunur.
+Background promptları yalnız ortam anlatır; karta özel eylem, karakter hareketi veya sonuç içermez. Mekan 2-3 büyük şekil ve 1-2 tanıtıcı prop ile okunur; küçük dekor, kalabalık nesne ve detaylı mimari azaltılır. UI metin kutusuna yer bırakacak geniş düz duvar/zemin alanları bulunur. Duvar ve zeminlerde tekrarlı taş/fayans grid'i, çok sayıda blok çizgisi veya perspektif zemin dokusu kurulmaz; birkaç büyük çizgi yeterlidir.
 
 ## Ending Görselleri Kompozisyon Kuralları
 
